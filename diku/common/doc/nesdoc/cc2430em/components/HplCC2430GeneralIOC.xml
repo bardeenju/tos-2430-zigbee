@@ -1,0 +1,399 @@
+<?xml version="1.0" ?><component loc="44:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC">
+      <documentation loc="31:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/ioCC2430.h">
+        <short>
+
+ Provide cc2430 specific register maps
+
+ Absolute addressing in Keil is possible in a number of ways:
+   Standard C
+     (uint8_t xdata*) addr
+   Using sfr types/storrage class specifiers
+     sfr x = addr
+   Using the at modifier
+     uint8_t x at addr
+
+ Regarding multibyte values, it seems that ChipCon has chosen the
+ follwing semantics that handles latching one or more bytes when
+ reading and writing:
+
+  When reading: the _low_ byte must be read first and the high-byte
+  is latched for glitch free 16-bit operations
+
+  When writing: the low byte must be written first and the value
+  does not take effect before the high byte is written
+
+
+ </short>
+        <long>
+
+ Provide cc2430 specific register maps
+
+ Absolute addressing in Keil is possible in a number of ways:
+   Standard C
+     (uint8_t xdata*) addr
+   Using sfr types/storrage class specifiers
+     sfr x = addr
+   Using the at modifier
+     uint8_t x at addr
+
+ Regarding multibyte values, it seems that ChipCon has chosen the
+ follwing semantics that handles latching one or more bytes when
+ reading and writing:
+
+  When reading: the _low_ byte must be read first and the high-byte
+  is latched for glitch free 16-bit operations
+
+  When writing: the low byte must be written first and the value
+  does not take effect before the high byte is written
+
+
+ @author Martin Leopold &lt;leopold@diku.dk&gt;
+</long>
+      </documentation>
+      <module/>
+    <specification><interface loc="67:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P24" provided="1" ref="0x2b7153cb54f0">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P24" ref="0x2b7153cb54f0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153cb5840" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153cb59c8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153cb5b50" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153cb5cd8" scoped=""/>
+        <function-ref name="get" ref="0x2b7153cb5e60" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153cb4020" scoped=""/>
+        <function-ref name="set" ref="0x2b7153cb41a8" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153cb4330" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="46:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P01" provided="1" ref="0x2b7153c984f0">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P01" ref="0x2b7153c984f0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153c98840" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153c989c8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153c98b50" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153c98cd8" scoped=""/>
+        <function-ref name="get" ref="0x2b7153c98e60" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153ca5020" scoped=""/>
+        <function-ref name="set" ref="0x2b7153ca51a8" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153ca5330" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="57:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P13" provided="1" ref="0x2b7153cb14f0">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P13" ref="0x2b7153cb14f0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153cb1840" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153cb19c8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153cb1b50" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153cb1cd8" scoped=""/>
+        <function-ref name="get" ref="0x2b7153cb1e60" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153cb0020" scoped=""/>
+        <function-ref name="set" ref="0x2b7153cb01a8" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153cb0330" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="49:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P04" provided="1" ref="0x2b7153cac988">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P04" ref="0x2b7153cac988" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153caccd8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153cace60" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153cab020" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153cab1a8" scoped=""/>
+        <function-ref name="get" ref="0x2b7153cab330" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153cab4b8" scoped=""/>
+        <function-ref name="set" ref="0x2b7153cab640" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153cab7c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="52:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P07" provided="1" ref="0x2b7153ca9e20">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P07" ref="0x2b7153ca9e20" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153ca71a8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153ca7330" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153ca74b8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153ca7640" scoped=""/>
+        <function-ref name="get" ref="0x2b7153ca77c8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153ca7950" scoped=""/>
+        <function-ref name="set" ref="0x2b7153ca7ad8" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153ca7c60" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="60:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P16" provided="1" ref="0x2b7153caeb10">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P16" ref="0x2b7153caeb10" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153caee60" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153cad020" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153cad1a8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153cad330" scoped=""/>
+        <function-ref name="get" ref="0x2b7153cad4b8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153cad640" scoped=""/>
+        <function-ref name="set" ref="0x2b7153cad7c8" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153cad950" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="55:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P11" provided="1" ref="0x2b7153cb31a0">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P11" ref="0x2b7153cb31a0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153cb34f0" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153cb3678" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153cb3800" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153cb3988" scoped=""/>
+        <function-ref name="get" ref="0x2b7153cb3b10" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153cb3c98" scoped=""/>
+        <function-ref name="set" ref="0x2b7153cb3e20" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153cb2020" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="64:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P21" provided="1" ref="0x2b7153cb8020">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P21" ref="0x2b7153cb8020" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153cb8370" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153cb84f8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153cb8680" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153cb8808" scoped=""/>
+        <function-ref name="get" ref="0x2b7153cb8990" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153cb8b18" scoped=""/>
+        <function-ref name="set" ref="0x2b7153cb8ca0" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153cb8e28" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="65:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P22" provided="1" ref="0x2b7153cb71a0">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P22" ref="0x2b7153cb71a0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153cb74f0" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153cb7678" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153cb7800" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153cb7988" scoped=""/>
+        <function-ref name="get" ref="0x2b7153cb7b10" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153cb7c98" scoped=""/>
+        <function-ref name="set" ref="0x2b7153cb7e20" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153cb6020" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="47:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P02" provided="1" ref="0x2b7153ca5678">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P02" ref="0x2b7153ca5678" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153ca59c8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153ca5b50" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153ca5cd8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153ca5e60" scoped=""/>
+        <function-ref name="get" ref="0x2b7153c9f020" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153c9f1a8" scoped=""/>
+        <function-ref name="set" ref="0x2b7153c9f330" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153c9f4b8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="58:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P14" provided="1" ref="0x2b7153cb0678">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P14" ref="0x2b7153cb0678" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153cb0ac8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153cb0c50" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153cb0dd8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153caf020" scoped=""/>
+        <function-ref name="get" ref="0x2b7153caf1a8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153caf330" scoped=""/>
+        <function-ref name="set" ref="0x2b7153caf4b8" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153caf640" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="69:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="Init" provided="1" ref="0x2b7153cb45e8">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b7153cb45e8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x2b7153cb4938" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="50:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P05" provided="1" ref="0x2b7153cabb10">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P05" ref="0x2b7153cabb10" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153cabe60" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153caa020" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153caa1a8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153caa330" scoped=""/>
+        <function-ref name="get" ref="0x2b7153caa4b8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153caa640" scoped=""/>
+        <function-ref name="set" ref="0x2b7153caa7c8" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153caa950" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="61:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P17" provided="1" ref="0x2b7153cadc98">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P17" ref="0x2b7153cadc98" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153cba020" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153cba1a8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153cba330" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153cba4b8" scoped=""/>
+        <function-ref name="get" ref="0x2b7153cba640" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153cba7c8" scoped=""/>
+        <function-ref name="set" ref="0x2b7153cba950" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153cbaad8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P00" provided="1" ref="0x2b7153ca0338">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P00" ref="0x2b7153ca0338" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153ca0688" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153ca0810" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153ca0998" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153ca0b20" scoped=""/>
+        <function-ref name="get" ref="0x2b7153ca0ca8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153ca0e30" scoped=""/>
+        <function-ref name="set" ref="0x2b7153c98020" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153c981a8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="56:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P12" provided="1" ref="0x2b7153cb2368">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P12" ref="0x2b7153cb2368" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153cb26b8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153cb2840" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153cb29c8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153cb2b50" scoped=""/>
+        <function-ref name="get" ref="0x2b7153cb2cd8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153cb2e60" scoped=""/>
+        <function-ref name="set" ref="0x2b7153cb1020" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153cb11a8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="66:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P23" provided="1" ref="0x2b7153cb6368">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P23" ref="0x2b7153cb6368" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153cb66b8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153cb6840" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153cb69c8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153cb6b50" scoped=""/>
+        <function-ref name="get" ref="0x2b7153cb6cd8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153cb6e60" scoped=""/>
+        <function-ref name="set" ref="0x2b7153cb5020" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153cb51a8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="48:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P03" provided="1" ref="0x2b7153c9f800">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P03" ref="0x2b7153c9f800" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153c9fb50" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153c9fcd8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153c9fe60" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153cac020" scoped=""/>
+        <function-ref name="get" ref="0x2b7153cac1a8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153cac330" scoped=""/>
+        <function-ref name="set" ref="0x2b7153cac4b8" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153cac640" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="51:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P06" provided="1" ref="0x2b7153caac98">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P06" ref="0x2b7153caac98" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153ca9020" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153ca91a8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153ca9330" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153ca94b8" scoped=""/>
+        <function-ref name="get" ref="0x2b7153ca9640" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153ca97c8" scoped=""/>
+        <function-ref name="set" ref="0x2b7153ca9950" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153ca9ad8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="59:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P15" provided="1" ref="0x2b7153caf988">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P15" ref="0x2b7153caf988" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153cafcd8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153cafe60" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153cae020" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153cae1a8" scoped=""/>
+        <function-ref name="get" ref="0x2b7153cae330" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153cae4b8" scoped=""/>
+        <function-ref name="set" ref="0x2b7153cae640" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153cae7c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="54:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P10" provided="1" ref="0x2b7153ca6020">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P10" ref="0x2b7153ca6020" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153ca6370" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153ca64f8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153ca6680" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153ca6808" scoped=""/>
+        <function-ref name="get" ref="0x2b7153ca6990" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153ca6b18" scoped=""/>
+        <function-ref name="set" ref="0x2b7153ca6ca0" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153ca6e28" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="63:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="P20" provided="1" ref="0x2b7153cbae20">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P20" ref="0x2b7153cbae20" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153cb91a8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153cb9330" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153cb94b8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153cb9640" scoped=""/>
+        <function-ref name="get" ref="0x2b7153cb97c8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153cb9950" scoped=""/>
+        <function-ref name="set" ref="0x2b7153cb9ad8" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153cb9c60" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

@@ -1,0 +1,20 @@
+digraph "PlatformLedsC" {
+  n0x2aebb6aa2090 [shape=ellipse, style=filled, label="Led0", fontsize=12];
+  "PlatformLedsC.Led0_rev" [fontsize=12, shape=box, style=dashed, label="ReverseGPIOP\n(Led0_rev)", URL="../chtml/ReverseGPIOP.html"];
+  n0x2aebb6aa1378 [shape=ellipse, style=filled, label="Led1", fontsize=12];
+  "PlatformLedsC.NoPinC" [fontsize=12, shape=box, style=dashed, label="NoPinC", URL="../chtml/tos.system.NoPinC.html"];
+  n0x2aebb6aa0500 [shape=ellipse, style=filled, label="Led2", fontsize=12];
+  "PlatformLedsC.Led2_rev" [fontsize=12, shape=box, style=dashed, label="ReverseGPIOP\n(Led2_rev)", URL="../chtml/ReverseGPIOP.html"];
+  "PlatformP" [fontsize=12, shape=box, URL="../chtml/PlatformP.html"];
+  n0x2aebb6a9f5e8 [shape=ellipse, style=filled, label="Init", fontsize=12];
+  "PlatformLedsC.Led0_rev" [fontsize=12, shape=box, style=dashed, label="ReverseGPIOP\n(Led0_rev)", URL="../chtml/ReverseGPIOP.html"];
+  "HplMcs51GeneralIOC" [fontsize=12, shape=box, URL="../chtml/HplMcs51GeneralIOC.html"];
+  "PlatformLedsC.Led2_rev" [fontsize=12, shape=box, style=dashed, label="ReverseGPIOP\n(Led2_rev)", URL="../chtml/ReverseGPIOP.html"];
+  "HplMcs51GeneralIOC" [fontsize=12, shape=box, URL="../chtml/HplMcs51GeneralIOC.html"];
+  "n0x2aebb6aa2090" -> "PlatformLedsC.Led0_rev" [label="GeneralIO", URL="../ihtml/tos.interfaces.GeneralIO.html", fontsize=10];
+  "n0x2aebb6aa1378" -> "PlatformLedsC.NoPinC" [label="GeneralIO", URL="../ihtml/tos.interfaces.GeneralIO.html", fontsize=10];
+  "n0x2aebb6aa0500" -> "PlatformLedsC.Led2_rev" [label="GeneralIO", URL="../ihtml/tos.interfaces.GeneralIO.html", fontsize=10];
+  "PlatformP" -> "n0x2aebb6a9f5e8" [label="Init", URL="../ihtml/tos.interfaces.Init.html", fontsize=10];
+  "PlatformLedsC.Led0_rev" -> "HplMcs51GeneralIOC" [label="GeneralIO", URL="../ihtml/tos.interfaces.GeneralIO.html", fontsize=10];
+  "PlatformLedsC.Led2_rev" -> "HplMcs51GeneralIOC" [label="GeneralIO", URL="../ihtml/tos.interfaces.GeneralIO.html", fontsize=10];
+}

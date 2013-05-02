@@ -1,0 +1,552 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AccelControl	apps/TTXDemo/SampleForwardNode/SampleForward.nc	/^  SampleForwardM.AccelControl -> AccelerometerC;$/;"	d
+AccelControl	apps/TTXDemo/SampleForwardNode/SampleForwardM.nc	/^  uses interface StdControl as AccelControl;$/;"	d
+AccelerometerLoggerC	lib/logger/AccelerometerLoggerC.nc	/^configuration AccelerometerLoggerC {$/;"	d
+AccelerometerLoggerP	lib/logger/AccelerometerLoggerP.nc	/^module AccelerometerLoggerP {$/;"	d
+AdcControl	apps/TestAll/TestAppC.nc	/^    TestAppP.AdcControl -> AdcC;$/;"	d
+Bit0	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit0 -> Bit0;$/;"	d
+Bit0	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit0 -> LoggerPinsC.Mcu;$/;"	d
+Bit0	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit0 -> LoggerPinsC.Trigger;$/;"	d
+Bit0	apps/TestLogger/TestAppP.nc	/^    uses interface GeneralIO as Bit0;$/;"	d
+Bit1	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit1 -> Bit1;$/;"	d
+Bit1	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit1 -> LoggerPinsC.GeneralIO[1];$/;"	d
+Bit1	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit1 -> LoggerPinsC.Trigger;$/;"	d
+Bit1	apps/TestLogger/TestAppP.nc	/^    uses interface GeneralIO as Bit1;$/;"	d
+Bit1	lib/logger/LoggerC.nc	/^    LoggerP.Bit1 -> LoggerPinsC.GeneralIO[1];$/;"	d
+Bit1	lib/logger/LoggerP.nc	/^  uses interface GeneralIO as Bit1;$/;"	d
+Bit2	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit2 -> Bit2;$/;"	d
+Bit2	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit2 -> LoggerPinsC.GeneralIO[2];$/;"	d
+Bit2	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit2 -> LoggerPinsC.Trigger;$/;"	d
+Bit2	apps/TestLogger/TestAppP.nc	/^    uses interface GeneralIO as Bit2;$/;"	d
+Bit2	lib/logger/LoggerC.nc	/^    LoggerP.Bit2 -> LoggerPinsC.GeneralIO[2];$/;"	d
+Bit2	lib/logger/LoggerP.nc	/^  uses interface GeneralIO as Bit2;$/;"	d
+Bit3	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit3 -> Bit3;$/;"	d
+Bit3	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit3 -> LoggerPinsC.GeneralIO[3];$/;"	d
+Bit3	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit3 -> LoggerPinsC.Trigger;$/;"	d
+Bit3	apps/TestLogger/TestAppP.nc	/^    uses interface GeneralIO as Bit3;$/;"	d
+Bit3	lib/logger/LoggerC.nc	/^    LoggerP.Bit3 -> LoggerPinsC.GeneralIO[3];$/;"	d
+Bit3	lib/logger/LoggerP.nc	/^  uses interface GeneralIO as Bit3;$/;"	d
+Bit4	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit4 -> Bit4;$/;"	d
+Bit4	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit4 -> LoggerPinsC.GeneralIO[4];$/;"	d
+Bit4	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit4 -> LoggerPinsC.Trigger;$/;"	d
+Bit4	apps/TestLogger/TestAppP.nc	/^    uses interface GeneralIO as Bit4;$/;"	d
+Bit4	lib/logger/LoggerC.nc	/^    LoggerP.Bit4 -> LoggerPinsC.GeneralIO[4];$/;"	d
+Bit4	lib/logger/LoggerP.nc	/^  uses interface GeneralIO as Bit4;$/;"	d
+Bit5	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit5 -> Bit5;$/;"	d
+Bit5	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit5 -> LoggerPinsC.GeneralIO[5];$/;"	d
+Bit5	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit5 -> LoggerPinsC.Trigger;$/;"	d
+Bit5	apps/TestLogger/TestAppP.nc	/^    uses interface GeneralIO as Bit5;$/;"	d
+Bit5	lib/logger/LoggerC.nc	/^    LoggerP.Bit5 -> LoggerPinsC.GeneralIO[5];$/;"	d
+Bit5	lib/logger/LoggerP.nc	/^  uses interface GeneralIO as Bit5;$/;"	d
+Bit6	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit6 -> Bit6;$/;"	d
+Bit6	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit6 -> LoggerPinsC.GeneralIO[6];$/;"	d
+Bit6	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit6 -> LoggerPinsC.Trigger;$/;"	d
+Bit6	apps/TestLogger/TestAppP.nc	/^    uses interface GeneralIO as Bit6;$/;"	d
+Bit6	lib/logger/LoggerC.nc	/^    LoggerP.Bit6 -> LoggerPinsC.GeneralIO[6];      $/;"	d
+Bit6	lib/logger/LoggerP.nc	/^  uses interface GeneralIO as Bit6;$/;"	d
+Bit7	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit7 -> Bit7;$/;"	d
+Bit7	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit7 -> LoggerPinsC.Starter;$/;"	d
+Bit7	apps/TestLogger/TestAppC.nc	/^    TestAppP.Bit7 -> LoggerPinsC.Trigger;$/;"	d
+Bit7	apps/TestLogger/TestAppP.nc	/^    uses interface GeneralIO as Bit7;$/;"	d
+Bit7	lib/logger/LoggerC.nc	/^    LoggerP.Bit7 -> LoggerPinsC.Starter;      $/;"	d
+Bit7	lib/logger/LoggerP.nc	/^  uses interface GeneralIO as Bit7;$/;"	d
+BlinkNoTimerTaskAppC	apps/BlinkNoTimerTask/BlinkNoTimerTaskAppC.nc	/^configuration BlinkNoTimerTaskAppC$/;"	d
+BlinkNoTimerTaskC	apps/BlinkNoTimerTask/BlinkNoTimerTaskC.nc	/^module BlinkNoTimerTaskC$/;"	d
+Boot	apps/CompressionTest/CompressionTestAppC.nc	/^  CompressionTestM.Boot -> MainC.Boot;$/;"	d
+Boot	apps/Echo/EchoAppC.nc	/^  EchoP.Boot -> MainC.Boot;$/;"	d
+Boot	apps/USBSerialEcho/USBSerialEchoC.nc	/^  USBSerialEchoP.Boot -> MainC.Boot;$/;"	d
+BufferManager	lib/buffermanager/BufferManager.nc	/^interface BufferManager<page_t> {$/;"	d
+BufferManager	lib/usb/USBControlEndpointC.nc	/^\/*   USBControlEndpointP.BufferManager -> FIFOBufferManagerP; *\/$/;"	d
+BufferManager	lib/usb/USBSerialCDCC.nc	/^  USBCommunicationClassDeviceC.BufferManager -> FIFOBufferManagerP;$/;"	d
+BufferManager	lib/usb/USBSerialCDCC.nc	/^  USBSerialCDCP.BufferManager                 -> FIFOBufferManagerP;$/;"	d
+BufferManagerEvents	lib/buffermanager/BufferManagerEvents.nc	/^interface BufferManagerEvents {$/;"	d
+BusArbitration	lib/logger/micro4/HALCC2420LoggerC.nc	/^    HALCC2420M.BusArbitration -> BusArbitrationC.BusArbitration[unique("BusArbitration")];$/;"	d
+Button	tos/interfaces/Button.nc	/^interface Button {$/;"	d
+CRC16	apps/CompressionTest/CompressionTestAppC.nc	/^  CompressionTestM.CRC16 -> CRC16M;$/;"	d
+CRC16	lib/compression/CRC16.nc	/^interface CRC16 {$/;"	d
+CRC16M	lib/compression/CRC16M.nc	/^module CRC16M$/;"	d
+CompressionTestAppC	apps/CompressionTest/CompressionTestAppC.nc	/^configuration CompressionTestAppC$/;"	d
+CompressionTestM	apps/CompressionTest/CompressionTestM.nc	/^module CompressionTestM {$/;"	d
+Compressor	apps/CompressionTest/CompressionTestAppC.nc	/^  CompressionTestM.Compressor -> CompressorM;$/;"	d
+Compressor	lib/compression/Compressor.nc	/^interface Compressor {$/;"	d
+CompressorM	lib/compression/CompressorM.nc	/^module CompressorM {$/;"	d
+EP0	lib/usb/USBControlEndpointC.nc	/^  USBControlEndpointP.EP0 -> PlatformUSBC.EP0;$/;"	d
+EP0	lib/usb/USBControlEndpointP.nc	/^  uses interface USBEndpoint as EP0;$/;"	d
+EP1	lib/usb/USBCommunicationClassDeviceC.nc	/^  USBCommunicationClassDeviceP.EP1        -> PlatformUSBC.EP1;$/;"	d
+EP1	lib/usb/USBCommunicationClassDeviceP.nc	/^  uses interface USBEndpoint as EP1;$/;"	d
+EP2	lib/usb/USBCommunicationClassDeviceC.nc	/^  USBCommunicationClassDeviceP.EP2        -> PlatformUSBC.EP2;$/;"	d
+EP2	lib/usb/USBCommunicationClassDeviceP.nc	/^  uses interface USBEndpoint as EP2;$/;"	d
+EchoAppC	apps/Echo/EchoAppC.nc	/^configuration EchoAppC {$/;"	d
+EchoP	apps/Echo/EchoP.nc	/^module EchoP {$/;"	d
+EraseIO	lib/logger/FlashAccessLoggerC.nc	/^    FlashAccessLoggerP.EraseIO -> Pin3;$/;"	d
+EraseIO	lib/logger/FlashAccessLoggerP.nc	/^    uses interface GeneralIO as EraseIO;$/;"	d
+EraseIO	lib/logger/HalFlashLoggerC.nc	/^    HalFlashLoggerP.EraseIO -> Pin3;$/;"	d
+EraseIO	lib/logger/HalFlashLoggerP.nc	/^    uses interface GeneralIO as EraseIO;$/;"	d
+FIFOBufferManagerP	lib/buffermanager/FIFOBufferManagerP.nc	/^generic module FIFOBufferManagerP(typedef page_t, uint8_t POOL_SIZE) {$/;"	d
+FlashAccess	lib/logger/FlashAccessLoggerC.nc	/^    FlashAccessLoggerP.FlashAccess -> FlashAccessC;$/;"	d
+FlashAccessLoggerC	lib/logger/FlashAccessLoggerC.nc	/^configuration FlashAccessLoggerC {$/;"	d
+FlashAccessLoggerP	lib/logger/FlashAccessLoggerP.nc	/^module FlashAccessLoggerP {$/;"	d
+FlashControl	lib/logger/FlashAccessLoggerC.nc	/^    FlashAccessLoggerP.FlashControl -> FlashAccessC;    $/;"	d
+FlashControl	lib/logger/FlashAccessLoggerP.nc	/^    uses interface StdControl as FlashControl;$/;"	d
+GeneralIO	lib/logger/AccelerometerLoggerC.nc	/^    AccelerometerLoggerP.GeneralIO -> Pin;$/;"	d
+GeneralIO	lib/logger/ReadLoggerC.nc	/^    ReadLoggerP.GeneralIO -> Pin;$/;"	d
+GpioCounterCapture	apps/LogRecorder/LogRecorderC.nc	/^    LogRecorderP.GpioCounterCapture -> GpioCapture32khz32C;$/;"	d
+GpioCounterCapture	tos/interfaces/GpioCounterCapture.nc	/^interface GpioCounterCapture<precision_tag, size_type>$/;"	d
+HALCC2420	lib/logger/SimpleMacAdvLoggerC.nc	/^    SimpleMacM.HALCC2420 -> HALCC2420C.HALCC2420;$/;"	d
+HALCC2420	lib/simplemac/HALCC2420.nc	/^interface HALCC2420$/;"	d
+HALCC2420Control	lib/logger/SimpleMacAdvLoggerC.nc	/^    SimpleMacM.HALCC2420Control -> HALCC2420C.StdControl;$/;"	d
+HALCC2420LoggerC	lib/logger/micro4/HALCC2420LoggerC.nc	/^configuration HALCC2420LoggerC {$/;"	d
+HALCC2420LoggerM	lib/logger/micro4/HALCC2420LoggerM.nc	/^module HALCC2420LoggerM {$/;"	d
+HPL1wire	lib/logger/micro4/HALCC2420LoggerC.nc	/^    HALCC2420M.HPL1wire -> HPL1wireM.HPL1wire;$/;"	d
+HPLCC2420	lib/logger/micro4/HALCC2420LoggerC.nc	/^    HALCC2420M.HPLCC2420 -> HPLCC2420M.HPLCC2420;$/;"	d
+HPLCC2420Control	lib/logger/micro4/HALCC2420LoggerC.nc	/^    HALCC2420M.HPLCC2420Control -> HPLCC2420M.HPLCC2420Control;$/;"	d
+HPLCC2420FIFO	lib/logger/micro4/HALCC2420LoggerC.nc	/^    HALCC2420M.HPLCC2420FIFO -> HPLCC2420M.HPLCC2420FIFO;$/;"	d
+HPLCC2420RAM	lib/logger/micro4/HALCC2420LoggerC.nc	/^    HALCC2420M.HPLCC2420RAM -> HPLCC2420M.HPLCC2420RAM;$/;"	d
+HPLCC2420Status	lib/logger/micro4/HALCC2420LoggerC.nc	/^    HALCC2420M.HPLCC2420Status -> HPLCC2420M.HPLCC2420Status;$/;"	d
+HalCC2430LoggerC	lib/logger/cc2430em/HalCC2430LoggerC.nc	/^configuration HalCC2430LoggerC$/;"	d
+HalCC2430LoggerP	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^module HalCC2430LoggerP {$/;"	d
+HalFlash	apps/TestAll/TestAppC.nc	/^    TestAppP.HalFlash -> HalFlashC;$/;"	d
+HalFlash	lib/logger/HalFlashLoggerC.nc	/^    HalFlashLoggerP.HalFlash -> HalFlashC;$/;"	d
+HalFlash	tos/interfaces/HalFlash.nc	/^interface HalFlash {$/;"	d
+HalFlashLoggerC	lib/logger/HalFlashLoggerC.nc	/^configuration HalFlashLoggerC {$/;"	d
+HalFlashLoggerP	lib/logger/HalFlashLoggerP.nc	/^module HalFlashLoggerP {$/;"	d
+HplInterrupt	lib/logger/micro4/HALCC2420LoggerC.nc	/^    MSP430Interrupt.HplInterrupt -> HplMsp430InterruptC.Port17;$/;"	d
+In	lib/ReverseGPIOP.nc	/^  uses interface GeneralIO as In;$/;"	d
+InterruptFIFOP	lib/logger/cc2430em/HalCC2430LoggerC.nc	/^  HalCC2430RadioP.InterruptFIFOP -> HplCC2430InterruptsC.InterruptFIFOP;$/;"	d
+InterruptRFErr	lib/logger/cc2430em/HalCC2430LoggerC.nc	/^  HalCC2430RadioP.InterruptRFErr -> HplCC2430InterruptsC.InterruptRFErr;$/;"	d
+InterruptTXDone	lib/logger/cc2430em/HalCC2430LoggerC.nc	/^  HalCC2430RadioP.InterruptTXDone -> HplCC2430InterruptsC.InterruptTXDone;$/;"	d
+Led0	apps/BlinkNoTimerTask/BlinkNoTimerTaskC.nc	/^  uses interface GeneralIO as Led0;$/;"	d
+Leds	apps/BlinkNoTimerTask/BlinkNoTimerTaskAppC.nc	/^  BlinkNoTimerTaskC.Leds -> LedsC.Leds;$/;"	d
+Leds	apps/Echo/EchoAppC.nc	/^  EchoP.Leds -> LedsC;$/;"	d
+Leds	apps/LogRecorder/LogRecorderC.nc	/^    LogRecorderP.Leds -> LedsC;$/;"	d
+Leds	apps/TestAll/TestAppC.nc	/^    TestAppP.Leds -> LedsC;$/;"	d
+Leds	apps/TestLogger/TestAppC.nc	/^    TestAppP.Leds -> LedsC;$/;"	d
+Leds	apps/TestSimpleMac/TestAppC.nc	/^    TestAppP.Leds -> LedsC;$/;"	d
+Leds	apps/USBSerialEcho/USBSerialEchoC.nc	/^\/*   CIP51USBTesterP.Leds -> LedsC; *\/$/;"	d
+LocalTime	apps/TestSimpleMac/TestAppC.nc	/^    TestAppP.LocalTime -> LocalTimeC;$/;"	d
+LogRecorderC	apps/LogRecorder/LogRecorderC.nc	/^configuration LogRecorderC {}$/;"	d
+LogRecorderP	apps/LogRecorder/LogRecorderP.nc	/^module LogRecorderP$/;"	d
+LoggerC	lib/logger/LoggerC.nc	/^configuration LoggerC {$/;"	d
+LoggerP	lib/logger/LoggerP.nc	/^module LoggerP {$/;"	d
+MSP430Interrupt	lib/logger/micro4/HALCC2420LoggerC.nc	/^    HALCC2420M.MSP430Interrupt -> MSP430Interrupt.Interrupt;$/;"	d
+Mcu	lib/logger/LoggerC.nc	/^    LoggerP.Mcu  -> LoggerPinsC.Mcu;$/;"	d
+Mcu	lib/logger/LoggerP.nc	/^  uses interface GeneralIO as Mcu;$/;"	d
+Micro4SerialP	apps/CompressionTest/Micro4SerialP.nc	/^module Micro4SerialP {$/;"	d
+PacketComm	lib/usb/PacketComm.nc	/^interface PacketComm<pkt_t> {$/;"	d
+Pin0	apps/LogRecorder/LogRecorderC.nc	/^    LogRecorderP.Pin0 -> LoggerPinsC.Mcu;$/;"	d
+Pin0	apps/LogRecorder/LogRecorderP.nc	/^    uses interface GeneralIO as Pin0;$/;"	d
+Pin1	apps/LogRecorder/LogRecorderC.nc	/^    LogRecorderP.Pin1 -> LoggerPinsC.GeneralIO[1];$/;"	d
+Pin1	apps/LogRecorder/LogRecorderP.nc	/^    uses interface GeneralIO as Pin1;$/;"	d
+Pin2	apps/LogRecorder/LogRecorderC.nc	/^    LogRecorderP.Pin2 -> LoggerPinsC.GeneralIO[2];$/;"	d
+Pin2	apps/LogRecorder/LogRecorderP.nc	/^    uses interface GeneralIO as Pin2;$/;"	d
+Pin3	apps/LogRecorder/LogRecorderC.nc	/^    LogRecorderP.Pin3 -> LoggerPinsC.GeneralIO[3];$/;"	d
+Pin3	apps/LogRecorder/LogRecorderP.nc	/^    uses interface GeneralIO as Pin3;$/;"	d
+Pin4	apps/LogRecorder/LogRecorderC.nc	/^    LogRecorderP.Pin4 -> LoggerPinsC.GeneralIO[4];$/;"	d
+Pin4	apps/LogRecorder/LogRecorderP.nc	/^    uses interface GeneralIO as Pin4;$/;"	d
+Pin5	apps/LogRecorder/LogRecorderC.nc	/^    LogRecorderP.Pin5 -> LoggerPinsC.GeneralIO[5];$/;"	d
+Pin5	apps/LogRecorder/LogRecorderP.nc	/^    uses interface GeneralIO as Pin5;$/;"	d
+Pin6	apps/LogRecorder/LogRecorderC.nc	/^    LogRecorderP.Pin6 -> LoggerPinsC.GeneralIO[6];$/;"	d
+Pin6	apps/LogRecorder/LogRecorderP.nc	/^    uses interface GeneralIO as Pin6;$/;"	d
+Pin7	apps/LogRecorder/LogRecorderC.nc	/^    LogRecorderP.Pin7 -> LoggerPinsC.Starter;$/;"	d
+Pin7	apps/LogRecorder/LogRecorderP.nc	/^    uses interface GeneralIO as Pin7;$/;"	d
+PinC	lib/logger/PinC.nc	/^generic configuration PinC() {$/;"	d
+Read	apps/TestAll/TestAppC.nc	/^    TestAppP.Read -> AdcC;$/;"	d
+Read	apps/TestAll/TestAppC.nc	/^    TestAppP.Read -> Msp430InternalTemperatureC;$/;"	d
+ReadIO	lib/logger/FlashAccessLoggerC.nc	/^    FlashAccessLoggerP.ReadIO -> Pin1;$/;"	d
+ReadIO	lib/logger/FlashAccessLoggerP.nc	/^    uses interface GeneralIO as ReadIO;$/;"	d
+ReadIO	lib/logger/HalFlashLoggerC.nc	/^    HalFlashLoggerP.ReadIO -> Pin1;$/;"	d
+ReadIO	lib/logger/HalFlashLoggerP.nc	/^    uses interface GeneralIO as ReadIO;$/;"	d
+ReadLoggerC	lib/logger/ReadLoggerC.nc	/^generic configuration ReadLoggerC(typedef width_t) {$/;"	d
+ReadLoggerP	lib/logger/ReadLoggerP.nc	/^generic module ReadLoggerP(typedef width_t) {$/;"	d
+ReceiveIO	lib/logger/SimpleMacLoggerC.nc	/^    SimpleMacLoggerP.ReceiveIO -> Pin1;$/;"	d
+ReceiveIO	lib/logger/SimpleMacLoggerP.nc	/^    uses interface GeneralIO as ReceiveIO;$/;"	d
+ReceiveIO	lib/logger/cc2430em/HalCC2430LoggerC.nc	/^    HalCC2430RadioP.ReceiveIO -> Pin1;$/;"	d
+ReceiveIO	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    uses interface GeneralIO as ReceiveIO;$/;"	d
+ReceiveIO	lib/logger/micro4/HALCC2420LoggerC.nc	/^    HALCC2420M.ReceiveIO -> Pin1;$/;"	d
+ReceiveIO	lib/logger/micro4/HALCC2420LoggerM.nc	/^    uses interface GeneralIO as ReceiveIO;$/;"	d
+ReverseGPIOP	lib/ReverseGPIOP.nc	/^generic module ReverseGPIOP() {$/;"	d
+SafeBufferManagerP	lib/buffermanager/SafeBufferManagerP.nc	/^generic module SafeBufferManagerP(typedef page_t, uint8_t POOL_SIZE) {$/;"	d
+SampleForward	apps/TTXDemo/SampleForwardBase/SampleForward.nc	/^configuration SampleForward {}$/;"	d
+SampleForward	apps/TTXDemo/SampleForwardNode/SampleForward.nc	/^configuration SampleForward {}$/;"	d
+SampleForwardM	apps/TTXDemo/SampleForwardBase/SampleForwardM.nc	/^module SampleForwardM$/;"	d
+SampleForwardM	apps/TTXDemo/SampleForwardNode/SampleForwardM.nc	/^module SampleForwardM$/;"	d
+SendIO	lib/logger/SimpleMacLoggerC.nc	/^    SimpleMacLoggerP.SendIO -> Pin2;$/;"	d
+SendIO	lib/logger/SimpleMacLoggerP.nc	/^    uses interface GeneralIO as SendIO;$/;"	d
+SendIO	lib/logger/cc2430em/HalCC2430LoggerC.nc	/^    HalCC2430RadioP.SendIO -> Pin2;$/;"	d
+SendIO	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    uses interface GeneralIO as SendIO;$/;"	d
+SendIO	lib/logger/micro4/HALCC2420LoggerC.nc	/^    HALCC2420M.SendIO -> Pin2;$/;"	d
+SendIO	lib/logger/micro4/HALCC2420LoggerM.nc	/^    uses interface GeneralIO as SendIO;$/;"	d
+SerialByteCommToUartStreamC	lib/SerialByteCommToUartStreamC.nc	/^generic module SerialByteCommToUartStreamC() {$/;"	d
+SerialControl	tos/interfaces/SerialControl.nc	/^interface SerialControl {$/;"	d
+SimpleMac	apps/TTXDemo/SampleForwardBase/SampleForward.nc	/^  SampleForwardM.SimpleMac -> SimpleMacC.SimpleMac;$/;"	d
+SimpleMac	apps/TTXDemo/SampleForwardNode/SampleForward.nc	/^  SampleForwardM.SimpleMac -> SimpleMacC.SimpleMac;$/;"	d
+SimpleMac	apps/TestAll/TestAppC.nc	/^    TestAppP.SimpleMac -> SimpleMacC.SimpleMac;$/;"	d
+SimpleMac	apps/TestSimpleMac/TestAppC.nc	/^    TestAppP.SimpleMac -> SimpleMacC.SimpleMac;$/;"	d
+SimpleMac	lib/logger/SimpleMacLoggerC.nc	/^    SimpleMacLoggerP.SimpleMac -> SimpleMacC;$/;"	d
+SimpleMac	lib/simplemac/SimpleMac.nc	/^interface SimpleMac$/;"	d
+SimpleMacAdvLoggerC	lib/logger/SimpleMacAdvLoggerC.nc	/^configuration SimpleMacAdvLoggerC {$/;"	d
+SimpleMacControl	apps/TTXDemo/SampleForwardBase/SampleForward.nc	/^  SampleForwardM.SimpleMacControl -> SimpleMacC.StdControl;$/;"	d
+SimpleMacControl	apps/TTXDemo/SampleForwardBase/SampleForwardM.nc	/^  uses interface StdControl as SimpleMacControl;$/;"	d
+SimpleMacControl	apps/TTXDemo/SampleForwardNode/SampleForward.nc	/^  SampleForwardM.SimpleMacControl -> SimpleMacC.StdControl;$/;"	d
+SimpleMacControl	apps/TTXDemo/SampleForwardNode/SampleForwardM.nc	/^  uses interface StdControl as SimpleMacControl;$/;"	d
+SimpleMacControl	apps/TestAll/TestAppC.nc	/^    TestAppP.SimpleMacControl -> SimpleMacC.StdControl;$/;"	d
+SimpleMacControl	apps/TestAll/TestAppP.nc	/^    uses interface StdControl as SimpleMacControl;$/;"	d
+SimpleMacControl	apps/TestSimpleMac/TestAppC.nc	/^    TestAppP.SimpleMacControl -> SimpleMacC.StdControl;$/;"	d
+SimpleMacControl	apps/TestSimpleMac/TestAppP.nc	/^    uses interface StdControl as SimpleMacControl;$/;"	d
+SimpleMacControl	apps/TestSimpleMac/ori_TestAppP.nc	/^    uses interface StdControl as SimpleMacControl;$/;"	d
+SimpleMacControl	lib/logger/SimpleMacLoggerC.nc	/^    SimpleMacLoggerP.SimpleMacControl-> SimpleMacC;$/;"	d
+SimpleMacControl	lib/logger/SimpleMacLoggerP.nc	/^    uses interface StdControl as SimpleMacControl;$/;"	d
+SimpleMacLoggerC	lib/logger/SimpleMacLoggerC.nc	/^configuration SimpleMacLoggerC {$/;"	d
+SimpleMacLoggerP	lib/logger/SimpleMacLoggerP.nc	/^module SimpleMacLoggerP {$/;"	d
+SimpleMacM	lib/simplemac/SimpleMacM.nc	/^module SimpleMacM {$/;"	d
+SoftwareInit	apps/CompressionTest/CompressionTestAppC.nc	/^  MainC.SoftwareInit -> CompressionTestM.Init;$/;"	d
+SoftwareInit	apps/LogRecorder/LogRecorderC.nc	/^    MainC.SoftwareInit -> LogRecorderP.Init;$/;"	d
+SoftwareInit	apps/TTXDemo/SampleForwardBase/SampleForward.nc	/^  MainC.SoftwareInit -> SampleForwardM.Init;$/;"	d
+SoftwareInit	apps/TTXDemo/SampleForwardNode/SampleForward.nc	/^  MainC.SoftwareInit -> SampleForwardM.Init;$/;"	d
+SoftwareInit	apps/TestAll/TestAppC.nc	/^    MainC.SoftwareInit -> TestAppP.Init;$/;"	d
+SoftwareInit	apps/TestLogger/TestAppC.nc	/^    MainC.SoftwareInit -> TestAppP.Init;$/;"	d
+SoftwareInit	apps/TestSimpleMac/TestAppC.nc	/^    MainC.SoftwareInit -> TestAppP.Init;$/;"	d
+SoftwareInit	lib/logger/LoggerC.nc	/^    MainC.SoftwareInit -> LoggerP.Init;$/;"	d
+SoftwareInit	lib/logger/SimpleMacAdvLoggerC.nc	/^    MainC.SoftwareInit -> SimpleMacM;$/;"	d
+SoftwareInit	lib/logger/cc2430em/HalCC2430LoggerC.nc	/^  MainC.SoftwareInit -> HalCC2430RadioP.Init;$/;"	d
+SoftwareInit	lib/logger/micro4/HALCC2420LoggerC.nc	/^    MainC.SoftwareInit -> HALCC2420M.Init;$/;"	d
+SoftwareInit	lib/logger/micro4/HALCC2420LoggerC.nc	/^    MainC.SoftwareInit -> HPLCC2420M.Init;$/;"	d
+SoftwareInit	lib/logger/micro4/HALCC2420LoggerC.nc	/^    MainC.SoftwareInit -> HPLSpiM.Init;$/;"	d
+SoftwareInit	lib/stdout/StdNullC.nc	/^  MainC.SoftwareInit -> StdNullM.Init;$/;"	d
+SoftwareInit	lib/stdout/StdOutC.nc	/^  MainC.SoftwareInit -> StdOutM.Init;$/;"	d
+SoftwareInit	lib/usb/USBControlEndpointC.nc	/^\/*   MainC.SoftwareInit -> FIFOBufferManagerP; *\/$/;"	d
+SoftwareInit	lib/usb/USBSerialCDCC.nc	/^  MainC.SoftwareInit -> FIFOBufferManagerP.Init;$/;"	d
+Spi	lib/logger/micro4/HALCC2420LoggerC.nc	/^    HALCC2420M.Spi -> HPLSpiM.Spi;$/;"	d
+Spi	lib/logger/micro4/HALCC2420LoggerC.nc	/^    HPLCC2420M.Spi -> HPLSpiM.Spi;$/;"	d
+Starter	apps/CompressionTest/CompressionTestAppC.nc	/^  CompressionTestM.Starter -> NoPinC;$/;"	d
+Starter	apps/CompressionTest/CompressionTestAppC.nc	/^  CompressionTestM.Starter -> StarterPinC.GeneralIO;$/;"	d
+StarterPinC	lib/logger/StarterPinC.nc	/^generic configuration StarterPinC() {$/;"	d
+StdNullC	lib/stdout/StdNullC.nc	/^configuration StdNullC {$/;"	d
+StdNullM	lib/stdout/StdNullM.nc	/^module StdNullM$/;"	d
+StdOut	apps/LogRecorder/LogRecorderC.nc	/^    LogRecorderP.StdOut -> StdOutC;$/;"	d
+StdOut	apps/TTXDemo/SampleForwardBase/SampleForward.nc	/^  SampleForwardM.StdOut -> StdOutC.StdOut;$/;"	d
+StdOut	apps/TTXDemo/SampleForwardNode/SampleForward.nc	/^  SampleForwardM.StdOut -> StdOutC;\/\/.StdOut;$/;"	d
+StdOut	apps/TTXDemo/SampleForwardNode/SampleForward.nc	/^\/\/  SimpleMacC.StdOut -> StdOutC;\/\/.StdNull;$/;"	d
+StdOut	apps/TestAll/TestAppC.nc	/^    TestAppP.StdOut -> StdOutC;$/;"	d
+StdOut	apps/TestLogger/TestAppC.nc	/^    TestAppP.StdOut -> StdOutC;$/;"	d
+StdOut	apps/TestSimpleMac/TestAppC.nc	/^    TestAppP.StdOut -> StdOutC;$/;"	d
+StdOut	apps/USBSerialEcho/USBSerialEchoC.nc	/^  USBSerialEchoP.StdOut -> StdOutC;$/;"	d
+StdOut	lib/logger/cc2430em/HalCC2430LoggerC.nc	/^  HalCC2430RadioP.StdOut -> StdOutC;$/;"	d
+StdOut	lib/stdout/StdOut.nc	/^interface StdOut {$/;"	d
+StdOut	lib/usb/USBCommunicationClassDeviceC.nc	/^  USBCommunicationClassDeviceP.StdOut -> StdOutC;$/;"	d
+StdOut	lib/usb/USBControlEndpointC.nc	/^  USBControlEndpointP.StdOut -> StdOutC;$/;"	d
+StdOut	lib/usb/USBSerialCDCC.nc	/^  USBSerialCDCP.StdOut -> StdOutC;$/;"	d
+StdOutC	lib/stdout/StdOutC.nc	/^configuration StdOutC$/;"	d
+StdOutM	lib/stdout/StdOutM.nc	/^module StdOutM$/;"	d
+TestAppC	apps/TestAll/TestAppC.nc	/^configuration TestAppC {$/;"	d
+TestAppC	apps/TestLogger/TestAppC.nc	/^configuration TestAppC {}$/;"	d
+TestAppC	apps/TestSimpleMac/TestAppC.nc	/^configuration TestAppC {$/;"	d
+TestAppP	apps/TestAll/TestAppP.nc	/^module TestAppP {$/;"	d
+TestAppP	apps/TestLogger/TestAppP.nc	/^module TestAppP$/;"	d
+TestAppP	apps/TestSimpleMac/TestAppP.nc	/^module TestAppP {$/;"	d
+TestAppP	apps/TestSimpleMac/ori_TestAppP.nc	/^module TestAppP {$/;"	d
+ThreeAxisAccel	apps/TTXDemo/SampleForwardNode/SampleForward.nc	/^  SampleForwardM.ThreeAxisAccel  ->  AccelerometerC.ThreeAxisAccel;$/;"	d
+ThreeAxisAccel	lib/logger/AccelerometerLoggerC.nc	/^    AccelerometerLoggerP.ThreeAxisAccel -> AccelerometerC;$/;"	d
+Timer	apps/TestLogger/TestAppC.nc	/^    TestAppP.Timer -> TimerC;$/;"	d
+Timer	apps/TestSimpleMac/TestAppC.nc	/^    TestAppP.Timer -> TimerC;$/;"	d
+Trigger	lib/logger/LoggerC.nc	/^    LoggerP.Trigger -> LoggerPinsC.Trigger;$/;"	d
+Trigger	lib/logger/LoggerP.nc	/^  uses interface GeneralIO as Trigger;$/;"	d
+UART	apps/CompressionTest/CompressionTestAppC.nc	/^  CompressionTestM.UART -> UartC.SerialByteComm;$/;"	d
+UART	lib/stdout/StdOutC.nc	/^  StdOutM.UART -> UartC;$/;"	d
+UART	lib/stdout/StdOutM.nc	/^  uses interface SerialByteComm as UART;$/;"	d
+USBCommunicationClassDeviceC	lib/usb/USBCommunicationClassDeviceC.nc	/^configuration USBCommunicationClassDeviceC{$/;"	d
+USBCommunicationClassDeviceP	lib/usb/USBCommunicationClassDeviceP.nc	/^module USBCommunicationClassDeviceP{$/;"	d
+USBControl	lib/usb/USBCommunicationClassDeviceC.nc	/^  USBCommunicationClassDeviceP.USBControl -> PlatformUSBC;$/;"	d
+USBControl	lib/usb/USBControl.nc	/^interface USBControl {$/;"	d
+USBControl	lib/usb/USBControlEndpointC.nc	/^  USBControlEndpointP.USBControl -> PlatformUSBC;$/;"	d
+USBControlEndpointC	lib/usb/USBControlEndpointC.nc	/^configuration USBControlEndpointC {$/;"	d
+USBControlEndpointP	lib/usb/USBControlEndpointP.nc	/^module USBControlEndpointP {$/;"	d
+USBDevice	lib/usb/USBCommunicationClassDeviceC.nc	/^  USBCommunicationClassDeviceP.USBDevice  -> USBControlEndpointC;$/;"	d
+USBDevice	lib/usb/USBDevice.nc	/^interface USBDevice {$/;"	d
+USBEndpoint	lib/usb/USBEndpoint.nc	/^interface USBEndpoint {$/;"	d
+USBSerial	apps/USBSerialEcho/USBSerialEchoC.nc	/^  USBSerialEchoP.USBSerial -> USBSerialCDCC;$/;"	d
+USBSerialCDCC	lib/usb/USBSerialCDCC.nc	/^configuration USBSerialCDCC{$/;"	d
+USBSerialCDCP	lib/usb/USBSerialCDCP.nc	/^module  USBSerialCDCP {$/;"	d
+USBSerialEchoC	apps/USBSerialEcho/USBSerialEchoC.nc	/^configuration USBSerialEchoC {$/;"	d
+USBSerialEchoP	apps/USBSerialEcho/USBSerialEchoP.nc	/^module USBSerialEchoP {$/;"	d
+WriteIO	lib/logger/FlashAccessLoggerC.nc	/^    FlashAccessLoggerP.WriteIO -> Pin2;$/;"	d
+WriteIO	lib/logger/FlashAccessLoggerP.nc	/^    uses interface GeneralIO as WriteIO;$/;"	d
+WriteIO	lib/logger/HalFlashLoggerC.nc	/^    HalFlashLoggerP.WriteIO -> Pin2;$/;"	d
+WriteIO	lib/logger/HalFlashLoggerP.nc	/^    uses interface GeneralIO as WriteIO;$/;"	d
+error_t BufferManager.free	lib/buffermanager/FIFOBufferManagerP.nc	/^  command error_t BufferManager.free(page_t *p){$/;"	c
+error_t BufferManager.free	lib/buffermanager/SafeBufferManagerP.nc	/^  command error_t BufferManager.free(page_t *p){$/;"	c
+error_t BusArbitration.busFree	lib/logger/micro4/HALCC2420LoggerM.nc	/^    event error_t BusArbitration.busFree()$/;"	e
+error_t Compressor.compress	lib/compression/CompressorM.nc	/^  command error_t Compressor.compress(uint16_t x, uint16_t y,$/;"	c
+error_t Compressor.flush	lib/compression/CompressorM.nc	/^  command error_t Compressor.flush()$/;"	c
+error_t Compressor.init	lib/compression/CompressorM.nc	/^	command error_t Compressor.init()$/;"	c
+error_t FlashAccessLogger.erase	lib/logger/FlashAccessLoggerP.nc	/^    command error_t FlashAccessLogger.erase(uint16_t page_no)$/;"	c
+error_t FlashAccessLogger.eraseAll	lib/logger/FlashAccessLoggerP.nc	/^    command error_t FlashAccessLogger.eraseAll()$/;"	c
+error_t FlashAccessLogger.read	lib/logger/FlashAccessLoggerP.nc	/^    command error_t FlashAccessLogger.read(uint16_t page_no, void *page)$/;"	c
+error_t FlashAccessLogger.write	lib/logger/FlashAccessLoggerP.nc	/^    command error_t FlashAccessLogger.write(uint16_t page_no, void *page)$/;"	c
+error_t FlashControlLogger.start	lib/logger/FlashAccessLoggerP.nc	/^    command error_t FlashControlLogger.start()$/;"	c
+error_t FlashControlLogger.stop	lib/logger/FlashAccessLoggerP.nc	/^    command error_t FlashControlLogger.stop()$/;"	c
+error_t HALCC2420.addressFilterDisable	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    command error_t HALCC2420.addressFilterDisable()$/;"	c
+error_t HALCC2420.addressFilterDisable	lib/logger/micro4/HALCC2420LoggerM.nc	/^    command error_t HALCC2420.addressFilterDisable()$/;"	c
+error_t HALCC2420.addressFilterEnable	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    command error_t HALCC2420.addressFilterEnable()$/;"	c
+error_t HALCC2420.addressFilterEnable	lib/logger/micro4/HALCC2420LoggerM.nc	/^    command error_t HALCC2420.addressFilterEnable()$/;"	c
+error_t HALCC2420.rxDisable	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    command error_t HALCC2420.rxDisable()$/;"	c
+error_t HALCC2420.rxDisable	lib/logger/micro4/HALCC2420LoggerM.nc	/^    command error_t HALCC2420.rxDisable()$/;"	c
+error_t HALCC2420.rxEnable	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    command error_t HALCC2420.rxEnable()$/;"	c
+error_t HALCC2420.rxEnable	lib/logger/micro4/HALCC2420LoggerM.nc	/^    command error_t HALCC2420.rxEnable()$/;"	c
+error_t HALCC2420.sendPacket	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    command error_t HALCC2420.sendPacket(uint8_t * packet) $/;"	c
+error_t HALCC2420.sendPacket	lib/logger/micro4/HALCC2420LoggerM.nc	/^    command error_t HALCC2420.sendPacket(uint8_t * packet) $/;"	c
+error_t HALCC2420.setAddress	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    command error_t HALCC2420.setAddress(mac_addr_t *addr)$/;"	c
+error_t HALCC2420.setAddress	lib/logger/micro4/HALCC2420LoggerM.nc	/^    command error_t HALCC2420.setAddress(mac_addr_t *addr)$/;"	c
+error_t HALCC2420.setChannel	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    command error_t HALCC2420.setChannel(uint8_t channel) $/;"	c
+error_t HALCC2420.setChannel	lib/logger/micro4/HALCC2420LoggerM.nc	/^    command error_t HALCC2420.setChannel(uint8_t channel) $/;"	c
+error_t HALCC2420.setPanAddress	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    command error_t HALCC2420.setPanAddress(mac_addr_t *addr)$/;"	c
+error_t HALCC2420.setPanAddress	lib/logger/micro4/HALCC2420LoggerM.nc	/^    command error_t HALCC2420.setPanAddress(mac_addr_t *addr)$/;"	c
+error_t HALCC2420.setTransmitPower	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    command error_t HALCC2420.setTransmitPower(uint8_t power)$/;"	c
+error_t HALCC2420.setTransmitPower	lib/logger/micro4/HALCC2420LoggerM.nc	/^    command error_t HALCC2420.setTransmitPower(uint8_t power)$/;"	c
+error_t HALCC2420Control.start	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    command error_t HALCC2420Control.start()$/;"	c
+error_t HALCC2420Control.start	lib/logger/micro4/HALCC2420LoggerM.nc	/^    command error_t HALCC2420Control.start()$/;"	c
+error_t HALCC2420Control.stop	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  command error_t HALCC2420Control.stop()$/;"	c
+error_t HALCC2420Control.stop	lib/logger/micro4/HALCC2420LoggerM.nc	/^    command error_t HALCC2420Control.stop()$/;"	c
+error_t HalFlashLogger.erase	lib/logger/HalFlashLoggerP.nc	/^    command error_t HalFlashLogger.erase(uint8_t * address) $/;"	c
+error_t HalFlashLogger.read	lib/logger/HalFlashLoggerP.nc	/^    command error_t HalFlashLogger.read(uint8_t * destination, uint8_t * source, uint16_t length) $/;"	c
+error_t HalFlashLogger.write	lib/logger/HalFlashLoggerP.nc	/^    command error_t HalFlashLogger.write(uint8_t * source, uint8_t * destination, uint16_t length) $/;"	c
+error_t Init.init	apps/CompressionTest/CompressionTestM.nc	/^  command error_t Init.init()$/;"	c
+error_t Init.init	apps/Echo/EchoP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	apps/LogRecorder/LogRecorderP.nc	/^    command error_t Init.init() {$/;"	c
+error_t Init.init	apps/TTXDemo/SampleForwardBase/SampleForwardM.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	apps/TTXDemo/SampleForwardNode/SampleForwardM.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	apps/TestAll/TestAppP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	apps/TestLogger/TestAppP.nc	/^    command error_t Init.init() {$/;"	c
+error_t Init.init	apps/TestSimpleMac/TestAppP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	apps/TestSimpleMac/ori_TestAppP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	apps/USBSerialEcho/USBSerialEchoP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	lib/buffermanager/FIFOBufferManagerP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	lib/buffermanager/SafeBufferManagerP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	lib/logger/LoggerP.nc	/^    command error_t Init.init() $/;"	c
+error_t Init.init	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    command error_t Init.init() $/;"	c
+error_t Init.init	lib/logger/micro4/HALCC2420LoggerM.nc	/^    command error_t Init.init() $/;"	c
+error_t Init.init	lib/simplemac/SimpleMacM.nc	/^	command error_t Init.init() $/;"	c
+error_t Init.init	lib/stdout/StdNullM.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	lib/stdout/StdOutM.nc	/^  command error_t Init.init() {$/;"	c
+error_t PacketComm.send	lib/usb/USBCommunicationClassDeviceP.nc	/^  command error_t PacketComm.send(usb_pkt_t* pkt) {$/;"	c
+error_t ReadOut.read	lib/logger/ReadLoggerP.nc	/^    command error_t ReadOut.read() {$/;"	c
+error_t ReadStreamOut.postBuffer	lib/logger/ReadLoggerP.nc	/^    command error_t ReadStreamOut.postBuffer(width_t * buf, uint16_t count) {$/;"	c
+error_t ReadStreamOut.read	lib/logger/ReadLoggerP.nc	/^    command error_t ReadStreamOut.read(uint32_t usPeriod) {$/;"	c
+error_t SimpleMac.addressFilterDisable	lib/simplemac/SimpleMacM.nc	/^	command error_t SimpleMac.addressFilterDisable()$/;"	c
+error_t SimpleMac.addressFilterEnable	lib/simplemac/SimpleMacM.nc	/^	command error_t SimpleMac.addressFilterEnable()$/;"	c
+error_t SimpleMac.rxDisable	lib/simplemac/SimpleMacM.nc	/^	command error_t SimpleMac.rxDisable()$/;"	c
+error_t SimpleMac.rxEnable	lib/simplemac/SimpleMacM.nc	/^	command error_t SimpleMac.rxEnable()$/;"	c
+error_t SimpleMac.sendPacket	lib/simplemac/SimpleMacM.nc	/^	command error_t SimpleMac.sendPacket(packet_t * packet) $/;"	c
+error_t SimpleMac.setAddress	lib/simplemac/SimpleMacM.nc	/^	command error_t SimpleMac.setAddress(mac_addr_t *addr)$/;"	c
+error_t SimpleMac.setChannel	lib/simplemac/SimpleMacM.nc	/^	command error_t SimpleMac.setChannel(uint8_t channel) $/;"	c
+error_t SimpleMac.setPanAddress	lib/simplemac/SimpleMacM.nc	/^	command error_t SimpleMac.setPanAddress(mac_addr_t *addr)$/;"	c
+error_t SimpleMac.setTransmitPower	lib/simplemac/SimpleMacM.nc	/^	command error_t SimpleMac.setTransmitPower(uint8_t power)$/;"	c
+error_t SimpleMacControl.start	lib/simplemac/SimpleMacM.nc	/^	command error_t SimpleMacControl.start()$/;"	c
+error_t SimpleMacControl.stop	lib/simplemac/SimpleMacM.nc	/^	command error_t SimpleMacControl.stop()$/;"	c
+error_t SimpleMacControlLogger.start	lib/logger/SimpleMacLoggerP.nc	/^    command error_t SimpleMacControlLogger.start()$/;"	c
+error_t SimpleMacControlLogger.stop	lib/logger/SimpleMacLoggerP.nc	/^    command error_t SimpleMacControlLogger.stop()$/;"	c
+error_t SimpleMacLogger.addressFilterDisable	lib/logger/SimpleMacLoggerP.nc	/^    command error_t SimpleMacLogger.addressFilterDisable()$/;"	c
+error_t SimpleMacLogger.addressFilterEnable	lib/logger/SimpleMacLoggerP.nc	/^    command error_t SimpleMacLogger.addressFilterEnable()$/;"	c
+error_t SimpleMacLogger.rxDisable	lib/logger/SimpleMacLoggerP.nc	/^    command error_t SimpleMacLogger.rxDisable()$/;"	c
+error_t SimpleMacLogger.rxEnable	lib/logger/SimpleMacLoggerP.nc	/^    command error_t SimpleMacLogger.rxEnable()$/;"	c
+error_t SimpleMacLogger.sendPacket	lib/logger/SimpleMacLoggerP.nc	/^    command error_t SimpleMacLogger.sendPacket(packet_t * packet) $/;"	c
+error_t SimpleMacLogger.setAddress	lib/logger/SimpleMacLoggerP.nc	/^    command error_t SimpleMacLogger.setAddress(mac_addr_t *addr)$/;"	c
+error_t SimpleMacLogger.setChannel	lib/logger/SimpleMacLoggerP.nc	/^    command error_t SimpleMacLogger.setChannel(uint8_t channel) $/;"	c
+error_t SimpleMacLogger.setPanAddress	lib/logger/SimpleMacLoggerP.nc	/^    command error_t SimpleMacLogger.setPanAddress(mac_addr_t *addr)$/;"	c
+error_t SimpleMacLogger.setTransmitPower	lib/logger/SimpleMacLoggerP.nc	/^    command error_t SimpleMacLogger.setTransmitPower(uint8_t power)$/;"	c
+error_t StdControl.start	apps/CompressionTest/Micro4SerialP.nc	/^  command error_t StdControl.start(){$/;"	c
+error_t StdControl.stop	apps/CompressionTest/Micro4SerialP.nc	/^  command error_t StdControl.stop(){$/;"	c
+error_t StdOut.done	lib/stdout/StdNullM.nc	/^  command error_t StdOut.done() {$/;"	c
+error_t StdOut.done	lib/stdout/StdOutM.nc	/^  command error_t StdOut.done() {$/;"	c
+error_t ThreeAxisAccel.dataReady	apps/TTXDemo/SampleForwardNode/SampleForwardM.nc	/^  event error_t ThreeAxisAccel.dataReady(uint16_t x, uint16_t y, uint16_t z, uint8_t status) {$/;"	e
+error_t ThreeAxisAccel.dataReady	lib/logger/AccelerometerLoggerP.nc	/^    event error_t ThreeAxisAccel.dataReady(uint16_t xaxis, $/;"	e
+error_t ThreeAxisAccelLogger.getData	lib/logger/AccelerometerLoggerP.nc	/^    command error_t ThreeAxisAccelLogger.getData() $/;"	c
+error_t ThreeAxisAccelLogger.setRange	lib/logger/AccelerometerLoggerP.nc	/^    command error_t ThreeAxisAccelLogger.setRange(uint8_t new_range) $/;"	c
+error_t USBDevice.send	lib/usb/USBControlEndpointP.nc	/^  command error_t USBDevice.send(uint8_t* pkt, uint16_t pkt_len){$/;"	c
+sleeping	lib/logger/FlashAccessLoggerC.nc	/^    HALSTM25P40M.sleeping -> FlashAccessLoggerP;$/;"	d
+uart0	apps/Echo/EchoAppC.nc	/^  EchoP.uart0 -> UartC.SerialByteComm;$/;"	d
+uint16_t CRC16.calc	lib/compression/CRC16M.nc	/^  command uint16_t CRC16.calc(uint8_t *data, uint16_t len)$/;"	c
+uint16_t FlashAccessLogger.firstUsablePage	lib/logger/FlashAccessLoggerP.nc	/^    command uint16_t FlashAccessLogger.firstUsablePage()$/;"	c
+uint16_t FlashAccessLogger.lastUsablePage	lib/logger/FlashAccessLoggerP.nc	/^    command uint16_t FlashAccessLogger.lastUsablePage()$/;"	c
+uint8_t BufferManager.freeBuffers	lib/buffermanager/FIFOBufferManagerP.nc	/^  command uint8_t BufferManager.freeBuffers(){$/;"	c
+uint8_t BufferManager.freeBuffers	lib/buffermanager/SafeBufferManagerP.nc	/^  command uint8_t BufferManager.freeBuffers(){$/;"	c
+usb_device_request_t USBDevice.classRequest	lib/usb/USBCommunicationClassDeviceP.nc	/^  event usb_device_request_t USBDevice.classRequest(usb_setup_pkt_t *p){$/;"	e
+usb_device_request_t USBDevice.vendorRequest	lib/usb/USBCommunicationClassDeviceP.nc	/^  event usb_device_request_t USBDevice.vendorRequest(usb_setup_pkt_t *p){$/;"	e
+void Boot.booted	apps/BlinkNoTimerTask/BlinkNoTimerTaskC.nc	/^  event void Boot.booted() {$/;"	e
+void Boot.booted	apps/CompressionTest/CompressionTestM.nc	/^  event void Boot.booted() {$/;"	e
+void Boot.booted	apps/Echo/EchoP.nc	/^  event void Boot.booted() {$/;"	e
+void Boot.booted	apps/LogRecorder/LogRecorderP.nc	/^    event void Boot.booted() {$/;"	e
+void Boot.booted	apps/TTXDemo/SampleForwardBase/SampleForwardM.nc	/^  event void Boot.booted() {$/;"	e
+void Boot.booted	apps/TTXDemo/SampleForwardNode/SampleForwardM.nc	/^  event void Boot.booted() {$/;"	e
+void Boot.booted	apps/TestAll/TestAppP.nc	/^  event void Boot.booted() {    $/;"	e
+void Boot.booted	apps/TestLogger/TestAppP.nc	/^    event void Boot.booted() {$/;"	e
+void Boot.booted	apps/TestSimpleMac/TestAppP.nc	/^  event void Boot.booted() {    $/;"	e
+void Boot.booted	apps/TestSimpleMac/ori_TestAppP.nc	/^  event void Boot.booted() {    $/;"	e
+void Boot.booted	apps/USBSerialEcho/USBSerialEchoP.nc	/^  event void Boot.booted() {$/;"	e
+void CC2420SetIEEEAddr	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    void CC2420SetIEEEAddr(ieee_mac_addr_t extAddress)$/;"	f
+void CC2420SetIEEEAddr	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  void CC2420SetIEEEAddr(ieee_mac_addr_t extAddress);$/;"	f
+void CC2420_CONTROL_SET	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void CC2420_CONTROL_SET()$/;"	f
+void CC2420_CONTROL_SET	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void CC2420_CONTROL_SET();$/;"	f
+void CC2420_RESET	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void CC2420_RESET()$/;"	f
+void CC2420_RESET	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void CC2420_RESET();$/;"	f
+void CC2420_RX_DISABLE	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void CC2420_RX_DISABLE()$/;"	f
+void CC2420_RX_DISABLE	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void CC2420_RX_DISABLE();$/;"	f
+void CC2420_RX_ENABLE	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void CC2420_RX_ENABLE()$/;"	f
+void CC2420_RX_ENABLE	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void CC2420_RX_ENABLE();$/;"	f
+void CC2420_SET_IEEEADDR	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void CC2420_SET_IEEEADDR(ieee_mac_addr_t extAddress)$/;"	f
+void CC2420_SET_IEEEADDR	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void CC2420_SET_IEEEADDR(ieee_mac_addr_t extAddress);$/;"	f
+void CC2420_SET_PANID	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void CC2420_SET_PANID(uint16_t id)$/;"	f
+void CC2420_SET_PANID	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void CC2420_SET_PANID(uint16_t panid);$/;"	f
+void CC2420_SET_SHORTADDR	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void CC2420_SET_SHORTADDR(uint16_t shortAddr)$/;"	f
+void CC2420_SET_SHORTADDR	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void CC2420_SET_SHORTADDR(uint16_t shortAddr);$/;"	f
+void CC2420_TX_WAIT	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void CC2420_TX_WAIT()$/;"	f
+void CC2420_TX_WAIT	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void CC2420_TX_WAIT();$/;"	f
+void CC2430ChannelSet	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    void CC2430ChannelSet(uint8_t channel)$/;"	f
+void CC2430ChannelSet	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  void CC2430ChannelSet(uint8_t channel);$/;"	f
+void CC2430ControlSet	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    void CC2430ControlSet()$/;"	f
+void CC2430ControlSet	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  void CC2430ControlSet();$/;"	f
+void CC2430ExternalOscillator	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    void CC2430ExternalOscillator()$/;"	f
+void CC2430ExternalOscillator	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  void CC2430ExternalOscillator();$/;"	f
+void CC2430InternalRCOscillator	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    void CC2430InternalRCOscillator()$/;"	f
+void CC2430PALevelSet	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    void CC2430PALevelSet(uint8_t new_power)$/;"	f
+void CC2430PALevelSet	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  void CC2430PALevelSet(uint8_t new_power);$/;"	f
+void CC2430RFDisable	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    void CC2430RFDisable()$/;"	f
+void CC2430RFDisable	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  void CC2430RFDisable();$/;"	f
+void CC2430RFEnable	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    void CC2430RFEnable()$/;"	f
+void CC2430RFEnable	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  void CC2430RFEnable();$/;"	f
+void CC2430Reset	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    void CC2430Reset()$/;"	f
+void CC2430Reset	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  void CC2430Reset();$/;"	f
+void CC2430RxDisable	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    void CC2430RxDisable()$/;"	f
+void CC2430RxDisable	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  void CC2430RxDisable();$/;"	f
+void CC2430RxEnable	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    void CC2430RxEnable()$/;"	f
+void CC2430RxEnable	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  void CC2430RxEnable();$/;"	f
+void CC2430SetPanid	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    void CC2430SetPanid(uint16_t id)$/;"	f
+void CC2430SetPanid	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  void CC2430SetPanid(uint16_t id);$/;"	f
+void CC2430SetShortaddr	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    void CC2430SetShortaddr(uint16_t shortAddr)$/;"	f
+void CC2430SetShortaddr	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  void CC2430SetShortaddr(uint16_t shortAddr);$/;"	f
+void CC2430TxWait	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    void CC2430TxWait()$/;"	f
+void CC2430TxWait	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  void CC2430TxWait();$/;"	f
+void Compressor.bufferFull	apps/CompressionTest/CompressionTestM.nc	/^  event void Compressor.bufferFull(uint8_t *buffer,  uint16_t bytes)$/;"	e
+void EP0.sendDone	lib/usb/USBControlEndpointP.nc	/^  event void EP0.sendDone(uint8_t* pkt_sent){$/;"	e
+void EP1.sendDone	lib/usb/USBCommunicationClassDeviceP.nc	/^  event void EP1.sendDone(uint8_t* pkt) {$/;"	e
+void EP2.sendDone	lib/usb/USBCommunicationClassDeviceP.nc	/^  event void EP2.sendDone(uint8_t* pkt) {$/;"	e
+void FlashAccess.eraseAllDone	lib/logger/FlashAccessLoggerP.nc	/^    event void FlashAccess.eraseAllDone()$/;"	e
+void FlashAccess.eraseDone	lib/logger/FlashAccessLoggerP.nc	/^    event void FlashAccess.eraseDone(uint16_t page_no)$/;"	e
+void FlashAccess.readReady	lib/logger/FlashAccessLoggerP.nc	/^    event void FlashAccess.readReady(uint16_t page_no, void *page, uint16_t length)$/;"	e
+void FlashAccess.writeDone	lib/logger/FlashAccessLoggerP.nc	/^    event void FlashAccess.writeDone(uint16_t page_no, void *page)$/;"	e
+void PacketComm.receive	lib/usb/USBSerialCDCP.nc	/^  event void PacketComm.receive(usb_pkt_t* pkt) {$/;"	e
+void PacketComm.sendDone	lib/usb/USBSerialCDCP.nc	/^  event void PacketComm.sendDone(usb_pkt_t* pkt) {$/;"	e
+void Read.readDone	apps/TestAll/TestAppP.nc	/^  event void Read.readDone( error_t result, int16_t val ) $/;"	e
+void Read.readDone	apps/TestAll/TestAppP.nc	/^  event void Read.readDone( error_t result, uint16_t val )$/;"	e
+void ReadIn.readDone	lib/logger/ReadLoggerP.nc	/^    event void ReadIn.readDone( error_t result, width_t val ) {$/;"	e
+void ReadStreamIn.bufferDone	lib/logger/ReadLoggerP.nc	/^    event void ReadStreamIn.bufferDone(error_t result, width_t * buf, uint16_t count) {$/;"	e
+void ReadStreamIn.readDone	lib/logger/ReadLoggerP.nc	/^    event void ReadStreamIn.readDone(error_t result, uint32_t usActualPeriod) {$/;"	e
+void Resource.granted	apps/CompressionTest/Micro4SerialP.nc	/^  event void Resource.granted(){}$/;"	e
+void SimpleMac.sendPacketDone	apps/TTXDemo/SampleForwardBase/SampleForwardM.nc	/^  event void SimpleMac.sendPacketDone(packet_t *packet, error_t result)$/;"	e
+void SimpleMac.sendPacketDone	apps/TTXDemo/SampleForwardNode/SampleForwardM.nc	/^  event void SimpleMac.sendPacketDone(packet_t *packet, error_t result)$/;"	e
+void SimpleMac.sendPacketDone	apps/TestAll/TestAppP.nc	/^  event void SimpleMac.sendPacketDone(packet_t *packet, error_t result)$/;"	e
+void SimpleMac.sendPacketDone	apps/TestSimpleMac/TestAppP.nc	/^  event void SimpleMac.sendPacketDone(packet_t *packet, error_t result)$/;"	e
+void SimpleMac.sendPacketDone	apps/TestSimpleMac/ori_TestAppP.nc	/^  event void SimpleMac.sendPacketDone(packet_t *packet, error_t result)$/;"	e
+void SimpleMac.sendPacketDone	lib/logger/SimpleMacLoggerP.nc	/^    event void SimpleMac.sendPacketDone(packet_t * packet, error_t result)$/;"	e
+void Timer.fired	apps/TestLogger/TestAppP.nc	/^    event void Timer.fired()$/;"	e
+void Timer.fired	apps/TestSimpleMac/TestAppP.nc	/^  event void Timer.fired()$/;"	e
+void Timer.fired	apps/TestSimpleMac/ori_TestAppP.nc	/^  event void Timer.fired()$/;"	e
+void USBControl.reset	lib/usb/USBCommunicationClassDeviceP.nc	/^  event void USBControl.reset() {}$/;"	e
+void USBControl.reset	lib/usb/USBControlEndpointP.nc	/^  event void USBControl.reset() {}$/;"	e
+void USBDevice.receive	lib/usb/USBControlEndpointP.nc	/^  command void USBDevice.receive(uint8_t *pkt, uint16_t pkt_len) {$/;"	c
+void USBDevice.receiveDone	lib/usb/USBCommunicationClassDeviceP.nc	/^  event void USBDevice.receiveDone(uint8_t *pkt) {$/;"	e
+void USBDevice.sendDone	lib/usb/USBCommunicationClassDeviceP.nc	/^  event void USBDevice.sendDone(uint8_t* pkt) { }$/;"	e
+void USBDevice.setConfiguration	lib/usb/USBCommunicationClassDeviceP.nc	/^  event void USBDevice.setConfiguration(uint8_t c) {$/;"	e
+void addressDisableTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void addressDisableTask() $/;"	a
+void addressDisableTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void addressDisableTask();$/;"	a
+void addressEnableTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void addressEnableTask() $/;"	a
+void addressEnableTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void addressEnableTask();$/;"	a
+void consoleTask	apps/TestAll/TestAppP.nc	/^  task void consoleTask() $/;"	a
+void consoleTask	apps/TestAll/TestAppP.nc	/^  task void consoleTask();$/;"	a
+void consoleTask	apps/TestSimpleMac/TestAppP.nc	/^  task void consoleTask() $/;"	a
+void consoleTask	apps/TestSimpleMac/TestAppP.nc	/^  task void consoleTask();$/;"	a
+void consoleTask	apps/TestSimpleMac/ori_TestAppP.nc	/^  task void consoleTask() $/;"	a
+void consoleTask	apps/TestSimpleMac/ori_TestAppP.nc	/^  task void consoleTask();$/;"	a
+void debug_setup	lib/usb/USBControlEndpointP.nc	/^  void debug_setup(usb_setup_pkt_t *setup);$/;"	f
+void debug_setup	lib/usb/USBControlEndpointP.nc	/^  void debug_setup(usb_setup_pkt_t *setup){$/;"	f
+void delay	apps/BlinkNoTimerTask/BlinkNoTimerTaskC.nc	/^  task void delay() {$/;"	a
+void delay	apps/BlinkNoTimerTask/BlinkNoTimerTaskC.nc	/^  task void delay();$/;"	a
+void do_compress	apps/CompressionTest/CompressionTestM.nc	/^  task void do_compress() $/;"	a
+void echoTask	apps/LogRecorder/LogRecorderP.nc	/^    task void echoTask() {$/;"	a
+void echoTask	apps/LogRecorder/LogRecorderP.nc	/^    task void echoTask();$/;"	a
+void echoTask	apps/TTXDemo/SampleForwardBase/SampleForwardM.nc	/^  task void echoTask() {$/;"	a
+void echoTask	apps/TTXDemo/SampleForwardBase/SampleForwardM.nc	/^  task void echoTask();$/;"	a
+void echoTask	apps/TTXDemo/SampleForwardNode/SampleForwardM.nc	/^  task void echoTask() {$/;"	a
+void echoTask	apps/TTXDemo/SampleForwardNode/SampleForwardM.nc	/^  task void echoTask();$/;"	a
+void echoTask	apps/TestLogger/TestAppP.nc	/^    task void echoTask() {$/;"	a
+void echoTask	apps/TestLogger/TestAppP.nc	/^    task void echoTask();$/;"	a
+void flush	apps/CompressionTest/CompressionTestM.nc	/^  task void flush()$/;"	a
+void flushBufferTask	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    task void flushBufferTask() $/;"	a
+void flushBufferTask	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    task void flushBufferTask();$/;"	a
+void flushBufferTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void flushBufferTask() $/;"	a
+void flushBufferTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void flushBufferTask();$/;"	a
+void getPanAddressTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void getPanAddressTask() $/;"	a
+void getShortAddressTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void getShortAddressTask() $/;"	a
+void handleSetup	lib/usb/USBControlEndpointP.nc	/^  task void handleSetup() {$/;"	a
+void handleSetup	lib/usb/USBControlEndpointP.nc	/^  task void handleSetup();$/;"	a
+void handle_full_buffer	lib/compression/CompressorM.nc	/^  void handle_full_buffer(uint8_t *buf, uint16_t nobytes) $/;"	f
+void handle_packet	apps/CompressionTest/CompressionTestM.nc	/^  task void handle_packet()$/;"	a
+void initTask	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    task void initTask()$/;"	a
+void initTask	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  task void initTask();$/;"	a
+void initTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void initTask()$/;"	a
+void initTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void initTask();$/;"	a
+void initTask	lib/simplemac/SimpleMacM.nc	/^	task void initTask()$/;"	a
+void initTask	lib/simplemac/SimpleMacM.nc	/^	task void initTask();$/;"	a
+void postNextTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    void postNextTask() {$/;"	f
+void print	apps/CompressionTest/CompressionTestM.nc	/^  void print(char* s) {$/;"	f
+void print_data	apps/CompressionTest/CompressionTestM.nc	/^  task void print_data()$/;"	a
+void putter	lib/usb/USBSerialCDCP.nc	/^  task void putter() {$/;"	a
+void receivedPacketTask	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    task void receivedPacketTask()$/;"	a
+void receivedPacketTask	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    task void receivedPacketTask();$/;"	a
+void receivedPacketTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void receivedPacketTask()$/;"	a
+void receivedPacketTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void receivedPacketTask();$/;"	a
+void restart_compression	apps/CompressionTest/CompressionTestM.nc	/^  task void restart_compression() {$/;"	a
+void rxDisableTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void rxDisableTask()$/;"	a
+void rxDisableTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void rxDisableTask();$/;"	a
+void rxEnableTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void rxEnableTask()$/;"	a
+void rxEnableTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void rxEnableTask();$/;"	a
+void sendPacketDoneTask	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    task void sendPacketDoneTask() {$/;"	a
+void sendPacketDoneTask	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    task void sendPacketDoneTask();$/;"	a
+void sendPacketTask	apps/TestAll/TestAppP.nc	/^    task void sendPacketTask();$/;"	a
+void sendPacketTask	apps/TestAll/TestAppP.nc	/^  task void sendPacketTask() $/;"	a
+void sendPacketTask	apps/TestSimpleMac/TestAppP.nc	/^  task void sendPacketTask() $/;"	a
+void sendPacketTask	apps/TestSimpleMac/TestAppP.nc	/^  task void sendPacketTask();$/;"	a
+void sendPacketTask	apps/TestSimpleMac/ori_TestAppP.nc	/^  task void sendPacketTask() $/;"	a
+void sendPacketTask	apps/TestSimpleMac/ori_TestAppP.nc	/^  task void sendPacketTask();$/;"	a
+void send_buffer	apps/CompressionTest/CompressionTestM.nc	/^  void send_buffer() {$/;"	f
+void send_buffer_task	apps/CompressionTest/CompressionTestM.nc	/^  task void send_buffer_task() {$/;"	a
+void setChannelTask	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    task void setChannelTask()$/;"	a
+void setChannelTask	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  task void setChannelTask();$/;"	a
+void setChannelTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void setChannelTask()$/;"	a
+void setChannelTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void setChannelTask();$/;"	a
+void setPanAddressTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void setPanAddressTask() $/;"	a
+void setPanAddressTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void setPanAddressTask();$/;"	a
+void setShortAddressTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void setShortAddressTask() $/;"	a
+void setShortAddressTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void setShortAddressTask();$/;"	a
+void setTransmitPowerTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void setTransmitPowerTask()$/;"	a
+void setTransmitPowerTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void setTransmitPowerTask();$/;"	a
+void signalSendPacketDone	lib/simplemac/SimpleMacM.nc	/^	task void signalSendPacketDone()$/;"	a
+void startTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void startTask()$/;"	a
+void startTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void startTask();$/;"	a
+void start_compression	apps/CompressionTest/CompressionTestM.nc	/^  task void start_compression()$/;"	a
+void start_print_data	apps/CompressionTest/CompressionTestM.nc	/^  task void start_print_data()$/;"	a
+void start_recv	apps/CompressionTest/CompressionTestM.nc	/^  task void start_recv()$/;"	a
+void stopTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void stopTask()$/;"	a
+void stopTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void stopTask();$/;"	a
+void toggle	apps/BlinkNoTimerTask/BlinkNoTimerTaskC.nc	/^  task void toggle() {$/;"	a
+void toggle	apps/BlinkNoTimerTask/BlinkNoTimerTaskC.nc	/^  task void toggle();$/;"	a
+void transmitTask	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^    task void transmitTask()$/;"	a
+void transmitTask	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  task void transmitTask();$/;"	a
+void transmitTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void transmitTask()$/;"	a
+void transmitTask	lib/logger/micro4/HALCC2420LoggerM.nc	/^    task void transmitTask();$/;"	a
+void wait	lib/logger/cc2430em/HalCC2430LoggerP.nc	/^  void wait(uint16_t u);$/;"	f

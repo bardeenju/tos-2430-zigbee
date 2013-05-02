@@ -1,0 +1,304 @@
+<?xml version="1.0" ?><interfacedef loc="24:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" nicename="HALCC2420" qname="HALCC2420">
+      <function command="" loc="63:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="rxDisable" provided="0" ref="0x2b7154166918">
+        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="59:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="getAddress" provided="0" ref="0x2b7154167398">
+        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-pointer alignment="I:8" size="I:8">
+            <type-qualified const="">
+                <typename><typedef-ref name="mac_addr_t" ref="0x2b7153df39e0"/></typename>
+              <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned=""/>
+            </type-qualified>
+          </type-pointer>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="60:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="getExtAddress" provided="0" ref="0x2b7154167b40">
+        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-pointer alignment="I:8" size="I:8">
+            <type-qualified const="">
+              <type-array alignment="I:1" elements="I:8" size="I:8">
+                <type-qualified const="">
+                    <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+                  <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned=""/>
+                </type-qualified>
+              </type-array>
+            </type-qualified>
+          </type-pointer>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="69:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="getPanAddress" provided="0" ref="0x2b7154185b08">
+        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-pointer alignment="I:8" size="I:8">
+            <type-qualified const="">
+                <typename><typedef-ref name="mac_addr_t" ref="0x2b7153df39e0"/></typename>
+              <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned=""/>
+            </type-qualified>
+          </type-pointer>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="55:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="setChannel" provided="0" ref="0x2b715416a8d8">
+        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="55:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="channel" ref="0x2b715416a668">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="35:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="sendPacket" provided="0" ref="0x2b715416e290">
+        <documentation loc="26:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc">
+          <short>
+ sendPacket will perform a CCA, put the device into transmit mode,
+ send the packet and return.</short>
+          <long>
+ sendPacket will perform a CCA, put the device into transmit mode,
+ send the packet and return. If the SPI bus is not free or CCA
+ fails, the sending of the packet is delayed. The contents
+ of the packet must not be changed after the call to sendPacket.
+
+ @param uint8_t * packet The packet that should be sent.
+ @return error_t If the packet was queued for sending successfully.
+</long>
+        </documentation>
+        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+              </type-int>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="35:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="packet" ref="0x2b715416e020">
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="66:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="addressFilterDisable" provided="0" ref="0x2b71541647a0">
+        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function event="" loc="43:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="sendPacketDone" provided="0" ref="0x2b715416d2a0">
+        <documentation loc="37:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc">
+          <short>
+ sendPacketDone is signaled when a packet have been sent successfully.</short>
+          <long>
+ sendPacketDone is signaled when a packet have been sent successfully.
+
+ @param packet_t *packet The packet that have been sent.
+ @param error_t result If the packet was sent successfully.
+</long>
+        </documentation>
+        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+              </type-int>
+            </type-pointer>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="43:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="packet" ref="0x2b715416eba0">
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+          <variable loc="43:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="result" ref="0x2b715416d020">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function event="" loc="53:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="receivedPacket" provided="0" ref="0x2b715416dd88">
+        <documentation loc="45:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc">
+          <short>
+ receivedPacket is signalled when the radio have received a full
+ packet.</short>
+          <long>
+ receivedPacket is signalled when the radio have received a full
+ packet.  The function must return a free uint8_t * to the radio
+ stack. This can be the same packet that have been signaled
+
+ @param uint8_t *packet The received packet
+ @return uint8_t* A free packet
+</long>
+        </documentation>
+        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-pointer alignment="I:8" size="I:8">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </type-pointer>
+          <function-parameters>
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+              </type-int>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="53:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="packet" ref="0x2b715416dae0">
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="58:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="setAddress" provided="0" ref="0x2b7154168c00">
+        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
+                <typename><typedef-ref name="mac_addr_t" ref="0x2b7153df39e0"/></typename>
+              </type-int>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="58:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="addr" ref="0x2b7154168990">
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
+                <typename><typedef-ref name="mac_addr_t" ref="0x2b7153df39e0"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="65:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="addressFilterEnable" provided="0" ref="0x2b7154164070">
+        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="62:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="rxEnable" provided="0" ref="0x2b7154166258">
+        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="56:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="setTransmitPower" provided="0" ref="0x2b7154168290">
+        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="56:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="power" ref="0x2b7154168020">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="68:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="setPanAddress" provided="0" ref="0x2b7154185290">
+        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
+                <typename><typedef-ref name="mac_addr_t" ref="0x2b7153df39e0"/></typename>
+              </type-int>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="68:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/HALCC2420.nc" name="addr" ref="0x2b7154185020">
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
+                <typename><typedef-ref name="mac_addr_t" ref="0x2b7153df39e0"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+    </interfacedef>

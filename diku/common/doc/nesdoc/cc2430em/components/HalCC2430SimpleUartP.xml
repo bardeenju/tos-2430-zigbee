@@ -1,0 +1,74 @@
+<?xml version="1.0" ?><component loc="39:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/usart/HalCC2430SimpleUartP.nc" nicename="HalCC2430SimpleUartP" qname="HalCC2430SimpleUartP">
+      <documentation loc="31:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/ioCC2430.h">
+        <short>
+
+ Provide cc2430 specific register maps
+
+ Absolute addressing in Keil is possible in a number of ways:
+   Standard C
+     (uint8_t xdata*) addr
+   Using sfr types/storrage class specifiers
+     sfr x = addr
+   Using the at modifier
+     uint8_t x at addr
+
+ Regarding multibyte values, it seems that ChipCon has chosen the
+ follwing semantics that handles latching one or more bytes when
+ reading and writing:
+
+  When reading: the _low_ byte must be read first and the high-byte
+  is latched for glitch free 16-bit operations
+
+  When writing: the low byte must be written first and the value
+  does not take effect before the high byte is written
+
+
+ </short>
+        <long>
+
+ Provide cc2430 specific register maps
+
+ Absolute addressing in Keil is possible in a number of ways:
+   Standard C
+     (uint8_t xdata*) addr
+   Using sfr types/storrage class specifiers
+     sfr x = addr
+   Using the at modifier
+     uint8_t x at addr
+
+ Regarding multibyte values, it seems that ChipCon has chosen the
+ follwing semantics that handles latching one or more bytes when
+ reading and writing:
+
+  When reading: the _low_ byte must be read first and the high-byte
+  is latched for glitch free 16-bit operations
+
+  When writing: the low byte must be written first and the value
+  does not take effect before the high byte is written
+
+
+ @author Martin Leopold &lt;leopold@diku.dk&gt;
+</long>
+      </documentation>
+      <module/>
+    <specification><interface loc="41:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/usart/HalCC2430SimpleUartP.nc" name="Init" provided="1" ref="0x2b715434fc90">
+      <component-ref nicename="HalCC2430SimpleUartP" qname="HalCC2430SimpleUartP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b715434fc90" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x2b715434c020" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="42:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/usart/HalCC2430SimpleUartP.nc" name="uart0" provided="1" ref="0x2b715434c370">
+      <component-ref nicename="HalCC2430SimpleUartP" qname="HalCC2430SimpleUartP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="uart0" ref="0x2b715434c370" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.serial.SerialByteComm" qname="SerialByteComm"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="get" ref="0x2b715434c6c0" scoped=""/>
+        <function-ref name="putDone" ref="0x2b715434c848" scoped=""/>
+        <function-ref name="put" ref="0x2b715434c9d0" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

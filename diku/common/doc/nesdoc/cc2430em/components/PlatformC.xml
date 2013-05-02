@@ -1,0 +1,122 @@
+<?xml version="1.0" ?><component loc="38:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformC.nc" nicename="PlatformC" qname="PlatformC">
+      <documentation loc="33:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformC.nc">
+        <short>
+
+ </short>
+        <long>
+
+ @author Martin Leopold &lt;leopold@diku.dk&gt;
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="46:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformC.nc">
+          <from><interface-ref name="Init" ref="0x2b7153c8b020" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2b7153c96bf0" scoped=""/></to>
+        </wire>
+        <wire loc="47:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformC.nc">
+          <from><interface-ref name="GIOInit" ref="0x2b7153c94a00" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2b7153cb45e8" scoped=""/></to>
+        </wire>
+      </wiring>
+    <specification><interface loc="40:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformC.nc" name="Init" provided="1" ref="0x2b7153c8b020">
+      <component-ref nicename="PlatformC" qname="PlatformC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b7153c8b020" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x2b7153c8b370" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced><interface loc="43:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc" name="Init" provided="1" ref="0x2b7153c96bf0">
+      <component-ref nicename="PlatformP" qname="PlatformP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b7153c96bf0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x2b7153c94020" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="69:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" name="Init" provided="1" ref="0x2b7153cb45e8">
+      <component-ref nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b7153cb45e8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x2b7153cb4938" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc" name="GIOInit" provided="0" ref="0x2b7153c94a00">
+      <component-ref nicename="PlatformP" qname="PlatformP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="GIOInit" ref="0x2b7153c94a00" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x2b7153c94d50" scoped=""/>
+      </interface-functions>
+    </interface><component loc="44:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc" nicename="HplCC2430GeneralIOC" qname="HplCC2430GeneralIOC">
+      <documentation loc="31:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/ioCC2430.h">
+        <short>
+
+ Provide cc2430 specific register maps
+
+ Absolute addressing in Keil is possible in a number of ways:
+   Standard C
+     (uint8_t xdata*) addr
+   Using sfr types/storrage class specifiers
+     sfr x = addr
+   Using the at modifier
+     uint8_t x at addr
+
+ Regarding multibyte values, it seems that ChipCon has chosen the
+ follwing semantics that handles latching one or more bytes when
+ reading and writing:
+
+  When reading: the _low_ byte must be read first and the high-byte
+  is latched for glitch free 16-bit operations
+
+  When writing: the low byte must be written first and the value
+  does not take effect before the high byte is written
+
+
+ </short>
+        <long>
+
+ Provide cc2430 specific register maps
+
+ Absolute addressing in Keil is possible in a number of ways:
+   Standard C
+     (uint8_t xdata*) addr
+   Using sfr types/storrage class specifiers
+     sfr x = addr
+   Using the at modifier
+     uint8_t x at addr
+
+ Regarding multibyte values, it seems that ChipCon has chosen the
+ follwing semantics that handles latching one or more bytes when
+ reading and writing:
+
+  When reading: the _low_ byte must be read first and the high-byte
+  is latched for glitch free 16-bit operations
+
+  When writing: the low byte must be written first and the value
+  does not take effect before the high byte is written
+
+
+ @author Martin Leopold &lt;leopold@diku.dk&gt;
+</long>
+      </documentation>
+      <module/>
+    </component><component loc="42:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc" nicename="PlatformP" qname="PlatformP">
+      <documentation loc="52:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/CC2430Timer.h">
+        <short>
+
+ </short>
+        <long>
+
+ @author Martin Leopold &lt;leopold@diku.dk&gt;
+</long>
+      </documentation>
+      <module/>
+    </component></referenced></component>

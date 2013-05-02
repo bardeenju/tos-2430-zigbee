@@ -1,0 +1,8 @@
+digraph "PlatformC" {
+  n0x2aebb690e2b0 [shape=ellipse, style=filled, label="Init", fontsize=12];
+  "PlatformP" [fontsize=12, shape=box, URL="../chtml/PlatformP.html"];
+  "PlatformP" [fontsize=12, shape=box, URL="../chtml/PlatformP.html"];
+  "HplCC2430GeneralIOC" [fontsize=12, shape=box, URL="../chtml/HplCC2430GeneralIOC.html"];
+  "n0x2aebb690e2b0" -> "PlatformP" [label="Init", URL="../ihtml/tos.interfaces.Init.html", fontsize=10];
+  "PlatformP" -> "HplCC2430GeneralIOC" [label="Init", URL="../ihtml/tos.interfaces.Init.html", fontsize=10];
+}

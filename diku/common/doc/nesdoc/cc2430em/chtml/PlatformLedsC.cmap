@@ -1,0 +1,17 @@
+<area shape="rect" id="node2" href="../chtml/ReverseGPIOP.html" title="ReverseGPIOP\n(Led0_rev)" alt="" coords="5,120,139,171">
+<area shape="poly" id="edge2" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="75,53 75,106 69,106 69,53">
+<area shape="rect" id="edge2" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="72,78,136,95">
+<area shape="rect" id="node9" href="../chtml/HplMcs51GeneralIOC.html" title="HplMcs51GeneralIOC" alt="" coords="64,237,251,285">
+<area shape="poly" id="edge10" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="91,169 121,212 131,225 127,228 117,215 87,172">
+<area shape="rect" id="edge10" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="119,195,183,213">
+<area shape="rect" id="node4" href="../chtml/tos.system.NoPinC.html" title="NoPinC" alt="" coords="320,121,397,169">
+<area shape="poly" id="edge4" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="361,53 361,108 356,108 356,53">
+<area shape="rect" id="edge4" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="359,78,423,95">
+<area shape="rect" id="node6" href="../chtml/ReverseGPIOP.html" title="ReverseGPIOP\n(Led2_rev)" alt="" coords="163,120,296,171">
+<area shape="poly" id="edge6" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="232,53 232,106 227,106 227,53">
+<area shape="rect" id="edge6" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="229,78,293,95">
+<area shape="poly" id="edge12" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="216,172 182,227 177,224 211,170">
+<area shape="rect" id="edge12" href="../ihtml/tos.interfaces.GeneralIO.html" title="GeneralIO" alt="" coords="197,195,261,213">
+<area shape="rect" id="node7" href="../chtml/PlatformP.html" title="PlatformP" alt="" coords="421,5,520,53">
+<area shape="poly" id="edge8" href="../ihtml/tos.interfaces.Init.html" title="Init" alt="" coords="473,53 473,108 468,108 468,53">
+<area shape="rect" id="edge8" href="../ihtml/tos.interfaces.Init.html" title="Init" alt="" coords="471,78,491,95">

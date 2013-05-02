@@ -1,0 +1,102 @@
+<?xml version="1.0" ?><component abstract="" loc="44:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" nicename="tos.system.TimerMilliC" qname="TimerMilliC">
+      <documentation loc="31:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/Timer.h">
+        <short>
+ This replaces the T2 Timer.h.</short>
+        <long>
+ This replaces the T2 Timer.h. The empty structures defined there
+ are not accepted by Keil
+
+ @author Martin Leopold &lt;leopold@diku.dk&gt;
+</long>
+      </documentation>
+      <parameters>
+      </parameters>
+      <configuration/>
+      <wiring>
+        <wire loc="52:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc">
+          <from><interface-ref name="Timer" ref="0x2b7153fb5020" scoped=""/></from>
+          <to><interface-ref name="TimerMilli" ref="0x2b7153fad020" scoped=""/>
+          <arguments>
+            <value cst="U:">
+              <type-int alignment="I:4" cname="unsigned int" size="I:4" unsigned=""/>
+            </value>
+          </arguments>
+          </to>
+        </wire>
+      </wiring>
+    <specification><interface loc="45:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" name="Timer" provided="1" ref="0x2b7153fb5020">
+      <component-ref nicename="tos.system.TimerMilliC" qname="TimerMilliC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Timer" ref="0x2b7153fb5020" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="TMilli" ref="0x2b7153c96020"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x2b7153fb12b8" scoped=""/>
+        <function-ref name="fired" ref="0x2b7153fb4978" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x2b7153fb26c8" scoped=""/>
+        <function-ref name="isOneShot" ref="0x2b7153fb2278" scoped=""/>
+        <function-ref name="getdt" ref="0x2b7153fb1b58" scoped=""/>
+        <function-ref name="gett0" ref="0x2b7153fb1708" scoped=""/>
+        <function-ref name="isRunning" ref="0x2b7153fb4dc8" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x2b7153fb5b68" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x2b7153fb2c98" scoped=""/>
+        <function-ref name="startOneShot" ref="0x2b7153fb4088" scoped=""/>
+        <function-ref name="stop" ref="0x2b7153fb4528" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced><interface loc="49:/opt/tinyos-2.1.2/tos/system/TimerMilliP.nc" name="TimerMilli" provided="1" ref="0x2b7153fad020">
+      <component-ref nicename="tos.system.TimerMilliP" qname="TimerMilliP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="TimerMilli" ref="0x2b7153fad020" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="TMilli" ref="0x2b7153c96020"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-parameters>
+        <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+          <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+        </type-int>
+      </interface-parameters>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x2b7153fc32b8" scoped=""/>
+        <function-ref name="fired" ref="0x2b7153fac978" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x2b7153fc46c8" scoped=""/>
+        <function-ref name="isOneShot" ref="0x2b7153fc4278" scoped=""/>
+        <function-ref name="getdt" ref="0x2b7153fc3b58" scoped=""/>
+        <function-ref name="gett0" ref="0x2b7153fc3708" scoped=""/>
+        <function-ref name="isRunning" ref="0x2b7153facdc8" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x2b7153fadb68" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x2b7153fc4c98" scoped=""/>
+        <function-ref name="startOneShot" ref="0x2b7153fac088" scoped=""/>
+        <function-ref name="stop" ref="0x2b7153fac528" scoped=""/>
+      </interface-functions>
+    </interface><component loc="48:/opt/tinyos-2.1.2/tos/system/TimerMilliP.nc" nicename="tos.system.TimerMilliP" qname="TimerMilliP">
+      <documentation loc="31:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/Timer.h">
+        <short>
+ This replaces the T2 Timer.h.</short>
+        <long>
+ This replaces the T2 Timer.h. The empty structures defined there
+ are not accepted by Keil
+
+ @author Martin Leopold &lt;leopold@diku.dk&gt;
+</long>
+      </documentation>
+      <configuration/>
+      <wiring>
+        <wire loc="54:/opt/tinyos-2.1.2/tos/system/TimerMilliP.nc">
+          <from><interface-ref name="TimerMilli" ref="0x2b7153fad020" scoped=""/></from>
+          <to><interface-ref name="TimerMilli" ref="0x2b7153fbe6a8" scoped=""/></to>
+        </wire>
+        <wire loc="53:/opt/tinyos-2.1.2/tos/system/TimerMilliP.nc">
+          <from><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2b7153fc1970" scoped=""/></to>
+        </wire>
+      </wiring>
+    </component></referenced></component>

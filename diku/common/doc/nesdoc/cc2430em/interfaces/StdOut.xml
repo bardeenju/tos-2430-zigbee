@@ -1,0 +1,431 @@
+<?xml version="1.0" ?><interfacedef loc="24:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" nicename="StdOut" qname="StdOut">
+      <documentation loc="18:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+        <short>
+ Interface that provides a primitive way to output chars, most
+ likely to one of the uarts.</short>
+        <long>
+ Interface that provides a primitive way to output chars, most
+ likely to one of the uarts. It is also possibly to use the get
+ event to get an event when chars are received from the uart.
+</long>
+      </documentation>
+      <function command="" loc="56:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="dumpHex" provided="0" ref="0x2b7153e025b0">
+        <documentation loc="51:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+          <short> Put an array of hex values into the buffer, formatted as a string.</short>
+          <long> Put an array of hex values into the buffer, formatted as a string.
+@param ptr[] Array of values to be formatted and printed.
+@param count Length of array.
+@param sep Char to be printed between values in the buffer.
+@return Number of bytes actually buffered. *</long>
+        </documentation>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+              </type-int>
+            </type-pointer>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:1" cname="char" size="I:1"/>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="56:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="ptr" ref="0x2b7153e03c50">
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+                <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+          <variable loc="56:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="count" ref="0x2b7153e02020">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </variable>
+          <variable loc="56:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="sep" ref="0x2b7153e02320">
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:1" cname="char" size="I:1"/>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="91:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="printBase2" provided="0" ref="0x2b7153e0f020">
+        <documentation loc="88:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+          <short> Format value as a base2 string and put it into the output buffer.</short>
+          <long> Format value as a base2 string and put it into the output buffer.
+@param c Numberical value to be formatted and printed.
+@return Number of bytes actually buffered. *</long>
+        </documentation>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:4" cname="int" size="I:4"/>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="91:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="c" ref="0x2b7153dfdd50">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="71:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="printBase10uint16" provided="0" ref="0x2b7153dff5d8">
+        <documentation loc="68:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+          <short> Format value as a base10 string and put it into the output buffer.</short>
+          <long> Format value as a base10 string and put it into the output buffer.
+@param c Numberical value to be formatted and printed.
+@return Number of bytes actually buffered. *</long>
+        </documentation>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:4" cname="int" size="I:4"/>
+          <function-parameters>
+            <type-qualified const="">
+                <typename><typedef-ref name="uint16_t" ref="0x2b71532bf4a0"/></typename>
+              <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned=""/>
+            </type-qualified>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="71:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="c" ref="0x2b7153dff368">
+            <type-qualified const="">
+                <typename><typedef-ref name="uint16_t" ref="0x2b71532bf4a0"/></typename>
+              <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned=""/>
+            </type-qualified>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="44:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="printHexword" provided="0" ref="0x2b7153e04a40">
+        <documentation loc="41:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+          <short> Format value as a hex string and put it into the output buffer.</short>
+          <long> Format value as a hex string and put it into the output buffer.
+@param c Numberical value to be formatted and printed.
+@return Number of bytes actually buffered. *</long>
+        </documentation>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:4" cname="int" size="I:4"/>
+          <function-parameters>
+            <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x2b71532bf4a0"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="44:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="c" ref="0x2b7153e047d0">
+            <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x2b71532bf4a0"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="81:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="printBase10uint32" provided="0" ref="0x2b7153dfeb30">
+        <documentation loc="78:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+          <short> Format value as a base10 string and put it into the output buffer.</short>
+          <long> Format value as a base10 string and put it into the output buffer.
+@param c Numberical value to be formatted and printed.
+@return Number of bytes actually buffered. *</long>
+        </documentation>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:4" cname="int" size="I:4"/>
+          <function-parameters>
+            <type-qualified const="">
+                <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+              <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned=""/>
+            </type-qualified>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="81:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="c" ref="0x2b7153dfe8c0">
+            <type-qualified const="">
+                <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+              <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned=""/>
+            </type-qualified>
+          </variable>
+        </parameters>
+      </function>
+      <function event="" loc="108:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="get" provided="0" ref="0x2b7153e0d020">
+        <documentation loc="103:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+          <short> Get data from &quot;stdin&quot;.</short>
+          <long> Get data from &quot;stdin&quot;.
+We need this method to be able to use the Uarts and you can connect to
+it to get any data send remotely to the uart/pipe/whatever. 
+@param data Value received
+@return Just return SUCCESS *</long>
+        </documentation>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="108:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="data" ref="0x2b7153e0ed18">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="61:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="printBase10uint8" provided="0" ref="0x2b7153e000a8">
+        <documentation loc="58:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+          <short> Format value as a base10 string and put it into the output buffer.</short>
+          <long> Format value as a base10 string and put it into the output buffer.
+@param c Numberical value to be formatted and printed.
+@return Number of bytes actually buffered. *</long>
+        </documentation>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:4" cname="int" size="I:4"/>
+          <function-parameters>
+            <type-qualified const="">
+                <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned=""/>
+            </type-qualified>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="61:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="c" ref="0x2b7153e02e10">
+            <type-qualified const="">
+                <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+              <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned=""/>
+            </type-qualified>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="101:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="printBase2long" provided="0" ref="0x2b7153e0e5b8">
+        <documentation loc="98:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+          <short> Format value as a base2 string and put it into the output buffer.</short>
+          <long> Format value as a base2 string and put it into the output buffer.
+@param c Numberical value to be formatted and printed.
+@return Number of bytes actually buffered. *</long>
+        </documentation>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:4" cname="int" size="I:4"/>
+          <function-parameters>
+            <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
+              <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="101:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="c" ref="0x2b7153e0e348">
+            <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
+              <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="49:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="printHexlong" provided="0" ref="0x2b7153e03498">
+        <documentation loc="46:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+          <short> Format value as a hex string and put it into the output buffer.</short>
+          <long> Format value as a hex string and put it into the output buffer.
+@param c Numberical value to be formatted and printed.
+@return Number of bytes actually buffered. *</long>
+        </documentation>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:4" cname="int" size="I:4"/>
+          <function-parameters>
+            <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
+              <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="49:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="c" ref="0x2b7153e03228">
+            <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
+              <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="96:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="printBase2word" provided="0" ref="0x2b7153e0fb50">
+        <documentation loc="93:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+          <short> Format value as a base2 string and put it into the output buffer.</short>
+          <long> Format value as a base2 string and put it into the output buffer.
+@param c Numberical value to be formatted and printed.
+@return Number of bytes actually buffered. *</long>
+        </documentation>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:4" cname="int" size="I:4"/>
+          <function-parameters>
+            <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x2b71532bf4a0"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="96:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="c" ref="0x2b7153e0f8e0">
+            <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
+              <typename><typedef-ref name="uint16_t" ref="0x2b71532bf4a0"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="66:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="printBase10int8" provided="0" ref="0x2b7153e00b00">
+        <documentation loc="63:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+          <short> Format value as a base10 string and put it into the output buffer.</short>
+          <long> Format value as a base10 string and put it into the output buffer.
+@param c Numberical value to be formatted and printed.
+@return Number of bytes actually buffered. *</long>
+        </documentation>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:4" cname="int" size="I:4"/>
+          <function-parameters>
+            <type-qualified const="">
+                <typename><typedef-ref name="int8_t" ref="0x2b71532be020"/></typename>
+              <type-int alignment="I:1" cname="signed char" size="I:1"/>
+            </type-qualified>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="66:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="c" ref="0x2b7153e00890">
+            <type-qualified const="">
+                <typename><typedef-ref name="int8_t" ref="0x2b71532be020"/></typename>
+              <type-int alignment="I:1" cname="signed char" size="I:1"/>
+            </type-qualified>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="34:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="print" provided="0" ref="0x2b7153df25c8">
+        <documentation loc="31:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+          <short> Put a string into the output buffer.</short>
+          <long> Put a string into the output buffer.
+@param str Nulterminated string to enter into the buffer.
+@return Number of bytes actually buffered. *</long>
+        </documentation>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:4" cname="int" size="I:4"/>
+          <function-parameters>
+            <type-pointer alignment="I:8" size="I:8">
+              <type-qualified const="">
+                <type-int alignment="I:1" cname="char" size="I:1"/>
+              </type-qualified>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="34:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="str" ref="0x2b7153df2358">
+            <type-pointer alignment="I:8" size="I:8">
+              <type-qualified const="">
+                <type-int alignment="I:1" cname="char" size="I:1"/>
+              </type-qualified>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="29:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="done" provided="0" ref="0x2b7153deac38">
+        <documentation loc="25:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+          <short> Initialize 
+</short>
+          <long> Initialize 
+@return Wheter initialization was succesful or not.
+</long>
+        </documentation>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="39:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="printHex" provided="0" ref="0x2b7153e04020">
+        <documentation loc="36:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+          <short> Format value as a hex string and put it into the output buffer.</short>
+          <long> Format value as a hex string and put it into the output buffer.
+@param c Numberical value to be formatted and printed.
+@return Number of bytes actually buffered. *</long>
+        </documentation>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:4" cname="int" size="I:4"/>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="39:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="c" ref="0x2b7153df2d08">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="76:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="printBase10int16" provided="0" ref="0x2b7153dfe0a8">
+        <documentation loc="73:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+          <short> Format value as a base10 string and put it into the output buffer.</short>
+          <long> Format value as a base10 string and put it into the output buffer.
+@param c Numberical value to be formatted and printed.
+@return Number of bytes actually buffered. *</long>
+        </documentation>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:4" cname="int" size="I:4"/>
+          <function-parameters>
+            <type-qualified const="">
+                <typename><typedef-ref name="int16_t" ref="0x2b71532be5d0"/></typename>
+              <type-int alignment="I:2" cname="short" size="I:2"/>
+            </type-qualified>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="76:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="c" ref="0x2b7153dffdd8">
+            <type-qualified const="">
+                <typename><typedef-ref name="int16_t" ref="0x2b71532be5d0"/></typename>
+              <type-int alignment="I:2" cname="short" size="I:2"/>
+            </type-qualified>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="86:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="printBase10int32" provided="0" ref="0x2b7153dfd5c8">
+        <documentation loc="83:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc">
+          <short> Format value as a base10 string and put it into the output buffer.</short>
+          <long> Format value as a base10 string and put it into the output buffer.
+@param c Numberical value to be formatted and printed.
+@return Number of bytes actually buffered. *</long>
+        </documentation>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:4" cname="int" size="I:4"/>
+          <function-parameters>
+            <type-qualified const="">
+                <typename><typedef-ref name="int32_t" ref="0x2b71532be958"/></typename>
+              <type-int alignment="I:8" cname="long" size="I:8"/>
+            </type-qualified>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="86:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOut.nc" name="c" ref="0x2b7153dfd358">
+            <type-qualified const="">
+                <typename><typedef-ref name="int32_t" ref="0x2b71532be958"/></typename>
+              <type-int alignment="I:8" cname="long" size="I:8"/>
+            </type-qualified>
+          </variable>
+        </parameters>
+      </function>
+    </interfacedef>

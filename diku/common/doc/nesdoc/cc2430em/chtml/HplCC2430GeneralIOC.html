@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <LINK rel="stylesheet" href="nesdoc.css" type="text/css" media="screen"><title>Component: HplCC2430GeneralIOC</title>
+  </head>
+  <body>
+    <h2>Component: HplCC2430GeneralIOC
+    </h2>
+    <b>module HplCC2430GeneralIOC</b>
+    <p>
+
+ Provide cc2430 specific register maps
+
+ Absolute addressing in Keil is possible in a number of ways:
+   Standard C
+     (uint8_t xdata*) addr
+   Using sfr types/storrage class specifiers
+     sfr x = addr
+   Using the at modifier
+     uint8_t x at addr
+
+ Regarding multibyte values, it seems that ChipCon has chosen the
+ follwing semantics that handles latching one or more bytes when
+ reading and writing:
+
+  When reading: the _low_ byte must be read first and the high-byte
+  is latched for glitch free 16-bit operations
+
+  When writing: the low byte must be written first and the value
+  does not take effect before the high byte is written
+
+
+ 
+    <p>
+    <dl>
+      <dt><b>Author:</b>
+      <dd>
+        Martin Leopold &lt;leopold@diku.dk&gt;
+
+      </dd>
+    </dl>
+    <p><p><div id=heading>Provides</div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.Init.html">Init</a></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P00</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P01</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P02</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P03</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P04</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P05</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P06</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P07</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P10</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P11</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P12</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P13</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P14</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P15</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P16</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P17</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P20</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P21</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P22</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P23</b></div><div id=funcsig>interface <a href="../ihtml/tos.interfaces.GeneralIO.html">GeneralIO</a> as <b>P24</b></div>
+  </body>
+</html>

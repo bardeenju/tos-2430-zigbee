@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><component loc="32:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutM.nc" nicename="StdOutM" qname="StdOutM">
+      <documentation loc="24:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutM.nc">
+        <short>
+ Simple StdOut component that uses Uart interface.</short>
+        <long>
+ Simple StdOut component that uses Uart interface.
+ &lt;p&gt;This configuration maps onto the uart that is normally used to connect onto 
+ a pc.&lt;/p&gt;
+
+ &lt;p&gt;Please note that this component blocks interrupts and copies
+ data - it is not a very good TinyOS citizen. Its a debug tool.&lt;/p&gt;
+</long>
+      </documentation>
+      <module/>
+    <specification><interface loc="35:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutM.nc" name="Init" provided="1" ref="0x2b71542dc9f8">
+      <component-ref nicename="StdOutM" qname="StdOutM"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b71542dc9f8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x2b71542dcd48" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="36:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutM.nc" name="UART" provided="0" ref="0x2b71542d7210">
+      <component-ref nicename="StdOutM" qname="StdOutM"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="UART" ref="0x2b71542d7210" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.serial.SerialByteComm" qname="SerialByteComm"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="get" ref="0x2b71542d7560" scoped=""/>
+        <function-ref name="putDone" ref="0x2b71542d76e8" scoped=""/>
+        <function-ref name="put" ref="0x2b71542d7870" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="34:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutM.nc" name="StdOut" provided="1" ref="0x2b71542bab08">
+      <component-ref nicename="StdOutM" qname="StdOutM"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdOut" ref="0x2b71542bab08" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="dumpHex" ref="0x2b71542bae58" scoped=""/>
+        <function-ref name="printBase2" ref="0x2b71542dd020" scoped=""/>
+        <function-ref name="printBase10uint16" ref="0x2b71542dd1a8" scoped=""/>
+        <function-ref name="printHexword" ref="0x2b71542dd330" scoped=""/>
+        <function-ref name="printBase10uint32" ref="0x2b71542dd4b8" scoped=""/>
+        <function-ref name="get" ref="0x2b71542dd640" scoped=""/>
+        <function-ref name="printBase10uint8" ref="0x2b71542dd7c8" scoped=""/>
+        <function-ref name="printBase2long" ref="0x2b71542dd950" scoped=""/>
+        <function-ref name="printHexlong" ref="0x2b71542ddad8" scoped=""/>
+        <function-ref name="printBase2word" ref="0x2b71542ddc60" scoped=""/>
+        <function-ref name="printBase10int8" ref="0x2b71542ddde8" scoped=""/>
+        <function-ref name="print" ref="0x2b71542dc020" scoped=""/>
+        <function-ref name="done" ref="0x2b71542dc1a8" scoped=""/>
+        <function-ref name="printHex" ref="0x2b71542dc430" scoped=""/>
+        <function-ref name="printBase10int16" ref="0x2b71542dc5b8" scoped=""/>
+        <function-ref name="printBase10int32" ref="0x2b71542dc740" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

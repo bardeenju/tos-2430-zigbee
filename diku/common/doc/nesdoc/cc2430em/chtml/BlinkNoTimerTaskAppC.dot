@@ -1,0 +1,8 @@
+digraph "BlinkNoTimerTaskAppC" {
+  "BlinkNoTimerTaskC" [fontsize=12, shape=box, URL="../chtml/BlinkNoTimerTaskC.html"];
+  "MainC" [fontsize=12, shape=box,peripheries=2, URL="../chtml/tos.system.MainC.html"];
+  "BlinkNoTimerTaskC" [fontsize=12, shape=box, URL="../chtml/BlinkNoTimerTaskC.html"];
+  "LedsC" [fontsize=12, shape=box,peripheries=2, URL="../chtml/tos.system.LedsC.html"];
+  "BlinkNoTimerTaskC" -> "MainC" [label="Boot", URL="../ihtml/tos.interfaces.Boot.html", fontsize=10];
+  "BlinkNoTimerTaskC" -> "LedsC" [label="Leds", URL="../ihtml/tos.interfaces.Leds.html", fontsize=10];
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" ?><component abstract="" loc="41:/opt/tinyos-2.x-contrib/diku/common/lib/ReverseGPIOP.nc" nicename="ReverseGPIOP" qname="ReverseGPIOP">
+      <documentation loc="33:/opt/tinyos-2.x-contrib/diku/common/lib/ReverseGPIOP.nc">
+        <short>
+ ReverseGPIOP reverses the semantics of clr/set in GeneralIO
+
+ Usefull when implementing Leds (LedsC assumes active low)
+
+ </short>
+        <long>
+ ReverseGPIOP reverses the semantics of clr/set in GeneralIO
+
+ Usefull when implementing Leds (LedsC assumes active low)
+
+ @author Martin Leopold &lt;ml@polaric.dk&gt;
+</long>
+      </documentation>
+      <parameters>
+      </parameters>
+      <module/>
+    <specification><interface loc="43:/opt/tinyos-2.x-contrib/diku/common/lib/ReverseGPIOP.nc" name="Out" provided="1" ref="0x2b7153f78410">
+      <component-ref nicename="ReverseGPIOP" qname="ReverseGPIOP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Out" ref="0x2b7153f78410" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153f78760" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153f788e8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153f78a70" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153f78bf8" scoped=""/>
+        <function-ref name="get" ref="0x2b7153f78d80" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153f77020" scoped=""/>
+        <function-ref name="set" ref="0x2b7153f771a8" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153f77330" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="44:/opt/tinyos-2.x-contrib/diku/common/lib/ReverseGPIOP.nc" name="In" provided="0" ref="0x2b7153f77670">
+      <component-ref nicename="ReverseGPIOP" qname="ReverseGPIOP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="In" ref="0x2b7153f77670" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153f779c0" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153f77b48" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153f77cd0" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153f77e58" scoped=""/>
+        <function-ref name="get" ref="0x2b7153f90020" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153f901a8" scoped=""/>
+        <function-ref name="set" ref="0x2b7153f90330" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153f904b8" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

@@ -1,0 +1,304 @@
+<?xml version="1.0" ?><interfacedef loc="23:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" nicename="SimpleMac" qname="SimpleMac">
+      <function command="" loc="62:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="rxDisable" provided="0" ref="0x2b7153e22328">
+        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="58:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="getAddress" provided="0" ref="0x2b7153e11d28">
+        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-pointer alignment="I:8" size="I:8">
+            <type-qualified const="">
+                <typename><typedef-ref name="mac_addr_t" ref="0x2b7153df39e0"/></typename>
+              <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned=""/>
+            </type-qualified>
+          </type-pointer>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="59:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="getExtAddress" provided="0" ref="0x2b7153e23570">
+        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-pointer alignment="I:8" size="I:8">
+            <type-qualified const="">
+              <type-array alignment="I:1" elements="I:8" size="I:8">
+                <type-qualified const="">
+                    <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+                  <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned=""/>
+                </type-qualified>
+              </type-array>
+            </type-qualified>
+          </type-pointer>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="68:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="getPanAddress" provided="0" ref="0x2b7153e1f418">
+        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-pointer alignment="I:8" size="I:8">
+            <type-qualified const="">
+                <typename><typedef-ref name="mac_addr_t" ref="0x2b7153df39e0"/></typename>
+              <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned=""/>
+            </type-qualified>
+          </type-pointer>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="54:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="setChannel" provided="0" ref="0x2b7153e122d0">
+        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="54:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="channel" ref="0x2b7153e12060">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="34:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="sendPacket" provided="0" ref="0x2b7153e14df0">
+        <documentation loc="25:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc">
+          <short>
+ sendPacket will perform a CCA, put the device into transmit mode,
+ send the packet and return.</short>
+          <long>
+ sendPacket will perform a CCA, put the device into transmit mode,
+ send the packet and return. If the SPI bus is not free or CCA
+ fails, the sending of the packet is delayed. The contents
+ of packet_t must not be changed after the call to sendPacket.
+
+ @param packet_t * packet The packet that should be sent.
+ @return error_t If the packet was queued for sending successfully.
+</long>
+        </documentation>
+        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-pointer alignment="I:8" size="I:8">
+              <type-tag alignment="I:2" size="I:130"><struct-ref name="packet" ref="0x2b7153e167f8"/>
+                <typename><typedef-ref name="packet_t" ref="0x2b7153e14340"/></typename>
+              </type-tag>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="34:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="packet" ref="0x2b7153e14b80">
+            <type-pointer alignment="I:8" size="I:8">
+              <type-tag alignment="I:2" size="I:130"><struct-ref name="packet" ref="0x2b7153e167f8"/>
+                <typename><typedef-ref name="packet_t" ref="0x2b7153e14340"/></typename>
+              </type-tag>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="65:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="addressFilterDisable" provided="0" ref="0x2b7153e211d8">
+        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function event="" loc="42:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="sendPacketDone" provided="0" ref="0x2b7153e09cc8">
+        <documentation loc="36:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc">
+          <short>
+ sendPacketDone is signaled when a packet have been sent successfully.</short>
+          <long>
+ sendPacketDone is signaled when a packet have been sent successfully.
+
+ @param packet_t *packet The packet that have been sent.
+ @param error_t result If the packet was sent successfully.
+</long>
+        </documentation>
+        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-pointer alignment="I:8" size="I:8">
+              <type-tag alignment="I:2" size="I:130"><struct-ref name="packet" ref="0x2b7153e167f8"/>
+                <typename><typedef-ref name="packet_t" ref="0x2b7153e14340"/></typename>
+              </type-tag>
+            </type-pointer>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="42:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="packet" ref="0x2b7153e09718">
+            <type-pointer alignment="I:8" size="I:8">
+              <type-tag alignment="I:2" size="I:130"><struct-ref name="packet" ref="0x2b7153e167f8"/>
+                <typename><typedef-ref name="packet_t" ref="0x2b7153e14340"/></typename>
+              </type-tag>
+            </type-pointer>
+          </variable>
+          <variable loc="42:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="result" ref="0x2b7153e09a48">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function event="" loc="52:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="receivedPacket" provided="0" ref="0x2b7153e13818">
+        <documentation loc="44:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc">
+          <short>
+ receivedPacket is signalled when the radio have received a full
+ packet.</short>
+          <long>
+ receivedPacket is signalled when the radio have received a full
+ packet.  The function must return a free packet_t to the radio
+ stack. This can be the same packet that have been signaled
+
+ @param packet_t *packet The received packet
+ @return packet_t* A free packet
+</long>
+        </documentation>
+        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-pointer alignment="I:8" size="I:8">
+            <type-tag alignment="I:2" size="I:130"><struct-ref name="packet" ref="0x2b7153e167f8"/>
+              <typename><typedef-ref name="packet_t" ref="0x2b7153e14340"/></typename>
+            </type-tag>
+          </type-pointer>
+          <function-parameters>
+            <type-pointer alignment="I:8" size="I:8">
+              <type-tag alignment="I:2" size="I:130"><struct-ref name="packet" ref="0x2b7153e167f8"/>
+                <typename><typedef-ref name="packet_t" ref="0x2b7153e14340"/></typename>
+              </type-tag>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="52:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="packet" ref="0x2b7153e13570">
+            <type-pointer alignment="I:8" size="I:8">
+              <type-tag alignment="I:2" size="I:130"><struct-ref name="packet" ref="0x2b7153e167f8"/>
+                <typename><typedef-ref name="packet_t" ref="0x2b7153e14340"/></typename>
+              </type-tag>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="57:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="setAddress" provided="0" ref="0x2b7153e115d0">
+        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
+                <typename><typedef-ref name="mac_addr_t" ref="0x2b7153df39e0"/></typename>
+              </type-int>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="57:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="addr" ref="0x2b7153e11360">
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
+                <typename><typedef-ref name="mac_addr_t" ref="0x2b7153df39e0"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="64:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="addressFilterEnable" provided="0" ref="0x2b7153e22a48">
+        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="61:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="rxEnable" provided="0" ref="0x2b7153e23c28">
+        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="55:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="setTransmitPower" provided="0" ref="0x2b7153e12c30">
+        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="55:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="power" ref="0x2b7153e129c0">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function command="" loc="67:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="setPanAddress" provided="0" ref="0x2b7153e21b68">
+        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
+                <typename><typedef-ref name="mac_addr_t" ref="0x2b7153df39e0"/></typename>
+              </type-int>
+            </type-pointer>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="67:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMac.nc" name="addr" ref="0x2b7153e218f8">
+            <type-pointer alignment="I:8" size="I:8">
+              <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
+                <typename><typedef-ref name="mac_addr_t" ref="0x2b7153df39e0"/></typename>
+              </type-int>
+            </type-pointer>
+          </variable>
+        </parameters>
+      </function>
+    </interfacedef>

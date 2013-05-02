@@ -1,0 +1,1244 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADCP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nRF24E1_EVBOARD/ADCP.nc	/^module ADCP {$/;"	d
+ADCP	tos/platforms/nRF24E1_EVBOARD/ADCP.nc	/^module ADCP {$/;"	d
+AMPacket	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageC.nc	/^  Radio.AMPacket -> AM;$/;"	d
+AMPacket	tos/chips/cc2430/cc2420/CC2420ActiveMessageC.nc	/^  Radio.AMPacket -> AM;$/;"	d
+AccelerometerC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerC.nc	/^configuration AccelerometerC {$/;"	d
+AccelerometerC	tos/platforms/cc2430em/AccelerometerC.nc	/^configuration AccelerometerC {$/;"	d
+AccelerometerM	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerM.nc	/^module AccelerometerM {$/;"	d
+AccelerometerM	tos/platforms/cc2430em/AccelerometerM.nc	/^module AccelerometerM {$/;"	d
+AdcC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcC.nc	/^generic configuration AdcC() {$/;"	d
+AdcC	tos/chips/cc2430/adc/AdcC.nc	/^generic configuration AdcC() {$/;"	d
+AdcControl	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcControl.nc	/^interface AdcControl {$/;"	d
+AdcControl	tos/chips/cc2430/adc/AdcControl.nc	/^interface AdcControl {$/;"	d
+AdcDmaC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcDmaC.nc	/^generic configuration AdcDmaC() {$/;"	d
+AdcDmaC	tos/chips/cc2430/adc/AdcDmaC.nc	/^generic configuration AdcDmaC() {$/;"	d
+AdcDmaP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcDmaP.nc	/^module AdcDmaP {$/;"	d
+AdcDmaP	tos/chips/cc2430/adc/AdcDmaP.nc	/^module AdcDmaP {$/;"	d
+AdcP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcP.nc	/^module AdcP {$/;"	d
+AdcP	tos/chips/cc2430/adc/AdcP.nc	/^module AdcP {$/;"	d
+AdcSequenceDmaC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcSequenceDmaC.nc	/^generic configuration AdcSequenceDmaC() {$/;"	d
+AdcSequenceDmaC	tos/chips/cc2430/adc/AdcSequenceDmaC.nc	/^generic configuration AdcSequenceDmaC() {$/;"	d
+AdcSequenceDmaP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcSequenceDmaP.nc	/^module AdcSequenceDmaP {$/;"	d
+AdcSequenceDmaP	tos/chips/cc2430/adc/AdcSequenceDmaP.nc	/^module AdcSequenceDmaP {$/;"	d
+Alarm	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HilTimerMilliC.nc	/^  AlarmToTimerC.Alarm -> AlarmMilli32C;$/;"	d
+Alarm	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/HilTimerMilliC.nc	/^  AlarmToTimerC.Alarm -> AlarmMilli32C;$/;"	d
+Alarm	tos/chips/cc2430/timer/HilTimerMilliC.nc	/^  AlarmToTimerC.Alarm -> AlarmMilli32C;$/;"	d
+Alarm	tos/chips/nRF24E1/timer/HilTimerMilliC.nc	/^  AlarmToTimerC.Alarm -> AlarmMilli32C;$/;"	d
+Alarm32khz16C	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/Alarm32khz16C.nc	/^generic configuration Alarm32khz16C() {$/;"	d
+Alarm32khz16C	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/Alarm32khz16C.nc	/^generic configuration Alarm32khz16C() {$/;"	d
+Alarm32khz16C	tos/chips/cc2430/timer/Alarm32khz16C.nc	/^generic configuration Alarm32khz16C() {$/;"	d
+Alarm32khz16C	tos/chips/nRF24E1/timer/Alarm32khz16C.nc	/^generic configuration Alarm32khz16C() {$/;"	d
+Alarm32khz32C	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/Alarm32khz32C.nc	/^generic configuration Alarm32khz32C()$/;"	d
+Alarm32khz32C	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/Alarm32khz32C.nc	/^generic configuration Alarm32khz32C()$/;"	d
+Alarm32khz32C	tos/chips/cc2430/timer/Alarm32khz32C.nc	/^generic configuration Alarm32khz32C()$/;"	d
+Alarm32khz32C	tos/chips/nRF24E1/timer/Alarm32khz32C.nc	/^generic configuration Alarm32khz32C()$/;"	d
+AlarmFrom	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/Alarm32khz32C.nc	/^  Transform.AlarmFrom -> Alarm32khz16C.Alarm;$/;"	d
+AlarmFrom	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/AlarmMilli32C.nc	/^  Transform.AlarmFrom -> AlarmFrom;$/;"	d
+AlarmFrom	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/Alarm32khz32C.nc	/^  Transform.AlarmFrom -> Alarm32khz16C.Alarm;$/;"	d
+AlarmFrom	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/AlarmMilli32C.nc	/^  Transform.AlarmFrom -> AlarmFrom;$/;"	d
+AlarmFrom	tos/chips/cc2430/timer/Alarm32khz32C.nc	/^  Transform.AlarmFrom -> Alarm32khz16C.Alarm;$/;"	d
+AlarmFrom	tos/chips/cc2430/timer/AlarmMilli32C.nc	/^  Transform.AlarmFrom -> AlarmFrom;$/;"	d
+AlarmFrom	tos/chips/nRF24E1/timer/Alarm32khz32C.nc	/^  Transform.AlarmFrom -> Alarm32khz16C.Alarm;$/;"	d
+AlarmFrom	tos/chips/nRF24E1/timer/AlarmMilli32C.nc	/^  Transform.AlarmFrom -> AlarmFrom;$/;"	d
+AlarmMilli32C	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/AlarmMilli32C.nc	/^generic configuration AlarmMilli32C()$/;"	d
+AlarmMilli32C	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/AlarmMilli32C.nc	/^generic configuration AlarmMilli32C()$/;"	d
+AlarmMilli32C	tos/chips/cc2430/timer/AlarmMilli32C.nc	/^generic configuration AlarmMilli32C()$/;"	d
+AlarmMilli32C	tos/chips/nRF24E1/timer/AlarmMilli32C.nc	/^generic configuration AlarmMilli32C()$/;"	d
+AlarmMultiplexC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/AlarmMultiplexC.nc	/^configuration AlarmMultiplexC {$/;"	d
+AlarmMultiplexC	tos/chips/cc2430/cc2420/AlarmMultiplexC.nc	/^configuration AlarmMultiplexC {$/;"	d
+BackoffTimer	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.BackoffTimer -> Alarm;$/;"	d
+BackoffTimer	tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.BackoffTimer -> Alarm;$/;"	d
+CC2420ActiveMessageC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageC.nc	/^configuration CC2420ActiveMessageC {$/;"	d
+CC2420ActiveMessageC	tos/chips/cc2430/cc2420/CC2420ActiveMessageC.nc	/^configuration CC2420ActiveMessageC {$/;"	d
+CC2420ActiveMessageP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^module CC2420ActiveMessageP {$/;"	d
+CC2420ActiveMessageP	tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^module CC2420ActiveMessageP {$/;"	d
+CC2420Config	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420Config.nc	/^interface CC2420Config {$/;"	d
+CC2420Config	tos/chips/cc2430/cc2420/CC2420Config.nc	/^interface CC2420Config {$/;"	d
+CC2420ControlC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^configuration CC2420ControlC {$/;"	d
+CC2420ControlC	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^configuration CC2420ControlC {$/;"	d
+CC2420ControlP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^module CC2420ControlP {$/;"	d
+CC2420ControlP	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^module CC2420ControlP {$/;"	d
+CC2420CsmaC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^configuration CC2420CsmaC {$/;"	d
+CC2420CsmaC	tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^configuration CC2420CsmaC {$/;"	d
+CC2420CsmaP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^module CC2420CsmaP {$/;"	d
+CC2420CsmaP	tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^module CC2420CsmaP {$/;"	d
+CC2420Fifo	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420Fifo.nc	/^interface CC2420Fifo {$/;"	d
+CC2420Fifo	tos/chips/cc2430/cc2420/CC2420Fifo.nc	/^interface CC2420Fifo {$/;"	d
+CC2420Packet	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420Packet.nc	/^interface CC2420Packet {$/;"	d
+CC2420Packet	tos/chips/cc2430/cc2420/CC2420Packet.nc	/^interface CC2420Packet {$/;"	d
+CC2420PacketC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420PacketC.nc	/^module CC2420PacketC {$/;"	d
+CC2420PacketC	tos/chips/cc2430/cc2420/CC2420PacketC.nc	/^module CC2420PacketC {$/;"	d
+CC2420Power	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  CsmaP.CC2420Power -> CC2420ControlC;$/;"	d
+CC2420Power	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420Power.nc	/^interface CC2420Power {$/;"	d
+CC2420Power	tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  CsmaP.CC2420Power -> CC2420ControlC;$/;"	d
+CC2420Power	tos/chips/cc2430/cc2420/CC2420Power.nc	/^interface CC2420Power {$/;"	d
+CC2420Ram	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420Ram.nc	/^interface CC2420Ram {$/;"	d
+CC2420Ram	tos/chips/cc2430/cc2420/CC2420Ram.nc	/^interface CC2420Ram {$/;"	d
+CC2420Receive	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420Receive.nc	/^interface CC2420Receive {$/;"	d
+CC2420Receive	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.CC2420Receive -> CC2420ReceiveC;$/;"	d
+CC2420Receive	tos/chips/cc2430/cc2420/CC2420Receive.nc	/^interface CC2420Receive {$/;"	d
+CC2420Receive	tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.CC2420Receive -> CC2420ReceiveC;$/;"	d
+CC2420ReceiveC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^configuration CC2420ReceiveC {$/;"	d
+CC2420ReceiveC	tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^configuration CC2420ReceiveC {$/;"	d
+CC2420ReceiveP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^module CC2420ReceiveP {$/;"	d
+CC2420ReceiveP	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^module CC2420ReceiveP {$/;"	d
+CC2420Register	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420Register.nc	/^interface CC2420Register {$/;"	d
+CC2420Register	tos/chips/cc2430/cc2420/CC2420Register.nc	/^interface CC2420Register {$/;"	d
+CC2420SpiC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420SpiC.nc	/^generic configuration CC2420SpiC() {$/;"	d
+CC2420SpiC	tos/chips/cc2430/cc2420/CC2420SpiC.nc	/^generic configuration CC2420SpiC() {$/;"	d
+CC2420SpiImplP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430RadioC.nc	/^module CC2420SpiImplP {$/;"	d
+CC2420SpiImplP	tos/chips/cc2430/radio/HplCC2430RadioC.nc	/^module CC2420SpiImplP {$/;"	d
+CC2420SpiP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420SpiP.nc	/^configuration CC2420SpiP {$/;"	d
+CC2420SpiP	tos/chips/cc2430/cc2420/CC2420SpiP.nc	/^configuration CC2420SpiP {$/;"	d
+CC2420Strobe	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420Strobe.nc	/^interface CC2420Strobe {$/;"	d
+CC2420Strobe	tos/chips/cc2430/cc2420/CC2420Strobe.nc	/^interface CC2420Strobe {$/;"	d
+CC2420Transmit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  CsmaP.CC2420Transmit -> CC2420TransmitC;$/;"	d
+CC2420Transmit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420Transmit.nc	/^interface CC2420Transmit {$/;"	d
+CC2420Transmit	tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  CsmaP.CC2420Transmit -> CC2420TransmitC;$/;"	d
+CC2420Transmit	tos/chips/cc2430/cc2420/CC2420Transmit.nc	/^interface CC2420Transmit {$/;"	d
+CC2420TransmitC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^configuration CC2420TransmitC {$/;"	d
+CC2420TransmitC	tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^configuration CC2420TransmitC {$/;"	d
+CC2420TransmitP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^module CC2420TransmitP {$/;"	d
+CC2420TransmitP	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^module CC2420TransmitP {$/;"	d
+CC2430ClockControl	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/interfaces/CC2430ClockControl.nc	/^interface CC2430ClockControl {$/;"	d
+CC2430ClockControl	tos/chips/cc2430/interfaces/CC2430ClockControl.nc	/^interface CC2430ClockControl {$/;"	d
+CC2430RegisterToGIOP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2430RegisterToGIOP.nc	/^generic module CC2430RegisterToGIOP() {$/;"	d
+CC2430RegisterToGIOP	tos/chips/cc2430/cc2420/CC2430RegisterToGIOP.nc	/^generic module CC2430RegisterToGIOP() {$/;"	d
+CC2430Timer1AlarmCounterC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/CC2430Timer1AlarmCounterC.nc	/^configuration CC2430Timer1AlarmCounterC {$/;"	d
+CC2430Timer1AlarmCounterC	tos/chips/cc2430/timer_hpl/CC2430Timer1AlarmCounterC.nc	/^configuration CC2430Timer1AlarmCounterC {$/;"	d
+CC2430Timer1AlarmCounterP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/CC2430Timer1AlarmCounterP.nc	/^generic module CC2430Timer1AlarmCounterP( typedef frequency ) {$/;"	d
+CC2430Timer1AlarmCounterP	tos/chips/cc2430/timer_hpl/CC2430Timer1AlarmCounterP.nc	/^generic module CC2430Timer1AlarmCounterP( typedef frequency ) {$/;"	d
+CCA	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.CCA -> Pins.CCA;$/;"	d
+CCA	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface GeneralIO as CCA;$/;"	d
+CCA	tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.CCA -> Pins.CCA;$/;"	d
+CCA	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface GeneralIO as CCA;$/;"	d
+CSN	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.CSN -> Pins.CSN;$/;"	d
+CSN	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface GeneralIO as CSN;$/;"	d
+CSN	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^  CC2420ReceiveP.CSN -> Pins.CSN;$/;"	d
+CSN	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  uses interface GeneralIO as CSN;$/;"	d
+CSN	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.CSN -> Pins.CSN;$/;"	d
+CSN	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface GeneralIO as CSN;$/;"	d
+CSN	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.CSN -> Pins.CSN;$/;"	d
+CSN	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface GeneralIO as CSN;$/;"	d
+CSN	tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^  CC2420ReceiveP.CSN -> Pins.CSN;$/;"	d
+CSN	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  uses interface GeneralIO as CSN;$/;"	d
+CSN	tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.CSN -> Pins.CSN;$/;"	d
+CSN	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface GeneralIO as CSN;$/;"	d
+CaptureSFD	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.CaptureSFD -> Interrupts.CaptureSFD;$/;"	d
+CaptureSFD	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface GpioCapture as CaptureSFD;$/;"	d
+CaptureSFD	tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.CaptureSFD -> Interrupts.CaptureSFD;$/;"	d
+CaptureSFD	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface GpioCapture as CaptureSFD;$/;"	d
+Counter	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/Alarm32khz32C.nc	/^  Transform.Counter -> Counter32khz32C.Counter;$/;"	d
+Counter	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/AlarmMilli32C.nc	/^  Transform.Counter -> Counter;$/;"	d
+Counter	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/Alarm32khz32C.nc	/^  Transform.Counter -> Counter32khz32C.Counter;$/;"	d
+Counter	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/AlarmMilli32C.nc	/^  Transform.Counter -> Counter;$/;"	d
+Counter	tos/chips/cc2430/timer/Alarm32khz32C.nc	/^  Transform.Counter -> Counter32khz32C.Counter;$/;"	d
+Counter	tos/chips/cc2430/timer/AlarmMilli32C.nc	/^  Transform.Counter -> Counter;$/;"	d
+Counter	tos/chips/nRF24E1/timer/Alarm32khz32C.nc	/^  Transform.Counter -> Counter32khz32C.Counter;$/;"	d
+Counter	tos/chips/nRF24E1/timer/AlarmMilli32C.nc	/^  Transform.Counter -> Counter;$/;"	d
+Counter32khz16C	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/Counter32khz16C.nc	/^configuration Counter32khz16C$/;"	d
+Counter32khz16C	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/Counter32khz16C.nc	/^generic configuration Counter32khz16C()$/;"	d
+Counter32khz16C	tos/chips/cc2430/timer/Counter32khz16C.nc	/^configuration Counter32khz16C$/;"	d
+Counter32khz16C	tos/chips/nRF24E1/timer/Counter32khz16C.nc	/^generic configuration Counter32khz16C()$/;"	d
+Counter32khz32C	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/Counter32khz32C.nc	/^configuration Counter32khz32C$/;"	d
+Counter32khz32C	tos/chips/cc2430/timer/Counter32khz32C.nc	/^configuration Counter32khz32C$/;"	d
+CounterFrom	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/Counter32khz32C.nc	/^  TransformCounterC.CounterFrom -> Counter32khz16C.Counter;$/;"	d
+CounterFrom	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/CounterMilli32C.nc	/^  Transform.CounterFrom -> CounterFrom;$/;"	d
+CounterFrom	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/CounterMilli32C.nc	/^  Transform.CounterFrom -> CounterFrom;$/;"	d
+CounterFrom	tos/chips/cc2430/timer/Counter32khz32C.nc	/^  TransformCounterC.CounterFrom -> Counter32khz16C.Counter;$/;"	d
+CounterFrom	tos/chips/cc2430/timer/CounterMilli32C.nc	/^  Transform.CounterFrom -> CounterFrom;$/;"	d
+CounterFrom	tos/chips/nRF24E1/timer/CounterMilli32C.nc	/^  Transform.CounterFrom -> CounterFrom;$/;"	d
+CounterMilli32C	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/CounterMilli32C.nc	/^configuration CounterMilli32C$/;"	d
+CounterMilli32C	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/CounterMilli32C.nc	/^generic configuration CounterMilli32C()$/;"	d
+CounterMilli32C	tos/chips/cc2430/timer/CounterMilli32C.nc	/^configuration CounterMilli32C$/;"	d
+CounterMilli32C	tos/chips/nRF24E1/timer/CounterMilli32C.nc	/^generic configuration CounterMilli32C()$/;"	d
+CsmaBackoff	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  CsmaP.CsmaBackoff -> CC2420TransmitC;$/;"	d
+CsmaBackoff	tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  CsmaP.CsmaBackoff -> CC2420TransmitC;$/;"	d
+Dma	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcDmaC.nc	/^  AdcDmaP.Dma -> DmaC;$/;"	d
+Dma	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/dma/Dma.nc	/^interface Dma {$/;"	d
+Dma	tos/chips/cc2430/adc/AdcDmaC.nc	/^  AdcDmaP.Dma -> DmaC;$/;"	d
+Dma	tos/chips/cc2430/dma/Dma.nc	/^interface Dma {$/;"	d
+Dma1	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcSequenceDmaC.nc	/^  AdcSequenceDmaP.Dma1 -> Dma1;$/;"	d
+Dma1	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcSequenceDmaP.nc	/^  uses interface Dma as Dma1;$/;"	d
+Dma1	tos/chips/cc2430/adc/AdcSequenceDmaC.nc	/^  AdcSequenceDmaP.Dma1 -> Dma1;$/;"	d
+Dma1	tos/chips/cc2430/adc/AdcSequenceDmaP.nc	/^  uses interface Dma as Dma1;$/;"	d
+Dma2	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcSequenceDmaC.nc	/^  AdcSequenceDmaP.Dma2 -> Dma2;$/;"	d
+Dma2	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcSequenceDmaP.nc	/^  uses interface Dma as Dma2;$/;"	d
+Dma2	tos/chips/cc2430/adc/AdcSequenceDmaC.nc	/^  AdcSequenceDmaP.Dma2 -> Dma2;$/;"	d
+Dma2	tos/chips/cc2430/adc/AdcSequenceDmaP.nc	/^  uses interface Dma as Dma2;$/;"	d
+DmaC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/dma/DmaC.nc	/^generic configuration DmaC() {$/;"	d
+DmaC	tos/chips/cc2430/dma/DmaC.nc	/^generic configuration DmaC() {$/;"	d
+DmaP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/dma/DmaP.nc	/^module DmaP {$/;"	d
+DmaP	tos/chips/cc2430/dma/DmaP.nc	/^module DmaP {$/;"	d
+DmaReceive	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaC.nc	/^  HalCC2430RadioDmaP.DmaReceive -> DmaReceive;$/;"	d
+DmaReceive	tos/chips/cc2430/radio/HalCC2430RadioDmaC.nc	/^  HalCC2430RadioDmaP.DmaReceive -> DmaReceive;$/;"	d
+DmaSend	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaC.nc	/^  HalCC2430RadioDmaP.DmaSend -> DmaSend;$/;"	d
+DmaSend	tos/chips/cc2430/radio/HalCC2430RadioDmaC.nc	/^  HalCC2430RadioDmaP.DmaSend -> DmaSend;$/;"	d
+FIFO	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^  CC2420ReceiveP.FIFO -> Pins.FIFO;$/;"	d
+FIFO	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  uses interface GeneralIO as FIFO;$/;"	d
+FIFO	tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^  CC2420ReceiveP.FIFO -> Pins.FIFO;$/;"	d
+FIFO	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  uses interface GeneralIO as FIFO;$/;"	d
+FIFOP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^  CC2420ReceiveP.FIFOP -> Pins.FIFOP;$/;"	d
+FIFOP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  uses interface GeneralIO as FIFOP;$/;"	d
+FIFOP	tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^  CC2420ReceiveP.FIFOP -> Pins.FIFOP;$/;"	d
+FIFOP	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  uses interface GeneralIO as FIFOP;$/;"	d
+FSCTRL	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.FSCTRL -> Spi.FSCTRL;$/;"	d
+FSCTRL	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Register as FSCTRL;$/;"	d
+FSCTRL	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.FSCTRL -> Spi.FSCTRL;$/;"	d
+FSCTRL	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Register as FSCTRL;$/;"	d
+GIOInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformC.nc	/^  PlatformP.GIOInit -> HplCC2430GeneralIOC.Init;$/;"	d
+GIOInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc	/^  uses interface Init as GIOInit;$/;"	d
+GIOInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nano/PlatformC.nc	/^  PlatformP.GIOInit -> HplCC2430GeneralIOC.Init;$/;"	d
+GIOInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nano/PlatformP.nc	/^  uses interface Init as GIOInit;$/;"	d
+GIOInit	tos/platforms/cc2430em/PlatformC.nc	/^  PlatformP.GIOInit -> HplCC2430GeneralIOC.Init;$/;"	d
+GIOInit	tos/platforms/cc2430em/PlatformP.nc	/^  uses interface Init as GIOInit;$/;"	d
+GIOInit	tos/platforms/nano/PlatformC.nc	/^  PlatformP.GIOInit -> HplCC2430GeneralIOC.Init;$/;"	d
+GIOInit	tos/platforms/nano/PlatformP.nc	/^  uses interface Init as GIOInit;$/;"	d
+GPIOInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformC.nc	/^  PlatformP.GPIOInit -> Hplcip51IOC.Init;$/;"	d
+GPIOInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformP.nc	/^  uses interface Init as GPIOInit;$/;"	d
+GPIOInit	tos/platforms/c8051F340TB/PlatformC.nc	/^  PlatformP.GPIOInit -> Hplcip51IOC.Init;$/;"	d
+GPIOInit	tos/platforms/c8051F340TB/PlatformP.nc	/^  uses interface Init as GPIOInit;$/;"	d
+HALCC2420	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc	/^  SimpleMacM.HALCC2420 -> HalCC2430RadioC.HALCC2420;$/;"	d
+HALCC2420	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacDmaC.nc	/^  SimpleMacM.HALCC2420 -> HalCC2430RadioDmaC.HALCC2420;$/;"	d
+HALCC2420	tos/chips/cc2430/radio/SimpleMacC.nc	/^  SimpleMacM.HALCC2420 -> HalCC2430RadioC.HALCC2420;$/;"	d
+HALCC2420	tos/chips/cc2430/radio/SimpleMacDmaC.nc	/^  SimpleMacM.HALCC2420 -> HalCC2430RadioDmaC.HALCC2420;$/;"	d
+HALCC2420Control	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc	/^  SimpleMacM.HALCC2420Control -> HalCC2430RadioC.HALCC2420Control;$/;"	d
+HALCC2420Control	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacDmaC.nc	/^  SimpleMacM.HALCC2420Control -> HalCC2430RadioDmaC.HALCC2420Control;$/;"	d
+HALCC2420Control	tos/chips/cc2430/radio/SimpleMacC.nc	/^  SimpleMacM.HALCC2420Control -> HalCC2430RadioC.HALCC2420Control;$/;"	d
+HALCC2420Control	tos/chips/cc2430/radio/SimpleMacDmaC.nc	/^  SimpleMacM.HALCC2420Control -> HalCC2430RadioDmaC.HALCC2420Control;$/;"	d
+HPLADCC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nRF24E1_EVBOARD/HPLADCC.nc	/^configuration HPLADCC$/;"	d
+HPLADCC	tos/platforms/nRF24E1_EVBOARD/HPLADCC.nc	/^configuration HPLADCC$/;"	d
+HPLADCP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nRF24E1_EVBOARD/HPLADCP.nc	/^module HPLADCP {$/;"	d
+HPLADCP	tos/platforms/nRF24E1_EVBOARD/HPLADCP.nc	/^module HPLADCP {$/;"	d
+HPLUART	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/UART/HPLUART.nc	/^interface HPLUART {$/;"	d
+HPLUART	tos/chips/nRF24E1/UART/HPLUART.nc	/^interface HPLUART {$/;"	d
+HPLUARTC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/UART/HPLUARTC.nc	/^configuration HPLUARTC {$/;"	d
+HPLUARTC	tos/chips/nRF24E1/UART/HPLUARTC.nc	/^configuration HPLUARTC {$/;"	d
+HPLUARTP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/UART/HPLUARTP.nc	/^module HPLUARTP {$/;"	d
+HPLUARTP	tos/chips/nRF24E1/UART/HPLUARTP.nc	/^module HPLUARTP {$/;"	d
+HalCC2430RadioC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc	/^configuration HalCC2430RadioC$/;"	d
+HalCC2430RadioC	tos/chips/cc2430/radio/HalCC2430RadioC.nc	/^configuration HalCC2430RadioC$/;"	d
+HalCC2430RadioDmaC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaC.nc	/^configuration HalCC2430RadioDmaC$/;"	d
+HalCC2430RadioDmaC	tos/chips/cc2430/radio/HalCC2430RadioDmaC.nc	/^configuration HalCC2430RadioDmaC$/;"	d
+HalCC2430RadioDmaP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^module HalCC2430RadioDmaP {$/;"	d
+HalCC2430RadioDmaP	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^module HalCC2430RadioDmaP {$/;"	d
+HalCC2430RadioP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^module HalCC2430RadioP {$/;"	d
+HalCC2430RadioP	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^module HalCC2430RadioP {$/;"	d
+HalCC2430SimpleTimerC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HalCC2430SimpleTimerC.nc	/^configuration HalCC2430SimpleTimerC {$/;"	d
+HalCC2430SimpleTimerC	tos/chips/cc2430/timer/HalCC2430SimpleTimerC.nc	/^configuration HalCC2430SimpleTimerC {$/;"	d
+HalCC2430SimpleTimerP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^module HalCC2430SimpleTimerP {$/;"	d
+HalCC2430SimpleTimerP	tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^module HalCC2430SimpleTimerP {$/;"	d
+HalCC2430SimpleUartC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/usart/HalCC2430SimpleUartC.nc	/^configuration HalCC2430SimpleUartC {$/;"	d
+HalCC2430SimpleUartC	tos/chips/cc2430/usart/HalCC2430SimpleUartC.nc	/^configuration HalCC2430SimpleUartC {$/;"	d
+HalCC2430SimpleUartP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/usart/HalCC2430SimpleUartP.nc	/^module HalCC2430SimpleUartP {$/;"	d
+HalCC2430SimpleUartP	tos/chips/cc2430/usart/HalCC2430SimpleUartP.nc	/^module HalCC2430SimpleUartP {$/;"	d
+HalCip51SimpleSPIP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/spi/HalCip51SimpleSPIP.nc	/^module HalCip51SimpleSPIP {$/;"	d
+HalCip51SimpleSPIP	tos/chips/cip51/spi/HalCip51SimpleSPIP.nc	/^module HalCip51SimpleSPIP {$/;"	d
+HalFlashC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/flash/HalFlashC.nc	/^configuration HalFlashC {$/;"	d
+HalFlashC	tos/chips/cc2430/flash/HalFlashC.nc	/^configuration HalFlashC {$/;"	d
+HalFlashP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/flash/HalFlashP.nc	/^module HalFlashP {$/;"	d
+HalFlashP	tos/chips/cc2430/flash/HalFlashP.nc	/^module HalFlashP {$/;"	d
+HalMcs51Led	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/HalMcs51Led.nc	/^interface HalMcs51Led {$/;"	d
+HalMcs51Led	tos/chips/mcs51/HalMcs51Led.nc	/^interface HalMcs51Led {$/;"	d
+Halc8051TBLedPinP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/Halc8051TBLedPinP.nc	/^generic module Halc8051TBLedPinP() {$/;"	d
+Halc8051TBLedPinP	tos/platforms/c8051F340TB/Halc8051TBLedPinP.nc	/^generic module Halc8051TBLedPinP() {$/;"	d
+Halcc2430emLedPinP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Halcc2430emLedPinP.nc	/^generic module Halcc2430emLedPinP() {$/;"	d
+Halcc2430emLedPinP	tos/platforms/cc2430em/Halcc2430emLedPinP.nc	/^generic module Halcc2430emLedPinP() {$/;"	d
+Halcip51SimpleUart0P	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/uart/Halcip51SimpleUart0P.nc	/^module Halcip51SimpleUart0P {$/;"	d
+Halcip51SimpleUart0P	tos/chips/cip51/uart/Halcip51SimpleUart0P.nc	/^module Halcip51SimpleUart0P {$/;"	d
+HalnRF24E1LedPinP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nRF24E1_EVBOARD/HalnRF24E1LedPinP.nc	/^generic module HalnRF24E1LedPinP() {$/;"	d
+HalnRF24E1LedPinP	tos/platforms/nRF24E1_EVBOARD/HalnRF24E1LedPinP.nc	/^generic module HalnRF24E1LedPinP() {$/;"	d
+HalnRF24E1SimpleUartC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/UART/HalnRF24E1SimpleUartC.nc	/^configuration HalnRF24E1SimpleUartC {$/;"	d
+HalnRF24E1SimpleUartC	tos/chips/nRF24E1/UART/HalnRF24E1SimpleUartC.nc	/^configuration HalnRF24E1SimpleUartC {$/;"	d
+HalnRF24E1SimpleUartP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/UART/HalnRF24E1SimpleUartP.nc	/^module HalnRF24E1SimpleUartP {$/;"	d
+HalnRF24E1SimpleUartP	tos/chips/nRF24E1/UART/HalnRF24E1SimpleUartP.nc	/^module HalnRF24E1SimpleUartP {$/;"	d
+HilCip51USBP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^module HilCip51USBP {$/;"	d
+HilCip51USBP	tos/chips/cip51/usb/HilCip51USBP.nc	/^module HilCip51USBP {$/;"	d
+HilTimerMilliC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HilTimerMilliC.nc	/^configuration HilTimerMilliC$/;"	d
+HilTimerMilliC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/HilTimerMilliC.nc	/^configuration HilTimerMilliC$/;"	d
+HilTimerMilliC	tos/chips/cc2430/timer/HilTimerMilliC.nc	/^configuration HilTimerMilliC$/;"	d
+HilTimerMilliC	tos/chips/nRF24E1/timer/HilTimerMilliC.nc	/^configuration HilTimerMilliC$/;"	d
+HplCC2420AlarmC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/HplCC2420AlarmC.nc	/^generic configuration HplCC2420AlarmC() {$/;"	d
+HplCC2420AlarmC	tos/chips/cc2430/cc2420/HplCC2420AlarmC.nc	/^generic configuration HplCC2420AlarmC() {$/;"	d
+HplCC2420AlarmP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/HplCC2420AlarmP.nc	/^module HplCC2420AlarmP {$/;"	d
+HplCC2420AlarmP	tos/chips/cc2430/cc2420/HplCC2420AlarmP.nc	/^module HplCC2420AlarmP {$/;"	d
+HplCC2420InterruptsC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/HplCC2420InterruptsC.nc	/^module HplCC2420InterruptsC {$/;"	d
+HplCC2420InterruptsC	tos/chips/cc2430/HplCC2420InterruptsC.nc	/^module HplCC2420InterruptsC {$/;"	d
+HplCC2420PinsC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/HplCC2420PinsC.nc	/^module HplCC2420PinsC {$/;"	d
+HplCC2420PinsC	tos/chips/cc2430/cc2420/HplCC2420PinsC.nc	/^module HplCC2420PinsC {$/;"	d
+HplCC2430ClockControlP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/HplCC2430ClockControlP.nc	/^module HplCC2430ClockControlP {$/;"	d
+HplCC2430ClockControlP	tos/chips/cc2430/HplCC2430ClockControlP.nc	/^module HplCC2430ClockControlP {$/;"	d
+HplCC2430GeneralIOC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc	/^module HplCC2430GeneralIOC {$/;"	d
+HplCC2430GeneralIOC	tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc	/^module HplCC2430GeneralIOC {$/;"	d
+HplCC2430Interrupt	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430Interrupt.nc	/^interface HplCC2430Interrupt$/;"	d
+HplCC2430Interrupt	tos/chips/cc2430/pins/HplCC2430Interrupt.nc	/^interface HplCC2430Interrupt$/;"	d
+HplCC2430InterruptsC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc	/^module HplCC2430InterruptsC {$/;"	d
+HplCC2430InterruptsC	tos/chips/cc2430/radio/HplCC2430InterruptsC.nc	/^module HplCC2430InterruptsC {$/;"	d
+HplCC2430RadioP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/HplCC2430RadioP.nc	/^module HplCC2430RadioP {$/;"	d
+HplCC2430RadioP	tos/chips/cc2430/cc2420/HplCC2430RadioP.nc	/^module HplCC2430RadioP {$/;"	d
+HplCC2430Timer16	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/interfaces/HplCC2430Timer16.nc	/^interface HplCC2430Timer16 {$/;"	d
+HplCC2430Timer16	tos/chips/cc2430/interfaces/HplCC2430Timer16.nc	/^interface HplCC2430Timer16 {$/;"	d
+HplCC2430Timer1AlarmCounterC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterC.nc	/^configuration HplCC2430Timer1AlarmCounterC{$/;"	d
+HplCC2430Timer1AlarmCounterC	tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterC.nc	/^configuration HplCC2430Timer1AlarmCounterC{$/;"	d
+HplCC2430Timer1AlarmCounterP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterP.nc	/^generic module HplCC2430Timer1AlarmCounterP( typedef frequency ) {$/;"	d
+HplCC2430Timer1AlarmCounterP	tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterP.nc	/^generic module HplCC2430Timer1AlarmCounterP( typedef frequency ) {$/;"	d
+HplCC2430Timer1P	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1P.nc	/^module HplCC2430Timer1P {$/;"	d
+HplCC2430Timer1P	tos/chips/cc2430/timer_hpl/HplCC2430Timer1P.nc	/^module HplCC2430Timer1P {$/;"	d
+HplCC2430Timer2P	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer2P.nc	/^module HplCC2430Timer2P {$/;"	d
+HplCC2430Timer2P	tos/chips/cc2430/timer_hpl/HplCC2430Timer2P.nc	/^module HplCC2430Timer2P {$/;"	d
+HplCC2430Timer3P	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer3P.nc	/^module HplCC2430Timer3P {$/;"	d
+HplCC2430Timer3P	tos/chips/cc2430/timer_hpl/HplCC2430Timer3P.nc	/^module HplCC2430Timer3P {$/;"	d
+HplCC2430Timer4P	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer4P.nc	/^module HplCC2430Timer4P {$/;"	d
+HplCC2430Timer4P	tos/chips/cc2430/timer_hpl/HplCC2430Timer4P.nc	/^module HplCC2430Timer4P {$/;"	d
+HplCC2430Timer8	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/interfaces/HplCC2430Timer8.nc	/^interface HplCC2430Timer8 {$/;"	d
+HplCC2430Timer8	tos/chips/cc2430/interfaces/HplCC2430Timer8.nc	/^interface HplCC2430Timer8 {$/;"	d
+HplCC2430TimerMAC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/interfaces/HplCC2430TimerMAC.nc	/^interface HplCC2430TimerMAC {$/;"	d
+HplCC2430TimerMAC	tos/chips/cc2430/interfaces/HplCC2430TimerMAC.nc	/^interface HplCC2430TimerMAC {$/;"	d
+HplCC2430TimerSleep	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/interfaces/HplCC2430TimerSleep.nc	/^interface HplCC2430TimerSleep {$/;"	d
+HplCC2430TimerSleep	tos/chips/cc2430/interfaces/HplCC2430TimerSleep.nc	/^interface HplCC2430TimerSleep {$/;"	d
+HplCC2430TimerSleepP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430TimerSleepP.nc	/^module HplCC2430TimerSleepP {$/;"	d
+HplCC2430TimerSleepP	tos/chips/cc2430/timer_hpl/HplCC2430TimerSleepP.nc	/^module HplCC2430TimerSleepP {$/;"	d
+HplCC2430TimerWDT	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/interfaces/HplCC2430TimerWDT.nc	/^interface HplCC2430TimerWDT {$/;"	d
+HplCC2430TimerWDT	tos/chips/cc2430/interfaces/HplCC2430TimerWDT.nc	/^interface HplCC2430TimerWDT {$/;"	d
+HplCC2430TimerWDTP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430TimerWDTP.nc	/^module HplCC2430TimerWDTP {$/;"	d
+HplCC2430TimerWDTP	tos/chips/cc2430/timer_hpl/HplCC2430TimerWDTP.nc	/^module HplCC2430TimerWDTP {$/;"	d
+HplCip51USBEndpoint	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HplCip51USBEndpoint.nc	/^interface HplCip51USBEndpoint {$/;"	d
+HplCip51USBEndpoint	tos/chips/cip51/usb/HplCip51USBEndpoint.nc	/^interface HplCip51USBEndpoint {$/;"	d
+HplMcs51Counter	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/timer/HplMcs51Counter.nc	/^interface HplMcs51Counter {$/;"	d
+HplMcs51Counter	tos/chips/mcs51/timer/HplMcs51Counter.nc	/^interface HplMcs51Counter {$/;"	d
+HplMcs51GeneralIOC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc	/^module HplMcs51GeneralIOC {$/;"	d
+HplMcs51GeneralIOC	tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc	/^module HplMcs51GeneralIOC {$/;"	d
+HplMcs51Interrupt	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51Interrupt.nc	/^interface HplMcs51Interrupt$/;"	d
+HplMcs51Interrupt	tos/chips/mcs51/pins/HplMcs51Interrupt.nc	/^interface HplMcs51Interrupt$/;"	d
+HplMcs51InterruptC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51InterruptC.nc	/^configuration HplMcs51InterruptC {$/;"	d
+HplMcs51InterruptC	tos/chips/mcs51/pins/HplMcs51InterruptC.nc	/^configuration HplMcs51InterruptC {$/;"	d
+HplMcs51InterruptP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51InterruptP.nc	/^module HplMcs51InterruptP {$/;"	d
+HplMcs51InterruptP	tos/chips/mcs51/pins/HplMcs51InterruptP.nc	/^module HplMcs51InterruptP {$/;"	d
+HplMcs51TimerP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/timer/HplMcs51TimerP.nc	/^module HplMcs51TimerP {$/;"	d
+HplMcs51TimerP	tos/chips/mcs51/timer/HplMcs51TimerP.nc	/^module HplMcs51TimerP {$/;"	d
+Hplcip51GeneralIOC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^configuration Hplcip51GeneralIOC {$/;"	d
+Hplcip51GeneralIOC	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^configuration Hplcip51GeneralIOC {$/;"	d
+Hplcip51GeneralIOP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOP.nc	/^generic module Hplcip51GeneralIOP() {$/;"	d
+Hplcip51GeneralIOP	tos/chips/cip51/pins/Hplcip51GeneralIOP.nc	/^generic module Hplcip51GeneralIOP() {$/;"	d
+Hplcip51IO	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51IO.nc	/^interface Hplcip51IO {$/;"	d
+Hplcip51IO	tos/chips/cip51/pins/Hplcip51IO.nc	/^interface Hplcip51IO {$/;"	d
+Hplcip51IOC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51IOC.nc	/^module Hplcip51IOC {$/;"	d
+Hplcip51IOC	tos/chips/cip51/pins/Hplcip51IOC.nc	/^module Hplcip51IOC {$/;"	d
+HplnRF24E1GeneralIOC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/HplnRF24E1GeneralIOC.nc	/^module HplnRF24E1GeneralIOC {$/;"	d
+HplnRF24E1GeneralIOC	tos/chips/nRF24E1/HplnRF24E1GeneralIOC.nc	/^module HplnRF24E1GeneralIOC {$/;"	d
+HplnRF24E1Timer0CounterP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/HplnRF24E1Timer0CounterP.nc	/^generic module HplnRF24E1Timer0CounterP( typedef frequency ) {$/;"	d
+HplnRF24E1Timer0CounterP	tos/chips/nRF24E1/timer/HplnRF24E1Timer0CounterP.nc	/^generic module HplnRF24E1Timer0CounterP( typedef frequency ) {$/;"	d
+HplnRF24E1Timer16	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/HplnRF24E1Timer16.nc	/^interface HplnRF24E1Timer16 {$/;"	d
+HplnRF24E1Timer16	tos/chips/nRF24E1/timer/HplnRF24E1Timer16.nc	/^interface HplnRF24E1Timer16 {$/;"	d
+HplnRF24E1Timer2AlarmC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/HplnRF24E1Timer2AlarmC.nc	/^configuration HplnRF24E1Timer2AlarmC{$/;"	d
+HplnRF24E1Timer2AlarmC	tos/chips/nRF24E1/timer/HplnRF24E1Timer2AlarmC.nc	/^configuration HplnRF24E1Timer2AlarmC{$/;"	d
+HplnRF24E1Timer2AlarmP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/HplnRF24E1Timer2AlarmP.nc	/^generic module HplnRF24E1Timer2AlarmP( typedef frequency ) {$/;"	d
+HplnRF24E1Timer2AlarmP	tos/chips/nRF24E1/timer/HplnRF24E1Timer2AlarmP.nc	/^generic module HplnRF24E1Timer2AlarmP( typedef frequency ) {$/;"	d
+HplnRF24E1Timer2P	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/HplnRF24E1Timer2P.nc	/^module HplnRF24E1Timer2P {$/;"	d
+HplnRF24E1Timer2P	tos/chips/nRF24E1/timer/HplnRF24E1Timer2P.nc	/^module HplnRF24E1Timer2P {$/;"	d
+IOCFG0	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.IOCFG0 -> Spi.IOCFG0;$/;"	d
+IOCFG0	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Register as IOCFG0;$/;"	d
+IOCFG0	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.IOCFG0 -> Spi.IOCFG0;$/;"	d
+IOCFG0	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Register as IOCFG0;$/;"	d
+IOCFG1	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.IOCFG1 -> Spi.IOCFG1;$/;"	d
+IOCFG1	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Register as IOCFG1;$/;"	d
+IOCFG1	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.IOCFG1 -> Spi.IOCFG1;$/;"	d
+IOCFG1	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Register as IOCFG1;$/;"	d
+In	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformLedsC.nc	/^  Led0_rev.In -> Hplcip51GeneralIOC.P22;$/;"	d
+In	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformLedsC.nc	/^  Led1_rev.In -> Hplcip51GeneralIOC.P23;$/;"	d
+In	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformLedsC.nc	/^  Led2_rev.In -> NoPinC;$/;"	d
+In	tos/platforms/c8051F340TB/PlatformLedsC.nc	/^  Led0_rev.In -> Hplcip51GeneralIOC.P22;$/;"	d
+In	tos/platforms/c8051F340TB/PlatformLedsC.nc	/^  Led1_rev.In -> Hplcip51GeneralIOC.P23;$/;"	d
+In	tos/platforms/c8051F340TB/PlatformLedsC.nc	/^  Led2_rev.In -> NoPinC;$/;"	d
+InQueue	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformUSBC.nc	/^\/*   HilCip51USBP.InQueue -> QueueC; *\/$/;"	d
+InQueue	tos/platforms/c8051F340TB/PlatformUSBC.nc	/^\/*   HilCip51USBP.InQueue -> QueueC; *\/$/;"	d
+InterruptCCA	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.InterruptCCA -> Interrupts.InterruptCCA;$/;"	d
+InterruptCCA	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface GpioInterrupt as InterruptCCA;$/;"	d
+InterruptCCA	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.InterruptCCA -> Interrupts.InterruptCCA;$/;"	d
+InterruptCCA	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface GpioInterrupt as InterruptCCA;$/;"	d
+InterruptFIFOP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^  CC2420ReceiveP.InterruptFIFOP -> InterruptsC.InterruptFIFOP;$/;"	d
+InterruptFIFOP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  uses interface GpioInterrupt as InterruptFIFOP;$/;"	d
+InterruptFIFOP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc	/^  HalCC2430RadioP.InterruptFIFOP -> HplCC2430InterruptsC.InterruptFIFOP;$/;"	d
+InterruptFIFOP	tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^  CC2420ReceiveP.InterruptFIFOP -> InterruptsC.InterruptFIFOP;$/;"	d
+InterruptFIFOP	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  uses interface GpioInterrupt as InterruptFIFOP;$/;"	d
+InterruptFIFOP	tos/chips/cc2430/radio/HalCC2430RadioC.nc	/^  HalCC2430RadioP.InterruptFIFOP -> HplCC2430InterruptsC.InterruptFIFOP;$/;"	d
+InterruptRFErr	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc	/^  HalCC2430RadioP.InterruptRFErr -> HplCC2430InterruptsC.InterruptRFErr;$/;"	d
+InterruptRFErr	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaC.nc	/^  HalCC2430RadioDmaP.InterruptRFErr -> HplCC2430InterruptsC.InterruptRFErr;$/;"	d
+InterruptRFErr	tos/chips/cc2430/radio/HalCC2430RadioC.nc	/^  HalCC2430RadioP.InterruptRFErr -> HplCC2430InterruptsC.InterruptRFErr;$/;"	d
+InterruptRFErr	tos/chips/cc2430/radio/HalCC2430RadioDmaC.nc	/^  HalCC2430RadioDmaP.InterruptRFErr -> HplCC2430InterruptsC.InterruptRFErr;$/;"	d
+InterruptTXDone	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc	/^  HalCC2430RadioP.InterruptTXDone -> HplCC2430InterruptsC.InterruptTXDone;$/;"	d
+InterruptTXDone	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaC.nc	/^  HalCC2430RadioDmaP.InterruptTXDone -> HplCC2430InterruptsC.InterruptTXDone;$/;"	d
+InterruptTXDone	tos/chips/cc2430/radio/HalCC2430RadioC.nc	/^  HalCC2430RadioP.InterruptTXDone -> HplCC2430InterruptsC.InterruptTXDone;$/;"	d
+InterruptTXDone	tos/chips/cc2430/radio/HalCC2430RadioDmaC.nc	/^  HalCC2430RadioDmaP.InterruptTXDone -> HplCC2430InterruptsC.InterruptTXDone;$/;"	d
+Led1	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/usart/HalCC2430SimpleUartC.nc	/^  \/\/  uses interface HalMcs51Led as Led1;$/;"	d
+Led1	tos/chips/cc2430/usart/HalCC2430SimpleUartC.nc	/^  \/\/  uses interface HalMcs51Led as Led1;$/;"	d
+Led3	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/usart/HalCC2430SimpleUartC.nc	/^  \/\/ uses interface HalMcs51Led as Led3;$/;"	d
+Led3	tos/chips/cc2430/usart/HalCC2430SimpleUartC.nc	/^  \/\/ uses interface HalMcs51Led as Led3;$/;"	d
+Leds	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.Leds -> Leds;$/;"	d
+Leds	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  CsmaP.Leds -> Leds;$/;"	d
+Leds	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^  CC2420ReceiveP.Leds -> Leds;$/;"	d
+Leds	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420SpiP.nc	/^  SpiP.Leds -> LedsC;$/;"	d
+Leds	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.Leds -> Leds;$/;"	d
+Leds	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.Leds -> Leds;$/;"	d
+Leds	tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  CsmaP.Leds -> Leds;$/;"	d
+Leds	tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^  CC2420ReceiveP.Leds -> Leds;$/;"	d
+Leds	tos/chips/cc2430/cc2420/CC2420SpiP.nc	/^  SpiP.Leds -> LedsC;$/;"	d
+Leds	tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.Leds -> Leds;$/;"	d
+LedsInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformP.nc	/^  uses interface Init as LedsInit;$/;"	d
+LedsInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc	/^  uses interface Init as LedsInit;$/;"	d
+LedsInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nRF24E1_EVBOARD/PlatformP.nc	/^  uses interface Init as LedsInit;$/;"	d
+LedsInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nano/PlatformP.nc	/^  uses interface Init as LedsInit;$/;"	d
+LedsInit	tos/platforms/c8051F340TB/PlatformP.nc	/^  uses interface Init as LedsInit;$/;"	d
+LedsInit	tos/platforms/cc2430em/PlatformP.nc	/^  uses interface Init as LedsInit;$/;"	d
+LedsInit	tos/platforms/nRF24E1_EVBOARD/PlatformP.nc	/^  uses interface Init as LedsInit;$/;"	d
+LedsInit	tos/platforms/nano/PlatformP.nc	/^  uses interface Init as LedsInit;$/;"	d
+LoggerPinsC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/LoggerPinsC.nc	/^configuration LoggerPinsC {$/;"	d
+LoggerPinsC	tos/platforms/cc2430em/LoggerPinsC.nc	/^configuration LoggerPinsC {$/;"	d
+MDMCTRL0	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.MDMCTRL0 -> Spi.MDMCTRL0;$/;"	d
+MDMCTRL0	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Register as MDMCTRL0;$/;"	d
+MDMCTRL0	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.MDMCTRL0 -> Spi.MDMCTRL0;$/;"	d
+MDMCTRL0	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Register as MDMCTRL0;$/;"	d
+MDMCTRL1	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.MDMCTRL1 -> Spi.MDMCTRL1;$/;"	d
+MDMCTRL1	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Register as MDMCTRL1;$/;"	d
+MDMCTRL1	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.MDMCTRL1 -> Spi.MDMCTRL1;$/;"	d
+MDMCTRL1	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Register as MDMCTRL1;$/;"	d
+McuSleepC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/McuSleepC.nc	/^module McuSleepC {$/;"	d
+McuSleepC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/McuSleepC.nc	/^module McuSleepC {$/;"	d
+McuSleepC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/McuSleepC.nc	/^module McuSleepC {$/;"	d
+McuSleepC	tos/chips/cc2430/McuSleepC.nc	/^module McuSleepC {$/;"	d
+McuSleepC	tos/chips/cip51/McuSleepC.nc	/^module McuSleepC {$/;"	d
+McuSleepC	tos/chips/mcs51/McuSleepC.nc	/^module McuSleepC {$/;"	d
+PANID	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.PANID -> Spi.PANID;$/;"	d
+PANID	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Ram as PANID;$/;"	d
+PANID	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.PANID -> Spi.PANID;$/;"	d
+PANID	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Ram as PANID;$/;"	d
+PlatformC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformC.nc	/^configuration PlatformC$/;"	d
+PlatformC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformC.nc	/^configuration PlatformC$/;"	d
+PlatformC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nRF24E1_EVBOARD/PlatformC.nc	/^configuration PlatformC$/;"	d
+PlatformC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nano/PlatformC.nc	/^configuration PlatformC$/;"	d
+PlatformC	tos/platforms/c8051F340TB/PlatformC.nc	/^configuration PlatformC$/;"	d
+PlatformC	tos/platforms/cc2430em/PlatformC.nc	/^configuration PlatformC$/;"	d
+PlatformC	tos/platforms/nRF24E1_EVBOARD/PlatformC.nc	/^configuration PlatformC$/;"	d
+PlatformC	tos/platforms/nano/PlatformC.nc	/^configuration PlatformC$/;"	d
+PlatformLedsC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformLedsC.nc	/^configuration PlatformLedsC$/;"	d
+PlatformLedsC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformLedsC.nc	/^configuration PlatformLedsC$/;"	d
+PlatformLedsC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nRF24E1_EVBOARD/PlatformLedsC.nc	/^configuration PlatformLedsC$/;"	d
+PlatformLedsC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nano/PlatformLedsC.nc	/^configuration PlatformLedsC$/;"	d
+PlatformLedsC	tos/platforms/c8051F340TB/PlatformLedsC.nc	/^configuration PlatformLedsC$/;"	d
+PlatformLedsC	tos/platforms/cc2430em/PlatformLedsC.nc	/^configuration PlatformLedsC$/;"	d
+PlatformLedsC	tos/platforms/nRF24E1_EVBOARD/PlatformLedsC.nc	/^configuration PlatformLedsC$/;"	d
+PlatformLedsC	tos/platforms/nano/PlatformLedsC.nc	/^configuration PlatformLedsC$/;"	d
+PlatformP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformP.nc	/^module PlatformP { $/;"	d
+PlatformP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc	/^module PlatformP { $/;"	d
+PlatformP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nRF24E1_EVBOARD/PlatformP.nc	/^module PlatformP { $/;"	d
+PlatformP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nano/PlatformP.nc	/^module PlatformP { $/;"	d
+PlatformP	tos/platforms/c8051F340TB/PlatformP.nc	/^module PlatformP { $/;"	d
+PlatformP	tos/platforms/cc2430em/PlatformP.nc	/^module PlatformP { $/;"	d
+PlatformP	tos/platforms/nRF24E1_EVBOARD/PlatformP.nc	/^module PlatformP { $/;"	d
+PlatformP	tos/platforms/nano/PlatformP.nc	/^module PlatformP { $/;"	d
+PlatformSPIC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformSPIC.nc	/^configuration PlatformSPIC {$/;"	d
+PlatformSPIC	tos/platforms/c8051F340TB/PlatformSPIC.nc	/^configuration PlatformSPIC {$/;"	d
+PlatformSerialC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformSerialC.nc	/^configuration PlatformSerialC {$/;"	d
+PlatformSerialC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nRF24E1_EVBOARD/PlatformSerialC.nc	/^configuration PlatformSerialC {$/;"	d
+PlatformSerialC	tos/platforms/c8051F340TB/PlatformSerialC.nc	/^configuration PlatformSerialC {$/;"	d
+PlatformSerialC	tos/platforms/nRF24E1_EVBOARD/PlatformSerialC.nc	/^configuration PlatformSerialC {$/;"	d
+PlatformStdOutC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformStdOutC.nc	/^configuration PlatformStdOutC {$/;"	d
+PlatformStdOutC	tos/platforms/cc2430em/PlatformStdOutC.nc	/^configuration PlatformStdOutC {$/;"	d
+PlatformUSBC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformUSBC.nc	/^configuration PlatformUSBC {$/;"	d
+PlatformUSBC	tos/platforms/c8051F340TB/PlatformUSBC.nc	/^configuration PlatformUSBC {$/;"	d
+RSTN	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.RSTN -> Pins.RSTN;$/;"	d
+RSTN	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface GeneralIO as RSTN;$/;"	d
+RSTN	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.RSTN -> Pins.RSTN;$/;"	d
+RSTN	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface GeneralIO as RSTN;$/;"	d
+RXCTRL1	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.RXCTRL1 -> Spi.RXCTRL1;$/;"	d
+RXCTRL1	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Register as RXCTRL1;$/;"	d
+RXCTRL1	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.RXCTRL1 -> Spi.RXCTRL1;$/;"	d
+RXCTRL1	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Register as RXCTRL1;$/;"	d
+RXFIFO	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^  CC2420ReceiveP.RXFIFO -> Spi.RXFIFO;$/;"	d
+RXFIFO	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  uses interface CC2420Fifo as RXFIFO;$/;"	d
+RXFIFO	tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^  CC2420ReceiveP.RXFIFO -> Spi.RXFIFO;$/;"	d
+RXFIFO	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  uses interface CC2420Fifo as RXFIFO;$/;"	d
+Random	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  CsmaP.Random -> RandomC;$/;"	d
+Random	tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  CsmaP.Random -> RandomC;$/;"	d
+RandomMlcgP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/RandomMlcgP.nc	/^module RandomMlcgP {$/;"	d
+RandomMlcgP	tos/chips/cc2430/RandomMlcgP.nc	/^module RandomMlcgP {$/;"	d
+RateCounter	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/uart/Halcip51SimpleUart0P.nc	/^  uses interface HplMcs51Counter as RateCounter;$/;"	d
+RateCounter	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/UartC.nc	/^  Halcip51SimpleUart0P.RateCounter -> HplMcs51TimerP.Counter1;$/;"	d
+RateCounter	tos/chips/cip51/uart/Halcip51SimpleUart0P.nc	/^  uses interface HplMcs51Counter as RateCounter;$/;"	d
+RateCounter	tos/platforms/c8051F340TB/UartC.nc	/^  Halcip51SimpleUart0P.RateCounter -> HplMcs51TimerP.Counter1;$/;"	d
+Resource	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  CsmaP.Resource -> CC2420ControlC;$/;"	d
+Resource	tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  CsmaP.Resource -> CC2420ControlC;$/;"	d
+SACK	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  uses interface CC2420Strobe as SACK;$/;"	d
+SACK	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  uses interface CC2420Strobe as SACK;$/;"	d
+SFD	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.SFD -> Pins.SFD;$/;"	d
+SFD	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface GeneralIO as SFD;$/;"	d
+SFD	tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.SFD -> Pins.SFD;$/;"	d
+SFD	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface GeneralIO as SFD;$/;"	d
+SFLUSHRX	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^  CC2420ReceiveP.SFLUSHRX -> Spi.SFLUSHRX;$/;"	d
+SFLUSHRX	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  uses interface CC2420Strobe as SFLUSHRX;$/;"	d
+SFLUSHRX	tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^  CC2420ReceiveP.SFLUSHRX -> Spi.SFLUSHRX;$/;"	d
+SFLUSHRX	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  uses interface CC2420Strobe as SFLUSHRX;$/;"	d
+SFLUSHTX	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.SFLUSHTX    -> Spi.SFLUSHTX;$/;"	d
+SFLUSHTX	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface CC2420Strobe as SFLUSHTX;$/;"	d
+SFLUSHTX	tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.SFLUSHTX    -> Spi.SFLUSHTX;$/;"	d
+SFLUSHTX	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface CC2420Strobe as SFLUSHTX;$/;"	d
+SNOP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.SNOP        -> Spi.SNOP;$/;"	d
+SNOP	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface CC2420Strobe as SNOP;$/;"	d
+SNOP	tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.SNOP        -> Spi.SNOP;$/;"	d
+SNOP	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface CC2420Strobe as SNOP;$/;"	d
+SRFOFF	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.SRFOFF -> Spi.SRFOFF;$/;"	d
+SRFOFF	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Strobe as SRFOFF;$/;"	d
+SRFOFF	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.SRFOFF -> Spi.SRFOFF;$/;"	d
+SRFOFF	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Strobe as SRFOFF;$/;"	d
+SRXON	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.SRXON -> Spi.SRXON;$/;"	d
+SRXON	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Strobe as SRXON;$/;"	d
+SRXON	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.SRXON -> Spi.SRXON;$/;"	d
+SRXON	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Strobe as SRXON;$/;"	d
+STXON	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.STXON       -> Spi.STXON;$/;"	d
+STXON	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface CC2420Strobe as STXON;$/;"	d
+STXON	tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.STXON       -> Spi.STXON;$/;"	d
+STXON	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface CC2420Strobe as STXON;$/;"	d
+STXONCCA	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.STXONCCA    -> Spi.STXONCCA;$/;"	d
+STXONCCA	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface CC2420Strobe as STXONCCA;$/;"	d
+STXONCCA	tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.STXONCCA    -> Spi.STXONCCA;$/;"	d
+STXONCCA	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface CC2420Strobe as STXONCCA;$/;"	d
+SXOSCOFF	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.SXOSCOFF -> Spi.SXOSCOFF;$/;"	d
+SXOSCOFF	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Strobe as SXOSCOFF;$/;"	d
+SXOSCOFF	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.SXOSCOFF -> Spi.SXOSCOFF;$/;"	d
+SXOSCOFF	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Strobe as SXOSCOFF;$/;"	d
+SXOSCON	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.SXOSCON -> Spi.SXOSCON;$/;"	d
+SXOSCON	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Strobe as SXOSCON;$/;"	d
+SXOSCON	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.SXOSCON -> Spi.SXOSCON;$/;"	d
+SXOSCON	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface CC2420Strobe as SXOSCON;$/;"	d
+SimpleMacC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc	/^configuration SimpleMacC {$/;"	d
+SimpleMacC	tos/chips/cc2430/radio/SimpleMacC.nc	/^configuration SimpleMacC {$/;"	d
+SimpleMacDmaC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacDmaC.nc	/^configuration SimpleMacDmaC {$/;"	d
+SimpleMacDmaC	tos/chips/cc2430/radio/SimpleMacDmaC.nc	/^configuration SimpleMacDmaC {$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcC.nc	/^  MainC.SoftwareInit -> AdcP.Init;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcDmaC.nc	/^  MainC.SoftwareInit -> AdcDmaP.Init;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcSequenceDmaC.nc	/^  MainC.SoftwareInit -> AdcSequenceDmaP.Init;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  MainC.SoftwareInit -> CC2420ControlC;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  MainC.SoftwareInit -> CC2420ReceiveC;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  MainC.SoftwareInit -> CC2420TransmitC;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  MainC.SoftwareInit -> CsmaP;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/dma/DmaC.nc	/^  MainC.SoftwareInit -> DmaP.Init;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/flash/HalFlashC.nc	/^    MainC.SoftwareInit -> HalFlashP.Init;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc	/^  MainC.SoftwareInit -> HalCC2430RadioP.Init;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaC.nc	/^  MainC.SoftwareInit -> HalCC2430RadioDmaP.Init;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc	/^  MainC.SoftwareInit -> SimpleMacM;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacDmaC.nc	/^  MainC.SoftwareInit -> SimpleMacM;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/CC2430Timer1AlarmCounterC.nc	/^  MainC.SoftwareInit -> CC2430Timer1AlarmCounterP.Init;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/CC2430Timer1AlarmCounterC.nc	/^  MainC.SoftwareInit -> HplCC2430Timer1P;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterC.nc	/^  MainC.SoftwareInit -> HplCC2430Timer1AlarmCounterP;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformSPIC.nc	/^  MainC.SoftwareInit -> HalCip51SimpleSPIP;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformUSBC.nc	/^  MainC.SoftwareInit -> HilCip51USBP;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/UartC.nc	/^  MainC.SoftwareInit -> Halcip51SimpleUart0P;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformStdOutC.nc	/^  MainC.SoftwareInit -> HalCC2430SimpleUartC;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/UartC.nc	/^  MainC.SoftwareInit -> HalCC2430SimpleUartC;$/;"	d
+SoftwareInit	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nano/UartC.nc	/^  MainC.SoftwareInit -> HalCC2430SimpleUartC;$/;"	d
+SoftwareInit	tos/chips/cc2430/adc/AdcC.nc	/^  MainC.SoftwareInit -> AdcP.Init;$/;"	d
+SoftwareInit	tos/chips/cc2430/adc/AdcDmaC.nc	/^  MainC.SoftwareInit -> AdcDmaP.Init;$/;"	d
+SoftwareInit	tos/chips/cc2430/adc/AdcSequenceDmaC.nc	/^  MainC.SoftwareInit -> AdcSequenceDmaP.Init;$/;"	d
+SoftwareInit	tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  MainC.SoftwareInit -> CC2420ControlC;$/;"	d
+SoftwareInit	tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  MainC.SoftwareInit -> CC2420ReceiveC;$/;"	d
+SoftwareInit	tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  MainC.SoftwareInit -> CC2420TransmitC;$/;"	d
+SoftwareInit	tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  MainC.SoftwareInit -> CsmaP;$/;"	d
+SoftwareInit	tos/chips/cc2430/dma/DmaC.nc	/^  MainC.SoftwareInit -> DmaP.Init;$/;"	d
+SoftwareInit	tos/chips/cc2430/flash/HalFlashC.nc	/^    MainC.SoftwareInit -> HalFlashP.Init;$/;"	d
+SoftwareInit	tos/chips/cc2430/radio/HalCC2430RadioC.nc	/^  MainC.SoftwareInit -> HalCC2430RadioP.Init;$/;"	d
+SoftwareInit	tos/chips/cc2430/radio/HalCC2430RadioDmaC.nc	/^  MainC.SoftwareInit -> HalCC2430RadioDmaP.Init;$/;"	d
+SoftwareInit	tos/chips/cc2430/radio/SimpleMacC.nc	/^  MainC.SoftwareInit -> SimpleMacM;$/;"	d
+SoftwareInit	tos/chips/cc2430/radio/SimpleMacDmaC.nc	/^  MainC.SoftwareInit -> SimpleMacM;$/;"	d
+SoftwareInit	tos/chips/cc2430/timer_hpl/CC2430Timer1AlarmCounterC.nc	/^  MainC.SoftwareInit -> CC2430Timer1AlarmCounterP.Init;$/;"	d
+SoftwareInit	tos/chips/cc2430/timer_hpl/CC2430Timer1AlarmCounterC.nc	/^  MainC.SoftwareInit -> HplCC2430Timer1P;$/;"	d
+SoftwareInit	tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterC.nc	/^  MainC.SoftwareInit -> HplCC2430Timer1AlarmCounterP;$/;"	d
+SoftwareInit	tos/platforms/c8051F340TB/PlatformSPIC.nc	/^  MainC.SoftwareInit -> HalCip51SimpleSPIP;$/;"	d
+SoftwareInit	tos/platforms/c8051F340TB/PlatformUSBC.nc	/^  MainC.SoftwareInit -> HilCip51USBP;$/;"	d
+SoftwareInit	tos/platforms/c8051F340TB/UartC.nc	/^  MainC.SoftwareInit -> Halcip51SimpleUart0P;$/;"	d
+SoftwareInit	tos/platforms/cc2430em/PlatformStdOutC.nc	/^  MainC.SoftwareInit -> HalCC2430SimpleUartC;$/;"	d
+SoftwareInit	tos/platforms/cc2430em/UartC.nc	/^  MainC.SoftwareInit -> HalCC2430SimpleUartC;$/;"	d
+SoftwareInit	tos/platforms/nano/UartC.nc	/^  MainC.SoftwareInit -> HalCC2430SimpleUartC;$/;"	d
+SpiByte	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420SpiP.nc	/^  \/\/SpiP.SpiByte -> HplCC2420SpiC;$/;"	d
+SpiByte	tos/chips/cc2430/cc2420/CC2420SpiP.nc	/^  \/\/SpiP.SpiByte -> HplCC2420SpiC;$/;"	d
+SpiControl	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/spi/SpiControl.nc	/^interface SpiControl {$/;"	d
+SpiControl	tos/chips/cip51/spi/SpiControl.nc	/^interface SpiControl {$/;"	d
+SpiPacket	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420SpiP.nc	/^  \/\/SpiP.SpiPacket -> HplCC2420SpiC;$/;"	d
+SpiPacket	tos/chips/cc2430/cc2420/CC2420SpiP.nc	/^  \/\/SpiP.SpiPacket -> HplCC2420SpiC;$/;"	d
+SpiResource	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.SpiResource -> Spi;$/;"	d
+SpiResource	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface Resource as SpiResource;$/;"	d
+SpiResource	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^  CC2420ReceiveP.SpiResource -> Spi;$/;"	d
+SpiResource	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  uses interface Resource as SpiResource;$/;"	d
+SpiResource	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420SpiP.nc	/^  \/\/SpiP.SpiResource -> HplCC2420SpiC;$/;"	d
+SpiResource	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.SpiResource -> Spi;$/;"	d
+SpiResource	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface Resource as SpiResource;$/;"	d
+SpiResource	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.SpiResource -> Spi;$/;"	d
+SpiResource	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface Resource as SpiResource;$/;"	d
+SpiResource	tos/chips/cc2430/cc2420/CC2420ReceiveC.nc	/^  CC2420ReceiveP.SpiResource -> Spi;$/;"	d
+SpiResource	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  uses interface Resource as SpiResource;$/;"	d
+SpiResource	tos/chips/cc2430/cc2420/CC2420SpiP.nc	/^  \/\/SpiP.SpiResource -> HplCC2420SpiC;$/;"	d
+SpiResource	tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.SpiResource -> Spi;$/;"	d
+SpiResource	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface Resource as SpiResource;$/;"	d
+StartupTimer	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.StartupTimer -> Alarm;$/;"	d
+StartupTimer	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.StartupTimer -> Alarm;$/;"	d
+StdOut	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcSequenceDmaC.nc	/^  AdcSequenceDmaP.StdOut -> StdOutC;$/;"	d
+StdOut	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc	/^  HalCC2430RadioP.StdOut -> StdOutC;$/;"	d
+StdOut	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaC.nc	/^  HalCC2430RadioDmaP.StdOut -> StdOutC;$/;"	d
+StdOut	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformUSBC.nc	/^  HilCip51USBP.StdOut -> StdOutC;$/;"	d
+StdOut	tos/chips/cc2430/adc/AdcSequenceDmaC.nc	/^  AdcSequenceDmaP.StdOut -> StdOutC;$/;"	d
+StdOut	tos/chips/cc2430/radio/HalCC2430RadioC.nc	/^  HalCC2430RadioP.StdOut -> StdOutC;$/;"	d
+StdOut	tos/chips/cc2430/radio/HalCC2430RadioDmaC.nc	/^  HalCC2430RadioDmaP.StdOut -> StdOutC;$/;"	d
+StdOut	tos/platforms/c8051F340TB/PlatformUSBC.nc	/^  HilCip51USBP.StdOut -> StdOutC;$/;"	d
+SubControl	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  CsmaP.SubControl -> CC2420ReceiveC;$/;"	d
+SubControl	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  CsmaP.SubControl -> CC2420TransmitC;$/;"	d
+SubControl	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  uses interface AsyncStdControl as SubControl;$/;"	d
+SubControl	tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  CsmaP.SubControl -> CC2420ReceiveC;$/;"	d
+SubControl	tos/chips/cc2430/cc2420/CC2420CsmaC.nc	/^  CsmaP.SubControl -> CC2420TransmitC;$/;"	d
+SubControl	tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  uses interface AsyncStdControl as SubControl;$/;"	d
+SubReceive	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageC.nc	/^  AM.SubReceive -> Radio.Receive;$/;"	d
+SubReceive	tos/chips/cc2430/cc2420/CC2420ActiveMessageC.nc	/^  AM.SubReceive -> Radio.Receive;$/;"	d
+SubSend	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageC.nc	/^  AM.SubSend    -> Radio.Send;$/;"	d
+SubSend	tos/chips/cc2430/cc2420/CC2420ActiveMessageC.nc	/^  AM.SubSend    -> Radio.Send;$/;"	d
+SyncResource	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.SyncResource -> SyncSpiC;$/;"	d
+SyncResource	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface Resource as SyncResource;$/;"	d
+SyncResource	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.SyncResource -> SyncSpiC;$/;"	d
+SyncResource	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface Resource as SyncResource;$/;"	d
+TXCTRL	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.TXCTRL      -> Spi.TXCTRL;$/;"	d
+TXCTRL	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface CC2420Register as TXCTRL;$/;"	d
+TXCTRL	tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.TXCTRL      -> Spi.TXCTRL;$/;"	d
+TXCTRL	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface CC2420Register as TXCTRL;$/;"	d
+TXFIFO	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.TXFIFO      -> Spi.TXFIFO;$/;"	d
+TXFIFO	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface CC2420Fifo as TXFIFO;$/;"	d
+TXFIFO	tos/chips/cc2430/cc2420/CC2420TransmitC.nc	/^  CC2420TransmitP.TXFIFO      -> Spi.TXFIFO;$/;"	d
+TXFIFO	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  uses interface CC2420Fifo as TXFIFO;$/;"	d
+TXFIFO_RAM	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  \/\/ uses interface CC2420Ram as TXFIFO_RAM; \/\/ No such thing in cc2430$/;"	d
+TXFIFO_RAM	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  \/\/ uses interface CC2420Ram as TXFIFO_RAM; \/\/ No such thing in cc2430$/;"	d
+ThreeAxisAccel	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/ThreeAxisAccel.nc	/^interface ThreeAxisAccel {$/;"	d
+ThreeAxisAccel	tos/chips/cc2430/adc/ThreeAxisAccel.nc	/^interface ThreeAxisAccel {$/;"	d
+Timer1	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/CC2430Timer1AlarmCounterC.nc	/^  CC2430Timer1AlarmCounterP.Timer1 -> HplCC2430Timer1P;$/;"	d
+Timer1	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/CC2430Timer1AlarmCounterP.nc	/^  uses interface HplCC2430Timer16 as Timer1;$/;"	d
+Timer1	tos/chips/cc2430/timer_hpl/CC2430Timer1AlarmCounterC.nc	/^  CC2430Timer1AlarmCounterP.Timer1 -> HplCC2430Timer1P;$/;"	d
+Timer1	tos/chips/cc2430/timer_hpl/CC2430Timer1AlarmCounterP.nc	/^  uses interface HplCC2430Timer16 as Timer1;$/;"	d
+TimerFrom	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HilTimerMilliC.nc	/^  VirtualizeTimerC.TimerFrom -> AlarmToTimerC;$/;"	d
+TimerFrom	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/HilTimerMilliC.nc	/^  VirtualizeTimerC.TimerFrom -> AlarmToTimerC;$/;"	d
+TimerFrom	tos/chips/cc2430/timer/HilTimerMilliC.nc	/^  VirtualizeTimerC.TimerFrom -> AlarmToTimerC;$/;"	d
+TimerFrom	tos/chips/nRF24E1/timer/HilTimerMilliC.nc	/^  VirtualizeTimerC.TimerFrom -> AlarmToTimerC;$/;"	d
+UartC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/UartC.nc	/^configuration UartC {$/;"	d
+UartC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/UartC.nc	/^configuration UartC {$/;"	d
+UartC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nRF24E1_EVBOARD/UartC.nc	/^configuration UartC {$/;"	d
+UartC	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nano/UartC.nc	/^configuration UartC {$/;"	d
+UartC	tos/platforms/c8051F340TB/UartC.nc	/^configuration UartC {$/;"	d
+UartC	tos/platforms/cc2430em/UartC.nc	/^configuration UartC {$/;"	d
+UartC	tos/platforms/nRF24E1_EVBOARD/UartC.nc	/^configuration UartC {$/;"	d
+UartC	tos/platforms/nano/UartC.nc	/^configuration UartC {$/;"	d
+VREN	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.VREN -> Pins.VREN;$/;"	d
+VREN	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface GeneralIO as VREN;$/;"	d
+VREN	tos/chips/cc2430/cc2420/CC2420ControlC.nc	/^  CC2420ControlP.VREN -> Pins.VREN;$/;"	d
+VREN	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  uses interface GeneralIO as VREN;$/;"	d
+amAddress	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageC.nc	/^  AM.amAddress -> Address;$/;"	d
+amAddress	tos/chips/cc2430/cc2420/CC2420ActiveMessageC.nc	/^  AM.amAddress -> Address;$/;"	d
+am_addr_t AMPacket.address	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  command am_addr_t AMPacket.address() {$/;"	c
+am_addr_t AMPacket.address	tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  command am_addr_t AMPacket.address() {$/;"	c
+am_addr_t AMPacket.destination	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  command am_addr_t AMPacket.destination(message_t* amsg) {$/;"	c
+am_addr_t AMPacket.destination	tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  command am_addr_t AMPacket.destination(message_t* amsg) {$/;"	c
+am_addr_t AMPacket.source	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  command am_addr_t AMPacket.source(message_t* amsg) {$/;"	c
+am_addr_t AMPacket.source	tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  command am_addr_t AMPacket.source(message_t* amsg) {$/;"	c
+am_id_t AMPacket.type	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  command am_id_t AMPacket.type(message_t* amsg) {$/;"	c
+am_id_t AMPacket.type	tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  command am_id_t AMPacket.type(message_t* amsg) {$/;"	c
+bool AMPacket.isForMe	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  command bool AMPacket.isForMe(message_t* amsg) {$/;"	c
+bool AMPacket.isForMe	tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  command bool AMPacket.isForMe(message_t* amsg) {$/;"	c
+bool SpiControl.getSlaveSelect	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/spi/HalCip51SimpleSPIP.nc	/^  command bool SpiControl.getSlaveSelect() {$/;"	c
+bool SpiControl.getSlaveSelect	tos/chips/cip51/spi/HalCip51SimpleSPIP.nc	/^  command bool SpiControl.getSlaveSelect() {$/;"	c
+bool Timer1.isOneShot	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command bool Timer1.isOneShot() {}$/;"	c
+bool Timer1.isOneShot	tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command bool Timer1.isOneShot() {}$/;"	c
+bool Timer1.isRunning	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command bool Timer1.isRunning() {}$/;"	c
+bool Timer1.isRunning	tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command bool Timer1.isRunning() {}$/;"	c
+error_t CC2420Config.sync	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  command error_t CC2420Config.sync() {$/;"	c
+error_t CC2420Config.sync	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  command error_t CC2420Config.sync() {$/;"	c
+error_t EP0.send	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  command error_t EP0.send(uint8_t* pkt, uint16_t pkt_len) {$/;"	c
+error_t EP0.send	tos/chips/cip51/usb/HilCip51USBP.nc	/^  command error_t EP0.send(uint8_t* pkt, uint16_t pkt_len) {$/;"	c
+error_t EP1.send	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  command error_t EP1.send(uint8_t* pkt, uint16_t pkt_len) {$/;"	c
+error_t EP1.send	tos/chips/cip51/usb/HilCip51USBP.nc	/^  command error_t EP1.send(uint8_t* pkt, uint16_t pkt_len) {$/;"	c
+error_t EP2.send	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  command error_t EP2.send(uint8_t* pkt, uint16_t pkt_len) {$/;"	c
+error_t EP2.send	tos/chips/cip51/usb/HilCip51USBP.nc	/^  command error_t EP2.send(uint8_t* pkt, uint16_t pkt_len) {$/;"	c
+error_t HALCC2420.addressFilterDisable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.addressFilterDisable()$/;"	c
+error_t HALCC2420.addressFilterDisable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.addressFilterDisable()$/;"	c
+error_t HALCC2420.addressFilterDisable	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.addressFilterDisable()$/;"	c
+error_t HALCC2420.addressFilterDisable	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.addressFilterDisable()$/;"	c
+error_t HALCC2420.addressFilterEnable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.addressFilterEnable()$/;"	c
+error_t HALCC2420.addressFilterEnable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.addressFilterEnable()$/;"	c
+error_t HALCC2420.addressFilterEnable	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.addressFilterEnable()$/;"	c
+error_t HALCC2420.addressFilterEnable	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.addressFilterEnable()$/;"	c
+error_t HALCC2420.rxDisable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.rxDisable()$/;"	c
+error_t HALCC2420.rxDisable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.rxDisable()$/;"	c
+error_t HALCC2420.rxDisable	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.rxDisable()$/;"	c
+error_t HALCC2420.rxDisable	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.rxDisable()$/;"	c
+error_t HALCC2420.rxEnable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.rxEnable()$/;"	c
+error_t HALCC2420.rxEnable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.rxEnable()$/;"	c
+error_t HALCC2420.rxEnable	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.rxEnable()$/;"	c
+error_t HALCC2420.rxEnable	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.rxEnable()$/;"	c
+error_t HALCC2420.sendPacket	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.sendPacket(uint8_t * packet) $/;"	c
+error_t HALCC2420.sendPacket	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.sendPacket(uint8_t * packet) $/;"	c
+error_t HALCC2420.sendPacket	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.sendPacket(uint8_t * packet) $/;"	c
+error_t HALCC2420.sendPacket	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.sendPacket(uint8_t * packet) $/;"	c
+error_t HALCC2420.setAddress	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.setAddress(mac_addr_t *addr)$/;"	c
+error_t HALCC2420.setAddress	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.setAddress(mac_addr_t *addr)$/;"	c
+error_t HALCC2420.setAddress	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.setAddress(mac_addr_t *addr)$/;"	c
+error_t HALCC2420.setAddress	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.setAddress(mac_addr_t *addr)$/;"	c
+error_t HALCC2420.setChannel	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.setChannel(uint8_t channel) $/;"	c
+error_t HALCC2420.setChannel	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.setChannel(uint8_t channel) $/;"	c
+error_t HALCC2420.setChannel	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.setChannel(uint8_t channel) $/;"	c
+error_t HALCC2420.setChannel	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.setChannel(uint8_t channel) $/;"	c
+error_t HALCC2420.setPanAddress	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.setPanAddress(mac_addr_t *addr)$/;"	c
+error_t HALCC2420.setPanAddress	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.setPanAddress(mac_addr_t *addr)$/;"	c
+error_t HALCC2420.setPanAddress	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.setPanAddress(mac_addr_t *addr)$/;"	c
+error_t HALCC2420.setPanAddress	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.setPanAddress(mac_addr_t *addr)$/;"	c
+error_t HALCC2420.setTransmitPower	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.setTransmitPower(uint8_t power)$/;"	c
+error_t HALCC2420.setTransmitPower	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.setTransmitPower(uint8_t power)$/;"	c
+error_t HALCC2420.setTransmitPower	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420.setTransmitPower(uint8_t power)$/;"	c
+error_t HALCC2420.setTransmitPower	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420.setTransmitPower(uint8_t power)$/;"	c
+error_t HALCC2420Control.start	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420Control.start()$/;"	c
+error_t HALCC2420Control.start	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420Control.start()$/;"	c
+error_t HALCC2420Control.start	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t HALCC2420Control.start()$/;"	c
+error_t HALCC2420Control.start	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t HALCC2420Control.start()$/;"	c
+error_t HALCC2420Control.stop	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  command error_t HALCC2420Control.stop()$/;"	c
+error_t HALCC2420Control.stop	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  command error_t HALCC2420Control.stop()$/;"	c
+error_t HALCC2420Control.stop	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  command error_t HALCC2420Control.stop()$/;"	c
+error_t HALCC2420Control.stop	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  command error_t HALCC2420Control.stop()$/;"	c
+error_t HalFlash.erase	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/flash/HalFlashP.nc	/^    command error_t HalFlash.erase(uint8_t * address) {$/;"	c
+error_t HalFlash.erase	tos/chips/cc2430/flash/HalFlashP.nc	/^    command error_t HalFlash.erase(uint8_t * address) {$/;"	c
+error_t HalFlash.read	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/flash/HalFlashP.nc	/^    command error_t HalFlash.read(uint8_t * destination, uint8_t * source, uint16_t length) { $/;"	c
+error_t HalFlash.read	tos/chips/cc2430/flash/HalFlashP.nc	/^    command error_t HalFlash.read(uint8_t * destination, uint8_t * source, uint16_t length) { $/;"	c
+error_t HalFlash.write	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/flash/HalFlashP.nc	/^    command error_t HalFlash.write(uint8_t * source, uint8_t * destination, uint16_t length) {$/;"	c
+error_t HalFlash.write	tos/chips/cc2430/flash/HalFlashP.nc	/^    command error_t HalFlash.write(uint8_t * source, uint8_t * destination, uint16_t length) {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/RandomMlcgP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcDmaP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcSequenceDmaP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/HplCC2420AlarmP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/dma/DmaP.nc	/^    command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/flash/HalFlashP.nc	/^    command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t Init.init() $/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t Init.init() $/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/CC2430Timer1AlarmCounterP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1P.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer2P.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer3P.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer4P.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430TimerWDTP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/usart/HalCC2430SimpleUartP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51IOC.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/spi/HalCip51SimpleSPIP.nc	/^  command error_t Init.init(){$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/uart/Halcip51SimpleUart0P.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/UART/HalnRF24E1SimpleUartP.nc	/^  command error_t Init.init(){$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/HplnRF24E1Timer0CounterP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/HplnRF24E1Timer2AlarmP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/timer/HplnRF24E1Timer2P.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/Halc8051TBLedPinP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Halcc2430emLedPinP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nRF24E1_EVBOARD/HalnRF24E1LedPinP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nRF24E1_EVBOARD/PlatformP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nano/PlatformP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/RandomMlcgP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/adc/AdcDmaP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/adc/AdcP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/adc/AdcSequenceDmaP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/cc2420/HplCC2420AlarmP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/dma/DmaP.nc	/^    command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/flash/HalFlashP.nc	/^    command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/pins/HplCC2430GeneralIOC.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    command error_t Init.init() $/;"	c
+error_t Init.init	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    command error_t Init.init() $/;"	c
+error_t Init.init	tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/timer_hpl/CC2430Timer1AlarmCounterP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/timer_hpl/HplCC2430Timer1P.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/timer_hpl/HplCC2430Timer2P.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/timer_hpl/HplCC2430Timer3P.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/timer_hpl/HplCC2430Timer4P.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/timer_hpl/HplCC2430TimerWDTP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cc2430/usart/HalCC2430SimpleUartP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cip51/pins/Hplcip51IOC.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cip51/spi/HalCip51SimpleSPIP.nc	/^  command error_t Init.init(){$/;"	c
+error_t Init.init	tos/chips/cip51/uart/Halcip51SimpleUart0P.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/cip51/usb/HilCip51USBP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/nRF24E1/UART/HalnRF24E1SimpleUartP.nc	/^  command error_t Init.init(){$/;"	c
+error_t Init.init	tos/chips/nRF24E1/timer/HplnRF24E1Timer0CounterP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/nRF24E1/timer/HplnRF24E1Timer2AlarmP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/chips/nRF24E1/timer/HplnRF24E1Timer2P.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/platforms/c8051F340TB/Halc8051TBLedPinP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/platforms/c8051F340TB/PlatformP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/platforms/cc2430em/Halcc2430emLedPinP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/platforms/cc2430em/PlatformP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/platforms/nRF24E1_EVBOARD/HalnRF24E1LedPinP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/platforms/nRF24E1_EVBOARD/PlatformP.nc	/^  command error_t Init.init() {$/;"	c
+error_t Init.init	tos/platforms/nano/PlatformP.nc	/^  command error_t Init.init() {$/;"	c
+error_t SeedInit.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/RandomMlcgP.nc	/^  command error_t SeedInit.init(uint16_t s) {$/;"	c
+error_t SeedInit.init	tos/chips/cc2430/RandomMlcgP.nc	/^  command error_t SeedInit.init(uint16_t s) {$/;"	c
+error_t Send.cancel	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  command error_t Send.cancel( message_t* p_msg ) {$/;"	c
+error_t Send.cancel	tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  command error_t Send.cancel( message_t* p_msg ) {$/;"	c
+error_t Send.send	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  command error_t Send.send( message_t* p_msg, uint8_t len ) {$/;"	c
+error_t Send.send	tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  command error_t Send.send( message_t* p_msg, uint8_t len ) {$/;"	c
+error_t SpiControl.setMode	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/spi/HalCip51SimpleSPIP.nc	/^  command error_t SpiControl.setMode(uint8_t new_mode) {$/;"	c
+error_t SpiControl.setMode	tos/chips/cip51/spi/HalCip51SimpleSPIP.nc	/^  command error_t SpiControl.setMode(uint8_t new_mode) {$/;"	c
+error_t SpiControl.setRate	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/spi/HalCip51SimpleSPIP.nc	/^  command error_t SpiControl.setRate(uint8_t rate) {$/;"	c
+error_t SpiControl.setRate	tos/chips/cip51/spi/HalCip51SimpleSPIP.nc	/^  command error_t SpiControl.setRate(uint8_t rate) {$/;"	c
+error_t SpiControl.setSlaveSelect	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/spi/HalCip51SimpleSPIP.nc	/^  command error_t SpiControl.setSlaveSelect(bool select) {$/;"	c
+error_t SpiControl.setSlaveSelect	tos/chips/cip51/spi/HalCip51SimpleSPIP.nc	/^  command error_t SpiControl.setSlaveSelect(bool select) {$/;"	c
+error_t SplitControl.start	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  command error_t SplitControl.start() {$/;"	c
+error_t SplitControl.start	tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  command error_t SplitControl.start() {$/;"	c
+error_t SplitControl.stop	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  command error_t SplitControl.stop() {$/;"	c
+error_t SplitControl.stop	tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  command error_t SplitControl.stop() {$/;"	c
+error_t StdControl.start	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/uart/Halcip51SimpleUart0P.nc	/^   command error_t StdControl.start() { $/;"	c
+error_t StdControl.start	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/UART/HalnRF24E1SimpleUartP.nc	/^  command error_t StdControl.start() {$/;"	c
+error_t StdControl.start	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerM.nc	/^  command error_t StdControl.start() {$/;"	c
+error_t StdControl.start	tos/chips/cip51/uart/Halcip51SimpleUart0P.nc	/^   command error_t StdControl.start() { $/;"	c
+error_t StdControl.start	tos/chips/nRF24E1/UART/HalnRF24E1SimpleUartP.nc	/^  command error_t StdControl.start() {$/;"	c
+error_t StdControl.start	tos/platforms/cc2430em/AccelerometerM.nc	/^  command error_t StdControl.start() {$/;"	c
+error_t StdControl.stop	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/uart/Halcip51SimpleUart0P.nc	/^  command error_t StdControl.stop() {$/;"	c
+error_t StdControl.stop	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/nRF24E1/UART/HalnRF24E1SimpleUartP.nc	/^  command error_t StdControl.stop(){$/;"	c
+error_t StdControl.stop	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerM.nc	/^  command error_t StdControl.stop() {$/;"	c
+error_t StdControl.stop	tos/chips/cip51/uart/Halcip51SimpleUart0P.nc	/^  command error_t StdControl.stop() {$/;"	c
+error_t StdControl.stop	tos/chips/nRF24E1/UART/HalnRF24E1SimpleUartP.nc	/^  command error_t StdControl.stop(){$/;"	c
+error_t StdControl.stop	tos/platforms/cc2430em/AccelerometerM.nc	/^  command error_t StdControl.stop() {$/;"	c
+error_t ThreeAxisAccel.getData	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerM.nc	/^  command error_t ThreeAxisAccel.getData() {$/;"	c
+error_t ThreeAxisAccel.getData	tos/platforms/cc2430em/AccelerometerM.nc	/^  command error_t ThreeAxisAccel.getData() {$/;"	c
+error_t ThreeAxisAccel.setRange	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerM.nc	/^  command error_t ThreeAxisAccel.setRange(uint8_t range) { $/;"	c
+error_t ThreeAxisAccel.setRange	tos/platforms/cc2430em/AccelerometerM.nc	/^  command error_t ThreeAxisAccel.setRange(uint8_t range) { $/;"	c
+error_t USBControl.configure	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  command error_t USBControl.configure(uint8_t ep, usb_ep_config_t c){$/;"	c
+error_t USBControl.configure	tos/chips/cip51/usb/HilCip51USBP.nc	/^  command error_t USBControl.configure(uint8_t ep, usb_ep_config_t c){$/;"	c
+error_t USBControl.setMode	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  command error_t USBControl.setMode(usb_mode_t mode){$/;"	c
+error_t USBControl.setMode	tos/chips/cip51/usb/HilCip51USBP.nc	/^  command error_t USBControl.setMode(usb_mode_t mode){$/;"	c
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P00_w.in -> Hplcip51IOC.P00; P00=P00_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P01_w.in -> Hplcip51IOC.P01; P01=P01_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P02_w.in -> Hplcip51IOC.P02; P02=P02_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P03_w.in -> Hplcip51IOC.P03; P03=P03_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P04_w.in -> Hplcip51IOC.P04; P04=P04_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P05_w.in -> Hplcip51IOC.P05; P05=P05_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P06_w.in -> Hplcip51IOC.P06; P06=P06_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P07_w.in -> Hplcip51IOC.P07; P07=P07_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P10_w.in -> Hplcip51IOC.P10; P10=P10_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P11_w.in -> Hplcip51IOC.P11; P11=P11_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P12_w.in -> Hplcip51IOC.P12; P12=P12_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P13_w.in -> Hplcip51IOC.P13; P13=P13_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P14_w.in -> Hplcip51IOC.P14; P14=P14_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P15_w.in -> Hplcip51IOC.P15; P15=P15_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P16_w.in -> Hplcip51IOC.P16; P16=P16_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P17_w.in -> Hplcip51IOC.P17; P17=P17_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P20_w.in -> Hplcip51IOC.P20; P20=P20_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P21_w.in -> Hplcip51IOC.P21; P21=P21_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P22_w.in -> Hplcip51IOC.P22; P22=P22_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P23_w.in -> Hplcip51IOC.P23; P23=P23_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P24_w.in -> Hplcip51IOC.P24; P24=P24_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P25_w.in -> Hplcip51IOC.P25; P25=P25_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P26_w.in -> Hplcip51IOC.P26; P26=P26_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P27_w.in -> Hplcip51IOC.P27; P27=P27_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P30_w.in -> Hplcip51IOC.P30; P30=P30_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P31_w.in -> Hplcip51IOC.P31; P31=P31_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P32_w.in -> Hplcip51IOC.P32; P32=P32_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P33_w.in -> Hplcip51IOC.P33; P33=P33_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P34_w.in -> Hplcip51IOC.P34; P34=P34_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P35_w.in -> Hplcip51IOC.P35; P35=P35_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P36_w.in -> Hplcip51IOC.P36; P36=P36_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P37_w.in -> Hplcip51IOC.P37; P37=P37_w.out;$/;"	d
+in	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/pins/Hplcip51GeneralIOP.nc	/^  uses interface Hplcip51IO as in;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P00_w.in -> Hplcip51IOC.P00; P00=P00_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P01_w.in -> Hplcip51IOC.P01; P01=P01_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P02_w.in -> Hplcip51IOC.P02; P02=P02_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P03_w.in -> Hplcip51IOC.P03; P03=P03_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P04_w.in -> Hplcip51IOC.P04; P04=P04_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P05_w.in -> Hplcip51IOC.P05; P05=P05_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P06_w.in -> Hplcip51IOC.P06; P06=P06_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P07_w.in -> Hplcip51IOC.P07; P07=P07_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P10_w.in -> Hplcip51IOC.P10; P10=P10_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P11_w.in -> Hplcip51IOC.P11; P11=P11_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P12_w.in -> Hplcip51IOC.P12; P12=P12_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P13_w.in -> Hplcip51IOC.P13; P13=P13_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P14_w.in -> Hplcip51IOC.P14; P14=P14_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P15_w.in -> Hplcip51IOC.P15; P15=P15_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P16_w.in -> Hplcip51IOC.P16; P16=P16_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P17_w.in -> Hplcip51IOC.P17; P17=P17_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P20_w.in -> Hplcip51IOC.P20; P20=P20_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P21_w.in -> Hplcip51IOC.P21; P21=P21_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P22_w.in -> Hplcip51IOC.P22; P22=P22_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P23_w.in -> Hplcip51IOC.P23; P23=P23_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P24_w.in -> Hplcip51IOC.P24; P24=P24_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P25_w.in -> Hplcip51IOC.P25; P25=P25_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P26_w.in -> Hplcip51IOC.P26; P26=P26_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P27_w.in -> Hplcip51IOC.P27; P27=P27_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P30_w.in -> Hplcip51IOC.P30; P30=P30_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P31_w.in -> Hplcip51IOC.P31; P31=P31_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P32_w.in -> Hplcip51IOC.P32; P32=P32_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P33_w.in -> Hplcip51IOC.P33; P33=P33_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P34_w.in -> Hplcip51IOC.P34; P34=P34_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P35_w.in -> Hplcip51IOC.P35; P35=P35_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P36_w.in -> Hplcip51IOC.P36; P36=P36_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOC.nc	/^  P37_w.in -> Hplcip51IOC.P37; P37=P37_w.out;$/;"	d
+in	tos/chips/cip51/pins/Hplcip51GeneralIOP.nc	/^  uses interface Hplcip51IO as in;$/;"	d
+reference	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerC.nc	/^    AccelerometerM.reference -> AdcC4.Read;$/;"	d
+reference	tos/platforms/cc2430em/AccelerometerC.nc	/^    AccelerometerM.reference -> AdcC4.Read;$/;"	d
+referenceControl	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerC.nc	/^    AccelerometerM.referenceControl -> AdcC4.AdcControl;$/;"	d
+referenceControl	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerM.nc	/^  uses interface AdcControl as referenceControl;$/;"	d
+referenceControl	tos/platforms/cc2430em/AccelerometerC.nc	/^    AccelerometerM.referenceControl -> AdcC4.AdcControl;$/;"	d
+referenceControl	tos/platforms/cc2430em/AccelerometerM.nc	/^  uses interface AdcControl as referenceControl;$/;"	d
+result_t ADCControl.bindPort	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nRF24E1_EVBOARD/ADCP.nc	/^  command result_t ADCControl.bindPort(uint8_t port, uint8_t adcPort) {$/;"	c
+result_t ADCControl.bindPort	tos/platforms/nRF24E1_EVBOARD/ADCP.nc	/^  command result_t ADCControl.bindPort(uint8_t port, uint8_t adcPort) {$/;"	c
+result_t ADCControl.init	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nRF24E1_EVBOARD/ADCP.nc	/^  command result_t ADCControl.init() {$/;"	c
+result_t ADCControl.init	tos/platforms/nRF24E1_EVBOARD/ADCP.nc	/^  command result_t ADCControl.init() {$/;"	c
+result_t ADCControl.setSamplingRate	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/nRF24E1_EVBOARD/ADCP.nc	/^  command result_t ADCControl.setSamplingRate(uint8_t rate) {$/;"	c
+result_t ADCControl.setSamplingRate	tos/platforms/nRF24E1_EVBOARD/ADCP.nc	/^  command result_t ADCControl.setSamplingRate(uint8_t rate) {$/;"	c
+uint16_t CC2420Config.getPanAddr	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  command uint16_t CC2420Config.getPanAddr() {$/;"	c
+uint16_t CC2420Config.getPanAddr	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  command uint16_t CC2420Config.getPanAddr() {$/;"	c
+uint16_t CC2420Config.getShortAddr	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  command uint16_t CC2420Config.getShortAddr() {$/;"	c
+uint16_t CC2420Config.getShortAddr	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  command uint16_t CC2420Config.getShortAddr() {$/;"	c
+uint32_t Timer1.getNow	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command uint32_t Timer1.getNow() {}$/;"	c
+uint32_t Timer1.getNow	tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command uint32_t Timer1.getNow() {}$/;"	c
+uint32_t Timer1.getdt	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command uint32_t Timer1.getdt() {}$/;"	c
+uint32_t Timer1.getdt	tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command uint32_t Timer1.getdt() {}$/;"	c
+uint32_t Timer1.gett0	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command uint32_t Timer1.gett0() {}$/;"	c
+uint32_t Timer1.gett0	tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command uint32_t Timer1.gett0() {}$/;"	c
+uint8_t CC2420Config.getChannel	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  command uint8_t CC2420Config.getChannel() {$/;"	c
+uint8_t CC2420Config.getChannel	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  command uint8_t CC2420Config.getChannel() {$/;"	c
+uint8_t Packet.maxPayloadLength	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^ command uint8_t Packet.maxPayloadLength() {$/;"	c
+uint8_t Packet.maxPayloadLength	tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^ command uint8_t Packet.maxPayloadLength() {$/;"	c
+uint8_t Packet.payloadLength	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^ command uint8_t Packet.payloadLength(message_t* msg) {$/;"	c
+uint8_t Packet.payloadLength	tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^ command uint8_t Packet.payloadLength(message_t* msg) {$/;"	c
+uint8_t Receive.payloadLength	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  command uint8_t Receive.payloadLength(message_t* m) {$/;"	c
+uint8_t Receive.payloadLength	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  command uint8_t Receive.payloadLength(message_t* m) {$/;"	c
+uint8_t Send.maxPayloadLength	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  command uint8_t Send.maxPayloadLength() {$/;"	c
+uint8_t Send.maxPayloadLength	tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  command uint8_t Send.maxPayloadLength() {$/;"	c
+uint8_t SpiControl.getMode	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/spi/HalCip51SimpleSPIP.nc	/^  command uint8_t SpiControl.getMode(){$/;"	c
+uint8_t SpiControl.getMode	tos/chips/cip51/spi/HalCip51SimpleSPIP.nc	/^  command uint8_t SpiControl.getMode(){$/;"	c
+uint8_t SpiControl.getRate	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/spi/HalCip51SimpleSPIP.nc	/^  command uint8_t SpiControl.getRate() {$/;"	c
+uint8_t SpiControl.getRate	tos/chips/cip51/spi/HalCip51SimpleSPIP.nc	/^  command uint8_t SpiControl.getRate() {$/;"	c
+void AMPacket.setDestination	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  command void AMPacket.setDestination(message_t* amsg, am_addr_t addr) {$/;"	c
+void AMPacket.setDestination	tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  command void AMPacket.setDestination(message_t* amsg, am_addr_t addr) {$/;"	c
+void AMPacket.setSource	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  command void AMPacket.setSource(message_t* amsg, am_addr_t addr) {$/;"	c
+void AMPacket.setSource	tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  command void AMPacket.setSource(message_t* amsg, am_addr_t addr) {$/;"	c
+void AMPacket.setType	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  command void AMPacket.setType(message_t* amsg, am_id_t type) {$/;"	c
+void AMPacket.setType	tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  command void AMPacket.setType(message_t* amsg, am_id_t type) {$/;"	c
+void AdcControl.disable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcSequenceDmaP.nc	/^  command void AdcControl.disable() {$/;"	c
+void AdcControl.disable	tos/chips/cc2430/adc/AdcSequenceDmaP.nc	/^  command void AdcControl.disable() {$/;"	c
+void AdcControl.enable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcSequenceDmaP.nc	/^  command void AdcControl.enable(uint8_t ref, uint8_t res, uint8_t in) {$/;"	c
+void AdcControl.enable	tos/chips/cc2430/adc/AdcSequenceDmaP.nc	/^  command void AdcControl.enable(uint8_t ref, uint8_t res, uint8_t in) {$/;"	c
+void CC2420Config.setChannel	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  command void CC2420Config.setChannel( uint8_t channel ) {$/;"	c
+void CC2420Config.setChannel	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  command void CC2420Config.setChannel( uint8_t channel ) {$/;"	c
+void CC2420Config.setPanAddr	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  command void CC2420Config.setPanAddr( uint16_t pan ) {$/;"	c
+void CC2420Config.setPanAddr	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  command void CC2420Config.setPanAddr( uint16_t pan ) {$/;"	c
+void CC2420Config.setShortAddr	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  command void CC2420Config.setShortAddr( uint16_t addr ) {$/;"	c
+void CC2420Config.setShortAddr	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  command void CC2420Config.setShortAddr( uint16_t addr ) {$/;"	c
+void CC2420SetIEEEAddr	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2420SetIEEEAddr(ieee_mac_addr_t extAddress)$/;"	f
+void CC2420SetIEEEAddr	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2420SetIEEEAddr(ieee_mac_addr_t extAddress);$/;"	f
+void CC2420SetIEEEAddr	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2420SetIEEEAddr(ieee_mac_addr_t extAddress)$/;"	f
+void CC2420SetIEEEAddr	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2420SetIEEEAddr(ieee_mac_addr_t extAddress);$/;"	f
+void CC2420SetIEEEAddr	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2420SetIEEEAddr(ieee_mac_addr_t extAddress)$/;"	f
+void CC2420SetIEEEAddr	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2420SetIEEEAddr(ieee_mac_addr_t extAddress);$/;"	f
+void CC2420SetIEEEAddr	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2420SetIEEEAddr(ieee_mac_addr_t extAddress)$/;"	f
+void CC2420SetIEEEAddr	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2420SetIEEEAddr(ieee_mac_addr_t extAddress);$/;"	f
+void CC2430ChannelSet	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430ChannelSet(uint8_t channel)$/;"	f
+void CC2430ChannelSet	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430ChannelSet(uint8_t channel);$/;"	f
+void CC2430ChannelSet	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430ChannelSet(uint8_t channel)$/;"	f
+void CC2430ChannelSet	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430ChannelSet(uint8_t channel);$/;"	f
+void CC2430ChannelSet	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430ChannelSet(uint8_t channel)$/;"	f
+void CC2430ChannelSet	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430ChannelSet(uint8_t channel);$/;"	f
+void CC2430ChannelSet	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430ChannelSet(uint8_t channel)$/;"	f
+void CC2430ChannelSet	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430ChannelSet(uint8_t channel);$/;"	f
+void CC2430ControlSet	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430ControlSet()$/;"	f
+void CC2430ControlSet	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430ControlSet();$/;"	f
+void CC2430ControlSet	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430ControlSet()$/;"	f
+void CC2430ControlSet	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430ControlSet();$/;"	f
+void CC2430ControlSet	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430ControlSet()$/;"	f
+void CC2430ControlSet	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430ControlSet();$/;"	f
+void CC2430ControlSet	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430ControlSet()$/;"	f
+void CC2430ControlSet	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430ControlSet();$/;"	f
+void CC2430ExternalOscillator	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430ExternalOscillator()$/;"	f
+void CC2430ExternalOscillator	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430ExternalOscillator();$/;"	f
+void CC2430ExternalOscillator	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430ExternalOscillator()$/;"	f
+void CC2430ExternalOscillator	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430ExternalOscillator();$/;"	f
+void CC2430ExternalOscillator	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430ExternalOscillator()$/;"	f
+void CC2430ExternalOscillator	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430ExternalOscillator();$/;"	f
+void CC2430ExternalOscillator	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430ExternalOscillator()$/;"	f
+void CC2430ExternalOscillator	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430ExternalOscillator();$/;"	f
+void CC2430InternalRCOscillator	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430InternalRCOscillator()$/;"	f
+void CC2430InternalRCOscillator	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430InternalRCOscillator()$/;"	f
+void CC2430InternalRCOscillator	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430InternalRCOscillator()$/;"	f
+void CC2430InternalRCOscillator	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430InternalRCOscillator()$/;"	f
+void CC2430PALevelSet	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430PALevelSet(uint8_t new_power)$/;"	f
+void CC2430PALevelSet	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430PALevelSet(uint8_t new_power);$/;"	f
+void CC2430PALevelSet	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430PALevelSet(uint8_t new_power)$/;"	f
+void CC2430PALevelSet	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430PALevelSet(uint8_t new_power);$/;"	f
+void CC2430PALevelSet	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430PALevelSet(uint8_t new_power)$/;"	f
+void CC2430PALevelSet	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430PALevelSet(uint8_t new_power);$/;"	f
+void CC2430PALevelSet	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430PALevelSet(uint8_t new_power)$/;"	f
+void CC2430PALevelSet	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430PALevelSet(uint8_t new_power);$/;"	f
+void CC2430RFDisable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430RFDisable()$/;"	f
+void CC2430RFDisable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430RFDisable();$/;"	f
+void CC2430RFDisable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430RFDisable()$/;"	f
+void CC2430RFDisable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430RFDisable();$/;"	f
+void CC2430RFDisable	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430RFDisable()$/;"	f
+void CC2430RFDisable	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430RFDisable();$/;"	f
+void CC2430RFDisable	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430RFDisable()$/;"	f
+void CC2430RFDisable	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430RFDisable();$/;"	f
+void CC2430RFEnable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430RFEnable()$/;"	f
+void CC2430RFEnable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430RFEnable();$/;"	f
+void CC2430RFEnable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430RFEnable()$/;"	f
+void CC2430RFEnable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430RFEnable();$/;"	f
+void CC2430RFEnable	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430RFEnable()$/;"	f
+void CC2430RFEnable	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430RFEnable();$/;"	f
+void CC2430RFEnable	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430RFEnable()$/;"	f
+void CC2430RFEnable	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430RFEnable();$/;"	f
+void CC2430Reset	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430Reset()$/;"	f
+void CC2430Reset	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430Reset();$/;"	f
+void CC2430Reset	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430Reset()$/;"	f
+void CC2430Reset	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430Reset();$/;"	f
+void CC2430Reset	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430Reset()$/;"	f
+void CC2430Reset	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430Reset();$/;"	f
+void CC2430Reset	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430Reset()$/;"	f
+void CC2430Reset	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430Reset();$/;"	f
+void CC2430RxDisable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430RxDisable()$/;"	f
+void CC2430RxDisable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430RxDisable();$/;"	f
+void CC2430RxDisable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430RxDisable()$/;"	f
+void CC2430RxDisable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430RxDisable();$/;"	f
+void CC2430RxDisable	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430RxDisable()$/;"	f
+void CC2430RxDisable	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430RxDisable();$/;"	f
+void CC2430RxDisable	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430RxDisable()$/;"	f
+void CC2430RxDisable	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430RxDisable();$/;"	f
+void CC2430RxEnable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430RxEnable()$/;"	f
+void CC2430RxEnable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430RxEnable();$/;"	f
+void CC2430RxEnable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430RxEnable()$/;"	f
+void CC2430RxEnable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430RxEnable();$/;"	f
+void CC2430RxEnable	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430RxEnable()$/;"	f
+void CC2430RxEnable	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430RxEnable();$/;"	f
+void CC2430RxEnable	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430RxEnable()$/;"	f
+void CC2430RxEnable	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430RxEnable();$/;"	f
+void CC2430SetPanid	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430SetPanid(uint16_t id)$/;"	f
+void CC2430SetPanid	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430SetPanid(uint16_t id);$/;"	f
+void CC2430SetPanid	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430SetPanid(uint16_t id)$/;"	f
+void CC2430SetPanid	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430SetPanid(uint16_t id);$/;"	f
+void CC2430SetPanid	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430SetPanid(uint16_t id)$/;"	f
+void CC2430SetPanid	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430SetPanid(uint16_t id);$/;"	f
+void CC2430SetPanid	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430SetPanid(uint16_t id)$/;"	f
+void CC2430SetPanid	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430SetPanid(uint16_t id);$/;"	f
+void CC2430SetShortaddr	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430SetShortaddr(uint16_t shortAddr)$/;"	f
+void CC2430SetShortaddr	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430SetShortaddr(uint16_t shortAddr);$/;"	f
+void CC2430SetShortaddr	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430SetShortaddr(uint16_t shortAddr)$/;"	f
+void CC2430SetShortaddr	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430SetShortaddr(uint16_t shortAddr);$/;"	f
+void CC2430SetShortaddr	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430SetShortaddr(uint16_t shortAddr)$/;"	f
+void CC2430SetShortaddr	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430SetShortaddr(uint16_t shortAddr);$/;"	f
+void CC2430SetShortaddr	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430SetShortaddr(uint16_t shortAddr)$/;"	f
+void CC2430SetShortaddr	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430SetShortaddr(uint16_t shortAddr);$/;"	f
+void CC2430TxWait	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430TxWait()$/;"	f
+void CC2430TxWait	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430TxWait();$/;"	f
+void CC2430TxWait	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430TxWait()$/;"	f
+void CC2430TxWait	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430TxWait();$/;"	f
+void CC2430TxWait	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    void CC2430TxWait()$/;"	f
+void CC2430TxWait	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void CC2430TxWait();$/;"	f
+void CC2430TxWait	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    void CC2430TxWait()$/;"	f
+void CC2430TxWait	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void CC2430TxWait();$/;"	f
+void Delay	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/c8051F340TB/PlatformP.nc	/^  void Delay(void)$/;"	f
+void Delay	tos/platforms/c8051F340TB/PlatformP.nc	/^  void Delay(void)$/;"	f
+void Fifo_Read	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  void Fifo_Read(uint8_t addr, uint16_t uNumBytes, uint8_t * pData) {$/;"	f
+void Fifo_Read	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  void Fifo_Read(uint8_t addr, uint16_t uNumBytes, uint8_t * pData);$/;"	f
+void Fifo_Read	tos/chips/cip51/usb/HilCip51USBP.nc	/^  void Fifo_Read(uint8_t addr, uint16_t uNumBytes, uint8_t * pData) {$/;"	f
+void Fifo_Read	tos/chips/cip51/usb/HilCip51USBP.nc	/^  void Fifo_Read(uint8_t addr, uint16_t uNumBytes, uint8_t * pData);$/;"	f
+void Fifo_Write	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  void Fifo_Write(uint8_t addr, uint16_t uNumBytes, uint8_t* pData) {$/;"	f
+void Fifo_Write	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  void Fifo_Write(uint8_t addr, uint16_t uNumBytes, uint8_t* pData);$/;"	f
+void Fifo_Write	tos/chips/cip51/usb/HilCip51USBP.nc	/^  void Fifo_Write(uint8_t addr, uint16_t uNumBytes, uint8_t* pData) {$/;"	f
+void Fifo_Write	tos/chips/cip51/usb/HilCip51USBP.nc	/^  void Fifo_Write(uint8_t addr, uint16_t uNumBytes, uint8_t* pData);$/;"	f
+void Packet.clear	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^ command void Packet.clear(message_t* msg) {}$/;"	c
+void Packet.clear	tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^ command void Packet.clear(message_t* msg) {}$/;"	c
+void Packet.setPayloadLength	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^ command void Packet.setPayloadLength(message_t* msg, uint8_t len) {$/;"	c
+void Packet.setPayloadLength	tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^ command void Packet.setPayloadLength(message_t* msg, uint8_t len) {$/;"	c
+void Resource.granted	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  event void Resource.granted() {$/;"	e
+void Resource.granted	tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  event void Resource.granted() {$/;"	e
+void SpiResource.granted	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  event void SpiResource.granted() {$/;"	e
+void SpiResource.granted	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  event void SpiResource.granted() {$/;"	e
+void SpiResource.granted	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  event void SpiResource.granted() {$/;"	e
+void SpiResource.granted	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  event void SpiResource.granted() {$/;"	e
+void SpiResource.granted	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  event void SpiResource.granted() {$/;"	e
+void SpiResource.granted	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  event void SpiResource.granted() {$/;"	e
+void SubSend.sendDone	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  event void SubSend.sendDone(message_t* msg, error_t result) {$/;"	e
+void SubSend.sendDone	tos/chips/cc2430/cc2420/CC2420ActiveMessageP.nc	/^  event void SubSend.sendDone(message_t* msg, error_t result) {$/;"	e
+void SyncResource.granted	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  event void SyncResource.granted() {$/;"	e
+void SyncResource.granted	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  event void SyncResource.granted() {$/;"	e
+void Timer1.startOneShot	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command void Timer1.startOneShot(uint32_t dt) {}$/;"	c
+void Timer1.startOneShot	tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command void Timer1.startOneShot(uint32_t dt) {}$/;"	c
+void Timer1.startOneShotAt	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command void Timer1.startOneShotAt(uint32_t t0, uint32_t dt) {}$/;"	c
+void Timer1.startOneShotAt	tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command void Timer1.startOneShotAt(uint32_t t0, uint32_t dt) {}$/;"	c
+void Timer1.startPeriodic	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command void Timer1.startPeriodic(uint32_t dt) {}$/;"	c
+void Timer1.startPeriodic	tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command void Timer1.startPeriodic(uint32_t dt) {}$/;"	c
+void Timer1.startPeriodicAt	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command void Timer1.startPeriodicAt(uint32_t t0, uint32_t dt) {}$/;"	c
+void Timer1.startPeriodicAt	tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command void Timer1.startPeriodicAt(uint32_t t0, uint32_t dt) {}$/;"	c
+void Timer1.stop	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command void Timer1.stop() {}$/;"	c
+void Timer1.stop	tos/chips/cc2430/timer/HalCC2430SimpleTimerP.nc	/^  command void Timer1.stop() {}$/;"	c
+void USBControl.disable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  command void USBControl.disable(){$/;"	c
+void USBControl.disable	tos/chips/cip51/usb/HilCip51USBP.nc	/^  command void USBControl.disable(){$/;"	c
+void USBControl.enable	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  command void USBControl.enable(){$/;"	c
+void USBControl.enable	tos/chips/cip51/usb/HilCip51USBP.nc	/^  command void USBControl.enable(){$/;"	c
+void USBControl.setDevAdress	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  command void USBControl.setDevAdress(uint8_t add) {$/;"	c
+void USBControl.setDevAdress	tos/chips/cip51/usb/HilCip51USBP.nc	/^  command void USBControl.setDevAdress(uint8_t add) {$/;"	c
+void USBControl.setupDone	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  command void USBControl.setupDone(usb_device_request_t r){$/;"	c
+void USBControl.setupDone	tos/chips/cip51/usb/HilCip51USBP.nc	/^  command void USBControl.setupDone(usb_device_request_t r){$/;"	c
+void attemptSend	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  void attemptSend() {$/;"	f
+void attemptSend	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  void attemptSend();$/;"	f
+void attemptSend	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  void attemptSend() {$/;"	f
+void attemptSend	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  void attemptSend();$/;"	f
+void beginReceive	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  void beginReceive() { $/;"	f
+void beginReceive	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  void beginReceive();$/;"	f
+void beginReceive	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  void beginReceive() { $/;"	f
+void beginReceive	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  void beginReceive();$/;"	f
+void congestionBackoff	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  void congestionBackoff() {$/;"	f
+void congestionBackoff	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  void congestionBackoff() {$/;"	f
+void flushBufferTask	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    task void flushBufferTask() $/;"	a
+void flushBufferTask	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    task void flushBufferTask();$/;"	a
+void flushBufferTask	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void flushBufferTask() $/;"	a
+void flushBufferTask	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void flushBufferTask();$/;"	a
+void flushBufferTask	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    task void flushBufferTask() $/;"	a
+void flushBufferTask	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    task void flushBufferTask();$/;"	a
+void flushBufferTask	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void flushBufferTask() $/;"	a
+void flushBufferTask	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void flushBufferTask();$/;"	a
+void inPacket	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  task void inPacket() {$/;"	a
+void inPacket	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  task void inPacket();$/;"	a
+void inPacket	tos/chips/cip51/usb/HilCip51USBP.nc	/^  task void inPacket() {$/;"	a
+void inPacket	tos/chips/cip51/usb/HilCip51USBP.nc	/^  task void inPacket();$/;"	a
+void initTask	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void initTask()$/;"	a
+void initTask	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  task void initTask();$/;"	a
+void initTask	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void initTask()$/;"	a
+void initTask	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  task void initTask();$/;"	a
+void loadTXFIFO	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  void loadTXFIFO() {$/;"	f
+void loadTXFIFO	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  void loadTXFIFO();$/;"	f
+void loadTXFIFO	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  void loadTXFIFO() {$/;"	f
+void loadTXFIFO	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  void loadTXFIFO();$/;"	f
+void receive	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  void receive() {$/;"	f
+void receive	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  void receive();$/;"	f
+void receive	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  void receive() {$/;"	f
+void receive	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  void receive();$/;"	f
+void receiveDone_task	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  task void receiveDone_task() {$/;"	a
+void receiveDone_task	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  task void receiveDone_task();$/;"	a
+void receiveDone_task	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  task void receiveDone_task() {$/;"	a
+void receiveDone_task	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  task void receiveDone_task();$/;"	a
+void receivedPacketTask	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void receivedPacketTask()$/;"	a
+void receivedPacketTask	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void receivedPacketTask();$/;"	a
+void receivedPacketTask	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void receivedPacketTask()$/;"	a
+void receivedPacketTask	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void receivedPacketTask();$/;"	a
+void receivedPacketTaskAfterDMA	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    task void receivedPacketTaskAfterDMA() {$/;"	a
+void receivedPacketTaskAfterDMA	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    task void receivedPacketTaskAfterDMA();$/;"	a
+void receivedPacketTaskAfterDMA	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    task void receivedPacketTaskAfterDMA() {$/;"	a
+void receivedPacketTaskAfterDMA	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    task void receivedPacketTaskAfterDMA();$/;"	a
+void reference.readDone	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerM.nc	/^  event void reference.readDone( error_t result, int16_t val ) {$/;"	e
+void reference.readDone	tos/platforms/cc2430em/AccelerometerM.nc	/^  event void reference.readDone( error_t result, int16_t val ) {$/;"	e
+void reset_state	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  void reset_state() {$/;"	f
+void reset_state	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  void reset_state() {$/;"	f
+void sendDone_task	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  task void sendDone_task() {$/;"	a
+void sendDone_task	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  task void sendDone_task();$/;"	a
+void sendDone_task	tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  task void sendDone_task() {$/;"	a
+void sendDone_task	tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  task void sendDone_task();$/;"	a
+void sendPacketDoneTask	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    task void sendPacketDoneTask() {$/;"	a
+void sendPacketDoneTask	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    task void sendPacketDoneTask();$/;"	a
+void sendPacketDoneTask	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void sendPacketDoneTask() {$/;"	a
+void sendPacketDoneTask	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void sendPacketDoneTask();$/;"	a
+void sendPacketDoneTask	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    task void sendPacketDoneTask() {$/;"	a
+void sendPacketDoneTask	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    task void sendPacketDoneTask();$/;"	a
+void sendPacketDoneTask	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void sendPacketDoneTask() {$/;"	a
+void sendPacketDoneTask	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void sendPacketDoneTask();$/;"	a
+void setChannelTask	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void setChannelTask()$/;"	a
+void setChannelTask	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  task void setChannelTask();$/;"	a
+void setChannelTask	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void setChannelTask()$/;"	a
+void setChannelTask	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  task void setChannelTask();$/;"	a
+void signalDone	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  void signalDone( error_t err ) {$/;"	f
+void signalDone	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  void signalDone( error_t err ) {$/;"	f
+void signalReadDone	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcDmaP.nc	/^  task void signalReadDone() {$/;"	a
+void signalReadDone	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcDmaP.nc	/^  task void signalReadDone();$/;"	a
+void signalReadDone	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcP.nc	/^  task void signalReadDone() {$/;"	a
+void signalReadDone	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcP.nc	/^  task void signalReadDone();$/;"	a
+void signalReadDone	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcSequenceDmaP.nc	/^  task void signalReadDone() {$/;"	a
+void signalReadDone	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/adc/AdcSequenceDmaP.nc	/^  task void signalReadDone();$/;"	a
+void signalReadDone	tos/chips/cc2430/adc/AdcDmaP.nc	/^  task void signalReadDone() {$/;"	a
+void signalReadDone	tos/chips/cc2430/adc/AdcDmaP.nc	/^  task void signalReadDone();$/;"	a
+void signalReadDone	tos/chips/cc2430/adc/AdcP.nc	/^  task void signalReadDone() {$/;"	a
+void signalReadDone	tos/chips/cc2430/adc/AdcP.nc	/^  task void signalReadDone();$/;"	a
+void signalReadDone	tos/chips/cc2430/adc/AdcSequenceDmaP.nc	/^  task void signalReadDone() {$/;"	a
+void signalReadDone	tos/chips/cc2430/adc/AdcSequenceDmaP.nc	/^  task void signalReadDone();$/;"	a
+void startBackoffTimer	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  void startBackoffTimer(uint16_t time) {$/;"	f
+void startBackoffTimer	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  void startBackoffTimer(uint16_t time) {$/;"	f
+void startDone_task	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  task void startDone_task() {$/;"	a
+void startDone_task	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  task void startDone_task();$/;"	a
+void startDone_task	tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  task void startDone_task() {$/;"	a
+void startDone_task	tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  task void startDone_task();$/;"	a
+void stopBackoffTimer	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  void stopBackoffTimer() {$/;"	f
+void stopBackoffTimer	tos/chips/cc2430/cc2420/CC2420TransmitP.nc	/^  void stopBackoffTimer() {$/;"	f
+void stopDone_task	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  task void stopDone_task() {$/;"	a
+void stopDone_task	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  task void stopDone_task();$/;"	a
+void stopDone_task	tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  task void stopDone_task() {$/;"	a
+void stopDone_task	tos/chips/cc2430/cc2420/CC2420CsmaP.nc	/^  task void stopDone_task();$/;"	a
+void sub_reset	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  void sub_reset() {$/;"	f
+void sub_reset	tos/chips/cip51/usb/HilCip51USBP.nc	/^  void sub_reset() {$/;"	f
+void syncDone_task	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  task void syncDone_task() {$/;"	a
+void syncDone_task	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  task void syncDone_task();$/;"	a
+void syncDone_task	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  task void syncDone_task() {$/;"	a
+void syncDone_task	tos/chips/cc2430/cc2420/CC2420ControlP.nc	/^  task void syncDone_task();$/;"	a
+void transmitTask	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void transmitTask()$/;"	a
+void transmitTask	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  task void transmitTask();$/;"	a
+void transmitTask	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^    task void transmitTask()$/;"	a
+void transmitTask	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  task void transmitTask();$/;"	a
+void transmitTaskAfterDMA	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    task void transmitTaskAfterDMA() {$/;"	a
+void transmitTaskAfterDMA	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  task void transmitTaskAfterDMA();$/;"	a
+void transmitTaskAfterDMA	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    task void transmitTaskAfterDMA() {$/;"	a
+void transmitTaskAfterDMA	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  task void transmitTaskAfterDMA();$/;"	a
+void transmitTaskBeforeDMA	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    task void transmitTaskBeforeDMA()$/;"	a
+void transmitTaskBeforeDMA	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  task void transmitTaskBeforeDMA();$/;"	a
+void transmitTaskBeforeDMA	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^    task void transmitTaskBeforeDMA()$/;"	a
+void transmitTaskBeforeDMA	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  task void transmitTaskBeforeDMA();$/;"	a
+void usb_reset	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cip51/usb/HilCip51USBP.nc	/^  task void usb_reset();$/;"	a
+void usb_reset	tos/chips/cip51/usb/HilCip51USBP.nc	/^  task void usb_reset();$/;"	a
+void wait	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void wait(uint16_t u);$/;"	f
+void wait	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void wait(uint16_t u);$/;"	f
+void wait	tos/chips/cc2430/radio/HalCC2430RadioDmaP.nc	/^  void wait(uint16_t u);$/;"	f
+void wait	tos/chips/cc2430/radio/HalCC2430RadioP.nc	/^  void wait(uint16_t u);$/;"	f
+void waitForNextPacket	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  void waitForNextPacket() {$/;"	f
+void waitForNextPacket	/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  void waitForNextPacket();$/;"	f
+void waitForNextPacket	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  void waitForNextPacket() {$/;"	f
+void waitForNextPacket	tos/chips/cc2430/cc2420/CC2420ReceiveP.nc	/^  void waitForNextPacket();$/;"	f
+void x.readDone	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerM.nc	/^  event void x.readDone( error_t result, int16_t val ) {$/;"	e
+void x.readDone	tos/platforms/cc2430em/AccelerometerM.nc	/^  event void x.readDone( error_t result, int16_t val ) {$/;"	e
+void y.readDone	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerM.nc	/^  event void y.readDone( error_t result, int16_t val ) {$/;"	e
+void y.readDone	tos/platforms/cc2430em/AccelerometerM.nc	/^  event void y.readDone( error_t result, int16_t val ) {$/;"	e
+void z.readDone	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerM.nc	/^  event void z.readDone( error_t result, int16_t val ) {$/;"	e
+void z.readDone	tos/platforms/cc2430em/AccelerometerM.nc	/^  event void z.readDone( error_t result, int16_t val ) {$/;"	e
+x	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerC.nc	/^    AccelerometerM.x -> AdcC1.Read;$/;"	d
+x	tos/platforms/cc2430em/AccelerometerC.nc	/^    AccelerometerM.x -> AdcC1.Read;$/;"	d
+xControl	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerC.nc	/^    AccelerometerM.xControl -> AdcC1.AdcControl;$/;"	d
+xControl	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerM.nc	/^  uses interface AdcControl as xControl;$/;"	d
+xControl	tos/platforms/cc2430em/AccelerometerC.nc	/^    AccelerometerM.xControl -> AdcC1.AdcControl;$/;"	d
+xControl	tos/platforms/cc2430em/AccelerometerM.nc	/^  uses interface AdcControl as xControl;$/;"	d
+y	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerC.nc	/^    AccelerometerM.y -> AdcC2.Read;$/;"	d
+y	tos/platforms/cc2430em/AccelerometerC.nc	/^    AccelerometerM.y -> AdcC2.Read;$/;"	d
+yControl	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerC.nc	/^    AccelerometerM.yControl -> AdcC2.AdcControl;$/;"	d
+yControl	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerM.nc	/^  uses interface AdcControl as yControl;$/;"	d
+yControl	tos/platforms/cc2430em/AccelerometerC.nc	/^    AccelerometerM.yControl -> AdcC2.AdcControl;$/;"	d
+yControl	tos/platforms/cc2430em/AccelerometerM.nc	/^  uses interface AdcControl as yControl;$/;"	d
+z	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerC.nc	/^    AccelerometerM.z -> AdcC3.Read;$/;"	d
+z	tos/platforms/cc2430em/AccelerometerC.nc	/^    AccelerometerM.z -> AdcC3.Read;$/;"	d
+zControl	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerC.nc	/^    AccelerometerM.zControl -> AdcC3.AdcControl;$/;"	d
+zControl	/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/AccelerometerM.nc	/^  uses interface AdcControl as zControl;$/;"	d
+zControl	tos/platforms/cc2430em/AccelerometerC.nc	/^    AccelerometerM.zControl -> AdcC3.AdcControl;$/;"	d
+zControl	tos/platforms/cc2430em/AccelerometerM.nc	/^  uses interface AdcControl as zControl;$/;"	d

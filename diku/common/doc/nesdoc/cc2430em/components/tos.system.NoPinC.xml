@@ -1,0 +1,30 @@
+<?xml version="1.0" ?><component abstract="" loc="16:/opt/tinyos-2.1.2/tos/system/NoPinC.nc" nicename="tos.system.NoPinC" qname="NoPinC">
+      <documentation loc="10:/opt/tinyos-2.1.2/tos/system/NoPinC.nc">
+        <short>
+ Dummy pin component.</short>
+        <long>
+ Dummy pin component.
+
+ @author David Gay
+</long>
+      </documentation>
+      <parameters>
+      </parameters>
+      <module/>
+    <specification><interface loc="18:/opt/tinyos-2.1.2/tos/system/NoPinC.nc" name="GeneralIO" provided="1" ref="0x2b7153f988b0">
+      <component-ref nicename="tos.system.NoPinC" qname="NoPinC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="GeneralIO" ref="0x2b7153f988b0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b7153f98c00" scoped=""/>
+        <function-ref name="isInput" ref="0x2b7153f98d88" scoped=""/>
+        <function-ref name="toggle" ref="0x2b7153f95020" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b7153f951a8" scoped=""/>
+        <function-ref name="get" ref="0x2b7153f95330" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b7153f954b8" scoped=""/>
+        <function-ref name="set" ref="0x2b7153f95640" scoped=""/>
+        <function-ref name="clr" ref="0x2b7153f957c8" scoped=""/>
+      </interface-functions>
+    </interface></specification><referenced/></component>

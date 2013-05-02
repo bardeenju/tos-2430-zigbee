@@ -1,0 +1,90 @@
+<?xml version="1.0" ?><interfacedef loc="44:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc" nicename="tos.lib.serial.SerialByteComm" qname="SerialByteComm">
+      <documentation loc="34:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc">
+        <short>
+ A basic byte-level interface to a serial port.</short>
+        <long>
+ A basic byte-level interface to a serial port.
+
+ @author David Gay
+ @author Philip Levis
+ @author Ben Greenstein
+ @date August 7 2005
+
+</long>
+      </documentation>
+      <function event="" loc="58:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc" name="get" provided="0" ref="0x2b71542d86c0">
+        <documentation loc="54:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc">
+          <short> 
+ Receive a single byte from the serial port.</short>
+          <long> 
+ Receive a single byte from the serial port.
+ @param data The byte that has been received from the serial port.
+</long>
+        </documentation>
+        <interfacedef-ref nicename="tos.lib.serial.SerialByteComm" qname="SerialByteComm"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="58:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc" name="data" ref="0x2b71542d8450">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+      <function event="" loc="64:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc" name="putDone" provided="0" ref="0x2b71542d8e20">
+        <documentation loc="60:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc">
+          <short> 
+ Split phase event to indicate that the last put request
+ has completed.</short>
+          <long> 
+ Split phase event to indicate that the last put request
+ has completed.
+</long>
+        </documentation>
+        <interfacedef-ref nicename="tos.lib.serial.SerialByteComm" qname="SerialByteComm"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-void alignment="I:1" size="I:1"/>
+          <function-parameters>
+          </function-parameters>
+        </type-function>
+        <parameters>
+        </parameters>
+      </function>
+      <function command="" loc="52:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc" name="put" provided="0" ref="0x2b71542dbc98">
+        <documentation loc="46:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc">
+          <short> 
+ Put a single byte to the serial port.</short>
+          <long> 
+ Put a single byte to the serial port.
+ @param data The byte to send to the serial port.
+ @return Returns an error_t code indicating whether this byte was
+ successfully put (SUCCESS) or not (FAIL).
+</long>
+        </documentation>
+        <interfacedef-ref nicename="tos.lib.serial.SerialByteComm" qname="SerialByteComm"/>
+        <type-function alignment="I:1" size="I:1">
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+          </type-int>
+          <function-parameters>
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </function-parameters>
+        </type-function>
+        <parameters>
+          <variable loc="52:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc" name="data" ref="0x2b71542dba28">
+            <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            </type-int>
+          </variable>
+        </parameters>
+      </function>
+    </interfacedef>
