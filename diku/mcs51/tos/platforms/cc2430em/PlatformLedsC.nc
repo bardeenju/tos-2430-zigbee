@@ -50,8 +50,8 @@ implementation
 {
   components HplMcs51GeneralIOC, 
     PlatformP,
-    new ReverseGPIOP() as Led0_rev,
-    new ReverseGPIOP() as Led2_rev,
+    //new ReverseGPIOP() as Led0_rev,
+    //new ReverseGPIOP() as Led2_rev,
     new NoPinC();
 
   // Let LedsP (from system) handle the Led init...
@@ -62,10 +62,10 @@ implementation
    * low...
    */
 
-  Led0_rev -> HplMcs51GeneralIOC.P10;
-  Led2_rev -> HplMcs51GeneralIOC.P13;
+  //Led0_rev -> HplMcs51GeneralIOC.P10;
+  //Led2_rev -> HplMcs51GeneralIOC.P13;
 
-  Led0 = Led0_rev.Out;
-  Led1 = NoPinC;
-  Led2 = Led2_rev.Out;
+  Led0 = HplMcs51GeneralIOC.P10;
+  Led1 = HplMcs51GeneralIOC.P11; 
+  Led2 = NoPinC;
 }
