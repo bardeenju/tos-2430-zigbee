@@ -22,5 +22,8 @@ implementation {
 
     components StdOutC;
     TestAppP.StdOut -> StdOutC;
+
+    components Spec4LedsC;
+    TestAppP.Spec4Leds -> Spec4LedsC.Spec4Leds;
 }
 

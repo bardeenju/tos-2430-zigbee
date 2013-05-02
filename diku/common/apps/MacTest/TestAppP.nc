@@ -7,6 +7,8 @@ module TestAppP {
     uses interface SimpleMac;
     uses interface StdControl as SimpleMacControl;
     uses interface LocalTime<TMicro>;
+
+    uses interface Spec4Leds;
 }
 
 implementation {
@@ -54,7 +56,9 @@ implementation {
   }
   
   event void Boot.booted() {    
-    call Leds.led1On();
+    call Leds.led0On();
+
+    //call Spec4Leds.led0On();
     
     call StdOut.print("Program initialized\n\r");
 
@@ -69,6 +73,7 @@ implementation {
     receiverOn = TRUE;
     call SimpleMacControl.start();      
     //call Timer.start(TIMER_REPEAT, 1000);
+    //call Timer.startPeriodic(100000);
   }
     
 
@@ -82,12 +87,16 @@ implementation {
       receiverOn = FALSE;
       call SimpleMacControl.stop();
       call StdOut.print("Radio turned off\r\n");
+      call Spec4Leds.led0Toggle();
     } else {
       radioOn = TRUE;
       receiverOn = TRUE;
       call SimpleMacControl.start();        
       call StdOut.print("Radio turned on\r\n");
+      call Spec4Leds.led1Toggle();
     }
+
+    call Leds.led1Toggle();
     // post sendPacketTask();
     
   }
