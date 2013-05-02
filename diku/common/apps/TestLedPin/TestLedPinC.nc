@@ -5,6 +5,7 @@ module TestLedPinC
   uses interface Leds;
  // uses interface GeneralIO as Led0;
   uses interface Boot;
+  uses interface Spec4Leds;
 }
 implementation
 {
@@ -24,6 +25,11 @@ implementation
   task void lighton(){
 	call Leds.led0On();
 	call Leds.led1On();
+
+	call Spec4Leds.led0On();
+	call Spec4Leds.led1On();
+	call Spec4Leds.led2On();
+	call Spec4Leds.led3On();
   }
 
 /*

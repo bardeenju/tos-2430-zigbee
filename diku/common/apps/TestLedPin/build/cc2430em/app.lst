@@ -1,4 +1,4 @@
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 1   
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 1   
 
 
 C51 COMPILER V9.00, COMPILATION OF MODULE APP
@@ -62,7 +62,7 @@ line level    source
   53          }  ;*/
   54          //#line 16
   55          /*struct __nesc_attr_dmemcpy {
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 2   
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 2   
 
   56          //#line 16
   57            int a1, a2, a3;
@@ -126,7 +126,7 @@ line level    source
  115          
  116          
  117          typedef unsigned char uint_fast8_t;
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 3   
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 3   
 
  118          
  119          
@@ -190,7 +190,7 @@ line level    source
              -c_nxbase_nxle_int16_t  ;
  168          typedef struct { unsigned char nxdata[8]; } /*__attribute__((packed))*/ nxle_int32_t;typedef int32_t __nes
              -c_nxbase_nxle_int32_t  ;
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 4   
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 4   
 
  169          typedef struct { unsigned char nxdata[8]; } /*__attribute__((packed))*/ nxle_int64_t;/*typedef int64_t __n
              -esc_nxbase_nxle_int64_t  ;*/
@@ -254,7 +254,7 @@ line level    source
  223          /*YYYYY } div_t*/
  224          
  225          
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 5   
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 5   
 
  226          
  227          
@@ -318,7 +318,7 @@ line level    source
  285            int32_t *state;
  286            int rand_type;
  287            int rand_deg;
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 6   
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 6   
 
  288            int rand_sep;
  289            int32_t *end_ptr;
@@ -335,7 +335,7 @@ line level    source
  300                
  301          };
  302          //#line 742
- 303          typedef int (*__compar_fn_t)(const void *arg_0x2ab98becc1f0, const void *arg_0x2ab98becc4c8);
+ 303          typedef int (*__compar_fn_t)(const void *arg_0x2ad0f96361f0, const void *arg_0x2ad0f96364c8);
  304          //#line 776
  305          /*__extension__*/ 
  306          //#line 793
@@ -382,7 +382,7 @@ line level    source
  347            ERETRY = 7, 
  348            ERESERVE = 8, 
  349            EALREADY = 9, 
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 7   
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 7   
 
  350            ENOMEM = 10, 
  351            ENOACK = 11, 
@@ -395,1226 +395,1607 @@ line level    source
  358          //#line 194
  359          sbit P1_0 = 0x90;
  360          sbit P1_1 = 0x91;
- 361          //# 67 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/ioCC2430.h"
- 362          enum __nesc_unnamed4251 {
- 363            CC2430_IEN0_EA = 0x7, 
- 364            CC2430_IEN0_STIE = 0x5, 
- 365            CC2430_IEN0_ENCIE = 0x4, 
- 366            CC2430_IEN0_URX1IE = 0x3, 
- 367            CC2430_IEN0_URX0IE = 0x2, 
- 368            CC2430_IEN0_ADCIE = 0x1, 
- 369            CC2430_IEN0_RFERRIE = 0x0
- 370          };
- 371          
- 372          
- 373          
- 374          
- 375          
- 376          enum __nesc_unnamed4252 {
- 377            CC2430_IEN2_WDTIE = 0x5, 
- 378            CC2430_IEN2_P1IE = 0x4, 
- 379            CC2430_IEN2_UTX1IE = 0x3, 
- 380            CC2430_IEN2_UTX0IE = 0x2, 
- 381            CC2430_IEN2_P2IE = 0x1, 
- 382            CC2430_IEN2_RFIE = 0x0
- 383          };
- 384          
- 385          
- 386          
- 387          
- 388          
- 389          enum __nesc_unnamed4253 {
- 390            CC2430_IRCON_STIF = 0x7, 
- 391            CC2430_IRCON_P0IF = 0x5, 
- 392            CC2430_IRCON_T4IF = 0x4, 
- 393            CC2430_IRCON_T3IF = 0x3, 
- 394            CC2430_IRCON_T2IF = 0x2, 
- 395            CC2430_IRCON_T1IF = 0x1, 
- 396            CC2430_IRCON_DMAIF = 0x0
- 397          };
- 398          
- 399          
- 400          
- 401          
- 402          
- 403          enum __nesc_unnamed4254 {
- 404            CC2430_IRCON2_WDTIF = 0x4, 
- 405            CC2430_IRCON2_P1IF = 0x3, 
- 406            CC2430_IRCON2_UTX1IF = 0x2, 
- 407            CC2430_IRCON2_UTX0IF = 0x1, 
- 408            CC2430_IRCON2_P2IF = 0x0
- 409          };
- 410          
- 411          
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 8   
+ 361          
+ 362          
+ 363          sbit P1_4 = 0x94;
+ 364          sbit P1_5 = 0x95;
+ 365          sbit P1_6 = 0x96;
+ 366          sbit P1_7 = 0x97;
+ 367          //# 67 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/ioCC2430.h"
+ 368          enum __nesc_unnamed4251 {
+ 369            CC2430_IEN0_EA = 0x7, 
+ 370            CC2430_IEN0_STIE = 0x5, 
+ 371            CC2430_IEN0_ENCIE = 0x4, 
+ 372            CC2430_IEN0_URX1IE = 0x3, 
+ 373            CC2430_IEN0_URX0IE = 0x2, 
+ 374            CC2430_IEN0_ADCIE = 0x1, 
+ 375            CC2430_IEN0_RFERRIE = 0x0
+ 376          };
+ 377          
+ 378          
+ 379          
+ 380          
+ 381          
+ 382          enum __nesc_unnamed4252 {
+ 383            CC2430_IEN2_WDTIE = 0x5, 
+ 384            CC2430_IEN2_P1IE = 0x4, 
+ 385            CC2430_IEN2_UTX1IE = 0x3, 
+ 386            CC2430_IEN2_UTX0IE = 0x2, 
+ 387            CC2430_IEN2_P2IE = 0x1, 
+ 388            CC2430_IEN2_RFIE = 0x0
+ 389          };
+ 390          
+ 391          
+ 392          
+ 393          
+ 394          
+ 395          enum __nesc_unnamed4253 {
+ 396            CC2430_IRCON_STIF = 0x7, 
+ 397            CC2430_IRCON_P0IF = 0x5, 
+ 398            CC2430_IRCON_T4IF = 0x4, 
+ 399            CC2430_IRCON_T3IF = 0x3, 
+ 400            CC2430_IRCON_T2IF = 0x2, 
+ 401            CC2430_IRCON_T1IF = 0x1, 
+ 402            CC2430_IRCON_DMAIF = 0x0
+ 403          };
+ 404          
+ 405          
+ 406          
+ 407          
+ 408          
+ 409          enum __nesc_unnamed4254 {
+ 410            CC2430_IRCON2_WDTIF = 0x4, 
+ 411            CC2430_IRCON2_P1IF = 0x3, 
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 8   
 
- 412          
- 413          
- 414          
- 415          enum __nesc_unnamed4255 {
- 416            CC2430_RFIM_RREG_PD = 0x7, 
- 417            CC2430_RFIM_TXDONE = 0x6, 
- 418            CC2430_RFIM_FIFOP = 0x5, 
- 419            CC2430_RFIM_SFD = 0x4, 
- 420            CC2430_RFIM_CCA = 0x3, 
- 421            CC2430_RFIM_CSP_WT = 0x2, 
- 422            CC2430_RFIM_CSP_STOP = 0x1, 
- 423            CC2430_RFIM_CSP_INT = 0x0
- 424          };
- 425          
- 426          
- 427          
- 428          
- 429          
- 430          enum __nesc_unnamed4256 {
- 431            CC2430_RFIF_RREG_ON = 0x7, 
- 432            CC2430_RFIF_TXDONE = 0x6, 
- 433            CC2430_RFIF_FIFOP = 0x5, 
- 434            CC2430_RFIF_SFD = 0x4, 
- 435            CC2430_RFIF_CCA = 0x3, 
- 436            CC2430_RFIF_CSP_WT = 0x2, 
- 437            CC2430_RFIF_CSP_STOP = 0x1, 
- 438            CC2430_RFIF_CSP_INT = 0x0
- 439          };
- 440          //#line 256
- 441          sfr SLEEP = 0xBE;
- 442          
- 443          
- 444          
- 445          
- 446          
- 447          
+ 412            CC2430_IRCON2_UTX1IF = 0x2, 
+ 413            CC2430_IRCON2_UTX0IF = 0x1, 
+ 414            CC2430_IRCON2_P2IF = 0x0
+ 415          };
+ 416          
+ 417          
+ 418          
+ 419          
+ 420          
+ 421          enum __nesc_unnamed4255 {
+ 422            CC2430_RFIM_RREG_PD = 0x7, 
+ 423            CC2430_RFIM_TXDONE = 0x6, 
+ 424            CC2430_RFIM_FIFOP = 0x5, 
+ 425            CC2430_RFIM_SFD = 0x4, 
+ 426            CC2430_RFIM_CCA = 0x3, 
+ 427            CC2430_RFIM_CSP_WT = 0x2, 
+ 428            CC2430_RFIM_CSP_STOP = 0x1, 
+ 429            CC2430_RFIM_CSP_INT = 0x0
+ 430          };
+ 431          
+ 432          
+ 433          
+ 434          
+ 435          
+ 436          enum __nesc_unnamed4256 {
+ 437            CC2430_RFIF_RREG_ON = 0x7, 
+ 438            CC2430_RFIF_TXDONE = 0x6, 
+ 439            CC2430_RFIF_FIFOP = 0x5, 
+ 440            CC2430_RFIF_SFD = 0x4, 
+ 441            CC2430_RFIF_CCA = 0x3, 
+ 442            CC2430_RFIF_CSP_WT = 0x2, 
+ 443            CC2430_RFIF_CSP_STOP = 0x1, 
+ 444            CC2430_RFIF_CSP_INT = 0x0
+ 445          };
+ 446          //#line 256
+ 447          sfr SLEEP = 0xBE;
  448          
- 449          sfr CLKCON = 0xC6;
- 450          //#line 352
- 451          sfr P1_DIR = 0xFE;
- 452          //#line 393
- 453          //typedef uint16_t uint16_t xdata;
- 454          //typedef uint8_t uint8_t xdata;
- 455          
- 456          //typedef uint16_t uint16_t code;
- 457          //typedef uint8_t uint8_t code;
- 458          //#line 479
- 459          enum __nesc_unnamed4257 {
- 460            CC2430_RFPWR_ADI_RADIO_PD = 0x4, 
- 461            CC2430_RFPWR_RREG_RADIO_PD = 0x3, 
- 462            CC2430_RFPWR_RREG_DELAY = 0x0, 
- 463            CC2430_RFPWR_RREG_DELAY_MASK = 0x7
- 464          };
- 465          
- 466          enum __nesc_unnamed4258 {
- 467            CC2430_RREG_DELAY_0 = 0x0, 
- 468            CC2430_RREG_DELAY_31 = 0x1, 
- 469            CC2430_RREG_DELAY_63 = 0x2, 
- 470            CC2430_RREG_DELAY_125 = 0x3, 
- 471            CC2430_RREG_DELAY_250 = 0x4, 
- 472            CC2430_RREG_DELAY_500 = 0x5, 
- 473            CC2430_RREG_DELAY_1000 = 0x6, 
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 9   
+ 449          
+ 450          
+ 451          
+ 452          
+ 453          
+ 454          
+ 455          sfr CLKCON = 0xC6;
+ 456          //#line 352
+ 457          sfr P1_DIR = 0xFE;
+ 458          //#line 393
+ 459          //typedef uint16_t uint16_t xdata;
+ 460          //typedef uint8_t uint8_t xdata;
+ 461          
+ 462          //typedef uint16_t uint16_t code;
+ 463          //typedef uint8_t uint8_t code;
+ 464          //#line 479
+ 465          enum __nesc_unnamed4257 {
+ 466            CC2430_RFPWR_ADI_RADIO_PD = 0x4, 
+ 467            CC2430_RFPWR_RREG_RADIO_PD = 0x3, 
+ 468            CC2430_RFPWR_RREG_DELAY = 0x0, 
+ 469            CC2430_RFPWR_RREG_DELAY_MASK = 0x7
+ 470          };
+ 471          
+ 472          enum __nesc_unnamed4258 {
+ 473            CC2430_RREG_DELAY_0 = 0x0, 
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 9   
 
- 474            CC2430_RREG_DELAY_2000 = 0x7
- 475          };
- 476          
- 477          enum __nesc_unnamed4259 {
- 478            CC2430_MDMCTRL0L_AUTOCRC = 0x5, 
- 479            CC2430_MDMCTRL0L_AUTOACK = 0x4
- 480          };
- 481          
- 482          enum __nesc_unnamed4260 {
- 483            CC2430_MDMCTRL0H_FRAME_FILT = 0x6, 
- 484            CC2430_MDMCTRL0H_RESERVED_FRAME_MODE = 0x5, 
- 485            CC2430_MDMCTRL0H_PAN_COORDINATOR = 0x4, 
- 486            CC2430_MDMCTRL0H_ADDR_DECODE = 0x3, 
- 487            CC2430_MDMCTRL0H_CCA_HYST = 0x0
- 488          };
- 489          
- 490          enum __nesc_unnamed4261 {
- 491            CC2430_RFSTATUS_TX_ACTIVE = 0x4, 
- 492            CC2430_RFSTATUS_FIFO = 0x3, 
- 493            CC2430_RFSTATUS_FIFOP = 0x2, 
- 494            CC2430_RFSTATUS_SFD = 0x1, 
- 495            CC2430_RFSTATUS_CCA = 0x0
- 496          };
- 497          //# 102 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/mcs51hardware.h"
- 498          typedef uint8_t __nesc_atomic_t;
- 499          
- 500          static   /*inline*/   void __nesc_disable_interrupt();
- 501          static   /*inline*/   void __nesc_enable_interrupt();
- 502          
- 503            /*inline*/   __nesc_atomic_t __nesc_atomic_start(void )  ;
- 504          
+ 474            CC2430_RREG_DELAY_31 = 0x1, 
+ 475            CC2430_RREG_DELAY_63 = 0x2, 
+ 476            CC2430_RREG_DELAY_125 = 0x3, 
+ 477            CC2430_RREG_DELAY_250 = 0x4, 
+ 478            CC2430_RREG_DELAY_500 = 0x5, 
+ 479            CC2430_RREG_DELAY_1000 = 0x6, 
+ 480            CC2430_RREG_DELAY_2000 = 0x7
+ 481          };
+ 482          
+ 483          enum __nesc_unnamed4259 {
+ 484            CC2430_MDMCTRL0L_AUTOCRC = 0x5, 
+ 485            CC2430_MDMCTRL0L_AUTOACK = 0x4
+ 486          };
+ 487          
+ 488          enum __nesc_unnamed4260 {
+ 489            CC2430_MDMCTRL0H_FRAME_FILT = 0x6, 
+ 490            CC2430_MDMCTRL0H_RESERVED_FRAME_MODE = 0x5, 
+ 491            CC2430_MDMCTRL0H_PAN_COORDINATOR = 0x4, 
+ 492            CC2430_MDMCTRL0H_ADDR_DECODE = 0x3, 
+ 493            CC2430_MDMCTRL0H_CCA_HYST = 0x0
+ 494          };
+ 495          
+ 496          enum __nesc_unnamed4261 {
+ 497            CC2430_RFSTATUS_TX_ACTIVE = 0x4, 
+ 498            CC2430_RFSTATUS_FIFO = 0x3, 
+ 499            CC2430_RFSTATUS_FIFOP = 0x2, 
+ 500            CC2430_RFSTATUS_SFD = 0x1, 
+ 501            CC2430_RFSTATUS_CCA = 0x0
+ 502          };
+ 503          //# 102 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/mcs51hardware.h"
+ 504          typedef uint8_t __nesc_atomic_t;
  505          
- 506          
- 507          
+ 506          static   /*inline*/   void __nesc_disable_interrupt();
+ 507          static   /*inline*/   void __nesc_enable_interrupt();
  508          
- 509            /*inline*/   void __nesc_atomic_end(__nesc_atomic_t oldSreg)  ;
- 510          //# 71 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/CC2430Timer.h"
- 511          enum __nesc_unnamed4262 {
- 512            CC2430_SLEEP_OSC32K_CALDIS = 7, 
- 513            CC2430_SLEEP_XOSC_STB = 6, 
- 514            CC2430_SLEEP_HFRC_STB = 5, 
- 515            CC2430_SLEEP_DIV = 3, 
- 516            CC2430_SLEEP_OSC_PD = 2, 
- 517            CC2430_SLEEP_MODE = 0, 
- 518            CC2430_SLEEP_MODE_MASK = 3
- 519          };
- 520          
- 521          enum __nesc_unnamed4263 {
- 522            CC2430_SLEEP_POWERMODE_0 = 0, 
- 523            CC2430_SLEEP_POWERMODE_1 = 1, 
- 524            CC2430_SLEEP_POWERMODE_2 = 2, 
- 525            CC2430_SLEEP_POWERMODE_3 = 3
- 526          };
- 527          
- 528          enum __nesc_unnamed4264 {
- 529            CC2430_CLKCON_OSC32K = 7, 
- 530            CC2430_CLKCON_OSC = 6, 
- 531            CC2430_CLKCON_TICKSPD = 3, 
- 532            CC2430_CLKCON_CLKSPD = 0, 
- 533            CC2430_CLKCON_TICKSPD_MASK = 0x38
- 534          };
- 535          
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 10  
+ 509            /*inline*/   __nesc_atomic_t __nesc_atomic_start(void )  ;
+ 510          
+ 511          
+ 512          
+ 513          
+ 514          
+ 515            /*inline*/   void __nesc_atomic_end(__nesc_atomic_t oldSreg)  ;
+ 516          //# 71 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/CC2430Timer.h"
+ 517          enum __nesc_unnamed4262 {
+ 518            CC2430_SLEEP_OSC32K_CALDIS = 7, 
+ 519            CC2430_SLEEP_XOSC_STB = 6, 
+ 520            CC2430_SLEEP_HFRC_STB = 5, 
+ 521            CC2430_SLEEP_DIV = 3, 
+ 522            CC2430_SLEEP_OSC_PD = 2, 
+ 523            CC2430_SLEEP_MODE = 0, 
+ 524            CC2430_SLEEP_MODE_MASK = 3
+ 525          };
+ 526          
+ 527          enum __nesc_unnamed4263 {
+ 528            CC2430_SLEEP_POWERMODE_0 = 0, 
+ 529            CC2430_SLEEP_POWERMODE_1 = 1, 
+ 530            CC2430_SLEEP_POWERMODE_2 = 2, 
+ 531            CC2430_SLEEP_POWERMODE_3 = 3
+ 532          };
+ 533          
+ 534          enum __nesc_unnamed4264 {
+ 535            CC2430_CLKCON_OSC32K = 7, 
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 10  
 
- 536          
- 537          
- 538          
- 539          enum cc2430_tick_spd_t {
- 540            CC2430_TICKF_DIV_1 = 0x0 << CC2430_CLKCON_TICKSPD, 
- 541            CC2430_TICKF_DIV_2 = 0x1 << CC2430_CLKCON_TICKSPD, 
- 542            CC2430_TICKF_DIV_4 = 0x2 << CC2430_CLKCON_TICKSPD, 
- 543            CC2430_TICKF_DIV_8 = 0x3 << CC2430_CLKCON_TICKSPD, 
- 544            CC2430_TICKF_DIV_16 = 0x4 << CC2430_CLKCON_TICKSPD, 
- 545            CC2430_TICKF_DIV_32 = 0x5 << CC2430_CLKCON_TICKSPD, 
- 546            CC2430_TICKF_DIV_64 = 0x6 << CC2430_CLKCON_TICKSPD, 
- 547            CC2430_TICKF_DIV_128 = 0x7 << CC2430_CLKCON_TICKSPD
- 548          };
- 549          
- 550          
- 551          
- 552          
- 553          
- 554          
+ 536            CC2430_CLKCON_OSC = 6, 
+ 537            CC2430_CLKCON_TICKSPD = 3, 
+ 538            CC2430_CLKCON_CLKSPD = 0, 
+ 539            CC2430_CLKCON_TICKSPD_MASK = 0x38
+ 540          };
+ 541          
+ 542          
+ 543          
+ 544          
+ 545          enum cc2430_tick_spd_t {
+ 546            CC2430_TICKF_DIV_1 = 0x0 << CC2430_CLKCON_TICKSPD, 
+ 547            CC2430_TICKF_DIV_2 = 0x1 << CC2430_CLKCON_TICKSPD, 
+ 548            CC2430_TICKF_DIV_4 = 0x2 << CC2430_CLKCON_TICKSPD, 
+ 549            CC2430_TICKF_DIV_8 = 0x3 << CC2430_CLKCON_TICKSPD, 
+ 550            CC2430_TICKF_DIV_16 = 0x4 << CC2430_CLKCON_TICKSPD, 
+ 551            CC2430_TICKF_DIV_32 = 0x5 << CC2430_CLKCON_TICKSPD, 
+ 552            CC2430_TICKF_DIV_64 = 0x6 << CC2430_CLKCON_TICKSPD, 
+ 553            CC2430_TICKF_DIV_128 = 0x7 << CC2430_CLKCON_TICKSPD
+ 554          };
  555          
  556          
  557          
  558          
- 559          enum __nesc_unnamed4265 {
- 560            CC2430_T1CTL_CH2IF = 0x7, 
- 561            CC2430_T1CTL_CH1IF = 0x6, 
- 562            CC2430_T1CTL_CH0IF = 0x5, 
- 563            CC2430_T1CTL_OVFIF = 0x4, 
- 564            CC2430_T1CTL_DIV = 0x2, 
- 565            CC2430_T1CTL_MODE = 0x0, 
- 566            CC2430_T1CTL_MODE_MASK = 0x3, 
- 567            CC2430_T1CTL_DIV_MASK = 0xc, 
- 568            CC2430_T1CTL_IF_MASK = 0xf0
- 569          };
- 570          
- 571          
- 572          
- 573          
- 574          
- 575          
- 576          enum cc2430_timer1_mode_t {
- 577            CC2430_TIMER1_MODE_OFF = 0x0 << CC2430_T1CTL_MODE, 
- 578            CC2430_TIMER1_MODE_FREE = 0x1 << CC2430_T1CTL_MODE, 
- 579            CC2430_TIMER1_MODE_MODULO = 0x2 << CC2430_T1CTL_MODE, 
- 580            CC2430_TIMER1_MODE_UPDOWN = 0x3 << CC2430_T1CTL_MODE
- 581          };
- 582          
- 583          
- 584          
- 585          
- 586          
- 587          
- 588          enum cc2430_timer1_if_t {
- 589            CC2430_T1_CH2IF = 1 << CC2430_T1CTL_CH2IF, 
- 590            CC2430_T1_CH1IF = 1 << CC2430_T1CTL_CH1IF, 
- 591            CC2430_T1_CH0IF = 1 << CC2430_T1CTL_CH0IF, 
- 592            CC2430_T1_OVFIF = 1 << CC2430_T1CTL_OVFIF
- 593          };
- 594          
- 595          
- 596          
- 597          
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 11  
+ 559          
+ 560          
+ 561          
+ 562          
+ 563          
+ 564          
+ 565          enum __nesc_unnamed4265 {
+ 566            CC2430_T1CTL_CH2IF = 0x7, 
+ 567            CC2430_T1CTL_CH1IF = 0x6, 
+ 568            CC2430_T1CTL_CH0IF = 0x5, 
+ 569            CC2430_T1CTL_OVFIF = 0x4, 
+ 570            CC2430_T1CTL_DIV = 0x2, 
+ 571            CC2430_T1CTL_MODE = 0x0, 
+ 572            CC2430_T1CTL_MODE_MASK = 0x3, 
+ 573            CC2430_T1CTL_DIV_MASK = 0xc, 
+ 574            CC2430_T1CTL_IF_MASK = 0xf0
+ 575          };
+ 576          
+ 577          
+ 578          
+ 579          
+ 580          
+ 581          
+ 582          enum cc2430_timer1_mode_t {
+ 583            CC2430_TIMER1_MODE_OFF = 0x0 << CC2430_T1CTL_MODE, 
+ 584            CC2430_TIMER1_MODE_FREE = 0x1 << CC2430_T1CTL_MODE, 
+ 585            CC2430_TIMER1_MODE_MODULO = 0x2 << CC2430_T1CTL_MODE, 
+ 586            CC2430_TIMER1_MODE_UPDOWN = 0x3 << CC2430_T1CTL_MODE
+ 587          };
+ 588          
+ 589          
+ 590          
+ 591          
+ 592          
+ 593          
+ 594          enum cc2430_timer1_if_t {
+ 595            CC2430_T1_CH2IF = 1 << CC2430_T1CTL_CH2IF, 
+ 596            CC2430_T1_CH1IF = 1 << CC2430_T1CTL_CH1IF, 
+ 597            CC2430_T1_CH0IF = 1 << CC2430_T1CTL_CH0IF, 
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 11  
 
- 598          
- 599          enum cc2430_timer1_prescaler_t {
- 600            CC2430_TIMER1_DIV_1 = 0x0 << CC2430_T1CTL_DIV, 
- 601            CC2430_TIMER1_DIV_8 = 0x1 << CC2430_T1CTL_DIV, 
- 602            CC2430_TIMER1_DIV_32 = 0x2 << CC2430_T1CTL_DIV, 
- 603            CC2430_TIMER1_DIV_128 = 0x3 << CC2430_T1CTL_DIV
- 604          };
- 605          
- 606          
- 607          
- 608          
- 609          
- 610          enum __nesc_unnamed4266 {
- 611            CC2430_T1CCTLx_CPSEL = 0x7, 
- 612            CC2430_T1CCTLx_IM = 0x6, 
- 613            CC2430_T1CCTLx_CMP = 0x3, 
- 614            CC2430_T1CCTLx_MODE = 0x2, 
- 615            CC2430_T1CCTLx_CAP = 0x0
- 616          };
- 617          
- 618          
- 619          
- 620          
- 621          
- 622          
+ 598            CC2430_T1_OVFIF = 1 << CC2430_T1CTL_OVFIF
+ 599          };
+ 600          
+ 601          
+ 602          
+ 603          
+ 604          
+ 605          enum cc2430_timer1_prescaler_t {
+ 606            CC2430_TIMER1_DIV_1 = 0x0 << CC2430_T1CTL_DIV, 
+ 607            CC2430_TIMER1_DIV_8 = 0x1 << CC2430_T1CTL_DIV, 
+ 608            CC2430_TIMER1_DIV_32 = 0x2 << CC2430_T1CTL_DIV, 
+ 609            CC2430_TIMER1_DIV_128 = 0x3 << CC2430_T1CTL_DIV
+ 610          };
+ 611          
+ 612          
+ 613          
+ 614          
+ 615          
+ 616          enum __nesc_unnamed4266 {
+ 617            CC2430_T1CCTLx_CPSEL = 0x7, 
+ 618            CC2430_T1CCTLx_IM = 0x6, 
+ 619            CC2430_T1CCTLx_CMP = 0x3, 
+ 620            CC2430_T1CCTLx_MODE = 0x2, 
+ 621            CC2430_T1CCTLx_CAP = 0x0
+ 622          };
  623          
  624          
  625          
  626          
- 627          enum cc2430_timerMAC_mode_t {
- 628            CC2430_TIMERMAC_MODE_IDLE = 0x0, 
- 629            CC2430_TIMERMAC_MODE_RUN = 0x1
- 630          };
+ 627          
+ 628          
+ 629          
+ 630          
  631          
  632          
- 633          
- 634          
- 635          
- 636          enum cc2430_timerMAC_T2CNF_t {
- 637            CC2430_T2CNF_CMPIF = 0x7, 
- 638            CC2430_T2CNF_PERIF = 0x6, 
- 639            CC2430_T2CNF_OFCMPIF = 0x5, 
- 640            CC2430_T2CNF_CMSEL = 0x3, 
- 641            CC2430_T2CNF_SYNC = 0x1, 
- 642            CC2430_T2CNF_RUN = 0x0
- 643          };
- 644          
- 645          
- 646          
- 647          
- 648          
- 649          
- 650          enum cc2430_timerMAC_T2PEROF2_t {
- 651            CC2430_T2PEROF2_CMPIM = 0x7, 
- 652            CC2430_T2PEROF2_PERIM = 0x6, 
- 653            CC2430_T2PEROF2_OFCMPIM = 0x5
- 654          };
+ 633          enum cc2430_timerMAC_mode_t {
+ 634            CC2430_TIMERMAC_MODE_IDLE = 0x0, 
+ 635            CC2430_TIMERMAC_MODE_RUN = 0x1
+ 636          };
+ 637          
+ 638          
+ 639          
+ 640          
+ 641          
+ 642          enum cc2430_timerMAC_T2CNF_t {
+ 643            CC2430_T2CNF_CMPIF = 0x7, 
+ 644            CC2430_T2CNF_PERIF = 0x6, 
+ 645            CC2430_T2CNF_OFCMPIF = 0x5, 
+ 646            CC2430_T2CNF_CMSEL = 0x3, 
+ 647            CC2430_T2CNF_SYNC = 0x1, 
+ 648            CC2430_T2CNF_RUN = 0x0
+ 649          };
+ 650          
+ 651          
+ 652          
+ 653          
+ 654          
  655          
- 656          enum cc2430_timerMAC_if_t {
- 657            CC2430_TMAC_CMPIF = 1 << CC2430_T2CNF_CMPIF, 
- 658            CC2430_TMAC_PERIF = 1 << CC2430_T2CNF_PERIF, 
- 659            CC2430_TMAC_OFCMPIF = 1 << CC2430_T2CNF_OFCMPIF
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 12  
+ 656          enum cc2430_timerMAC_T2PEROF2_t {
+ 657            CC2430_T2PEROF2_CMPIM = 0x7, 
+ 658            CC2430_T2PEROF2_PERIM = 0x6, 
+ 659            CC2430_T2PEROF2_OFCMPIM = 0x5
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 12  
 
  660          };
  661          
- 662          enum cc2430_timerMAC_interval_t {
- 663            CC2430_TIMERWDT_32768 = 0, 
- 664            CC2430_TIMERWDT_8192 = 1, 
- 665            CC2430_TIMERWDT_512 = 2, 
- 666            CC2430_TIMERWDT_64 = 3
- 667          };
- 668          //#line 240
- 669          enum __nesc_unnamed4267 {
- 670            CC2430_TIMIF_OVFIM = 0x6
- 671          };
- 672          
- 673          enum cc2430_timer34_if_t {
- 674            CC2430_TIMIF_T4CH1IF = 0x5, 
- 675            CC2430_TIMIF_T4CH0IF = 0x4, 
- 676            CC2430_TIMIF_T4OVFIF = 0x3, 
- 677            CC2430_TIMIF_T3CH1IF = 0x2, 
- 678            CC2430_TIMIF_T3CH0IF = 0x1, 
- 679            CC2430_TIMIF_T3OVFIF = 0x0
- 680          };
- 681          
- 682          
- 683          
- 684          
- 685          
- 686          
- 687          enum cc2430_timer3_4_mode_t {
- 688            CC2430_TIMER3_4_MODE_FREE = 0x0, 
- 689            CC2430_TIMER3_4_MODE_DOWN = 0x1, 
- 690            CC2430_TIMER3_4_MODE_MODULO = 0x2, 
- 691            CC2430_TIMER3_4_MODE_UPDOWN = 0x3
- 692          };
- 693          
- 694          
- 695          
- 696          
- 697          
- 698          enum __nesc_unnamed4268 {
- 699            CC2430_T34CTL_DIV = 0x5, 
- 700            CC2430_T34CTL_START = 0x4, 
- 701            CC2430_T34CTL_OVFIM = 0x3, 
- 702            CC2430_T34CTL_WDTIF = 0x3, 
- 703            CC2430_T34CTL_CLR = 0x2, 
- 704            CC2430_T34CTL_MODE = 0x0, 
- 705            CC2430_T34CTL_MODE_MASK = 0x3, 
- 706            CC2430_T34CTL_DIV_MASK = 0xe0
- 707          };
- 708          
- 709          
- 710          
- 711          
- 712          
- 713          enum cc2430_timer3_4_prescaler_t {
- 714            CC2430_TIMER3_4_DIV_1 = 0x0 << CC2430_T34CTL_DIV, 
- 715            CC2430_TIMER3_4_DIV_2 = 0x1 << CC2430_T34CTL_DIV, 
- 716            CC2430_TIMER3_4_DIV_4 = 0x2 << CC2430_T34CTL_DIV, 
- 717            CC2430_TIMER3_4_DIV_8 = 0x3 << CC2430_T34CTL_DIV, 
- 718            CC2430_TIMER3_4_DIV_16 = 0x4 << CC2430_T34CTL_DIV, 
- 719            CC2430_TIMER3_4_DIV_32 = 0x5 << CC2430_T34CTL_DIV, 
- 720            CC2430_TIMER3_4_DIV_64 = 0x6 << CC2430_T34CTL_DIV, 
- 721            CC2430_TIMER3_4_DIV_128 = 0x7 << CC2430_T34CTL_DIV
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 13  
+ 662          enum cc2430_timerMAC_if_t {
+ 663            CC2430_TMAC_CMPIF = 1 << CC2430_T2CNF_CMPIF, 
+ 664            CC2430_TMAC_PERIF = 1 << CC2430_T2CNF_PERIF, 
+ 665            CC2430_TMAC_OFCMPIF = 1 << CC2430_T2CNF_OFCMPIF
+ 666          };
+ 667          
+ 668          enum cc2430_timerMAC_interval_t {
+ 669            CC2430_TIMERWDT_32768 = 0, 
+ 670            CC2430_TIMERWDT_8192 = 1, 
+ 671            CC2430_TIMERWDT_512 = 2, 
+ 672            CC2430_TIMERWDT_64 = 3
+ 673          };
+ 674          //#line 240
+ 675          enum __nesc_unnamed4267 {
+ 676            CC2430_TIMIF_OVFIM = 0x6
+ 677          };
+ 678          
+ 679          enum cc2430_timer34_if_t {
+ 680            CC2430_TIMIF_T4CH1IF = 0x5, 
+ 681            CC2430_TIMIF_T4CH0IF = 0x4, 
+ 682            CC2430_TIMIF_T4OVFIF = 0x3, 
+ 683            CC2430_TIMIF_T3CH1IF = 0x2, 
+ 684            CC2430_TIMIF_T3CH0IF = 0x1, 
+ 685            CC2430_TIMIF_T3OVFIF = 0x0
+ 686          };
+ 687          
+ 688          
+ 689          
+ 690          
+ 691          
+ 692          
+ 693          enum cc2430_timer3_4_mode_t {
+ 694            CC2430_TIMER3_4_MODE_FREE = 0x0, 
+ 695            CC2430_TIMER3_4_MODE_DOWN = 0x1, 
+ 696            CC2430_TIMER3_4_MODE_MODULO = 0x2, 
+ 697            CC2430_TIMER3_4_MODE_UPDOWN = 0x3
+ 698          };
+ 699          
+ 700          
+ 701          
+ 702          
+ 703          
+ 704          enum __nesc_unnamed4268 {
+ 705            CC2430_T34CTL_DIV = 0x5, 
+ 706            CC2430_T34CTL_START = 0x4, 
+ 707            CC2430_T34CTL_OVFIM = 0x3, 
+ 708            CC2430_T34CTL_WDTIF = 0x3, 
+ 709            CC2430_T34CTL_CLR = 0x2, 
+ 710            CC2430_T34CTL_MODE = 0x0, 
+ 711            CC2430_T34CTL_MODE_MASK = 0x3, 
+ 712            CC2430_T34CTL_DIV_MASK = 0xe0
+ 713          };
+ 714          
+ 715          
+ 716          
+ 717          
+ 718          
+ 719          enum cc2430_timer3_4_prescaler_t {
+ 720            CC2430_TIMER3_4_DIV_1 = 0x0 << CC2430_T34CTL_DIV, 
+ 721            CC2430_TIMER3_4_DIV_2 = 0x1 << CC2430_T34CTL_DIV, 
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 13  
 
- 722          };
- 723          
- 724          
- 725          
- 726          
- 727          
- 728          
+ 722            CC2430_TIMER3_4_DIV_4 = 0x2 << CC2430_T34CTL_DIV, 
+ 723            CC2430_TIMER3_4_DIV_8 = 0x3 << CC2430_T34CTL_DIV, 
+ 724            CC2430_TIMER3_4_DIV_16 = 0x4 << CC2430_T34CTL_DIV, 
+ 725            CC2430_TIMER3_4_DIV_32 = 0x5 << CC2430_T34CTL_DIV, 
+ 726            CC2430_TIMER3_4_DIV_64 = 0x6 << CC2430_T34CTL_DIV, 
+ 727            CC2430_TIMER3_4_DIV_128 = 0x7 << CC2430_T34CTL_DIV
+ 728          };
  729          
  730          
  731          
  732          
- 733          enum __nesc_unnamed4269 {
- 734            CC2430_WDCTL_CLR = 0x4, 
- 735            CC2430_WDCTL_EN = 0x3, 
- 736            CC2430_WDCTL_MODE = 0x2, 
- 737            CC2430_WDCTL_INT = 0x0, 
- 738            CC2430_WDCTL_INT_MASK = 0x3
- 739          };
- 740          
- 741          enum cc2430_timerWDT_mode_t {
- 742            CC2430_TIMERWDT_MODE_WDT = 0x0 << CC2430_WDCTL_MODE, 
- 743            CC2430_TIMERWDT_MODE_TIMER = 0x1 << CC2430_WDCTL_MODE
- 744          };
- 745          //# 42 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/Timer.h"
- 746          typedef uint8_t TMilli;
- 747          typedef uint8_t T32khz;
- 748          typedef uint8_t TMicro;
- 749          //# 43 "/opt/tinyos-2.1.2/tos/types/Leds.h"
- 750          enum __nesc_unnamed4270 {
- 751            LEDS_LED0 = 1 << 0, 
- 752            LEDS_LED1 = 1 << 1, 
- 753            LEDS_LED2 = 1 << 2, 
- 754            LEDS_LED3 = 1 << 3, 
- 755            LEDS_LED4 = 1 << 4, 
- 756            LEDS_LED5 = 1 << 5, 
- 757            LEDS_LED6 = 1 << 6, 
- 758            LEDS_LED7 = 1 << 7
- 759          };
- 760          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
- 761          static error_t PlatformP__Init__init(void );
- 762          //#line 62
- 763          static error_t RealMainP__SoftwareInit__default__init(void );
- 764          //# 67 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
- 765          static error_t SchedulerBasicP__TaskBasic__postTask(
- 766          //# 56 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
- 767          uint8_t arg_0x2ab98bf953c8);
- 768          //# 75 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
- 769          static void SchedulerBasicP__TaskBasic__default__runTask(
+ 733          
+ 734          
+ 735          
+ 736          
+ 737          
+ 738          
+ 739          enum __nesc_unnamed4269 {
+ 740            CC2430_WDCTL_CLR = 0x4, 
+ 741            CC2430_WDCTL_EN = 0x3, 
+ 742            CC2430_WDCTL_MODE = 0x2, 
+ 743            CC2430_WDCTL_INT = 0x0, 
+ 744            CC2430_WDCTL_INT_MASK = 0x3
+ 745          };
+ 746          
+ 747          enum cc2430_timerWDT_mode_t {
+ 748            CC2430_TIMERWDT_MODE_WDT = 0x0 << CC2430_WDCTL_MODE, 
+ 749            CC2430_TIMERWDT_MODE_TIMER = 0x1 << CC2430_WDCTL_MODE
+ 750          };
+ 751          //# 42 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/Timer.h"
+ 752          typedef uint8_t TMilli;
+ 753          typedef uint8_t T32khz;
+ 754          typedef uint8_t TMicro;
+ 755          //# 43 "/opt/tinyos-2.1.2/tos/types/Leds.h"
+ 756          enum __nesc_unnamed4270 {
+ 757            LEDS_LED0 = 1 << 0, 
+ 758            LEDS_LED1 = 1 << 1, 
+ 759            LEDS_LED2 = 1 << 2, 
+ 760            LEDS_LED3 = 1 << 3, 
+ 761            LEDS_LED4 = 1 << 4, 
+ 762            LEDS_LED5 = 1 << 5, 
+ 763            LEDS_LED6 = 1 << 6, 
+ 764            LEDS_LED7 = 1 << 7
+ 765          };
+ 766          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
+ 767          static error_t PlatformP__Init__init(void );
+ 768          //# 67 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
+ 769          static error_t SchedulerBasicP__TaskBasic__postTask(
  770          //# 56 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
- 771          uint8_t arg_0x2ab98bf953c8);
- 772          //# 57 "/opt/tinyos-2.1.2/tos/interfaces/Scheduler.nc"
- 773          static void SchedulerBasicP__Scheduler__init(void );
- 774          //#line 72
- 775          static void SchedulerBasicP__Scheduler__taskLoop(void );
- 776          //#line 65
- 777          static bool SchedulerBasicP__Scheduler__runNextTask(void );
- 778          //# 76 "/opt/tinyos-2.1.2/tos/interfaces/McuSleep.nc"
- 779          static void McuSleepC__McuSleep__sleep(void );
- 780          //# 60 "/opt/tinyos-2.1.2/tos/interfaces/Boot.nc"
- 781          static void TestLedPinC__Boot__booted(void );
- 782          //# 75 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
- 783          static void TestLedPinC__lighton__runTask(void );
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 14  
+ 771          uint8_t arg_0x2ad0f96ff3c8);
+ 772          //# 75 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
+ 773          static void SchedulerBasicP__TaskBasic__default__runTask(
+ 774          //# 56 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
+ 775          uint8_t arg_0x2ad0f96ff3c8);
+ 776          //# 57 "/opt/tinyos-2.1.2/tos/interfaces/Scheduler.nc"
+ 777          static void SchedulerBasicP__Scheduler__init(void );
+ 778          //#line 72
+ 779          static void SchedulerBasicP__Scheduler__taskLoop(void );
+ 780          //#line 65
+ 781          static bool SchedulerBasicP__Scheduler__runNextTask(void );
+ 782          //# 76 "/opt/tinyos-2.1.2/tos/interfaces/McuSleep.nc"
+ 783          static void McuSleepC__McuSleep__sleep(void );
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 14  
 
- 784          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
- 785          static error_t LedsP__Init__init(void );
- 786          //# 72 "/opt/tinyos-2.1.2/tos/interfaces/Leds.nc"
- 787          static void LedsP__Leds__led1On(void );
- 788          //#line 56
- 789          static void LedsP__Leds__led0On(void );
- 790          //# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
- 791          static void HplMcs51GeneralIOC__P11__makeOutput(void );
- 792          //#line 40
- 793          static void HplMcs51GeneralIOC__P11__set(void );
- 794          static void HplMcs51GeneralIOC__P11__clr(void );
- 795          
- 796          
- 797          
- 798          
- 799          static void HplMcs51GeneralIOC__P10__makeOutput(void );
- 800          //#line 40
- 801          static void HplMcs51GeneralIOC__P10__set(void );
- 802          static void HplMcs51GeneralIOC__P10__clr(void );
- 803          
- 804          
- 805          
- 806          
- 807          static void /*PlatformLedsC.NoPinC*/NoPinC__0__GeneralIO__makeOutput(void );
- 808          //#line 40
- 809          static void /*PlatformLedsC.NoPinC*/NoPinC__0__GeneralIO__set(void );
- 810          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
- 811          static error_t PlatformP__LedsInit__init(void );
- 812          //# 48 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc"
- 813          static  /*inline*/  error_t PlatformP__Init__init(void );
- 814          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
- 815          static error_t RealMainP__SoftwareInit__init(void );
- 816          //# 60 "/opt/tinyos-2.1.2/tos/interfaces/Boot.nc"
- 817          static void RealMainP__Boot__booted(void );
- 818          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
- 819          static error_t RealMainP__PlatformInit__init(void );
- 820          //# 57 "/opt/tinyos-2.1.2/tos/interfaces/Scheduler.nc"
- 821          static void RealMainP__Scheduler__init(void );
- 822          //#line 72
- 823          static void RealMainP__Scheduler__taskLoop(void );
- 824          //#line 65
- 825          static bool RealMainP__Scheduler__runNextTask(void );
- 826          //# 63 "/opt/tinyos-2.1.2/tos/system/RealMainP.nc"
- 827          int main(void )   ;
- 828          //#line 105
- 829          static  /*inline*/  error_t RealMainP__SoftwareInit__default__init(void );
- 830          //# 75 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
- 831          static void SchedulerBasicP__TaskBasic__runTask(
- 832          //# 56 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
- 833          uint8_t arg_0x2ab98bf953c8);
- 834          //# 76 "/opt/tinyos-2.1.2/tos/interfaces/McuSleep.nc"
- 835          static void SchedulerBasicP__McuSleep__sleep(void );
- 836          //# 61 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
- 837          enum SchedulerBasicP____nesc_unnamed4271 {
- 838          
- 839            SchedulerBasicP__NUM_TASKS = 1U, 
- 840            SchedulerBasicP__NO_TASK = 255
- 841          };
+ 784          //# 60 "/opt/tinyos-2.1.2/tos/interfaces/Boot.nc"
+ 785          static void TestLedPinC__Boot__booted(void );
+ 786          //# 75 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
+ 787          static void TestLedPinC__lighton__runTask(void );
+ 788          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
+ 789          static error_t LedsP__Init__init(void );
+ 790          //# 72 "/opt/tinyos-2.1.2/tos/interfaces/Leds.nc"
+ 791          static void LedsP__Leds__led1On(void );
+ 792          //#line 56
+ 793          static void LedsP__Leds__led0On(void );
+ 794          //# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+ 795          static void HplMcs51GeneralIOC__P16__makeOutput(void );
+ 796          //#line 40
+ 797          static void HplMcs51GeneralIOC__P16__set(void );
+ 798          static void HplMcs51GeneralIOC__P16__clr(void );
+ 799          
+ 800          
+ 801          
+ 802          
+ 803          static void HplMcs51GeneralIOC__P11__makeOutput(void );
+ 804          //#line 40
+ 805          static void HplMcs51GeneralIOC__P11__set(void );
+ 806          static void HplMcs51GeneralIOC__P11__clr(void );
+ 807          
+ 808          
+ 809          
+ 810          
+ 811          static void HplMcs51GeneralIOC__P14__makeOutput(void );
+ 812          //#line 40
+ 813          static void HplMcs51GeneralIOC__P14__set(void );
+ 814          static void HplMcs51GeneralIOC__P14__clr(void );
+ 815          
+ 816          
+ 817          
+ 818          
+ 819          static void HplMcs51GeneralIOC__P17__makeOutput(void );
+ 820          //#line 40
+ 821          static void HplMcs51GeneralIOC__P17__set(void );
+ 822          static void HplMcs51GeneralIOC__P17__clr(void );
+ 823          
+ 824          
+ 825          
+ 826          
+ 827          static void HplMcs51GeneralIOC__P15__makeOutput(void );
+ 828          //#line 40
+ 829          static void HplMcs51GeneralIOC__P15__set(void );
+ 830          static void HplMcs51GeneralIOC__P15__clr(void );
+ 831          
+ 832          
+ 833          
+ 834          
+ 835          static void HplMcs51GeneralIOC__P10__makeOutput(void );
+ 836          //#line 40
+ 837          static void HplMcs51GeneralIOC__P10__set(void );
+ 838          static void HplMcs51GeneralIOC__P10__clr(void );
+ 839          
+ 840          
+ 841          
  842          
- 843          uint8_t SchedulerBasicP__m_head;
- 844          uint8_t SchedulerBasicP__m_tail;
- 845          uint8_t SchedulerBasicP__m_next[SchedulerBasicP__NUM_TASKS];
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 15  
+ 843          static void /*PlatformLedsC.NoPinC*/NoPinC__0__GeneralIO__makeOutput(void );
+ 844          //#line 40
+ 845          static void /*PlatformLedsC.NoPinC*/NoPinC__0__GeneralIO__set(void );
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 15  
 
- 846          
- 847          
- 848          
- 849          
+ 846          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
+ 847          static error_t Spec4LedsP__Init__init(void );
+ 848          //# 3 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4Leds.nc"
+ 849          static void Spec4LedsP__Spec4Leds__led1On(void );
  850          
- 851          
- 852          
- 853          
- 854          static   /*inline*/   uint8_t SchedulerBasicP__popTask(void );
- 855          //#line 97
- 856          static  /*inline*/  bool SchedulerBasicP__isWaiting(uint8_t id);
- 857          
- 858          
- 859          
- 860          
- 861          static  /*inline*/  bool SchedulerBasicP__pushTask(uint8_t id);
- 862          //#line 124
- 863          static  /*inline*/  void SchedulerBasicP__Scheduler__init(void );
- 864          
- 865          
- 866          
- 867          
- 868          
- 869          
- 870          
- 871          
- 872          
- 873          static bool SchedulerBasicP__Scheduler__runNextTask(void );
- 874          //#line 149
- 875          static  /*inline*/  void SchedulerBasicP__Scheduler__taskLoop(void );
- 876          //#line 170
- 877          static  /*inline*/  error_t SchedulerBasicP__TaskBasic__postTask(uint8_t id);
- 878          
- 879          
- 880          
- 881          
- 882          static  /*inline*/  void SchedulerBasicP__TaskBasic__default__runTask(uint8_t id);
- 883          //# 51 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/McuSleepC.nc"
- 884          static  /*inline*/  void McuSleepC__McuSleep__sleep(void );
- 885          //# 67 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
- 886          static error_t TestLedPinC__lighton__postTask(void );
- 887          //# 72 "/opt/tinyos-2.1.2/tos/interfaces/Leds.nc"
- 888          static void TestLedPinC__Leds__led1On(void );
- 889          //#line 56
- 890          static void TestLedPinC__Leds__led0On(void );
- 891          //# 14 "TestLedPinC.nc"
- 892          enum TestLedPinC____nesc_unnamed4272 {
- 893          //#line 14
- 894            TestLedPinC__lighton = 0U
- 895          };
- 896          //#line 14
- 897          typedef int TestLedPinC____nesc_sillytask_lighton[];
- 898          static  /*inline*/  void TestLedPinC__Boot__booted(void );
- 899          
- 900          
+ 851          static void Spec4LedsP__Spec4Leds__led3On(void );
+ 852          //#line 2
+ 853          static void Spec4LedsP__Spec4Leds__led0On(void );
+ 854          
+ 855          static void Spec4LedsP__Spec4Leds__led2On(void );
+ 856          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
+ 857          static error_t PlatformP__LedsInit__init(void );
+ 858          //# 48 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc"
+ 859          static  /*inline*/  error_t PlatformP__Init__init(void );
+ 860          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
+ 861          static error_t RealMainP__SoftwareInit__init(void );
+ 862          //# 60 "/opt/tinyos-2.1.2/tos/interfaces/Boot.nc"
+ 863          static void RealMainP__Boot__booted(void );
+ 864          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
+ 865          static error_t RealMainP__PlatformInit__init(void );
+ 866          //# 57 "/opt/tinyos-2.1.2/tos/interfaces/Scheduler.nc"
+ 867          static void RealMainP__Scheduler__init(void );
+ 868          //#line 72
+ 869          static void RealMainP__Scheduler__taskLoop(void );
+ 870          //#line 65
+ 871          static bool RealMainP__Scheduler__runNextTask(void );
+ 872          //# 63 "/opt/tinyos-2.1.2/tos/system/RealMainP.nc"
+ 873          int main(void )   ;
+ 874          //# 75 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
+ 875          static void SchedulerBasicP__TaskBasic__runTask(
+ 876          //# 56 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
+ 877          uint8_t arg_0x2ad0f96ff3c8);
+ 878          //# 76 "/opt/tinyos-2.1.2/tos/interfaces/McuSleep.nc"
+ 879          static void SchedulerBasicP__McuSleep__sleep(void );
+ 880          //# 61 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
+ 881          enum SchedulerBasicP____nesc_unnamed4271 {
+ 882          
+ 883            SchedulerBasicP__NUM_TASKS = 1U, 
+ 884            SchedulerBasicP__NO_TASK = 255
+ 885          };
+ 886          
+ 887          uint8_t SchedulerBasicP__m_head;
+ 888          uint8_t SchedulerBasicP__m_tail;
+ 889          uint8_t SchedulerBasicP__m_next[SchedulerBasicP__NUM_TASKS];
+ 890          
+ 891          
+ 892          
+ 893          
+ 894          
+ 895          
+ 896          
+ 897          
+ 898          static   /*inline*/   uint8_t SchedulerBasicP__popTask(void );
+ 899          //#line 97
+ 900          static  /*inline*/  bool SchedulerBasicP__isWaiting(uint8_t id);
  901          
  902          
  903          
  904          
- 905          
- 906          
- 907          static  /*inline*/  void TestLedPinC__lighton__runTask(void );
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 16  
+ 905          static  /*inline*/  bool SchedulerBasicP__pushTask(uint8_t id);
+ 906          //#line 124
+ 907          static  /*inline*/  void SchedulerBasicP__Scheduler__init(void );
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 16  
 
- 908          //# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
- 909          static void LedsP__Led0__makeOutput(void );
- 910          //#line 40
- 911          static void LedsP__Led0__set(void );
- 912          static void LedsP__Led0__clr(void );
+ 908          
+ 909          
+ 910          
+ 911          
+ 912          
  913          
  914          
  915          
  916          
- 917          static void LedsP__Led1__makeOutput(void );
- 918          //#line 40
- 919          static void LedsP__Led1__set(void );
- 920          static void LedsP__Led1__clr(void );
- 921          
+ 917          static bool SchedulerBasicP__Scheduler__runNextTask(void );
+ 918          //#line 149
+ 919          static  /*inline*/  void SchedulerBasicP__Scheduler__taskLoop(void );
+ 920          //#line 170
+ 921          static  /*inline*/  error_t SchedulerBasicP__TaskBasic__postTask(uint8_t id);
  922          
  923          
  924          
- 925          static void LedsP__Led2__makeOutput(void );
- 926          //#line 40
- 927          static void LedsP__Led2__set(void );
- 928          //# 56 "/opt/tinyos-2.1.2/tos/system/LedsP.nc"
- 929          static  /*inline*/  error_t LedsP__Init__init(void );
- 930          //#line 74
- 931          static  /*inline*/  void LedsP__Leds__led0On(void );
- 932          //#line 89
- 933          static  /*inline*/  void LedsP__Leds__led1On(void );
- 934          //# 92 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
- 935          static   /*inline*/   void HplMcs51GeneralIOC__P10__set(void );
- 936          //#line 92
- 937          static   /*inline*/   void HplMcs51GeneralIOC__P10__clr(void );
- 938          //#line 92
- 939          static   /*inline*/   void HplMcs51GeneralIOC__P10__makeOutput(void );
- 940          static   /*inline*/   void HplMcs51GeneralIOC__P11__set(void );
- 941          //#line 93
- 942          static   /*inline*/   void HplMcs51GeneralIOC__P11__clr(void );
- 943          //#line 93
- 944          static   /*inline*/   void HplMcs51GeneralIOC__P11__makeOutput(void );
- 945          //# 23 "/opt/tinyos-2.1.2/tos/system/NoPinC.nc"
- 946          static  /*inline*/  void /*PlatformLedsC.NoPinC*/NoPinC__0__GeneralIO__set(void );
- 947          
- 948          
- 949          
- 950          static  /*inline*/  void /*PlatformLedsC.NoPinC*/NoPinC__0__GeneralIO__makeOutput(void );
- 951          //# 107 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/mcs51hardware.h"
- 952            /*inline*/    __nesc_atomic_t __nesc_atomic_start(void )
- 953          //#line 107
- 954          {
- 955   1        __nesc_atomic_t tmp = EA;
- 956   1      
- 957   1      //#line 109
- 958   1        EA = 0;
- 959   1        return tmp;
- 960   1      }
- 961          
- 962            /*inline*/    void __nesc_atomic_end(__nesc_atomic_t oldSreg)
- 963          //#line 113
- 964          {
- 965   1        EA = oldSreg;
- 966   1      }
+ 925          
+ 926          static  /*inline*/  void SchedulerBasicP__TaskBasic__default__runTask(uint8_t id);
+ 927          //# 51 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/McuSleepC.nc"
+ 928          static  /*inline*/  void McuSleepC__McuSleep__sleep(void );
+ 929          //# 67 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
+ 930          static error_t TestLedPinC__lighton__postTask(void );
+ 931          //# 72 "/opt/tinyos-2.1.2/tos/interfaces/Leds.nc"
+ 932          static void TestLedPinC__Leds__led1On(void );
+ 933          //#line 56
+ 934          static void TestLedPinC__Leds__led0On(void );
+ 935          //# 3 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4Leds.nc"
+ 936          static void TestLedPinC__Spec4Leds__led1On(void );
+ 937          
+ 938          static void TestLedPinC__Spec4Leds__led3On(void );
+ 939          //#line 2
+ 940          static void TestLedPinC__Spec4Leds__led0On(void );
+ 941          
+ 942          static void TestLedPinC__Spec4Leds__led2On(void );
+ 943          //# 15 "TestLedPinC.nc"
+ 944          enum TestLedPinC____nesc_unnamed4272 {
+ 945          //#line 15
+ 946            TestLedPinC__lighton = 0U
+ 947          };
+ 948          //#line 15
+ 949          typedef int TestLedPinC____nesc_sillytask_lighton[];
+ 950          static  /*inline*/  void TestLedPinC__Boot__booted(void );
+ 951          
+ 952          
+ 953          
+ 954          
+ 955          
+ 956          
+ 957          
+ 958          
+ 959          static void TestLedPinC__lighton__runTask(void );
+ 960          //# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+ 961          static void LedsP__Led0__makeOutput(void );
+ 962          //#line 40
+ 963          static void LedsP__Led0__set(void );
+ 964          static void LedsP__Led0__clr(void );
+ 965          
+ 966          
  967          
- 968          //# 124 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
- 969          static  /*inline*/  void SchedulerBasicP__Scheduler__init(void )
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 17  
+ 968          
+ 969          static void LedsP__Led1__makeOutput(void );
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 17  
 
- 970          {
- 971   1        /* atomic removed: atomic calls only */
- 972   1        {
- 973   2          memset((void *)SchedulerBasicP__m_next, SchedulerBasicP__NO_TASK, sizeof SchedulerBasicP__m_next);
- 974   2          SchedulerBasicP__m_head = SchedulerBasicP__NO_TASK;
- 975   2          SchedulerBasicP__m_tail = SchedulerBasicP__NO_TASK;
- 976   2        }
- 977   1      }
- 978          
- 979          //# 57 "/opt/tinyos-2.1.2/tos/interfaces/Scheduler.nc"
- 980           /*inline*/  static void RealMainP__Scheduler__init(void ){
- 981   1      //#line 57
- 982   1        SchedulerBasicP__Scheduler__init();
- 983   1      //#line 57
- 984   1      }
- 985          //#line 57
- 986          //# 23 "/opt/tinyos-2.1.2/tos/system/NoPinC.nc"
- 987          static  /*inline*/  void /*PlatformLedsC.NoPinC*/NoPinC__0__GeneralIO__set(void )
- 988          //#line 23
- 989          {
- 990   1      }
- 991          
- 992          //# 40 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
- 993           /*inline*/  static void LedsP__Led2__set(void ){
- 994   1      //#line 40
- 995   1        /*PlatformLedsC.NoPinC*/NoPinC__0__GeneralIO__set();
- 996   1      //#line 40
- 997   1      }
- 998          //#line 40
- 999          //# 93 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
-1000          static   /*inline*/   void HplMcs51GeneralIOC__P11__set(void )
-1001          //#line 93
-1002          {
-1003   1      //#line 93
-1004   1        P1_1 = 1;
-1005   1      }
-1006          
-1007          //# 40 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
-1008           /*inline*/  static void LedsP__Led1__set(void ){
-1009   1      //#line 40
-1010   1        HplMcs51GeneralIOC__P11__set();
-1011   1      //#line 40
-1012   1      }
-1013          //#line 40
-1014          //# 92 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
-1015          static   /*inline*/   void HplMcs51GeneralIOC__P10__set(void )
-1016          //#line 92
-1017          {
-1018   1      //#line 92
-1019   1        P1_0 = 1;
-1020   1      }
+ 970          //#line 40
+ 971          static void LedsP__Led1__set(void );
+ 972          static void LedsP__Led1__clr(void );
+ 973          
+ 974          
+ 975          
+ 976          
+ 977          static void LedsP__Led2__makeOutput(void );
+ 978          //#line 40
+ 979          static void LedsP__Led2__set(void );
+ 980          //# 56 "/opt/tinyos-2.1.2/tos/system/LedsP.nc"
+ 981          static  /*inline*/  error_t LedsP__Init__init(void );
+ 982          //#line 74
+ 983          static  /*inline*/  void LedsP__Leds__led0On(void );
+ 984          //#line 89
+ 985          static  /*inline*/  void LedsP__Leds__led1On(void );
+ 986          //# 92 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+ 987          static   /*inline*/   void HplMcs51GeneralIOC__P10__set(void );
+ 988          //#line 92
+ 989          static   /*inline*/   void HplMcs51GeneralIOC__P10__clr(void );
+ 990          //#line 92
+ 991          static   /*inline*/   void HplMcs51GeneralIOC__P10__makeOutput(void );
+ 992          static   /*inline*/   void HplMcs51GeneralIOC__P11__set(void );
+ 993          //#line 93
+ 994          static   /*inline*/   void HplMcs51GeneralIOC__P11__clr(void );
+ 995          //#line 93
+ 996          static   /*inline*/   void HplMcs51GeneralIOC__P11__makeOutput(void );
+ 997          
+ 998          
+ 999          static   /*inline*/   void HplMcs51GeneralIOC__P14__set(void );
+1000          //#line 96
+1001          static   /*inline*/   void HplMcs51GeneralIOC__P14__clr(void );
+1002          //#line 96
+1003          static   /*inline*/   void HplMcs51GeneralIOC__P14__makeOutput(void );
+1004          static   /*inline*/   void HplMcs51GeneralIOC__P15__set(void );
+1005          //#line 97
+1006          static   /*inline*/   void HplMcs51GeneralIOC__P15__clr(void );
+1007          //#line 97
+1008          static   /*inline*/   void HplMcs51GeneralIOC__P15__makeOutput(void );
+1009          static   /*inline*/   void HplMcs51GeneralIOC__P16__set(void );
+1010          //#line 98
+1011          static   /*inline*/   void HplMcs51GeneralIOC__P16__clr(void );
+1012          //#line 98
+1013          static   /*inline*/   void HplMcs51GeneralIOC__P16__makeOutput(void );
+1014          static   /*inline*/   void HplMcs51GeneralIOC__P17__set(void );
+1015          //#line 99
+1016          static   /*inline*/   void HplMcs51GeneralIOC__P17__clr(void );
+1017          //#line 99
+1018          static   /*inline*/   void HplMcs51GeneralIOC__P17__makeOutput(void );
+1019          //# 23 "/opt/tinyos-2.1.2/tos/system/NoPinC.nc"
+1020          static  /*inline*/  void /*PlatformLedsC.NoPinC*/NoPinC__0__GeneralIO__set(void );
 1021          
-1022          //# 40 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
-1023           /*inline*/  static void LedsP__Led0__set(void ){
-1024   1      //#line 40
-1025   1        HplMcs51GeneralIOC__P10__set();
-1026   1      //#line 40
-1027   1      }
-1028          //#line 40
-1029          //# 27 "/opt/tinyos-2.1.2/tos/system/NoPinC.nc"
-1030          static  /*inline*/  void /*PlatformLedsC.NoPinC*/NoPinC__0__GeneralIO__makeOutput(void )
-1031          //#line 27
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 18  
+1022          
+1023          
+1024          static  /*inline*/  void /*PlatformLedsC.NoPinC*/NoPinC__0__GeneralIO__makeOutput(void );
+1025          //# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1026          static void Spec4LedsP__Led0__makeOutput(void );
+1027          //#line 40
+1028          static void Spec4LedsP__Led0__set(void );
+1029          static void Spec4LedsP__Led0__clr(void );
+1030          
+1031          
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 18  
 
-1032          {
-1033   1      }
-1034          
-1035          //# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
-1036           /*inline*/  static void LedsP__Led2__makeOutput(void ){
-1037   1      //#line 46
-1038   1        /*PlatformLedsC.NoPinC*/NoPinC__0__GeneralIO__makeOutput();
-1039   1      //#line 46
-1040   1      }
-1041          //#line 46
-1042          //# 93 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
-1043          static   /*inline*/   void HplMcs51GeneralIOC__P11__makeOutput(void )
-1044          //#line 93
-1045          {
-1046   1      //#line 93
-1047   1        P1_DIR |= 1 << 1;
-1048   1      }
+1032          
+1033          
+1034          static void Spec4LedsP__Led3__makeOutput(void );
+1035          //#line 40
+1036          static void Spec4LedsP__Led3__set(void );
+1037          static void Spec4LedsP__Led3__clr(void );
+1038          
+1039          
+1040          
+1041          
+1042          static void Spec4LedsP__Led1__makeOutput(void );
+1043          //#line 40
+1044          static void Spec4LedsP__Led1__set(void );
+1045          static void Spec4LedsP__Led1__clr(void );
+1046          
+1047          
+1048          
 1049          
-1050          //# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
-1051           /*inline*/  static void LedsP__Led1__makeOutput(void ){
-1052   1      //#line 46
-1053   1        HplMcs51GeneralIOC__P11__makeOutput();
-1054   1      //#line 46
-1055   1      }
-1056          //#line 46
-1057          //# 92 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
-1058          static   /*inline*/   void HplMcs51GeneralIOC__P10__makeOutput(void )
-1059          //#line 92
-1060          {
-1061   1      //#line 92
-1062   1        P1_DIR |= 1 << 0;
-1063   1      }
+1050          static void Spec4LedsP__Led2__makeOutput(void );
+1051          //#line 40
+1052          static void Spec4LedsP__Led2__set(void );
+1053          static void Spec4LedsP__Led2__clr(void );
+1054          //# 11 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4LedsP.nc"
+1055          static  /*inline*/  error_t Spec4LedsP__Init__init(void );
+1056          //#line 26
+1057          static  /*inline*/  void Spec4LedsP__Spec4Leds__led0On(void );
+1058          
+1059          
+1060          static  /*inline*/  void Spec4LedsP__Spec4Leds__led1On(void );
+1061          
+1062          
+1063          static  /*inline*/  void Spec4LedsP__Spec4Leds__led2On(void );
 1064          
-1065          //# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
-1066           /*inline*/  static void LedsP__Led0__makeOutput(void ){
-1067   1      //#line 46
-1068   1        HplMcs51GeneralIOC__P10__makeOutput();
-1069   1      //#line 46
-1070   1      }
-1071          //#line 46
-1072          //# 56 "/opt/tinyos-2.1.2/tos/system/LedsP.nc"
-1073          static  /*inline*/  error_t LedsP__Init__init(void )
-1074          //#line 56
-1075          {
-1076   1        /* atomic removed: atomic calls only */
-1077   1      //#line 57
-1078   1        {
-1079   2          ;
-1080   2          LedsP__Led0__makeOutput();
-1081   2          LedsP__Led1__makeOutput();
-1082   2          LedsP__Led2__makeOutput();
-1083   2          LedsP__Led0__set();
-1084   2          LedsP__Led1__set();
-1085   2          LedsP__Led2__set();
-1086   2        }
-1087   1        return SUCCESS;
-1088   1      }
-1089          
-1090          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
-1091           /*inline*/  static error_t PlatformP__LedsInit__init(void ){
-1092   1      //#line 62
-1093   1        unsigned char __nesc_result;
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 19  
+1065          
+1066          static  /*inline*/  void Spec4LedsP__Spec4Leds__led3On(void );
+1067          //# 107 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/mcs51hardware.h"
+1068            /*inline*/    __nesc_atomic_t __nesc_atomic_start(void )
+1069          //#line 107
+1070          {
+1071   1        __nesc_atomic_t tmp = EA;
+1072   1      
+1073   1      //#line 109
+1074   1        EA = 0;
+1075   1        return tmp;
+1076   1      }
+1077          
+1078            /*inline*/    void __nesc_atomic_end(__nesc_atomic_t oldSreg)
+1079          //#line 113
+1080          {
+1081   1        EA = oldSreg;
+1082   1      }
+1083          
+1084          //# 124 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
+1085          static  /*inline*/  void SchedulerBasicP__Scheduler__init(void )
+1086          {
+1087   1        /* atomic removed: atomic calls only */
+1088   1        {
+1089   2          memset((void *)SchedulerBasicP__m_next, SchedulerBasicP__NO_TASK, sizeof SchedulerBasicP__m_next);
+1090   2          SchedulerBasicP__m_head = SchedulerBasicP__NO_TASK;
+1091   2          SchedulerBasicP__m_tail = SchedulerBasicP__NO_TASK;
+1092   2        }
+1093   1      }
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 19  
 
-1094   1      //#line 62
-1095   1      
-1096   1      //#line 62
-1097   1        __nesc_result = LedsP__Init__init();
-1098   1      //#line 62
-1099   1      
-1100   1      //#line 62
-1101   1        return __nesc_result;
-1102   1      //#line 62
-1103   1      }
-1104          //#line 62
-1105          //# 48 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc"
-1106          static  /*inline*/  error_t PlatformP__Init__init(void )
-1107          //#line 48
-1108          {
-1109   1        uint8_t new_clkcon;
-1110   1      
-1111   1      //#line 88
-1112   1        SLEEP = (SLEEP & ~CC2430_SLEEP_MODE_MASK) | CC2430_SLEEP_POWERMODE_0;
-1113   1      
-1114   1      
-1115   1      
-1116   1        SLEEP &= ~(1 << CC2430_SLEEP_OSC_PD);
-1117   1        while (!(SLEEP & (1 << CC2430_SLEEP_XOSC_STB))) ;
-1118   1      
-1119   1        new_clkcon = 0x0;
-1120   1      
-1121   1        new_clkcon = (new_clkcon & ~CC2430_CLKCON_TICKSPD_MASK) | CC2430_TICKF_DIV_1;
-1122   1      
-1123   1      
-1124   1        new_clkcon &= ~(1 << CC2430_CLKCON_OSC32K);
-1125   1      
-1126   1      
-1127   1      
-1128   1      
-1129   1      
-1130   1      
-1131   1        new_clkcon &= ~(1 << CC2430_CLKCON_OSC);
-1132   1      
-1133   1        new_clkcon |= 1 << CC2430_CLKCON_TICKSPD;
-1134   1      
-1135   1        CLKCON = new_clkcon;
-1136   1      //#line 137
-1137   1        PlatformP__LedsInit__init();
-1138   1        return SUCCESS;
-1139   1      }
-1140          
-1141          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
-1142           /*inline*/  static error_t RealMainP__PlatformInit__init(void ){
-1143   1      //#line 62
-1144   1        unsigned char __nesc_result;
-1145   1      //#line 62
-1146   1      
-1147   1      //#line 62
-1148   1        __nesc_result = PlatformP__Init__init();
-1149   1      //#line 62
-1150   1      
-1151   1      //#line 62
-1152   1        return __nesc_result;
-1153   1      //#line 62
-1154   1      }
-1155          //#line 62
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 20  
+1094          
+1095          //# 57 "/opt/tinyos-2.1.2/tos/interfaces/Scheduler.nc"
+1096           /*inline*/  static void RealMainP__Scheduler__init(void ){
+1097   1      //#line 57
+1098   1        SchedulerBasicP__Scheduler__init();
+1099   1      //#line 57
+1100   1      }
+1101          //#line 57
+1102          //# 23 "/opt/tinyos-2.1.2/tos/system/NoPinC.nc"
+1103          static  /*inline*/  void /*PlatformLedsC.NoPinC*/NoPinC__0__GeneralIO__set(void )
+1104          //#line 23
+1105          {
+1106   1      }
+1107          
+1108          //# 40 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1109           /*inline*/  static void LedsP__Led2__set(void ){
+1110   1      //#line 40
+1111   1        /*PlatformLedsC.NoPinC*/NoPinC__0__GeneralIO__set();
+1112   1      //#line 40
+1113   1      }
+1114          //#line 40
+1115          //# 93 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1116          static   /*inline*/   void HplMcs51GeneralIOC__P11__set(void )
+1117          //#line 93
+1118          {
+1119   1      //#line 93
+1120   1        P1_1 = 1;
+1121   1      }
+1122          
+1123          //# 40 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1124           /*inline*/  static void LedsP__Led1__set(void ){
+1125   1      //#line 40
+1126   1        HplMcs51GeneralIOC__P11__set();
+1127   1      //#line 40
+1128   1      }
+1129          //#line 40
+1130          //# 92 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1131          static   /*inline*/   void HplMcs51GeneralIOC__P10__set(void )
+1132          //#line 92
+1133          {
+1134   1      //#line 92
+1135   1        P1_0 = 1;
+1136   1      }
+1137          
+1138          //# 40 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1139           /*inline*/  static void LedsP__Led0__set(void ){
+1140   1      //#line 40
+1141   1        HplMcs51GeneralIOC__P10__set();
+1142   1      //#line 40
+1143   1      }
+1144          //#line 40
+1145          //# 27 "/opt/tinyos-2.1.2/tos/system/NoPinC.nc"
+1146          static  /*inline*/  void /*PlatformLedsC.NoPinC*/NoPinC__0__GeneralIO__makeOutput(void )
+1147          //#line 27
+1148          {
+1149   1      }
+1150          
+1151          //# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1152           /*inline*/  static void LedsP__Led2__makeOutput(void ){
+1153   1      //#line 46
+1154   1        /*PlatformLedsC.NoPinC*/NoPinC__0__GeneralIO__makeOutput();
+1155   1      //#line 46
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 20  
 
-1156          //# 65 "/opt/tinyos-2.1.2/tos/interfaces/Scheduler.nc"
-1157           /*inline*/  static bool RealMainP__Scheduler__runNextTask(void ){
-1158   1      //#line 65
-1159   1        unsigned char __nesc_result;
-1160   1      //#line 65
-1161   1      
-1162   1      //#line 65
-1163   1        __nesc_result = SchedulerBasicP__Scheduler__runNextTask();
-1164   1      //#line 65
-1165   1      
-1166   1      //#line 65
-1167   1        return __nesc_result;
-1168   1      //#line 65
-1169   1      }
-1170          //#line 65
-1171          //# 105 "/opt/tinyos-2.1.2/tos/system/RealMainP.nc"
-1172          static  /*inline*/  error_t RealMainP__SoftwareInit__default__init(void )
-1173          //#line 105
-1174          {
-1175   1      //#line 105
-1176   1        return SUCCESS;
-1177   1      }
-1178          
-1179          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
-1180           /*inline*/  static error_t RealMainP__SoftwareInit__init(void ){
-1181   1      //#line 62
-1182   1        unsigned char __nesc_result;
-1183   1      //#line 62
-1184   1      
-1185   1      //#line 62
-1186   1        __nesc_result = RealMainP__SoftwareInit__default__init();
-1187   1      //#line 62
-1188   1      
-1189   1      //#line 62
-1190   1        return __nesc_result;
-1191   1      //#line 62
-1192   1      }
-1193          //#line 62
-1194          //# 97 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
-1195          static  /*inline*/  bool SchedulerBasicP__isWaiting(uint8_t id)
-1196          {
-1197   1        return SchedulerBasicP__m_next[id] != SchedulerBasicP__NO_TASK || SchedulerBasicP__m_tail == id;
-1198   1      }
-1199          
-1200          static  /*inline*/  bool SchedulerBasicP__pushTask(uint8_t id)
-1201          {
-1202   1        if (!SchedulerBasicP__isWaiting(id)) 
-1203   1          {
-1204   2            if (SchedulerBasicP__m_head == SchedulerBasicP__NO_TASK) 
-1205   2              {
-1206   3                SchedulerBasicP__m_head = id;
-1207   3                SchedulerBasicP__m_tail = id;
-1208   3              }
-1209   2            else 
-1210   2              {
-1211   3                SchedulerBasicP__m_next[SchedulerBasicP__m_tail] = id;
-1212   3                SchedulerBasicP__m_tail = id;
-1213   3              }
-1214   2            return TRUE;
-1215   2          }
-1216   1        else 
-1217   1          {
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 21  
+1156   1      }
+1157          //#line 46
+1158          //# 93 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1159          static   /*inline*/   void HplMcs51GeneralIOC__P11__makeOutput(void )
+1160          //#line 93
+1161          {
+1162   1      //#line 93
+1163   1        P1_DIR |= 1 << 1;
+1164   1      }
+1165          
+1166          //# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1167           /*inline*/  static void LedsP__Led1__makeOutput(void ){
+1168   1      //#line 46
+1169   1        HplMcs51GeneralIOC__P11__makeOutput();
+1170   1      //#line 46
+1171   1      }
+1172          //#line 46
+1173          //# 92 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1174          static   /*inline*/   void HplMcs51GeneralIOC__P10__makeOutput(void )
+1175          //#line 92
+1176          {
+1177   1      //#line 92
+1178   1        P1_DIR |= 1 << 0;
+1179   1      }
+1180          
+1181          //# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1182           /*inline*/  static void LedsP__Led0__makeOutput(void ){
+1183   1      //#line 46
+1184   1        HplMcs51GeneralIOC__P10__makeOutput();
+1185   1      //#line 46
+1186   1      }
+1187          //#line 46
+1188          //# 56 "/opt/tinyos-2.1.2/tos/system/LedsP.nc"
+1189          static  /*inline*/  error_t LedsP__Init__init(void )
+1190          //#line 56
+1191          {
+1192   1        /* atomic removed: atomic calls only */
+1193   1      //#line 57
+1194   1        {
+1195   2          ;
+1196   2          LedsP__Led0__makeOutput();
+1197   2          LedsP__Led1__makeOutput();
+1198   2          LedsP__Led2__makeOutput();
+1199   2          LedsP__Led0__set();
+1200   2          LedsP__Led1__set();
+1201   2          LedsP__Led2__set();
+1202   2        }
+1203   1        return SUCCESS;
+1204   1      }
+1205          
+1206          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
+1207           /*inline*/  static error_t PlatformP__LedsInit__init(void ){
+1208   1      //#line 62
+1209   1        unsigned char __nesc_result;
+1210   1      //#line 62
+1211   1      
+1212   1      //#line 62
+1213   1        __nesc_result = LedsP__Init__init();
+1214   1      //#line 62
+1215   1      
+1216   1      //#line 62
+1217   1        return __nesc_result;
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 21  
 
-1218   2            return FALSE;
-1219   2          }
-1220   1      }
-1221          
-1222          //#line 170
-1223          static  /*inline*/  error_t SchedulerBasicP__TaskBasic__postTask(uint8_t id)
+1218   1      //#line 62
+1219   1      }
+1220          //#line 62
+1221          //# 48 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc"
+1222          static  /*inline*/  error_t PlatformP__Init__init(void )
+1223          //#line 48
 1224          {
-1225   1        { __nesc_atomic_t __nesc_atomic = __nesc_atomic_start();
-1226   2      //#line 172
-1227   2          {
-1228   3      //#line 172
-1229   3            {
-1230   4              unsigned char __nesc_temp = 
-1231   4      //#line 172
-1232   4              SchedulerBasicP__pushTask(id) ? SUCCESS : EBUSY;
-1233   4      
-1234   4              {
-1235   5      //#line 172
-1236   5                __nesc_atomic_end(__nesc_atomic); 
-1237   5      //#line 172
-1238   5                return __nesc_temp;
-1239   5              }
-1240   4            }
-1241   3          }
-1242   2      //#line 175
-1243   2          __nesc_atomic_end(__nesc_atomic); }
-1244   1      }
-1245          
-1246          //# 67 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
-1247           /*inline*/  static error_t TestLedPinC__lighton__postTask(void ){
-1248   1      //#line 67
-1249   1        unsigned char __nesc_result;
-1250   1      //#line 67
-1251   1      
-1252   1      //#line 67
-1253   1        __nesc_result = SchedulerBasicP__TaskBasic__postTask(TestLedPinC__lighton);
-1254   1      //#line 67
-1255   1      
-1256   1      //#line 67
-1257   1        return __nesc_result;
-1258   1      //#line 67
-1259   1      }
-1260          //#line 67
-1261          //# 15 "TestLedPinC.nc"
-1262          static  /*inline*/  void TestLedPinC__Boot__booted(void )
-1263          //#line 15
-1264          {
-1265   1      
+1225   1        uint8_t new_clkcon;
+1226   1      
+1227   1      //#line 88
+1228   1        SLEEP = (SLEEP & ~CC2430_SLEEP_MODE_MASK) | CC2430_SLEEP_POWERMODE_0;
+1229   1      
+1230   1      
+1231   1      
+1232   1        SLEEP &= ~(1 << CC2430_SLEEP_OSC_PD);
+1233   1        while (!(SLEEP & (1 << CC2430_SLEEP_XOSC_STB))) ;
+1234   1      
+1235   1        new_clkcon = 0x0;
+1236   1      
+1237   1        new_clkcon = (new_clkcon & ~CC2430_CLKCON_TICKSPD_MASK) | CC2430_TICKF_DIV_1;
+1238   1      
+1239   1      
+1240   1        new_clkcon &= ~(1 << CC2430_CLKCON_OSC32K);
+1241   1      
+1242   1      
+1243   1      
+1244   1      
+1245   1      
+1246   1      
+1247   1        new_clkcon &= ~(1 << CC2430_CLKCON_OSC);
+1248   1      
+1249   1        new_clkcon |= 1 << CC2430_CLKCON_TICKSPD;
+1250   1      
+1251   1        CLKCON = new_clkcon;
+1252   1      //#line 137
+1253   1        PlatformP__LedsInit__init();
+1254   1        return SUCCESS;
+1255   1      }
+1256          
+1257          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
+1258           /*inline*/  static error_t RealMainP__PlatformInit__init(void ){
+1259   1      //#line 62
+1260   1        unsigned char __nesc_result;
+1261   1      //#line 62
+1262   1      
+1263   1      //#line 62
+1264   1        __nesc_result = PlatformP__Init__init();
+1265   1      //#line 62
 1266   1      
-1267   1      
-1268   1      
-1269   1        TestLedPinC__lighton__postTask();
+1267   1      //#line 62
+1268   1        return __nesc_result;
+1269   1      //#line 62
 1270   1      }
-1271          
-1272          //# 60 "/opt/tinyos-2.1.2/tos/interfaces/Boot.nc"
-1273           /*inline*/  static void RealMainP__Boot__booted(void ){
-1274   1      //#line 60
-1275   1        TestLedPinC__Boot__booted();
-1276   1      //#line 60
-1277   1      }
-1278          //#line 60
-1279          //# 93 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 22  
+1271          //#line 62
+1272          //# 65 "/opt/tinyos-2.1.2/tos/interfaces/Scheduler.nc"
+1273           /*inline*/  static bool RealMainP__Scheduler__runNextTask(void ){
+1274   1      //#line 65
+1275   1        unsigned char __nesc_result;
+1276   1      //#line 65
+1277   1      
+1278   1      //#line 65
+1279   1        __nesc_result = SchedulerBasicP__Scheduler__runNextTask();
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 22  
 
-1280          static   /*inline*/   void HplMcs51GeneralIOC__P11__clr(void )
-1281          //#line 93
-1282          {
-1283   1      //#line 93
-1284   1        P1_1 = 0;
+1280   1      //#line 65
+1281   1      
+1282   1      //#line 65
+1283   1        return __nesc_result;
+1284   1      //#line 65
 1285   1      }
-1286          
-1287          //# 41 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
-1288           /*inline*/  static void LedsP__Led1__clr(void ){
-1289   1      //#line 41
-1290   1        HplMcs51GeneralIOC__P11__clr();
-1291   1      //#line 41
-1292   1      }
-1293          //#line 41
-1294          //# 89 "/opt/tinyos-2.1.2/tos/system/LedsP.nc"
-1295          static  /*inline*/  void LedsP__Leds__led1On(void )
-1296          //#line 89
-1297          {
-1298   1        LedsP__Led1__clr();
-1299   1        ;
-1300   1      //#line 91
-1301   1        ;
-1302   1      }
-1303          
-1304          //# 72 "/opt/tinyos-2.1.2/tos/interfaces/Leds.nc"
-1305           /*inline*/  static void TestLedPinC__Leds__led1On(void ){
-1306   1      //#line 72
-1307   1        LedsP__Leds__led1On();
-1308   1      //#line 72
-1309   1      }
-1310          //#line 72
-1311          //# 92 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
-1312          static   /*inline*/   void HplMcs51GeneralIOC__P10__clr(void )
-1313          //#line 92
-1314          {
-1315   1      //#line 92
-1316   1        P1_0 = 0;
+1286          //#line 65
+1287          //# 92 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1288          static   /*inline*/   void HplMcs51GeneralIOC__P10__clr(void )
+1289          //#line 92
+1290          {
+1291   1      //#line 92
+1292   1        P1_0 = 0;
+1293   1      }
+1294          
+1295          //# 41 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1296           /*inline*/  static void LedsP__Led0__clr(void ){
+1297   1      //#line 41
+1298   1        HplMcs51GeneralIOC__P10__clr();
+1299   1      //#line 41
+1300   1      }
+1301          //#line 41
+1302          //# 74 "/opt/tinyos-2.1.2/tos/system/LedsP.nc"
+1303          static  /*inline*/  void LedsP__Leds__led0On(void )
+1304          //#line 74
+1305          {
+1306   1        LedsP__Led0__clr();
+1307   1        ;
+1308   1      //#line 76
+1309   1        ;
+1310   1      }
+1311          
+1312          //# 56 "/opt/tinyos-2.1.2/tos/interfaces/Leds.nc"
+1313           /*inline*/  static void TestLedPinC__Leds__led0On(void ){
+1314   1      //#line 56
+1315   1        LedsP__Leds__led0On();
+1316   1      //#line 56
 1317   1      }
-1318          
-1319          //# 41 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
-1320           /*inline*/  static void LedsP__Led0__clr(void ){
-1321   1      //#line 41
-1322   1        HplMcs51GeneralIOC__P10__clr();
-1323   1      //#line 41
-1324   1      }
-1325          //#line 41
-1326          //# 74 "/opt/tinyos-2.1.2/tos/system/LedsP.nc"
-1327          static  /*inline*/  void LedsP__Leds__led0On(void )
-1328          //#line 74
-1329          {
-1330   1        LedsP__Led0__clr();
-1331   1        ;
-1332   1      //#line 76
-1333   1        ;
-1334   1      }
-1335          
-1336          //# 56 "/opt/tinyos-2.1.2/tos/interfaces/Leds.nc"
-1337           /*inline*/  static void TestLedPinC__Leds__led0On(void ){
-1338   1      //#line 56
-1339   1        LedsP__Leds__led0On();
-1340   1      //#line 56
-1341   1      }
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 23  
+1318          //#line 56
+1319          //# 93 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1320          static   /*inline*/   void HplMcs51GeneralIOC__P11__clr(void )
+1321          //#line 93
+1322          {
+1323   1      //#line 93
+1324   1        P1_1 = 0;
+1325   1      }
+1326          
+1327          //# 41 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1328           /*inline*/  static void LedsP__Led1__clr(void ){
+1329   1      //#line 41
+1330   1        HplMcs51GeneralIOC__P11__clr();
+1331   1      //#line 41
+1332   1      }
+1333          //#line 41
+1334          //# 89 "/opt/tinyos-2.1.2/tos/system/LedsP.nc"
+1335          static  /*inline*/  void LedsP__Leds__led1On(void )
+1336          //#line 89
+1337          {
+1338   1        LedsP__Led1__clr();
+1339   1        ;
+1340   1      //#line 91
+1341   1        ;
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 23  
 
-1342          //#line 56
-1343          //# 24 "TestLedPinC.nc"
-1344          static  /*inline*/  void TestLedPinC__lighton__runTask(void )
-1345          //#line 24
-1346          {
-1347   1        TestLedPinC__Leds__led0On();
-1348   1        TestLedPinC__Leds__led1On();
+1342   1      }
+1343          
+1344          //# 72 "/opt/tinyos-2.1.2/tos/interfaces/Leds.nc"
+1345           /*inline*/  static void TestLedPinC__Leds__led1On(void ){
+1346   1      //#line 72
+1347   1        LedsP__Leds__led1On();
+1348   1      //#line 72
 1349   1      }
-1350          
-1351          //# 175 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
-1352          static  /*inline*/  void SchedulerBasicP__TaskBasic__default__runTask(uint8_t id)
-1353          {
-1354   1      }
-*** WARNING C280 IN LINE 1352 OF APP.C: 'id': unreferenced local variable
-1355          
-1356          //# 75 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
-1357           /*inline*/  static void SchedulerBasicP__TaskBasic__runTask(uint8_t arg_0x2ab98bf953c8){
-1358   1      //#line 75
-1359   1        switch (arg_0x2ab98bf953c8) {
-1360   2      //#line 75
-1361   2          case TestLedPinC__lighton:
-1362   2      //#line 75
-1363   2            TestLedPinC__lighton__runTask();
-1364   2      //#line 75
-1365   2            break;
-1366   2      //#line 75
-1367   2          default:
-1368   2      //#line 75
-1369   2            SchedulerBasicP__TaskBasic__default__runTask(arg_0x2ab98bf953c8);
-1370   2      //#line 75
-1371   2            break;
-1372   2      //#line 75
-1373   2          }
-1374   1      //#line 75
-1375   1      }
-1376          //#line 75
-1377          //# 104 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/mcs51hardware.h"
-1378          static   /*inline*/   void __nesc_disable_interrupt()
-1379          //#line 104
-1380          {
-1381   1      //#line 104
-1382   1        EA = 0;
-1383   1      }
-1384          
-1385          //#line 105
-1386          static   /*inline*/   void __nesc_enable_interrupt()
-1387          //#line 105
-1388          {
-1389   1      //#line 105
-1390   1        EA = 1;
-1391   1      }
-1392          
-1393          //# 51 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/McuSleepC.nc"
-1394          static  /*inline*/  void McuSleepC__McuSleep__sleep(void )
-1395          //#line 51
-1396          {
-1397   1      
-1398   1        __nesc_enable_interrupt();
-1399   1      
-1400   1      
-1401   1      
-1402   1      
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 24  
+1350          //#line 72
+1351          //# 96 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1352          static   /*inline*/   void HplMcs51GeneralIOC__P14__clr(void )
+1353          //#line 96
+1354          {
+1355   1      //#line 96
+1356   1        P1_4 = 0;
+1357   1      }
+1358          
+1359          //# 41 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1360           /*inline*/  static void Spec4LedsP__Led0__clr(void ){
+1361   1      //#line 41
+1362   1        HplMcs51GeneralIOC__P14__clr();
+1363   1      //#line 41
+1364   1      }
+1365          //#line 41
+1366          //# 26 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4LedsP.nc"
+1367          static  /*inline*/  void Spec4LedsP__Spec4Leds__led0On(void )
+1368          //#line 26
+1369          {
+1370   1        Spec4LedsP__Led0__clr();
+1371   1      }
+1372          
+1373          //# 2 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4Leds.nc"
+1374           /*inline*/  static void TestLedPinC__Spec4Leds__led0On(void ){
+1375   1      //#line 2
+1376   1        Spec4LedsP__Spec4Leds__led0On();
+1377   1      //#line 2
+1378   1      }
+1379          //#line 2
+1380          //# 97 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1381          static   /*inline*/   void HplMcs51GeneralIOC__P15__clr(void )
+1382          //#line 97
+1383          {
+1384   1      //#line 97
+1385   1        P1_5 = 0;
+1386   1      }
+1387          
+1388          //# 41 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1389           /*inline*/  static void Spec4LedsP__Led1__clr(void ){
+1390   1      //#line 41
+1391   1        HplMcs51GeneralIOC__P15__clr();
+1392   1      //#line 41
+1393   1      }
+1394          //#line 41
+1395          //# 29 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4LedsP.nc"
+1396          static  /*inline*/  void Spec4LedsP__Spec4Leds__led1On(void )
+1397          //#line 29
+1398          {
+1399   1        Spec4LedsP__Led1__clr();
+1400   1      }
+1401          
+1402          //# 3 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4Leds.nc"
+1403           /*inline*/  static void TestLedPinC__Spec4Leds__led1On(void ){
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 24  
 
-1403   1      
-1404   1      
-1405   1        SLEEP = (SLEEP & ~CC2430_SLEEP_MODE_MASK) | CC2430_SLEEP_POWERMODE_0;
-1406   1      
-1407   1        __nesc_disable_interrupt();
-1408   1      }
-1409          
-1410          //# 76 "/opt/tinyos-2.1.2/tos/interfaces/McuSleep.nc"
-1411           /*inline*/  static void SchedulerBasicP__McuSleep__sleep(void ){
-1412   1      //#line 76
-1413   1        McuSleepC__McuSleep__sleep();
-1414   1      //#line 76
+1404   1      //#line 3
+1405   1        Spec4LedsP__Spec4Leds__led1On();
+1406   1      //#line 3
+1407   1      }
+1408          //#line 3
+1409          //# 98 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1410          static   /*inline*/   void HplMcs51GeneralIOC__P16__clr(void )
+1411          //#line 98
+1412          {
+1413   1      //#line 98
+1414   1        P1_6 = 0;
 1415   1      }
-1416          //#line 76
-1417          //# 78 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
-1418          static   /*inline*/   uint8_t SchedulerBasicP__popTask(void )
-1419          {
-1420   1        if (SchedulerBasicP__m_head != SchedulerBasicP__NO_TASK) 
-1421   1          {
-1422   2            uint8_t id = SchedulerBasicP__m_head;
-1423   2      
-1424   2      //#line 83
-1425   2            SchedulerBasicP__m_head = SchedulerBasicP__m_next[SchedulerBasicP__m_head];
-1426   2            if (SchedulerBasicP__m_head == SchedulerBasicP__NO_TASK) 
-1427   2              {
-1428   3                SchedulerBasicP__m_tail = SchedulerBasicP__NO_TASK;
-1429   3              }
-1430   2            SchedulerBasicP__m_next[id] = SchedulerBasicP__NO_TASK;
-1431   2            return id;
-1432   2          }
-1433   1        else 
-1434   1          {
-1435   2            return SchedulerBasicP__NO_TASK;
-1436   2          }
-1437   1      }
-1438          
-1439          //#line 149
-1440          static  /*inline*/  void SchedulerBasicP__Scheduler__taskLoop(void )
+1416          
+1417          //# 41 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1418           /*inline*/  static void Spec4LedsP__Led2__clr(void ){
+1419   1      //#line 41
+1420   1        HplMcs51GeneralIOC__P16__clr();
+1421   1      //#line 41
+1422   1      }
+1423          //#line 41
+1424          //# 32 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4LedsP.nc"
+1425          static  /*inline*/  void Spec4LedsP__Spec4Leds__led2On(void )
+1426          //#line 32
+1427          {
+1428   1        Spec4LedsP__Led2__clr();
+1429   1      }
+1430          
+1431          //# 4 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4Leds.nc"
+1432           /*inline*/  static void TestLedPinC__Spec4Leds__led2On(void ){
+1433   1      //#line 4
+1434   1        Spec4LedsP__Spec4Leds__led2On();
+1435   1      //#line 4
+1436   1      }
+1437          //#line 4
+1438          //# 99 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1439          static   /*inline*/   void HplMcs51GeneralIOC__P17__clr(void )
+1440          //#line 99
 1441          {
-1442   1        for (; ; ) 
-1443   1          {
-1444   2            uint8_t nextTask;
-1445   2      
-1446   2            { __nesc_atomic_t __nesc_atomic = __nesc_atomic_start();
-1447   3              {
-1448   4                while ((nextTask = SchedulerBasicP__popTask()) == SchedulerBasicP__NO_TASK) 
-1449   4                  {
-1450   5                    SchedulerBasicP__McuSleep__sleep();
-1451   5                  }
-1452   4              }
-1453   3      //#line 161
-1454   3              __nesc_atomic_end(__nesc_atomic); }
-1455   2            SchedulerBasicP__TaskBasic__runTask(nextTask);
-1456   2          }
-1457   1      }
-1458          
-1459          //# 72 "/opt/tinyos-2.1.2/tos/interfaces/Scheduler.nc"
-1460           /*inline*/  static void RealMainP__Scheduler__taskLoop(void ){
-1461   1      //#line 72
-1462   1        SchedulerBasicP__Scheduler__taskLoop();
-1463   1      //#line 72
-1464   1      }
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 25  
+1442   1      //#line 99
+1443   1        P1_7 = 0;
+1444   1      }
+1445          
+1446          //# 41 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1447           /*inline*/  static void Spec4LedsP__Led3__clr(void ){
+1448   1      //#line 41
+1449   1        HplMcs51GeneralIOC__P17__clr();
+1450   1      //#line 41
+1451   1      }
+1452          //#line 41
+1453          //# 35 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4LedsP.nc"
+1454          static  /*inline*/  void Spec4LedsP__Spec4Leds__led3On(void )
+1455          //#line 35
+1456          {
+1457   1        Spec4LedsP__Led3__clr();
+1458   1      }
+1459          
+1460          //# 5 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4Leds.nc"
+1461           /*inline*/  static void TestLedPinC__Spec4Leds__led3On(void ){
+1462   1      //#line 5
+1463   1        Spec4LedsP__Spec4Leds__led3On();
+1464   1      //#line 5
+1465   1      }
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 25  
 
-1465          //#line 72
-1466          //# 63 "/opt/tinyos-2.1.2/tos/system/RealMainP.nc"
-1467            int main(void )
-1468          //#line 63
-1469          {
-1470   1        { __nesc_atomic_t __nesc_atomic = __nesc_atomic_start();
-1471   2          {
-1472   3      
-1473   3      
-1474   3      
-1475   3      
-1476   3      
-1477   3            {
-1478   4            }
-1479   3      //#line 71
-1480   3            ;
-1481   3      
-1482   3            RealMainP__Scheduler__init();
-1483   3      
-1484   3      
-1485   3      
-1486   3      
-1487   3      
-1488   3            RealMainP__PlatformInit__init();
-1489   3            while (RealMainP__Scheduler__runNextTask()) ;
-1490   3      
-1491   3      
-1492   3      
-1493   3      
-1494   3      
-1495   3            RealMainP__SoftwareInit__init();
-1496   3            while (RealMainP__Scheduler__runNextTask()) ;
-1497   3          }
-1498   2      //#line 88
-1499   2          __nesc_atomic_end(__nesc_atomic); }
-1500   1      
-1501   1      
-1502   1        __nesc_enable_interrupt();
-1503   1      
-1504   1        RealMainP__Boot__booted();
-1505   1      
-1506   1      
-1507   1        RealMainP__Scheduler__taskLoop();
-1508   1      
-1509   1      
-1510   1      
-1511   1      
-1512   1        return -1;
-1513   1      }
-1514          
-1515          //# 134 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
-1516          static bool SchedulerBasicP__Scheduler__runNextTask(void )
-1517          {
-1518   1        uint8_t nextTask;
-1519   1      
-1520   1        /* atomic removed: atomic calls only */
-1521   1      //#line 138
-1522   1        {
-1523   2          nextTask = SchedulerBasicP__popTask();
-1524   2          if (nextTask == SchedulerBasicP__NO_TASK) 
-1525   2            {
-1526   3              {
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 26  
+1466          //#line 5
+1467          //# 99 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1468          static   /*inline*/   void HplMcs51GeneralIOC__P17__set(void )
+1469          //#line 99
+1470          {
+1471   1      //#line 99
+1472   1        P1_7 = 1;
+1473   1      }
+1474          
+1475          //# 40 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1476           /*inline*/  static void Spec4LedsP__Led3__set(void ){
+1477   1      //#line 40
+1478   1        HplMcs51GeneralIOC__P17__set();
+1479   1      //#line 40
+1480   1      }
+1481          //#line 40
+1482          //# 98 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1483          static   /*inline*/   void HplMcs51GeneralIOC__P16__set(void )
+1484          //#line 98
+1485          {
+1486   1      //#line 98
+1487   1        P1_6 = 1;
+1488   1      }
+1489          
+1490          //# 40 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1491           /*inline*/  static void Spec4LedsP__Led2__set(void ){
+1492   1      //#line 40
+1493   1        HplMcs51GeneralIOC__P16__set();
+1494   1      //#line 40
+1495   1      }
+1496          //#line 40
+1497          //# 97 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1498          static   /*inline*/   void HplMcs51GeneralIOC__P15__set(void )
+1499          //#line 97
+1500          {
+1501   1      //#line 97
+1502   1        P1_5 = 1;
+1503   1      }
+1504          
+1505          //# 40 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1506           /*inline*/  static void Spec4LedsP__Led1__set(void ){
+1507   1      //#line 40
+1508   1        HplMcs51GeneralIOC__P15__set();
+1509   1      //#line 40
+1510   1      }
+1511          //#line 40
+1512          //# 96 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1513          static   /*inline*/   void HplMcs51GeneralIOC__P14__set(void )
+1514          //#line 96
+1515          {
+1516   1      //#line 96
+1517   1        P1_4 = 1;
+1518   1      }
+1519          
+1520          //# 40 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1521           /*inline*/  static void Spec4LedsP__Led0__set(void ){
+1522   1      //#line 40
+1523   1        HplMcs51GeneralIOC__P14__set();
+1524   1      //#line 40
+1525   1      }
+1526          //#line 40
+1527          //# 99 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 26  
 
-1527   4                unsigned char __nesc_temp = 
-1528   4      //#line 142
-1529   4                FALSE;
-1530   4      
-1531   4      //#line 142
-1532   4                return __nesc_temp;
-1533   4              }
-1534   3            }
-1535   2        }
-1536   1      //#line 145
-1537   1        SchedulerBasicP__TaskBasic__runTask(nextTask);
-1538   1        return TRUE;
-1539   1      }
-1540          
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 27  
+1528          static   /*inline*/   void HplMcs51GeneralIOC__P17__makeOutput(void )
+1529          //#line 99
+1530          {
+1531   1      //#line 99
+1532   1        P1_DIR |= 1 << 7;
+1533   1      }
+1534          
+1535          //# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1536           /*inline*/  static void Spec4LedsP__Led3__makeOutput(void ){
+1537   1      //#line 46
+1538   1        HplMcs51GeneralIOC__P17__makeOutput();
+1539   1      //#line 46
+1540   1      }
+1541          //#line 46
+1542          //# 98 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1543          static   /*inline*/   void HplMcs51GeneralIOC__P16__makeOutput(void )
+1544          //#line 98
+1545          {
+1546   1      //#line 98
+1547   1        P1_DIR |= 1 << 6;
+1548   1      }
+1549          
+1550          //# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1551           /*inline*/  static void Spec4LedsP__Led2__makeOutput(void ){
+1552   1      //#line 46
+1553   1        HplMcs51GeneralIOC__P16__makeOutput();
+1554   1      //#line 46
+1555   1      }
+1556          //#line 46
+1557          //# 97 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1558          static   /*inline*/   void HplMcs51GeneralIOC__P15__makeOutput(void )
+1559          //#line 97
+1560          {
+1561   1      //#line 97
+1562   1        P1_DIR |= 1 << 5;
+1563   1      }
+1564          
+1565          //# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1566           /*inline*/  static void Spec4LedsP__Led1__makeOutput(void ){
+1567   1      //#line 46
+1568   1        HplMcs51GeneralIOC__P15__makeOutput();
+1569   1      //#line 46
+1570   1      }
+1571          //#line 46
+1572          //# 96 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+1573          static   /*inline*/   void HplMcs51GeneralIOC__P14__makeOutput(void )
+1574          //#line 96
+1575          {
+1576   1      //#line 96
+1577   1        P1_DIR |= 1 << 4;
+1578   1      }
+1579          
+1580          //# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+1581           /*inline*/  static void Spec4LedsP__Led0__makeOutput(void ){
+1582   1      //#line 46
+1583   1        HplMcs51GeneralIOC__P14__makeOutput();
+1584   1      //#line 46
+1585   1      }
+1586          //#line 46
+1587          //# 11 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4LedsP.nc"
+1588          static  /*inline*/  error_t Spec4LedsP__Init__init(void )
+1589          //#line 11
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 27  
+
+1590          {
+1591   1        /* atomic removed: atomic calls only */
+1592   1      //#line 12
+1593   1        {
+1594   2          Spec4LedsP__Led0__makeOutput();
+1595   2          Spec4LedsP__Led1__makeOutput();
+1596   2          Spec4LedsP__Led2__makeOutput();
+1597   2          Spec4LedsP__Led3__makeOutput();
+1598   2      
+1599   2          Spec4LedsP__Led0__set();
+1600   2          Spec4LedsP__Led1__set();
+1601   2          Spec4LedsP__Led2__set();
+1602   2          Spec4LedsP__Led3__set();
+1603   2        }
+1604   1        return SUCCESS;
+1605   1      }
+1606          
+1607          //# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
+1608           /*inline*/  static error_t RealMainP__SoftwareInit__init(void ){
+1609   1      //#line 62
+1610   1        unsigned char __nesc_result;
+1611   1      //#line 62
+1612   1      
+1613   1      //#line 62
+1614   1        __nesc_result = Spec4LedsP__Init__init();
+1615   1      //#line 62
+1616   1      
+1617   1      //#line 62
+1618   1        return __nesc_result;
+1619   1      //#line 62
+1620   1      }
+1621          //#line 62
+1622          //# 97 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
+1623          static  /*inline*/  bool SchedulerBasicP__isWaiting(uint8_t id)
+1624          {
+1625   1        return SchedulerBasicP__m_next[id] != SchedulerBasicP__NO_TASK || SchedulerBasicP__m_tail == id;
+1626   1      }
+1627          
+1628          static  /*inline*/  bool SchedulerBasicP__pushTask(uint8_t id)
+1629          {
+1630   1        if (!SchedulerBasicP__isWaiting(id)) 
+1631   1          {
+1632   2            if (SchedulerBasicP__m_head == SchedulerBasicP__NO_TASK) 
+1633   2              {
+1634   3                SchedulerBasicP__m_head = id;
+1635   3                SchedulerBasicP__m_tail = id;
+1636   3              }
+1637   2            else 
+1638   2              {
+1639   3                SchedulerBasicP__m_next[SchedulerBasicP__m_tail] = id;
+1640   3                SchedulerBasicP__m_tail = id;
+1641   3              }
+1642   2            return TRUE;
+1643   2          }
+1644   1        else 
+1645   1          {
+1646   2            return FALSE;
+1647   2          }
+1648   1      }
+1649          
+1650          //#line 170
+1651          static  /*inline*/  error_t SchedulerBasicP__TaskBasic__postTask(uint8_t id)
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 28  
+
+1652          {
+1653   1        { __nesc_atomic_t __nesc_atomic = __nesc_atomic_start();
+1654   2      //#line 172
+1655   2          {
+1656   3      //#line 172
+1657   3            {
+1658   4              unsigned char __nesc_temp = 
+1659   4      //#line 172
+1660   4              SchedulerBasicP__pushTask(id) ? SUCCESS : EBUSY;
+1661   4      
+1662   4              {
+1663   5      //#line 172
+1664   5                __nesc_atomic_end(__nesc_atomic); 
+1665   5      //#line 172
+1666   5                return __nesc_temp;
+1667   5              }
+1668   4            }
+1669   3          }
+1670   2      //#line 175
+1671   2          __nesc_atomic_end(__nesc_atomic); }
+1672   1      }
+1673          
+1674          //# 67 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
+1675           /*inline*/  static error_t TestLedPinC__lighton__postTask(void ){
+1676   1      //#line 67
+1677   1        unsigned char __nesc_result;
+1678   1      //#line 67
+1679   1      
+1680   1      //#line 67
+1681   1        __nesc_result = SchedulerBasicP__TaskBasic__postTask(TestLedPinC__lighton);
+1682   1      //#line 67
+1683   1      
+1684   1      //#line 67
+1685   1        return __nesc_result;
+1686   1      //#line 67
+1687   1      }
+1688          //#line 67
+1689          //# 16 "TestLedPinC.nc"
+1690          static  /*inline*/  void TestLedPinC__Boot__booted(void )
+1691          //#line 16
+1692          {
+1693   1      
+1694   1      
+1695   1      
+1696   1      
+1697   1        TestLedPinC__lighton__postTask();
+1698   1      }
+1699          
+1700          //# 60 "/opt/tinyos-2.1.2/tos/interfaces/Boot.nc"
+1701           /*inline*/  static void RealMainP__Boot__booted(void ){
+1702   1      //#line 60
+1703   1        TestLedPinC__Boot__booted();
+1704   1      //#line 60
+1705   1      }
+1706          //#line 60
+1707          //# 175 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
+1708          static  /*inline*/  void SchedulerBasicP__TaskBasic__default__runTask(uint8_t id)
+1709          {
+1710   1      }
+*** WARNING C280 IN LINE 1708 OF APP.C: 'id': unreferenced local variable
+1711          
+1712          //# 75 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 29  
+
+1713           /*inline*/  static void SchedulerBasicP__TaskBasic__runTask(uint8_t arg_0x2ad0f96ff3c8){
+1714   1      //#line 75
+1715   1        switch (arg_0x2ad0f96ff3c8) {
+1716   2      //#line 75
+1717   2          case TestLedPinC__lighton:
+1718   2      //#line 75
+1719   2            TestLedPinC__lighton__runTask();
+1720   2      //#line 75
+1721   2            break;
+1722   2      //#line 75
+1723   2          default:
+1724   2      //#line 75
+1725   2            SchedulerBasicP__TaskBasic__default__runTask(arg_0x2ad0f96ff3c8);
+1726   2      //#line 75
+1727   2            break;
+1728   2      //#line 75
+1729   2          }
+1730   1      //#line 75
+1731   1      }
+1732          //#line 75
+1733          //# 104 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/mcs51hardware.h"
+1734          static   /*inline*/   void __nesc_disable_interrupt()
+1735          //#line 104
+1736          {
+1737   1      //#line 104
+1738   1        EA = 0;
+1739   1      }
+1740          
+1741          //#line 105
+1742          static   /*inline*/   void __nesc_enable_interrupt()
+1743          //#line 105
+1744          {
+1745   1      //#line 105
+1746   1        EA = 1;
+1747   1      }
+1748          
+1749          //# 51 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/McuSleepC.nc"
+1750          static  /*inline*/  void McuSleepC__McuSleep__sleep(void )
+1751          //#line 51
+1752          {
+1753   1      
+1754   1        __nesc_enable_interrupt();
+1755   1      
+1756   1      
+1757   1      
+1758   1      
+1759   1      
+1760   1      
+1761   1        SLEEP = (SLEEP & ~CC2430_SLEEP_MODE_MASK) | CC2430_SLEEP_POWERMODE_0;
+1762   1      
+1763   1        __nesc_disable_interrupt();
+1764   1      }
+1765          
+1766          //# 76 "/opt/tinyos-2.1.2/tos/interfaces/McuSleep.nc"
+1767           /*inline*/  static void SchedulerBasicP__McuSleep__sleep(void ){
+1768   1      //#line 76
+1769   1        McuSleepC__McuSleep__sleep();
+1770   1      //#line 76
+1771   1      }
+1772          //#line 76
+1773          //# 78 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
+1774          static   /*inline*/   uint8_t SchedulerBasicP__popTask(void )
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 30  
+
+1775          {
+1776   1        if (SchedulerBasicP__m_head != SchedulerBasicP__NO_TASK) 
+1777   1          {
+1778   2            uint8_t id = SchedulerBasicP__m_head;
+1779   2      
+1780   2      //#line 83
+1781   2            SchedulerBasicP__m_head = SchedulerBasicP__m_next[SchedulerBasicP__m_head];
+1782   2            if (SchedulerBasicP__m_head == SchedulerBasicP__NO_TASK) 
+1783   2              {
+1784   3                SchedulerBasicP__m_tail = SchedulerBasicP__NO_TASK;
+1785   3              }
+1786   2            SchedulerBasicP__m_next[id] = SchedulerBasicP__NO_TASK;
+1787   2            return id;
+1788   2          }
+1789   1        else 
+1790   1          {
+1791   2            return SchedulerBasicP__NO_TASK;
+1792   2          }
+1793   1      }
+1794          
+1795          //#line 149
+1796          static  /*inline*/  void SchedulerBasicP__Scheduler__taskLoop(void )
+1797          {
+1798   1        for (; ; ) 
+1799   1          {
+1800   2            uint8_t nextTask;
+1801   2      
+1802   2            { __nesc_atomic_t __nesc_atomic = __nesc_atomic_start();
+1803   3              {
+1804   4                while ((nextTask = SchedulerBasicP__popTask()) == SchedulerBasicP__NO_TASK) 
+1805   4                  {
+1806   5                    SchedulerBasicP__McuSleep__sleep();
+1807   5                  }
+1808   4              }
+1809   3      //#line 161
+1810   3              __nesc_atomic_end(__nesc_atomic); }
+1811   2            SchedulerBasicP__TaskBasic__runTask(nextTask);
+1812   2          }
+1813   1      }
+1814          
+1815          //# 72 "/opt/tinyos-2.1.2/tos/interfaces/Scheduler.nc"
+1816           /*inline*/  static void RealMainP__Scheduler__taskLoop(void ){
+1817   1      //#line 72
+1818   1        SchedulerBasicP__Scheduler__taskLoop();
+1819   1      //#line 72
+1820   1      }
+1821          //#line 72
+1822          //# 63 "/opt/tinyos-2.1.2/tos/system/RealMainP.nc"
+1823            int main(void )
+1824          //#line 63
+1825          {
+1826   1        { __nesc_atomic_t __nesc_atomic = __nesc_atomic_start();
+1827   2          {
+1828   3      
+1829   3      
+1830   3      
+1831   3      
+1832   3      
+1833   3            {
+1834   4            }
+1835   3      //#line 71
+1836   3            ;
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 31  
+
+1837   3      
+1838   3            RealMainP__Scheduler__init();
+1839   3      
+1840   3      
+1841   3      
+1842   3      
+1843   3      
+1844   3            RealMainP__PlatformInit__init();
+1845   3            while (RealMainP__Scheduler__runNextTask()) ;
+1846   3      
+1847   3      
+1848   3      
+1849   3      
+1850   3      
+1851   3            RealMainP__SoftwareInit__init();
+1852   3            while (RealMainP__Scheduler__runNextTask()) ;
+1853   3          }
+1854   2      //#line 88
+1855   2          __nesc_atomic_end(__nesc_atomic); }
+1856   1      
+1857   1      
+1858   1        __nesc_enable_interrupt();
+1859   1      
+1860   1        RealMainP__Boot__booted();
+1861   1      
+1862   1      
+1863   1        RealMainP__Scheduler__taskLoop();
+1864   1      
+1865   1      
+1866   1      
+1867   1      
+1868   1        return -1;
+1869   1      }
+1870          
+1871          //# 134 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
+1872          static bool SchedulerBasicP__Scheduler__runNextTask(void )
+1873          {
+1874   1        uint8_t nextTask;
+1875   1      
+1876   1        /* atomic removed: atomic calls only */
+1877   1      //#line 138
+1878   1        {
+1879   2          nextTask = SchedulerBasicP__popTask();
+1880   2          if (nextTask == SchedulerBasicP__NO_TASK) 
+1881   2            {
+1882   3              {
+1883   4                unsigned char __nesc_temp = 
+1884   4      //#line 142
+1885   4                FALSE;
+1886   4      
+1887   4      //#line 142
+1888   4                return __nesc_temp;
+1889   4              }
+1890   3            }
+1891   2        }
+1892   1      //#line 145
+1893   1        SchedulerBasicP__TaskBasic__runTask(nextTask);
+1894   1        return TRUE;
+1895   1      }
+1896          
+1897          //# 25 "TestLedPinC.nc"
+1898          static void TestLedPinC__lighton__runTask(void )
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 32  
+
+1899          //#line 25
+1900          {
+1901   1        TestLedPinC__Leds__led0On();
+1902   1        TestLedPinC__Leds__led1On();
+1903   1      
+1904   1        TestLedPinC__Spec4Leds__led0On();
+1905   1        TestLedPinC__Spec4Leds__led1On();
+1906   1        TestLedPinC__Spec4Leds__led2On();
+1907   1        TestLedPinC__Spec4Leds__led3On();
+1908   1      }
+1909          
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 33  
 
 NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
 ====                                    =====   ======  ====    ======  ====
@@ -1677,7 +2058,7 @@ __nesc_unnamed4245 . . . . . . . . . .  * TAG *  -----  UNION    -----  3
 int16_t. . . . . . . . . . . . . . . .  TYPEDEF  -----  INT      -----  2
 __nesc_unnamed4264 . . . . . . . . . .  * TAG *  -----  ENUM     -----  -----
 __nesc_unnamed4255 . . . . . . . . . .  * TAG *  -----  ENUM     -----  -----
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 28  
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 34  
 
 NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
 ====                                    =====   ======  ====    ======  ====
@@ -1713,10 +2094,12 @@ __nesc_unnamed4259 . . . . . . . . . .  * TAG *  -----  ENUM     -----  -----
 uint_fast32_t. . . . . . . . . . . . .  TYPEDEF  -----  U_INT    -----  2
 __nesc_unnamed4269 . . . . . . . . . .  * TAG *  -----  ENUM     -----  -----
 CC2430_RFIF_TXDONE . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
+Spec4LedsP__Spec4Leds__led0On. . . . .  STATIC   CODE   PROC     0000H  -----
 LEDS_LED0. . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_TIMERWDT_MODE_TIMER . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_TIMIF_OVFIM . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 uint_fast16_t. . . . . . . . . . . . .  TYPEDEF  -----  U_INT    -----  2
+Spec4LedsP__Spec4Leds__led1On. . . . .  STATIC   CODE   PROC     0000H  -----
 SchedulerBasicP__Scheduler__runNextTask STATIC   CODE   PROC     0000H  -----
   __nesc_temp. . . . . . . . . . . . .  AUTO     XDATA  U_CHAR   0000H  1
   nextTask . . . . . . . . . . . . . .  * REG *  DATA   U_CHAR   0007H  1
@@ -1724,11 +2107,13 @@ LEDS_LED1. . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_TIMIF_T3OVFIF . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_TIMERWDT_32768. . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 P1_0 . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0090H  1
+Spec4LedsP__Spec4Leds__led2On. . . . .  STATIC   CODE   PROC     0000H  -----
 LEDS_LED2. . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_TIMIF_T4OVFIF . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_CLKCON_CLKSPD . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 P1_1 . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0091H  1
 size_t . . . . . . . . . . . . . . . .  TYPEDEF  -----  U_LONG   -----  4
+Spec4LedsP__Spec4Leds__led3On. . . . .  STATIC   CODE   PROC     0000H  -----
 LEDS_LED3. . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_T1_OVFIF. . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_MDMCTRL0H_CCA_HYST. . . . . . .  E_CONST  -----  U_CHAR   -----  1
@@ -1736,26 +2121,31 @@ RealMainP__Scheduler__runNextTask. . .  STATIC   CODE   PROC     0000H  -----
   __nesc_result. . . . . . . . . . . .  * REG *  DATA   U_CHAR   0007H  1
 LEDS_LED4. . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_T34CTL_CLR. . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
-__gwchar_t . . . . . . . . . . . . . .  TYPEDEF  -----  INT      -----  2
-LEDS_LED5. . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
-SchedulerBasicP__m_tail. . . . . . . .  PUBLIC   XDATA  U_CHAR   0000H  1
-LEDS_LED6. . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 29  
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 35  
 
 NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
 ====                                    =====   ======  ====    ======  ====
 
 
+__gwchar_t . . . . . . . . . . . . . .  TYPEDEF  -----  INT      -----  2
+LEDS_LED5. . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
+P1_4 . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0094H  1
+SchedulerBasicP__m_tail. . . . . . . .  PUBLIC   XDATA  U_CHAR   0000H  1
+LEDS_LED6. . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_T34CTL_DIV. . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_SLEEP_XOSC_STB. . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_RFIM_TXDONE . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
+P1_5 . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0095H  1
 LEDS_LED7. . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
+P1_6 . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0096H  1
 nxle_uint32_t. . . . . . . . . . . . .  TYPEDEF  -----  STRUCT   -----  8
   nxdata . . . . . . . . . . . . . . .  MEMBER   -----  ARRAY    0000H  8
 nx_uint8_t . . . . . . . . . . . . . .  TYPEDEF  -----  STRUCT   -----  1
   nxdata . . . . . . . . . . . . . . .  MEMBER   -----  ARRAY    0000H  1
 CC2430_RFIF_SFD. . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
+P1_7 . . . . . . . . . . . . . . . . .  ABSBIT   -----  BIT      0097H  1
 int_fast32_t . . . . . . . . . . . . .  TYPEDEF  -----  INT      -----  2
+TestLedPinC__Spec4Leds__led0On . . . .  STATIC   CODE   PROC     0000H  -----
 CC2430_T1CCTLx_CMP . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_T1CTL_IF_MASK . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 div_t. . . . . . . . . . . . . . . . .  TYPEDEF  -----  STRUCT   -----  4
@@ -1763,16 +2153,23 @@ div_t. . . . . . . . . . . . . . . . .  TYPEDEF  -----  STRUCT   -----  4
   rem. . . . . . . . . . . . . . . . .  MEMBER   -----  INT      0002H  2
 nxle_uint16_t. . . . . . . . . . . . .  TYPEDEF  -----  STRUCT   -----  2
   nxdata . . . . . . . . . . . . . . .  MEMBER   -----  ARRAY    0000H  2
+TestLedPinC__Spec4Leds__led1On . . . .  STATIC   CODE   PROC     0000H  -----
 int_fast16_t . . . . . . . . . . . . .  TYPEDEF  -----  INT      -----  2
+Spec4LedsP__Led0__makeOutput . . . . .  STATIC   CODE   PROC     0000H  -----
+TestLedPinC__Spec4Leds__led2On . . . .  STATIC   CODE   PROC     0000H  -----
 __nesc_nxbase_nxle_uint8_t . . . . . .  TYPEDEF  -----  U_CHAR   -----  1
+Spec4LedsP__Led1__makeOutput . . . . .  STATIC   CODE   PROC     0000H  -----
+TestLedPinC__Spec4Leds__led3On . . . .  STATIC   CODE   PROC     0000H  -----
 SchedulerBasicP__McuSleep__sleep . . .  STATIC   CODE   PROC     0000H  -----
 SUCCESS. . . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 nxle_uint64_t. . . . . . . . . . . . .  TYPEDEF  -----  STRUCT   -----  8
   nxdata . . . . . . . . . . . . . . .  MEMBER   -----  ARRAY    0000H  8
+Spec4LedsP__Led2__makeOutput . . . . .  STATIC   CODE   PROC     0000H  -----
 CC2430_TIMER3_4_MODE_DOWN. . . . . . .  E_CONST  -----  U_CHAR   -----  1
 cc2430_tick_spd_t. . . . . . . . . . .  * TAG *  -----  ENUM     -----  -----
 CC2430_RFPWR_RREG_RADIO_PD . . . . . .  E_CONST  -----  U_CHAR   -----  1
 FAIL . . . . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
+Spec4LedsP__Led3__makeOutput . . . . .  STATIC   CODE   PROC     0000H  -----
 CC2430_TIMERWDT_512. . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_MDMCTRL0H_FRAME_FILT. . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_RFIM_SFD. . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
@@ -1787,6 +2184,12 @@ nx_int8_t. . . . . . . . . . . . . . .  TYPEDEF  -----  STRUCT   -----  1
   nxdata . . . . . . . . . . . . . . .  MEMBER   -----  ARRAY    0000H  1
 CC2430_T1CTL_MODE. . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 nxle_int16_t . . . . . . . . . . . . .  TYPEDEF  -----  STRUCT   -----  2
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 36  
+
+NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
+====                                    =====   ======  ====    ======  ====
+
+
   nxdata . . . . . . . . . . . . . . .  MEMBER   -----  ARRAY    0000H  2
 SchedulerBasicP____nesc_unnamed4271. .  * TAG *  -----  ENUM     -----  -----
 CC2430_T34CTL_DIV_MASK . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
@@ -1800,21 +2203,18 @@ CC2430_TIMER1_DIV_128. . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_IRCON_T3IF. . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 nxle_int64_t . . . . . . . . . . . . .  TYPEDEF  -----  STRUCT   -----  8
   nxdata . . . . . . . . . . . . . . .  MEMBER   -----  ARRAY    0000H  8
+Spec4LedsP__Led0__clr. . . . . . . . .  STATIC   CODE   PROC     0000H  -----
 main . . . . . . . . . . . . . . . . .  PUBLIC   CODE   PROC     0000H  -----
   __nesc_atomic. . . . . . . . . . . .  AUTO     XDATA  U_CHAR   0000H  1
 McuSleepC__McuSleep__sleep . . . . . .  STATIC   CODE   PROC     0000H  -----
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 30  
-
-NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
-====                                    =====   ======  ====    ======  ====
-
-
 CC2430_IRCON_T4IF. . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
+Spec4LedsP__Led1__clr. . . . . . . . .  STATIC   CODE   PROC     0000H  -----
 LedsP__Init__init. . . . . . . . . . .  STATIC   CODE   PROC     0000H  -----
-RealMainP__SoftwareInit__default__init  STATIC   CODE   PROC     0000H  -----
 CC2430_RFPWR_RREG_DELAY. . . . . . . .  E_CONST  -----  U_CHAR   -----  1
+Spec4LedsP__Led2__clr. . . . . . . . .  STATIC   CODE   PROC     0000H  -----
 CC2430_TMAC_CMPIF. . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_TIMER1_MODE_OFF . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
+Spec4LedsP__Led3__clr. . . . . . . . .  STATIC   CODE   PROC     0000H  -----
 CC2430_RREG_DELAY_500. . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 SchedulerBasicP__m_next. . . . . . . .  PUBLIC   XDATA  ARRAY    0001H  1
 CC2430_MDMCTRL0H_PAN_COORDINATOR . . .  E_CONST  -----  U_CHAR   -----  1
@@ -1834,15 +2234,25 @@ CC2430_RFIF_FIFOP. . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_T1CCTLx_CPSEL . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_IEN2_P1IE . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_IEN0_RFERRIE. . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
+Spec4LedsP__Led0__set. . . . . . . . .  STATIC   CODE   PROC     0000H  -----
 CC2430_T34CTL_WDTIF. . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_IEN2_P2IE . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
+Spec4LedsP__Led1__set. . . . . . . . .  STATIC   CODE   PROC     0000H  -----
 CC2430_TICKF_DIV_64. . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_SLEEP_MODE. . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 ENOACK . . . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
+Spec4LedsP__Led2__set. . . . . . . . .  STATIC   CODE   PROC     0000H  -----
 CC2430_CLKCON_OSC. . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_RFIM_CSP_WT . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
+Spec4LedsP__Led3__set. . . . . . . . .  STATIC   CODE   PROC     0000H  -----
 CC2430_T34CTL_OVFIM. . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 _SchedulerBasicP__TaskBasic__postTask.  STATIC   CODE   PROC     0000H  -----
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 37  
+
+NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
+====                                    =====   ======  ====    ======  ====
+
+
   id . . . . . . . . . . . . . . . . .  * REG *  DATA   U_CHAR   0006H  1
   __nesc_temp. . . . . . . . . . . . .  AUTO     XDATA  U_CHAR   0001H  1
   __nesc_atomic. . . . . . . . . . . .  AUTO     XDATA  U_CHAR   0000H  1
@@ -1866,17 +2276,15 @@ HplMcs51GeneralIOC__P11__makeOutput. .  STATIC   CODE   PROC     0000H  -----
 CC2430_TIMER1_DIV_1. . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_TIMER3_4_DIV_128. . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CLKCON . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   00C6H  1
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 31  
-
-NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
-====                                    =====   ======  ====    ======  ====
-
-
 __WAIT_STATUS. . . . . . . . . . . . .  TYPEDEF  -----  UNION    -----  3
   __uptr . . . . . . . . . . . . . . .  MEMBER   -----  PTR      0000H  3
   __iptr . . . . . . . . . . . . . . .  MEMBER   -----  PTR      0000H  3
+HplMcs51GeneralIOC__P14__makeOutput. .  STATIC   CODE   PROC     0000H  -----
 TestLedPinC__Boot__booted. . . . . . .  STATIC   CODE   PROC     0000H  -----
+HplMcs51GeneralIOC__P15__makeOutput. .  STATIC   CODE   PROC     0000H  -----
 CC2430_TMAC_OFCMPIF. . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
+HplMcs51GeneralIOC__P16__makeOutput. .  STATIC   CODE   PROC     0000H  -----
+HplMcs51GeneralIOC__P17__makeOutput. .  STATIC   CODE   PROC     0000H  -----
 CC2430_T2PEROF2_CMPIM. . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_SLEEP_MODE_MASK . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 P1_DIR . . . . . . . . . . . . . . . .  SFR      DATA   U_CHAR   00FEH  1
@@ -1888,7 +2296,7 @@ CC2430_TIMER1_DIV_8. . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_TIMER3_4_MODE_UPDOWN. . . . . .  E_CONST  -----  U_CHAR   -----  1
 ENOMEM . . . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 _SchedulerBasicP__TaskBasic__runTask .  STATIC   CODE   PROC     0000H  -----
-  arg_0x2ab98bf953c8 . . . . . . . . .  * REG *  DATA   U_CHAR   0007H  1
+  arg_0x2ad0f96ff3c8 . . . . . . . . .  AUTO     XDATA  U_CHAR   0000H  1
 NoPinC__0__GeneralIO__set. . . . . . .  STATIC   CODE   PROC     0000H  -----
 cc2430_timer1_prescaler_t. . . . . . .  * TAG *  -----  ENUM     -----  -----
 CC2430_MDMCTRL0H_ADDR_DECODE . . . . .  E_CONST  -----  U_CHAR   -----  1
@@ -1902,6 +2310,12 @@ nx_uint16_t. . . . . . . . . . . . . .  TYPEDEF  -----  STRUCT   -----  2
   nxdata . . . . . . . . . . . . . . .  MEMBER   -----  ARRAY    0000H  2
 HplMcs51GeneralIOC__P11__clr . . . . .  STATIC   CODE   PROC     0000H  -----
 CC2430_T1CTL_CH0IF . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 38  
+
+NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
+====                                    =====   ======  ====    ======  ====
+
+
 CC2430_T2PEROF2_PERIM. . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_T1CTL_CH1IF . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_IEN2_RFIE . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
@@ -1912,13 +2326,17 @@ CC2430_T1CTL_CH2IF . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_RFIF_CSP_STOP . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 nx_uint64_t. . . . . . . . . . . . . .  TYPEDEF  -----  STRUCT   -----  8
   nxdata . . . . . . . . . . . . . . .  MEMBER   -----  ARRAY    0000H  8
+HplMcs51GeneralIOC__P14__clr . . . . .  STATIC   CODE   PROC     0000H  -----
 EALREADY . . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 __nesc_nxbase_nxle_uint16_t. . . . . .  TYPEDEF  -----  U_INT    -----  2
+HplMcs51GeneralIOC__P15__clr . . . . .  STATIC   CODE   PROC     0000H  -----
 imaxdiv_t. . . . . . . . . . . . . . .  TYPEDEF  -----  STRUCT   -----  8
   quot . . . . . . . . . . . . . . . .  MEMBER   -----  LONG     0000H  4
   rem. . . . . . . . . . . . . . . . .  MEMBER   -----  LONG     0004H  4
+HplMcs51GeneralIOC__P16__clr . . . . .  STATIC   CODE   PROC     0000H  -----
 cc2430_timer1_if_t . . . . . . . . . .  * TAG *  -----  ENUM     -----  -----
 uint_least8_t. . . . . . . . . . . . .  TYPEDEF  -----  U_CHAR   -----  1
+HplMcs51GeneralIOC__P17__clr . . . . .  STATIC   CODE   PROC     0000H  -----
 SchedulerBasicP__NO_TASK . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 TMilli . . . . . . . . . . . . . . . .  TYPEDEF  -----  U_CHAR   -----  1
 CC2430_T1CCTLx_IM. . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
@@ -1929,12 +2347,6 @@ uint8_t. . . . . . . . . . . . . . . .  TYPEDEF  -----  U_CHAR   -----  1
 CC2430_RFIM_CSP_STOP . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 nx_int16_t . . . . . . . . . . . . . .  TYPEDEF  -----  STRUCT   -----  2
   nxdata . . . . . . . . . . . . . . .  MEMBER   -----  ARRAY    0000H  2
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 32  
-
-NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
-====                                    =====   ======  ====    ======  ====
-
-
 _SchedulerBasicP__isWaiting. . . . . .  STATIC   CODE   PROC     0000H  -----
   id . . . . . . . . . . . . . . . . .  * REG *  DATA   U_CHAR   0007H  1
 HplMcs51GeneralIOC__P10__set . . . . .  STATIC   CODE   PROC     0000H  -----
@@ -1955,24 +2367,34 @@ SchedulerBasicP__Scheduler__taskLoop .  STATIC   CODE   PROC     0000H  -----
 CC2430_TIMER3_4_DIV_4. . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_SLEEP_POWERMODE_1 . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 __nesc_nxbase_nxle_int16_t . . . . . .  TYPEDEF  -----  INT      -----  2
+HplMcs51GeneralIOC__P14__set . . . . .  STATIC   CODE   PROC     0000H  -----
 cc2430_timerMAC_T2PEROF2_t . . . . . .  * TAG *  -----  ENUM     -----  -----
 CC2430_SLEEP_POWERMODE_2 . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_IEN0_STIE . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 drand48__data. . . . . . . . . . . . .  * TAG *  -----  STRUCT   -----  19
   __x. . . . . . . . . . . . . . . . .  MEMBER   -----  ARRAY    0000H  6
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 39  
+
+NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
+====                                    =====   ======  ====    ======  ====
+
+
   __old_x. . . . . . . . . . . . . . .  MEMBER   -----  ARRAY    0006H  6
   __c. . . . . . . . . . . . . . . . .  MEMBER   -----  U_INT    000CH  2
   __init . . . . . . . . . . . . . . .  MEMBER   -----  U_INT    000EH  2
   __a. . . . . . . . . . . . . . . . .  MEMBER   -----  PTR      0010H  3
 TestLedPinC__Leds__led0On. . . . . . .  STATIC   CODE   PROC     0000H  -----
+HplMcs51GeneralIOC__P15__set . . . . .  STATIC   CODE   PROC     0000H  -----
 CC2430_SLEEP_POWERMODE_3 . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_RREG_DELAY_1000 . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 int_least8_t . . . . . . . . . . . . .  TYPEDEF  -----  CHAR     -----  1
 TestLedPinC__Leds__led1On. . . . . . .  STATIC   CODE   PROC     0000H  -----
 RealMainP__Scheduler__taskLoop . . . .  STATIC   CODE   PROC     0000H  -----
+HplMcs51GeneralIOC__P16__set . . . . .  STATIC   CODE   PROC     0000H  -----
 CC2430_T2PEROF2_OFCMPIM. . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_RREG_DELAY_2000 . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 LedsP__Led0__makeOutput. . . . . . . .  STATIC   CODE   PROC     0000H  -----
+HplMcs51GeneralIOC__P17__set . . . . .  STATIC   CODE   PROC     0000H  -----
 CC2430_TIMER3_4_DIV_8. . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_T34CTL_MODE . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 LedsP__Led1__makeOutput. . . . . . . .  STATIC   CODE   PROC     0000H  -----
@@ -1992,12 +2414,6 @@ CC2430_T1CTL_DIV . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_IEN0_URX1IE . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 uintmax_t. . . . . . . . . . . . . . .  TYPEDEF  -----  PTR      -----  3
 TestLedPinC__lighton . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 33  
-
-NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
-====                                    =====   ======  ====    ======  ====
-
-
 CC2430_TIMIF_T3CH0IF . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 uint_fast8_t . . . . . . . . . . . . .  TYPEDEF  -----  U_CHAR   -----  1
 CC2430_TIMIF_T3CH1IF . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
@@ -2020,6 +2436,12 @@ CC2430_CLKCON_TICKSPD. . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_IEN2_UTX1IE . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 LedsP__Led0__clr . . . . . . . . . . .  STATIC   CODE   PROC     0000H  -----
 CC2430_TIMERMAC_MODE_RUN . . . . . . .  E_CONST  -----  U_CHAR   -----  1
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 40  
+
+NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
+====                                    =====   ======  ====    ======  ====
+
+
 CC2430_T1_CH2IF. . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_TICKF_DIV_128 . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 ERESERVE . . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
@@ -2039,6 +2461,7 @@ CC2430_RFIF_RREG_ON. . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 nxle_uint8_t . . . . . . . . . . . . .  TYPEDEF  -----  STRUCT   -----  1
   nxdata . . . . . . . . . . . . . . .  MEMBER   -----  ARRAY    0000H  1
 intmax_t . . . . . . . . . . . . . . .  TYPEDEF  -----  PTR      -----  3
+Spec4LedsP__Init__init . . . . . . . .  STATIC   CODE   PROC     0000H  -----
 int_fast8_t. . . . . . . . . . . . . .  TYPEDEF  -----  CHAR     -----  1
 FALSE. . . . . . . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 wchar_t. . . . . . . . . . . . . . . .  TYPEDEF  -----  INT      -----  2
@@ -2055,12 +2478,6 @@ CC2430_TIMER1_DIV_32 . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_RFSTATUS_SFD. . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 uintptr_t. . . . . . . . . . . . . . .  TYPEDEF  -----  U_INT    -----  2
 LedsP__Led1__set . . . . . . . . . . .  STATIC   CODE   PROC     0000H  -----
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 34  
-
-NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
-====                                    =====   ======  ====    ======  ====
-
-
 CC2430_TIMER1_MODE_FREE. . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 CC2430_SLEEP_DIV . . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 LedsP__Led2__set . . . . . . . . . . .  STATIC   CODE   PROC     0000H  -----
@@ -2082,6 +2499,12 @@ SchedulerBasicP__NUM_TASKS . . . . . .  E_CONST  -----  U_CHAR   -----  1
 nx_bool. . . . . . . . . . . . . . . .  TYPEDEF  -----  STRUCT   -----  1
   nxdata . . . . . . . . . . . . . . .  MEMBER   -----  ARRAY    0000H  1
 __nesc_nxbase_nx_uint32_t. . . . . . .  TYPEDEF  -----  U_LONG   -----  4
+C51 COMPILER V9.00   APP                                                                   05/02/2013 19:19:09 PAGE 41  
+
+NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
+====                                    =====   ======  ====    ======  ====
+
+
 RealMainP__Boot__booted. . . . . . . .  STATIC   CODE   PROC     0000H  -----
 CC2430_IEN0_ADCIE. . . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 RealMainP__PlatformInit__init. . . . .  STATIC   CODE   PROC     0000H  -----
@@ -2111,16 +2534,14 @@ CC2430_RREG_DELAY_63 . . . . . . . . .  E_CONST  -----  U_CHAR   -----  1
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =    499    ----
+   CODE SIZE        =    644    ----
    CONSTANT SIZE    =   ----    ----
-   XDATA SIZE       =      3       8
+   XDATA SIZE       =      3       9
    PDATA SIZE       =   ----    ----
    DATA SIZE        =   ----    ----
    IDATA SIZE       =   ----    ----
    BIT SIZE         =   ----    ----
 END OF MODULE INFORMATION.
-
-C51 COMPILER V9.00   APP                                                                   05/02/2013 16:53:46 PAGE 35  
 
 
 C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)

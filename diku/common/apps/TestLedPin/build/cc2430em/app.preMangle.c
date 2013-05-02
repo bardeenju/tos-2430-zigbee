@@ -288,7 +288,7 @@ struct drand48_data {
   unsigned long long int __a;
 };
 #line 742
-typedef int (*__compar_fn_t)(const void *arg_0x2ab98becc1f0, const void *arg_0x2ab98becc4c8);
+typedef int (*__compar_fn_t)(const void *arg_0x2ad0f96361f0, const void *arg_0x2ad0f96364c8);
 #line 776
 __extension__ 
 #line 793
@@ -346,6 +346,12 @@ uint8_t volatile EA __attribute((sbitAT0xAF)) ;
 #line 194
 uint8_t volatile P1_0 __attribute((sbitAT0x90)) ;
 uint8_t volatile P1_1 __attribute((sbitAT0x91)) ;
+
+
+uint8_t volatile P1_4 __attribute((sbitAT0x94)) ;
+uint8_t volatile P1_5 __attribute((sbitAT0x95)) ;
+uint8_t volatile P1_6 __attribute((sbitAT0x96)) ;
+uint8_t volatile P1_7 __attribute((sbitAT0x97)) ;
 # 67 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/ioCC2430.h"
 enum __nesc_unnamed4251 {
   CC2430_IEN0_EA = 0x7, 
@@ -747,16 +753,14 @@ enum __nesc_unnamed4270 {
 };
 # 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
 static error_t PlatformP$Init$init(void );
-#line 62
-static error_t RealMainP$SoftwareInit$default$init(void );
 # 67 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
 static error_t SchedulerBasicP$TaskBasic$postTask(
 # 56 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
-uint8_t arg_0x2ab98bf953c8);
+uint8_t arg_0x2ad0f96ff3c8);
 # 75 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
 static void SchedulerBasicP$TaskBasic$default$runTask(
 # 56 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
-uint8_t arg_0x2ab98bf953c8);
+uint8_t arg_0x2ad0f96ff3c8);
 # 57 "/opt/tinyos-2.1.2/tos/interfaces/Scheduler.nc"
 static void SchedulerBasicP$Scheduler$init(void );
 #line 72
@@ -776,10 +780,42 @@ static void LedsP$Leds$led1On(void );
 #line 56
 static void LedsP$Leds$led0On(void );
 # 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+static void HplMcs51GeneralIOC$P16$makeOutput(void );
+#line 40
+static void HplMcs51GeneralIOC$P16$set(void );
+static void HplMcs51GeneralIOC$P16$clr(void );
+
+
+
+
 static void HplMcs51GeneralIOC$P11$makeOutput(void );
 #line 40
 static void HplMcs51GeneralIOC$P11$set(void );
 static void HplMcs51GeneralIOC$P11$clr(void );
+
+
+
+
+static void HplMcs51GeneralIOC$P14$makeOutput(void );
+#line 40
+static void HplMcs51GeneralIOC$P14$set(void );
+static void HplMcs51GeneralIOC$P14$clr(void );
+
+
+
+
+static void HplMcs51GeneralIOC$P17$makeOutput(void );
+#line 40
+static void HplMcs51GeneralIOC$P17$set(void );
+static void HplMcs51GeneralIOC$P17$clr(void );
+
+
+
+
+static void HplMcs51GeneralIOC$P15$makeOutput(void );
+#line 40
+static void HplMcs51GeneralIOC$P15$set(void );
+static void HplMcs51GeneralIOC$P15$clr(void );
 
 
 
@@ -795,6 +831,16 @@ static void HplMcs51GeneralIOC$P10$clr(void );
 static void /*PlatformLedsC.NoPinC*/NoPinC$0$GeneralIO$makeOutput(void );
 #line 40
 static void /*PlatformLedsC.NoPinC*/NoPinC$0$GeneralIO$set(void );
+# 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
+static error_t Spec4LedsP$Init$init(void );
+# 3 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4Leds.nc"
+static void Spec4LedsP$Spec4Leds$led1On(void );
+
+static void Spec4LedsP$Spec4Leds$led3On(void );
+#line 2
+static void Spec4LedsP$Spec4Leds$led0On(void );
+
+static void Spec4LedsP$Spec4Leds$led2On(void );
 # 62 "/opt/tinyos-2.1.2/tos/interfaces/Init.nc"
 static error_t PlatformP$LedsInit$init(void );
 # 48 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc"
@@ -813,12 +859,10 @@ static void RealMainP$Scheduler$taskLoop(void );
 static bool RealMainP$Scheduler$runNextTask(void );
 # 63 "/opt/tinyos-2.1.2/tos/system/RealMainP.nc"
 int main(void )   ;
-#line 105
-static inline error_t RealMainP$SoftwareInit$default$init(void );
 # 75 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
 static void SchedulerBasicP$TaskBasic$runTask(
 # 56 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
-uint8_t arg_0x2ab98bf953c8);
+uint8_t arg_0x2ad0f96ff3c8);
 # 76 "/opt/tinyos-2.1.2/tos/interfaces/McuSleep.nc"
 static void SchedulerBasicP$McuSleep$sleep(void );
 # 61 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
@@ -876,12 +920,20 @@ static error_t TestLedPinC$lighton$postTask(void );
 static void TestLedPinC$Leds$led1On(void );
 #line 56
 static void TestLedPinC$Leds$led0On(void );
-# 14 "TestLedPinC.nc"
+# 3 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4Leds.nc"
+static void TestLedPinC$Spec4Leds$led1On(void );
+
+static void TestLedPinC$Spec4Leds$led3On(void );
+#line 2
+static void TestLedPinC$Spec4Leds$led0On(void );
+
+static void TestLedPinC$Spec4Leds$led2On(void );
+# 15 "TestLedPinC.nc"
 enum TestLedPinC$__nesc_unnamed4272 {
-#line 14
+#line 15
   TestLedPinC$lighton = 0U
 };
-#line 14
+#line 15
 typedef int TestLedPinC$__nesc_sillytask_lighton[TestLedPinC$lighton];
 static inline void TestLedPinC$Boot$booted(void );
 
@@ -892,7 +944,7 @@ static inline void TestLedPinC$Boot$booted(void );
 
 
 
-static inline void TestLedPinC$lighton$runTask(void );
+static void TestLedPinC$lighton$runTask(void );
 # 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
 static void LedsP$Led0$makeOutput(void );
 #line 40
@@ -930,12 +982,76 @@ static __inline void HplMcs51GeneralIOC$P11$set(void );
 static __inline void HplMcs51GeneralIOC$P11$clr(void );
 #line 93
 static __inline void HplMcs51GeneralIOC$P11$makeOutput(void );
+
+
+static __inline void HplMcs51GeneralIOC$P14$set(void );
+#line 96
+static __inline void HplMcs51GeneralIOC$P14$clr(void );
+#line 96
+static __inline void HplMcs51GeneralIOC$P14$makeOutput(void );
+static __inline void HplMcs51GeneralIOC$P15$set(void );
+#line 97
+static __inline void HplMcs51GeneralIOC$P15$clr(void );
+#line 97
+static __inline void HplMcs51GeneralIOC$P15$makeOutput(void );
+static __inline void HplMcs51GeneralIOC$P16$set(void );
+#line 98
+static __inline void HplMcs51GeneralIOC$P16$clr(void );
+#line 98
+static __inline void HplMcs51GeneralIOC$P16$makeOutput(void );
+static __inline void HplMcs51GeneralIOC$P17$set(void );
+#line 99
+static __inline void HplMcs51GeneralIOC$P17$clr(void );
+#line 99
+static __inline void HplMcs51GeneralIOC$P17$makeOutput(void );
 # 23 "/opt/tinyos-2.1.2/tos/system/NoPinC.nc"
 static inline void /*PlatformLedsC.NoPinC*/NoPinC$0$GeneralIO$set(void );
 
 
 
 static inline void /*PlatformLedsC.NoPinC*/NoPinC$0$GeneralIO$makeOutput(void );
+# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+static void Spec4LedsP$Led0$makeOutput(void );
+#line 40
+static void Spec4LedsP$Led0$set(void );
+static void Spec4LedsP$Led0$clr(void );
+
+
+
+
+static void Spec4LedsP$Led3$makeOutput(void );
+#line 40
+static void Spec4LedsP$Led3$set(void );
+static void Spec4LedsP$Led3$clr(void );
+
+
+
+
+static void Spec4LedsP$Led1$makeOutput(void );
+#line 40
+static void Spec4LedsP$Led1$set(void );
+static void Spec4LedsP$Led1$clr(void );
+
+
+
+
+static void Spec4LedsP$Led2$makeOutput(void );
+#line 40
+static void Spec4LedsP$Led2$set(void );
+static void Spec4LedsP$Led2$clr(void );
+# 11 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4LedsP.nc"
+static inline error_t Spec4LedsP$Init$init(void );
+#line 26
+static inline void Spec4LedsP$Spec4Leds$led0On(void );
+
+
+static inline void Spec4LedsP$Spec4Leds$led1On(void );
+
+
+static inline void Spec4LedsP$Spec4Leds$led2On(void );
+
+
+static inline void Spec4LedsP$Spec4Leds$led3On(void );
 # 107 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/mcs51hardware.h"
 __inline  __nesc_atomic_t __nesc_atomic_start(void )
 #line 107
@@ -1156,11 +1272,323 @@ inline static bool RealMainP$Scheduler$runNextTask(void ){
 #line 65
 }
 #line 65
-# 105 "/opt/tinyos-2.1.2/tos/system/RealMainP.nc"
-static inline error_t RealMainP$SoftwareInit$default$init(void )
-#line 105
+# 92 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+static __inline void HplMcs51GeneralIOC$P10$clr(void )
+#line 92
 {
-#line 105
+#line 92
+  P1_0 = 0;
+}
+
+# 41 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+inline static void LedsP$Led0$clr(void ){
+#line 41
+  HplMcs51GeneralIOC$P10$clr();
+#line 41
+}
+#line 41
+# 74 "/opt/tinyos-2.1.2/tos/system/LedsP.nc"
+static inline void LedsP$Leds$led0On(void )
+#line 74
+{
+  LedsP$Led0$clr();
+  ;
+#line 76
+  ;
+}
+
+# 56 "/opt/tinyos-2.1.2/tos/interfaces/Leds.nc"
+inline static void TestLedPinC$Leds$led0On(void ){
+#line 56
+  LedsP$Leds$led0On();
+#line 56
+}
+#line 56
+# 93 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+static __inline void HplMcs51GeneralIOC$P11$clr(void )
+#line 93
+{
+#line 93
+  P1_1 = 0;
+}
+
+# 41 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+inline static void LedsP$Led1$clr(void ){
+#line 41
+  HplMcs51GeneralIOC$P11$clr();
+#line 41
+}
+#line 41
+# 89 "/opt/tinyos-2.1.2/tos/system/LedsP.nc"
+static inline void LedsP$Leds$led1On(void )
+#line 89
+{
+  LedsP$Led1$clr();
+  ;
+#line 91
+  ;
+}
+
+# 72 "/opt/tinyos-2.1.2/tos/interfaces/Leds.nc"
+inline static void TestLedPinC$Leds$led1On(void ){
+#line 72
+  LedsP$Leds$led1On();
+#line 72
+}
+#line 72
+# 96 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+static __inline void HplMcs51GeneralIOC$P14$clr(void )
+#line 96
+{
+#line 96
+  P1_4 = 0;
+}
+
+# 41 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+inline static void Spec4LedsP$Led0$clr(void ){
+#line 41
+  HplMcs51GeneralIOC$P14$clr();
+#line 41
+}
+#line 41
+# 26 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4LedsP.nc"
+static inline void Spec4LedsP$Spec4Leds$led0On(void )
+#line 26
+{
+  Spec4LedsP$Led0$clr();
+}
+
+# 2 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4Leds.nc"
+inline static void TestLedPinC$Spec4Leds$led0On(void ){
+#line 2
+  Spec4LedsP$Spec4Leds$led0On();
+#line 2
+}
+#line 2
+# 97 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+static __inline void HplMcs51GeneralIOC$P15$clr(void )
+#line 97
+{
+#line 97
+  P1_5 = 0;
+}
+
+# 41 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+inline static void Spec4LedsP$Led1$clr(void ){
+#line 41
+  HplMcs51GeneralIOC$P15$clr();
+#line 41
+}
+#line 41
+# 29 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4LedsP.nc"
+static inline void Spec4LedsP$Spec4Leds$led1On(void )
+#line 29
+{
+  Spec4LedsP$Led1$clr();
+}
+
+# 3 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4Leds.nc"
+inline static void TestLedPinC$Spec4Leds$led1On(void ){
+#line 3
+  Spec4LedsP$Spec4Leds$led1On();
+#line 3
+}
+#line 3
+# 98 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+static __inline void HplMcs51GeneralIOC$P16$clr(void )
+#line 98
+{
+#line 98
+  P1_6 = 0;
+}
+
+# 41 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+inline static void Spec4LedsP$Led2$clr(void ){
+#line 41
+  HplMcs51GeneralIOC$P16$clr();
+#line 41
+}
+#line 41
+# 32 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4LedsP.nc"
+static inline void Spec4LedsP$Spec4Leds$led2On(void )
+#line 32
+{
+  Spec4LedsP$Led2$clr();
+}
+
+# 4 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4Leds.nc"
+inline static void TestLedPinC$Spec4Leds$led2On(void ){
+#line 4
+  Spec4LedsP$Spec4Leds$led2On();
+#line 4
+}
+#line 4
+# 99 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+static __inline void HplMcs51GeneralIOC$P17$clr(void )
+#line 99
+{
+#line 99
+  P1_7 = 0;
+}
+
+# 41 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+inline static void Spec4LedsP$Led3$clr(void ){
+#line 41
+  HplMcs51GeneralIOC$P17$clr();
+#line 41
+}
+#line 41
+# 35 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4LedsP.nc"
+static inline void Spec4LedsP$Spec4Leds$led3On(void )
+#line 35
+{
+  Spec4LedsP$Led3$clr();
+}
+
+# 5 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4Leds.nc"
+inline static void TestLedPinC$Spec4Leds$led3On(void ){
+#line 5
+  Spec4LedsP$Spec4Leds$led3On();
+#line 5
+}
+#line 5
+# 99 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+static __inline void HplMcs51GeneralIOC$P17$set(void )
+#line 99
+{
+#line 99
+  P1_7 = 1;
+}
+
+# 40 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+inline static void Spec4LedsP$Led3$set(void ){
+#line 40
+  HplMcs51GeneralIOC$P17$set();
+#line 40
+}
+#line 40
+# 98 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+static __inline void HplMcs51GeneralIOC$P16$set(void )
+#line 98
+{
+#line 98
+  P1_6 = 1;
+}
+
+# 40 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+inline static void Spec4LedsP$Led2$set(void ){
+#line 40
+  HplMcs51GeneralIOC$P16$set();
+#line 40
+}
+#line 40
+# 97 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+static __inline void HplMcs51GeneralIOC$P15$set(void )
+#line 97
+{
+#line 97
+  P1_5 = 1;
+}
+
+# 40 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+inline static void Spec4LedsP$Led1$set(void ){
+#line 40
+  HplMcs51GeneralIOC$P15$set();
+#line 40
+}
+#line 40
+# 96 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+static __inline void HplMcs51GeneralIOC$P14$set(void )
+#line 96
+{
+#line 96
+  P1_4 = 1;
+}
+
+# 40 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+inline static void Spec4LedsP$Led0$set(void ){
+#line 40
+  HplMcs51GeneralIOC$P14$set();
+#line 40
+}
+#line 40
+# 99 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+static __inline void HplMcs51GeneralIOC$P17$makeOutput(void )
+#line 99
+{
+#line 99
+  P1_DIR |= 1 << 7;
+}
+
+# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+inline static void Spec4LedsP$Led3$makeOutput(void ){
+#line 46
+  HplMcs51GeneralIOC$P17$makeOutput();
+#line 46
+}
+#line 46
+# 98 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+static __inline void HplMcs51GeneralIOC$P16$makeOutput(void )
+#line 98
+{
+#line 98
+  P1_DIR |= 1 << 6;
+}
+
+# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+inline static void Spec4LedsP$Led2$makeOutput(void ){
+#line 46
+  HplMcs51GeneralIOC$P16$makeOutput();
+#line 46
+}
+#line 46
+# 97 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+static __inline void HplMcs51GeneralIOC$P15$makeOutput(void )
+#line 97
+{
+#line 97
+  P1_DIR |= 1 << 5;
+}
+
+# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+inline static void Spec4LedsP$Led1$makeOutput(void ){
+#line 46
+  HplMcs51GeneralIOC$P15$makeOutput();
+#line 46
+}
+#line 46
+# 96 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
+static __inline void HplMcs51GeneralIOC$P14$makeOutput(void )
+#line 96
+{
+#line 96
+  P1_DIR |= 1 << 4;
+}
+
+# 46 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
+inline static void Spec4LedsP$Led0$makeOutput(void ){
+#line 46
+  HplMcs51GeneralIOC$P14$makeOutput();
+#line 46
+}
+#line 46
+# 11 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/Spec4LedsP.nc"
+static inline error_t Spec4LedsP$Init$init(void )
+#line 11
+{
+  /* atomic removed: atomic calls only */
+#line 12
+  {
+    Spec4LedsP$Led0$makeOutput();
+    Spec4LedsP$Led1$makeOutput();
+    Spec4LedsP$Led2$makeOutput();
+    Spec4LedsP$Led3$makeOutput();
+
+    Spec4LedsP$Led0$set();
+    Spec4LedsP$Led1$set();
+    Spec4LedsP$Led2$set();
+    Spec4LedsP$Led3$set();
+  }
   return SUCCESS;
 }
 
@@ -1171,7 +1599,7 @@ inline static error_t RealMainP$SoftwareInit$init(void ){
 #line 62
 
 #line 62
-  __nesc_result = RealMainP$SoftwareInit$default$init();
+  __nesc_result = Spec4LedsP$Init$init();
 #line 62
 
 #line 62
@@ -1246,9 +1674,9 @@ inline static error_t TestLedPinC$lighton$postTask(void ){
 #line 67
 }
 #line 67
-# 15 "TestLedPinC.nc"
+# 16 "TestLedPinC.nc"
 static inline void TestLedPinC$Boot$booted(void )
-#line 15
+#line 16
 {
 
 
@@ -1264,87 +1692,15 @@ inline static void RealMainP$Boot$booted(void ){
 #line 60
 }
 #line 60
-# 93 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
-static __inline void HplMcs51GeneralIOC$P11$clr(void )
-#line 93
-{
-#line 93
-  P1_1 = 0;
-}
-
-# 41 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
-inline static void LedsP$Led1$clr(void ){
-#line 41
-  HplMcs51GeneralIOC$P11$clr();
-#line 41
-}
-#line 41
-# 89 "/opt/tinyos-2.1.2/tos/system/LedsP.nc"
-static inline void LedsP$Leds$led1On(void )
-#line 89
-{
-  LedsP$Led1$clr();
-  ;
-#line 91
-  ;
-}
-
-# 72 "/opt/tinyos-2.1.2/tos/interfaces/Leds.nc"
-inline static void TestLedPinC$Leds$led1On(void ){
-#line 72
-  LedsP$Leds$led1On();
-#line 72
-}
-#line 72
-# 92 "/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc"
-static __inline void HplMcs51GeneralIOC$P10$clr(void )
-#line 92
-{
-#line 92
-  P1_0 = 0;
-}
-
-# 41 "/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc"
-inline static void LedsP$Led0$clr(void ){
-#line 41
-  HplMcs51GeneralIOC$P10$clr();
-#line 41
-}
-#line 41
-# 74 "/opt/tinyos-2.1.2/tos/system/LedsP.nc"
-static inline void LedsP$Leds$led0On(void )
-#line 74
-{
-  LedsP$Led0$clr();
-  ;
-#line 76
-  ;
-}
-
-# 56 "/opt/tinyos-2.1.2/tos/interfaces/Leds.nc"
-inline static void TestLedPinC$Leds$led0On(void ){
-#line 56
-  LedsP$Leds$led0On();
-#line 56
-}
-#line 56
-# 24 "TestLedPinC.nc"
-static inline void TestLedPinC$lighton$runTask(void )
-#line 24
-{
-  TestLedPinC$Leds$led0On();
-  TestLedPinC$Leds$led1On();
-}
-
 # 175 "/opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc"
 static inline void SchedulerBasicP$TaskBasic$default$runTask(uint8_t id)
 {
 }
 
 # 75 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
-inline static void SchedulerBasicP$TaskBasic$runTask(uint8_t arg_0x2ab98bf953c8){
+inline static void SchedulerBasicP$TaskBasic$runTask(uint8_t arg_0x2ad0f96ff3c8){
 #line 75
-  switch (arg_0x2ab98bf953c8) {
+  switch (arg_0x2ad0f96ff3c8) {
 #line 75
     case TestLedPinC$lighton:
 #line 75
@@ -1354,7 +1710,7 @@ inline static void SchedulerBasicP$TaskBasic$runTask(uint8_t arg_0x2ab98bf953c8)
 #line 75
     default:
 #line 75
-      SchedulerBasicP$TaskBasic$default$runTask(arg_0x2ab98bf953c8);
+      SchedulerBasicP$TaskBasic$default$runTask(arg_0x2ad0f96ff3c8);
 #line 75
       break;
 #line 75
@@ -1524,5 +1880,18 @@ static bool SchedulerBasicP$Scheduler$runNextTask(void )
 #line 145
   SchedulerBasicP$TaskBasic$runTask(nextTask);
   return TRUE;
+}
+
+# 25 "TestLedPinC.nc"
+static void TestLedPinC$lighton$runTask(void )
+#line 25
+{
+  TestLedPinC$Leds$led0On();
+  TestLedPinC$Leds$led1On();
+
+  TestLedPinC$Spec4Leds$led0On();
+  TestLedPinC$Spec4Leds$led1On();
+  TestLedPinC$Spec4Leds$led2On();
+  TestLedPinC$Spec4Leds$led3On();
 }
 

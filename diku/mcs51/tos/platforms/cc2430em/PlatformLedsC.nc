@@ -55,7 +55,7 @@ implementation
     new NoPinC();
 
   // Let LedsP (from system) handle the Led init...
-  Init = PlatformP.LedsInit;
+  Init = PlatformP.LedsInit;  //by yj :the LedsInit seems does nothing
 
   /* 
    * The bizare Led interface assumes that the led pins are active
@@ -64,7 +64,7 @@ implementation
 
   //Led0_rev -> HplMcs51GeneralIOC.P10;
   //Led2_rev -> HplMcs51GeneralIOC.P13;
-
+  //by yj :GeneralIO to real IO
   Led0 = HplMcs51GeneralIOC.P10;
   Led1 = HplMcs51GeneralIOC.P11; 
   Led2 = NoPinC;
