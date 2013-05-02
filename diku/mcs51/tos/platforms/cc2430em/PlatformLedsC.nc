@@ -43,7 +43,7 @@ configuration PlatformLedsC
 {
   provides interface GeneralIO as Led0;
   provides interface GeneralIO as Led1;
-  provides interface GeneralIO as Led2;   //yj: only have 2 leds;P1_0,P1_1;active low
+  provides interface GeneralIO as Led2;
   uses interface Init;
 }
 implementation
@@ -51,9 +51,8 @@ implementation
   components HplMcs51GeneralIOC, 
     PlatformP,
     new ReverseGPIOP() as Led0_rev,
-    new ReverseGPIOP() as Led1_rev,
-    //new ReverseGPIOP() as Led2_rev,
-    new NoPinC();  //yj , here for compatiablity
+    new ReverseGPIOP() as Led2_rev,
+    new NoPinC();
 
   // Let LedsP (from system) handle the Led init...
   Init = PlatformP.LedsInit;
@@ -64,10 +63,9 @@ implementation
    */
 
   Led0_rev -> HplMcs51GeneralIOC.P10;
-  Led1_rev -> HplMcs51GeneralIOC.P11;
-  //Led2_rev -> HplMcs51GeneralIOC.P13;
+  Led2_rev -> HplMcs51GeneralIOC.P13;
 
   Led0 = Led0_rev.Out;
-  Led1 = Led1_rev.Out;
-  Led2 = NoPinC;
+  Led1 = NoPinC;
+  Led2 = Led2_rev.Out;
 }
