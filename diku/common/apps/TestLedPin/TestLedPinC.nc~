@@ -28,6 +28,8 @@ implementation
 
 	call Spec4Leds.led0On();
 	call Spec4Leds.led1On();
+	call Spec4Leds.led2On();
+	call Spec4Leds.led3On();
   }
 
 /*

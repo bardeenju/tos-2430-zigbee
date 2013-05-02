@@ -9,16 +9,14 @@ module TestLedPinC
 }
 implementation
 {
- // task void toggle();
- // task void delay();
-
+  task void toggle();
+  task void delay();
   task void lighton();
+ 
   event void Boot.booted() {
-//    call Leds.led0On();
-    //call Leds.led1On();
 
-//    post delay();
-      post lighton();
+	post lighton();
+	post delay();
   }
 
 
@@ -32,7 +30,7 @@ implementation
 	call Spec4Leds.led3On();
   }
 
-/*
+
   task void delay() {
   uint16_t i,j;
 
@@ -40,15 +38,19 @@ implementation
     for (j=0 ; j<0xA0 ; j++) {
     }
   }
-  post toggle();
-  post delay();
+	post toggle();
+	post delay();
   }
   task void toggle() {
 
-    call Leds.led0Toggle();
-    call Leds.led1Toggle();
-  //  call Leds.led2Toggle();
+	call Leds.led0Toggle();
+	call Leds.led1Toggle();
+
+	call Spec4Leds.led0Toggle();
+	call Spec4Leds.led1Toggle();
+	call Spec4Leds.led2Toggle();
+	call Spec4Leds.led3Toggle();
   }
-*/
+
 }
 
