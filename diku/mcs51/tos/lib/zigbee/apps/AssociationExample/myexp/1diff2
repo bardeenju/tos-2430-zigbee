@@ -1,0 +1,54 @@
+3c3
+< ncc -S -Os -DIDENT_APPNAME=\"AssociationExam\" -DIDENT_USERNAME=\"wolf\" -DIDENT_HOSTNAME=\"imwolf\" -DIDENT_USERHASH=0x08662506L -DIDENT_TIMESTAMP=0x516a9fa1L -DIDENT_UIDHASH=0x9136d294L -I/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/phy -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/timerasync -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/interfaces -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/interfaces/mac -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/interfaces/phy -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420 -D__cc2430em__=1 -Wall -Wshadow -DDEF_TOS_AM_GROUP=0x22 -Wnesc-all -conly -target=cc2430em -fnesc-cfile=build/cc2430em/app.c -board=  AssociationExampleC.nc 2>&1 | \
+---
+> ncc -S -Os -DIDENT_APPNAME=\"AssociationExam\" -DIDENT_USERNAME=\"wolf\" -DIDENT_HOSTNAME=\"imwolf\" -DIDENT_USERHASH=0x08662506L -DIDENT_TIMESTAMP=0x516a9f70L -DIDENT_UIDHASH=0x4c560e2bL -I/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/phy -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/timerasync -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/interfaces -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/interfaces/mac -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/interfaces/phy -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420 -D__cc2430em__=1 -Wall -Wshadow -DDEF_TOS_AM_GROUP=0x22 -Wnesc-all -conly -target=cc2430em -fnesc-cfile=build/cc2430em/app.c -board=  AssociationExampleC.nc 2>&1 | \
+13,61d12
+< In file included from AssociationExampleP.nc:7,
+<                  from AssociationExampleC.nc:22:
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h: In function `printfUART_init_private':
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:147: warning: implicit declaration of function `TOSH_SEL_UTXD1_MODFUNC'
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:148: warning: implicit declaration of function `TOSH_SEL_URXD1_MODFUNC'
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:151: `UCTL1' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:151: (Each undeclared identifier is reported only once
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:151: for each function it appears in.)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:151: `SWRST' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:152: `CHAR' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:154: `U1RCTL' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:154: `URXEIE' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:160: `U1TCTL' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:160: `SSEL_0' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:160: `SSEL_1' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:160: `SSEL_2' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:160: `SSEL_3' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:165: `SSEL_ACLK' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:169: `U1BR0' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:170: `U1BR1' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:171: `U1MCTL' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:179: `ME2' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:179: `USPIE1' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:180: `UTXE1' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:180: `URXE1' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:182: `U1CTL' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:184: `IFG2' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:184: `UTXIFG1' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:184: `URXIFG1' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:185: `IE2' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:185: `UTXIE1' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:185: `URXIE1' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h: In function `isTxIntrPending':
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:195: `U1TCTL' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:195: `TXEPT' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h: In function `UARTPutChar':
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:216: `U1TXBUF' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h: In function `sprintf':
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:245: `va_list' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:245: syntax error before `ap'
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:250: warning: implicit declaration of function `va_start'
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:250: `ap' undeclared (first use in this function)
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:253: warning: implicit declaration of function `va_end'
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:260: warning: implicit declaration of function `va_arg'
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:260: syntax error before `int'
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:266: syntax error before `char'
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:267: warning: implicit declaration of function `strcat'
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:301: syntax error before `int'
+< /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes/printfUART.h:316: syntax error before `int32_t'

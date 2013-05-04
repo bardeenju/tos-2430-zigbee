@@ -1,0 +1,98 @@
+mkdir -p build/cc2430em
+    compiling AssociationExampleC to a cc2430em binary
+ncc -S -Os -DIDENT_APPNAME=\"AssociationExam\" -DIDENT_USERNAME=\"wolf\" -DIDENT_HOSTNAME=\"imwolf\" -DIDENT_USERHASH=0x08662506L -DIDENT_TIMESTAMP=0x516a9f70L -DIDENT_UIDHASH=0x4c560e2bL -I/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/includes -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/phy -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/timerasync -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/interfaces -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/interfaces/mac -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/interfaces/phy -I/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420 -D__cc2430em__=1 -Wall -Wshadow -DDEF_TOS_AM_GROUP=0x22 -Wnesc-all -conly -target=cc2430em -fnesc-cfile=build/cc2430em/app.c -board=  AssociationExampleC.nc 2>&1 | \
+		grep -v "attribute directive ignored"
+In file included from /opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/io8051.h:70,
+                 from /opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/ioCC2430.h:61,
+                 from /opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/hardware.h:40,
+                 from /opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc:52:
+/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/byteorder.h:36:1: warning: "BIG_ENDIAN" redefined
+In file included from /opt/tinyos-2.1.2/tos/system/SchedulerBasicP.nc:1:
+<built-in>: warning: this is the location of the previous definition
+/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc:52:1: warning: multi-line comment
+In file included from /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacC.nc:43,
+                 from AssociationExampleC.nc:26:
+In component `MacP':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc: In function `Init.init':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc:540: implicit declaration of function `powf'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc: In function `TimerAsync.backoff_fired':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc:924: implicit declaration of function `powf'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc: In function `process_beacon':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc:1322: implicit declaration of function `powf'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc:1331: implicit declaration of function `powf'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc:1402: implicit declaration of function `powf'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc: In function `MLME_SCAN.request':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc:3551: implicit declaration of function `powf'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc: In function `MLME_START.request':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc:3738: implicit declaration of function `powf'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc:3745: implicit declaration of function `powf'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc: In function `perform_csma_ca_slotted.runTask':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc:4458: implicit declaration of function `powf'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc: In function `perform_csma_ca_unslotted.runTask':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc:4573: implicit declaration of function `powf'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc: In function `perform_csma_ca':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc:4604: implicit declaration of function `powf'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc: In function `calculate_gts_expiration':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacP.nc:4698: implicit declaration of function `powf'
+In file included from /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/phy/PhyC.nc:40,
+                 from /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacC.nc:45,
+                 from AssociationExampleC.nc:26:
+In component `CC2420ControlC':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420ControlC.nc: At top level:
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420ControlC.nc:77: component HplCC2420InterruptsC not found
+In file included from /opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420SpiC.nc:85,
+                 from /opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420ControlC.nc:80,
+                 from /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/phy/PhyC.nc:40,
+                 from /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacC.nc:45,
+                 from AssociationExampleC.nc:26:
+In component `CC2420SpiP':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420SpiP.nc:42: interface ChipSpiResource not found
+In file included from /opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420SpiC.nc:85,
+                 from /opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420ControlC.nc:80,
+                 from /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/phy/PhyC.nc:40,
+                 from /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacC.nc:45,
+                 from AssociationExampleC.nc:26:
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420SpiP.nc:93: `abortRelease' is not in interface `ChipSpiResource'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420SpiP.nc:100: `attemptRelease' is not in interface `ChipSpiResource'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420SpiP.nc: In function `attemptRelease':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420SpiP.nc:345: interface has no command or event named `releasing'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420SpiP.nc: At top level:
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420SpiP.nc:374: `releasing' is not in interface `ChipSpiResource'
+In component `CC2420SpiC':
+/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420SpiC.nc:110: constant out of range for argument type
+/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420SpiC.nc:111: constant out of range for argument type
+/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420SpiC.nc:112: constant out of range for argument type
+/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420SpiC.nc:113: constant out of range for argument type
+/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420SpiC.nc:114: constant out of range for argument type
+/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420SpiC.nc:115: constant out of range for argument type
+/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/cc2420/CC2420SpiC.nc:116: constant out of range for argument type
+In component `CC2420ControlC':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420ControlC.nc:78: cannot find `InterruptCCA'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420ControlC.nc:93: cannot find `RSSI'
+In file included from /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/phy/PhyC.nc:45,
+                 from /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacC.nc:45,
+                 from AssociationExampleC.nc:26:
+In component `CC2420TransmitC':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420TransmitC.nc:46: interface ReceiveIndicator not found
+In file included from /opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420TransmitC.nc:55,
+                 from /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/phy/PhyC.nc:45,
+                 from /opt/tinyos-2.1.2/tos/lib/net/zigbee/ieee802154/mac/MacC.nc:45,
+                 from AssociationExampleC.nc:26:
+In component `CC2420TransmitP':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420TransmitP.nc:135: `isReceiving' is not in interface `EnergyIndicator'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420TransmitP.nc:139: `isReceiving' is not in interface `ByteIndicator'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420TransmitP.nc:163: `releasing' is not in interface `ChipSpiResource'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420TransmitP.nc: In function `signalDone':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420TransmitP.nc:249: interface has no command or event named `attemptRelease'
+In component `CC2420TransmitC':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420TransmitC.nc: At top level:
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420TransmitC.nc:74: cannot find `CaptureSFD'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420TransmitC.nc:78: no match
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420TransmitC.nc:85: cannot find `TXFIFO_RAM'
+In component `CC2420ReceiveC':
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420ReceiveC.nc:76: cannot find `InterruptFIFOP'
+/opt/tinyos-2.1.2/tos/lib/net/zigbee/cc2420/CC2420ReceiveC.nc:80: cannot find `SACK'
+    compiled AssociationExampleC to build/cc2430em/app.c
+mv build/cc2430em/app.c build/cc2430em/app.preMangle.c
+mv: 无法获取"build/cc2430em/app.c" 的文件状态(stat): 没有那个文件或目录
+make: *** [mangle] 错误 1
