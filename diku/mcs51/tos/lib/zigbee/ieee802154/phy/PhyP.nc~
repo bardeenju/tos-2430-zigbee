@@ -54,7 +54,7 @@ implementation {
 	async event void HALCC2420.sendPacketDone(uint8_t * packet,error_t result){
 	}
 
-	event uint8_t * HALCC2420.receivedPacket(uint8_t * packet){
+	event void HALCC2420.receivedPacket(uint8_t * packet){
 	}
 	//结束
 

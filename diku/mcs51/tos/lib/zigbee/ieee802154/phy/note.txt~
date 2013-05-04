@@ -26,8 +26,7 @@
 修改方案：随机数和Leds的连接暂时不变，直接放弃其他所有的接口，改为使用HALCC2420和HALCC2420Control,使用HalCC2430RadioC里面的实现来完成5个原语的功能
 
 ------------------------------------------------------------
-5个控制原语，其中PLME_ED,PLME_CCA,PLME_SET_TRX_STATE不需要实现；只实现PLME_SET,PLME_GET,而PLME_GET不改变其他，所以不用变；PLME_SET涉及CC2420Config接口，需要改变；
-所以该5个原语只需改变PLME_SET的实现；
+5个控制原语，其中PLME_ED,PLME_CCA,PLME_SET_TRX_STATE不需要实现；只实现PLME_SET,PLME_GET
 
 1个数据原语,PLME_DATA,接口中2个功能，向下发送request(call)，向上传输indication(sigal),原始中分别通过Sendframe的发送命令和Receiveframe的receive事件来作用
 

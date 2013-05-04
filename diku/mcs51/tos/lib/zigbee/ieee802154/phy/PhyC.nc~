@@ -32,7 +32,7 @@ implementation {
 	components MainC;
 	MainC.SoftwareInit -> PhyP;
 	
-	components HalCC2430RadioC;
+	
 	SplitControl = PhyP;
 	PhyP.HALCC2420 -> HalCC2430RadioC.HALCC2420;
 	PhyP.HALCC2420Control -> HalCC2430RadioC.HALCC2420Control;

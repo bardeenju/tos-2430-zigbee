@@ -1,0 +1,6 @@
+module TestStdControlP {
+	uses interface SplitControl;
+}
+implementation {
+	
+}

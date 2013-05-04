@@ -552,7 +552,7 @@ if ( $KEIL ) {
 	  } else { # The struct was not empty...
 	      $_ = $typedef_struct;
 	  }
-          $_ = $_ . "/*YYYYY $identifyer*/";
+	  #$_ = $_ . "/*YYYYY $identifyer*/";
 
           #if ($identifyer eq "in_queue_item_t") {
           #    $_ = $_ . "//HIHI";

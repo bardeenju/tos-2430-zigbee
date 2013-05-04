@@ -1,0 +1,6 @@
+COMPONENT=TestStdControlAppC
+
+PFLAGS += 		-I.. \
+			-I../../includes 
+include $(MAKERULES)
+
