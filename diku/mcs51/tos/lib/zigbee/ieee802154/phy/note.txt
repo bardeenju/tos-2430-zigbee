@@ -1,0 +1,49 @@
+1.PhyC提供6个接口PD_DATA,PLME_ED,PLME_CCA,PLME_SET,PLME_GET,PLME_SET_TRX_STATE;SplitControl
+
+1.1 SplitControl由PhyP提供；
+1.2 其余5个接口直接由PhyP提供；他们是802.15.4的物理层接口
+
+------------------------------------------------------------
+2.关于PhyP重点是PhyP使用的接口，它分别使用了以下8个接口：
+ a)以下3个链接到CC2420ControlC组件
+  2.1资源接口Resource
+  2.2能源接口CC2420Power
+  2.3配置接口CC2420Config
+ 
+ b)以下接口连接到CC2420TransmitC组件
+  2.7发送帧接口 Sendframe
+
+ c)以下组件连接到CC2420ReceiveC
+  2.8接收帧接口 Receiveframe
+
+ d)SubControl连接到CC2420TransmitC和CC2420ReceiveC组件
+  2.4控制接口StdControl as SubControl
+
+ d)另外两个连接到随机数组件与LED灯组件
+ * 2.5随机接口 Random  
+ * 2.6LED灯接口 Leds   
+
+修改方案：随机数和Leds的连接暂时不变，直接放弃其他所有的接口，改为使用HALCC2420和HALCC2420Control,使用HalCC2430RadioC里面的实现来完成5个原语的功能
+
+------------------------------------------------------------
+5个控制原语，其中PLME_ED,PLME_CCA,PLME_SET_TRX_STATE不需要实现；只实现PLME_SET,PLME_GET
+
+1个数据原语,PLME_DATA,接口中2个功能，向下发送request(call)，向上传输indication(sigal),原始中分别通过Sendframe的发送命令和Receiveframe的receive事件来作用
+
+思路：一步一步修改，先了解原先的某个原语是怎么实现的，然后尝试使用HALCC2420提供的命令来实现，不行就再修改HALCC2420接口
+
+------------------------------------------------------------
+1.修改控制接口
+原先使用SpilitControl接口，有一系列的过程：
+CC2420Power.startVReg-->Resource.resuest-->CC2420Power.startOscillator-->SubControl.start(调用CC2420TransmitC,CC2420ReceiveC),CC2420Power.rxON,Resource.release-->signal
+SplitContronl.startDone(SUCCESS)
+
+
+但是原先SimpleMacM与HalCC2430RadioP之间的接口使StdControl,要修改的话改成
+MacP SpilitControl.start-->PhyP SplitControl.start-->HalCC2430RadioP
+StdControl.start
+                                      <--signal SplitControl.startDone
+
+
+
+
