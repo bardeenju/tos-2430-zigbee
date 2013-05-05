@@ -51,10 +51,8 @@ implementation {
 	/****************************************
 	 * TODO:为了通过编译，暂时实现HALCC2420中命令的stub代码
 	 ***********************************************/
-	async event void HALCC2420.sendPacketDone(uint8_t * packet,error_t result){
-	}
 
-	event void HALCC2420.receivedPacket(uint8_t * packet){
+	event uint8_t * HALCC2420.receivedPacket(uint8_t * packet){
 	}
 	//结束
 
@@ -120,11 +118,16 @@ implementation {
   }
 
   command error_t SplitControl.stop() {
- 
+    //by yj : 为什么只是返回EBUSY?
     return EBUSY;
   }
 
   /***************** Send Commands ****************/
+ 	async event void HALCC2420.sendPacketDone(uint8_t * packet,error_t result){
+	  atomic sendErr = result;
+          post sendDone_task();  //by yj: in fact it does nothing	  
+	}
+
 
 /*TODO
     async event void Sendframe.sendDone(error_t error )
@@ -192,11 +195,11 @@ implementation {
 
 //TODO:实现PD_DATA.request原语，即发送
 async command error_t PD_DATA.request(uint8_t psduLength, uint8_t* psdu) {
-/*	
 	
+	call HALCC2420.sendPacket(psdu);  //by yj: 不需要长度，因为psdu[0]即为帧长度,发送结束后触发 sendPacketDone(ptr,error)事件，CC2420_ERROR_TX或者CC2420_ERROR_CCA
+	return SUCCESS;
+	/*
 	call Sendframe.send(psdu,psduLength);
-
-
 	return SUCCESS;
 	*/
 }

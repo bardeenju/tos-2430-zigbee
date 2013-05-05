@@ -1,9 +1,0 @@
-configuration TestStdControlAppC{
-}
-implementation {
-	components TestStdControlP,MainC;
-	MainC.Boot <- TestStdControlCP;
-
-	components PhyC;
-	TestStdControlP.SplitControl -> PhyC.SplitControl;
-}
