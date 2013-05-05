@@ -239,7 +239,7 @@ command error_t PLME_CCA.request(){
 //TODO:PLME_GET原语,暂时注释掉，反正不影响，首先测试Control的连接
 command error_t PLME_GET.request(uint8_t PIBAttribute){
 //MAC asking for PIBAttribute value
-/*  switch(PIBAttribute)
+  switch(PIBAttribute)
 		{
 			case PHYCURRENTCHANNEL:
 				signal PLME_GET.confirm(PHY_SUCCESS, PIBAttribute, phy_PIB.phyCurrentChannel);
@@ -261,7 +261,7 @@ command error_t PLME_GET.request(uint8_t PIBAttribute){
 		}
 		
   
-  return SUCCESS;*/
+  return SUCCESS;
   }
   
   
@@ -270,8 +270,8 @@ command error_t PLME_GET.request(uint8_t PIBAttribute){
 /*****************************************************************************************************/
 //TODO:PLME_SET.request原语，在这个层面上也不需要大改动，但是在MAC层的事件中是否又有需要??那里的confirm什么都不做!!
 command error_t PLME_SET.request(uint8_t PIBAttribute, uint8_t PIBAttributeValue){
-  
-/*
+ /* 
+
 	  //MAC is demanding for PHY to write the indicated PIB value
 	  switch(PIBAttribute)
 			{
@@ -306,7 +306,7 @@ command error_t PLME_SET.request(uint8_t PIBAttribute, uint8_t PIBAttributeValue
 					break;
 			}
 	  return SUCCESS;
-	  */
+*/	  
 } 
 
 /*****************************************************************************************************/  
