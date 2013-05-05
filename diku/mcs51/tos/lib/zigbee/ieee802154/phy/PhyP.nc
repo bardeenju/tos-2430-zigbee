@@ -52,8 +52,7 @@ implementation {
 	 * TODO:为了通过编译，暂时实现HALCC2420中命令的stub代码
 	 ***********************************************/
 
-	event uint8_t * HALCC2420.receivedPacket(uint8_t * packet){
-	}
+
 	//结束
 
 
@@ -172,6 +171,7 @@ implementation {
   }
   
   
+
  /* TODO:收到数据时触发PD_DATA原语
   async event void Receiveframe.receive(uint8_t* frame, uint8_t rssi)
   {
@@ -180,6 +180,10 @@ implementation {
 		
 	signal PD_DATA.indication(rxmpdu_ptr->length,(uint8_t*)rxmpdu_ptr, rssi);
   }*/
+	event uint8_t * HALCC2420.receivedPacket(uint8_t * packet,uint8_t rssi){
+		rxmpdu_ptr = (MPDU*)packet; // TODO: by yj: 可以直接转换么，兼容否?
+		signal PD_DATA.indication(rxmpdu_ptr->length,(uint8_t*)rxmpdu_ptr,rssi); //by yj : 底层HalCC2430RadioP中的接收代码需要修改---已修改
+	}
   
   
   /*TODO:这个事件还需要吗

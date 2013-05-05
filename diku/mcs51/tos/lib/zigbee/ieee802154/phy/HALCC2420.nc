@@ -50,7 +50,9 @@ interface HALCC2420
 	 * @param uint8_t *packet The received packet
 	 * @return uint8_t* A free packet
 	 */
-	event uint8_t * receivedPacket(uint8_t * packet);
+	// by yj: 增加rssi值，所以修改
+	//event uint8_t * receivedPacket(uint8_t * packet);
+	event uint8_t * receivedPacket(uint8_t * packet,uint8_t rssi);
 
 	command error_t setChannel(uint8_t channel);
 	command error_t setTransmitPower(uint8_t power);

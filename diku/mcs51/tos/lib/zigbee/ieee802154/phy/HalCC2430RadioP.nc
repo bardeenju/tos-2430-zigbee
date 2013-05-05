@@ -586,7 +586,11 @@ norace uint8_t volatile RFIF  __attribute((sfrAT0xE9)); /*  RF Interrupt Flags  
         /* only signal packet if not corrupt */        
         if (correlation & FCS_CRC_OK_MASK) 
         {
-            receivedPacketPtr = signal HALCC2420.receivedPacket(receivedPacketPtr);            
+		//TODO: by yj : 暂时模仿CC2420ReceiveP中694行中的rssi公式对其进行计算
+//            receivedPacketPtr = signal HALCC2420.receivedPacket(receivedPacketPtr);
+	    uint8_t rssi = 0;
+	    rssi = 255 - correlation;	    
+            receivedPacketPtr = signal HALCC2420.receivedPacket(receivedPacketPtr,rssi);            
 
         } else {
 

@@ -1,0 +1,12 @@
+其实跟TestSend一模一样，因为接收只是从底层上来的
+
+这次修改了3个文件
+#	modified:   HALCC2420.nc
+#	modified:   HalCC2430RadioP.nc
+#	modified:   PhyP.nc
+
+修改了HALCC2420中的receive接口，并在上下两层作相应的调整
+
+测试目标：编译通过
+
+测试结果：已通过
