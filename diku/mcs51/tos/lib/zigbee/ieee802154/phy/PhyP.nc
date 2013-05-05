@@ -270,7 +270,7 @@ command error_t PLME_GET.request(uint8_t PIBAttribute){
 /*****************************************************************************************************/
 //TODO:PLME_SET.request原语，在这个层面上也不需要大改动，但是在MAC层的事件中是否又有需要??那里的confirm什么都不做!!
 command error_t PLME_SET.request(uint8_t PIBAttribute, uint8_t PIBAttributeValue){
- /* 
+  
 
 	  //MAC is demanding for PHY to write the indicated PIB value
 	  switch(PIBAttribute)
@@ -279,9 +279,12 @@ command error_t PLME_SET.request(uint8_t PIBAttribute, uint8_t PIBAttributeValue
 					
 					phy_PIB.phyCurrentChannel = PIBAttributeValue;
 					
-					call CC2420Config.setChannel(phy_PIB.phyCurrentChannel);
+				//	call CC2420Config.setChannel(phy_PIB.phyCurrentChannel);
 					
-					call CC2420Config.sync();
+				//	call CC2420Config.sync();
+					//by yj : 这里使用HALCC2420接口的功能来实现
+					//TODO : 哪里还需要使用CC2420Config?
+					call HALCC2420.setChannel(phy_PIB.phyCurrentChannel);
 					
 					//TunePreset(phy_PIB.phyCurrentChannel);
 					signal PLME_SET.confirm(PHY_SUCCESS, PIBAttribute);
@@ -306,7 +309,7 @@ command error_t PLME_SET.request(uint8_t PIBAttribute, uint8_t PIBAttributeValue
 					break;
 			}
 	  return SUCCESS;
-*/	  
+	  
 } 
 
 /*****************************************************************************************************/  

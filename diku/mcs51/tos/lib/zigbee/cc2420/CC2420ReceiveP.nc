@@ -691,6 +691,7 @@ typedef enum{
 					call SpiResource.release();
 				}
 				
+			//TODO: by yj : 为什么做这一个映射?	
 				rssi = 255 - rxmpdu_ptr->data[rxmpdu_ptr->length-4];
 				
 				//printfUART("pay %i %x %i\n",rxmpdu_ptr->seq_num, rssi,m_missed_packets);
