@@ -373,6 +373,7 @@ generic module HplCC2430Timer1AlarmCounterP( typedef frequency ) {
       if ( (T1CCTL0 & _BV(CC2430_T1CCTLx_IM)) && (T1CTL & CC2430_T1_CH0IF) ) {
     T1CTL   &= ~_BV(CC2430_T1CTL_CH0IF);    // Clear IF
     T1CCTL0 &= ~_BV(CC2430_T1CCTLx_IM);     // Clear IM - startAt sets it
+    //by yj : if i edit this,then the auto-fired phe disappear
     signal Alarm0.fired();
       }
       if (T1CTL & CC2430_T1_OVFIF) {
