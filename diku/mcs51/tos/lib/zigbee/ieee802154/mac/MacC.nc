@@ -68,8 +68,11 @@ implementation {
 	components new TimerMilliC() as T_ScanDuration;
 	MacP.T_ScanDuration -> T_ScanDuration;
 
-	components CC2420ReceiveC;
-	MacP.AddressFilter -> CC2420ReceiveC;
+	//by yj : 由HALCC2420接口转接地址识别功能，由HalCC2430RadioC组件提供实现
+	components HalCC2430RadioC;
+	MacP.HALCC2420 -> HalCC2430RadioC.HALCC2420;
+	//components CC2420ReceiveC;
+	//MacP.AddressFilter -> CC2420ReceiveC;
 
 	/*****************************************************/
 	/*				INTERFACES         					 */

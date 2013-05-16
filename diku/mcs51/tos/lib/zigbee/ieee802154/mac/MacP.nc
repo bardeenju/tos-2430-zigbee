@@ -71,11 +71,21 @@ module MacP {
 	uses interface PLME_SET_TRX_STATE;
 
 
-	uses interface AddressFilter;
+	//by yj : 由HALCC2420提供地址修改的功能，好吧暂时先把所有相关代码给注释掉，编译通过再说
+	uses interface HALCC2420;
+	//uses interface AddressFilter;
 
   
 }
 implementation {
+/*****************************************************
+ * HALCC2420相关的事件
+ * ***************************************************/
+	async event void HALCC2420.sendPacketDone(uint8_t * packet, error_t result){
+	}
+	
+	event uint8_t * HALCC2420.receivedPacket(uint8_t * packet,uint8_t rssi){
+	}
  
 /*****************************************************/
 /*				GENERAL 				 */
@@ -511,9 +521,9 @@ on top of this file*/
 	aExtendedAddress1=TOS_NODE_ID;
 	
 	
-	call AddressFilter.set_address(mac_PIB.macShortAddress, aExtendedAddress0, aExtendedAddress1);
+	//call AddressFilter.set_address(mac_PIB.macShortAddress, aExtendedAddress0, aExtendedAddress1);
 
-	call AddressFilter.set_coord_address(mac_PIB.macCoordShortAddress, mac_PIB.macPANId);
+	//call AddressFilter.set_coord_address(mac_PIB.macCoordShortAddress, mac_PIB.macPANId);
 	
 	
 	
@@ -537,8 +547,8 @@ on top of this file*/
 	atomic{
 	
 		
-		BI = aBaseSuperframeDuration * powf(2,mac_PIB.macBeaconOrder);
-		SD = aBaseSuperframeDuration * powf(2,mac_PIB.macSuperframeOrder);
+		BI = aBaseSuperframeDuration * pow(2,mac_PIB.macBeaconOrder);
+		SD = aBaseSuperframeDuration * pow(2,mac_PIB.macSuperframeOrder);
 		
 		
 		//backoff_period
@@ -921,7 +931,7 @@ async event error_t TimerAsync.backoff_fired()
 			if (backoff_deference == 0)
 			{
 				//normal situation
-				delay_backoff_period = (call Random.rand16() & ((uint8_t)(powf(2,BE)) - 1));
+				delay_backoff_period = (call Random.rand16() & ((uint8_t)(pow(2,BE)) - 1));
 				
 				if (check_csma_ca_backoff_send_conditions((uint32_t) delay_backoff_period) == 1)
 				{
@@ -1319,7 +1329,7 @@ void process_beacon(MPDU *packet,uint8_t ppduLinkQuality)
 		}
 		else
 		{
-			SO_EXPONENT = powf(2,mac_PIB.macSuperframeOrder);
+			SO_EXPONENT = pow(2,mac_PIB.macSuperframeOrder);
 		}
 		
 		if ( mac_PIB.macBeaconOrder ==0)
@@ -1328,7 +1338,7 @@ void process_beacon(MPDU *packet,uint8_t ppduLinkQuality)
 		}
 		else
 		{
-				BO_EXPONENT = powf(2,mac_PIB.macBeaconOrder);
+				BO_EXPONENT = pow(2,mac_PIB.macBeaconOrder);
 		}
 		BI = aBaseSuperframeDuration * BO_EXPONENT; 
 		SD = aBaseSuperframeDuration * SO_EXPONENT; 
@@ -1399,7 +1409,7 @@ void process_beacon(MPDU *packet,uint8_t ppduLinkQuality)
 					else
 					{
 					
-							dir_mask = powf(2,i);
+							dir_mask = pow(2,i);
 					}
 					//////////////printfUART("dir_mask: %x i: %x gts_directions: %x \n",dir_mask,i,gts_directions);
 					dir = ( gts_directions & dir_mask);
@@ -3548,9 +3558,9 @@ command error_t MLME_SCAN.request(uint8_t ScanType, uint32_t ScanChannels, uint8
 					
 					//calculate the scan_duration in miliseconds
 					//#ifdef PLATFORM_MICAZ
-						scan_duration = ((aBaseSuperframeDuration * (powf(2,ScanDuration)+1)) * EFFECTIVE_SYMBOL_VALUE) / 1000.0;
+						scan_duration = ((aBaseSuperframeDuration * (pow(2,ScanDuration)+1)) * EFFECTIVE_SYMBOL_VALUE) / 1000.0;
 					//#else
-					//	scan_duration = ((aBaseSuperframeDuration * (powf(2,ScanDuration)+1)) * EFFECTIVE_SYMBOL_VALUE) / 1000.0;
+					//	scan_duration = ((aBaseSuperframeDuration * (pow(2,ScanDuration)+1)) * EFFECTIVE_SYMBOL_VALUE) / 1000.0;
 					//#endif
 			//scan_duration = 2000;
 					
@@ -3568,9 +3578,9 @@ command error_t MLME_SCAN.request(uint8_t ScanType, uint32_t ScanChannels, uint8
 							
 					//calculate the scan_duration in miliseconds
 					//#ifdef PLATFORM_MICAZ
-					//	scan_duration = ((aBaseSuperframeDuration * (powf(2,ScanDuration)+1)) * EFFECTIVE_SYMBOL_VALUE) / 1000.0;
+					//	scan_duration = ((aBaseSuperframeDuration * (pow(2,ScanDuration)+1)) * EFFECTIVE_SYMBOL_VALUE) / 1000.0;
 					//#else
-					//	scan_duration = ((aBaseSuperframeDuration * (powf(2,ScanDuration)+1)) * EFFECTIVE_SYMBOL_VALUE) / 1000.0;
+					//	scan_duration = ((aBaseSuperframeDuration * (pow(2,ScanDuration)+1)) * EFFECTIVE_SYMBOL_VALUE) / 1000.0;
 					//#endif
 					
 					
@@ -3735,14 +3745,14 @@ command error_t MLME_START.request(uint32_t PANId, uint8_t LogicalChannel, uint8
 			SO_EXPONENT = 1;
 		else
 		{
-			SO_EXPONENT = powf(2,mac_PIB.macSuperframeOrder);
+			SO_EXPONENT = pow(2,mac_PIB.macSuperframeOrder);
 		
 		}
 		if ( mac_PIB.macBeaconOrder == 0)
 			BO_EXPONENT = 1;
 		else
 		{
-			BO_EXPONENT = powf(2,mac_PIB.macBeaconOrder);
+			BO_EXPONENT = pow(2,mac_PIB.macBeaconOrder);
 		
 		}	
 	}
@@ -4013,7 +4023,7 @@ atomic{
 										////printfUART("mac_PIB.macPANId: %x\n",mac_PIB.macPANId);
 										
 										
-										call AddressFilter.set_coord_address(mac_PIB.macCoordShortAddress, mac_PIB.macPANId);
+										//call AddressFilter.set_coord_address(mac_PIB.macCoordShortAddress, mac_PIB.macPANId);
 										
 										
 										signal MLME_SET.confirm(MAC_SUCCESS,PIBAttribute);
@@ -4032,7 +4042,7 @@ atomic{
 		case MACSHORTADDRESS:			mac_PIB.macShortAddress = ((PIBAttributeValue[0] << 8) |PIBAttributeValue[1]);
 										////printfUART("mac_PIB.macShortAddress: %y\n",mac_PIB.macShortAddress);
 										
-										call AddressFilter.set_address(mac_PIB.macShortAddress, aExtendedAddress0, aExtendedAddress0);
+										//call AddressFilter.set_address(mac_PIB.macShortAddress, aExtendedAddress0, aExtendedAddress0);
 										
 										
 										signal MLME_SET.confirm(MAC_SUCCESS,PIBAttribute);
@@ -4455,7 +4465,7 @@ task void perform_csma_ca_slotted()
 				//DEFERENCE CHANGE
 				if (backoff_deference == 0)
 				{
-					random_interval = powf(2,BE) - 1;
+					random_interval = pow(2,BE) - 1;
 					delay_backoff_period = (call Random.rand16() & random_interval );
 						
 					if (check_csma_ca_backoff_send_conditions((uint32_t) delay_backoff_period) == 1)
@@ -4570,9 +4580,9 @@ task void perform_csma_ca_unslotted()
 			
 			//STEP 2
 			//#ifdef PLATFORM_MICAZ
-				random_interval = powf(2,BE) - 1;
+				random_interval = pow(2,BE) - 1;
 			//#else
-			//	random_interval = powf(2,BE) - 1;
+			//	random_interval = pow(2,BE) - 1;
 			//#endif
 			delay_backoff_period = (call Random.rand16() & random_interval );
 			//delay_backoff_period=1;
@@ -4601,7 +4611,7 @@ void perform_csma_ca()
 			//UNSLOTTED version
 			init_csma_ca(csma_slotted);
 			//STEP 2
-			random_interval = powf(2,BE) - 1;
+			random_interval = pow(2,BE) - 1;
 			delay_backoff_period = (call Random.rand16() & random_interval );
 			
 			csma_delay=1;
@@ -4695,9 +4705,9 @@ uint32_t calculate_gts_expiration()
 	else
 	{
 		//#ifdef PLATFORM_MICAZ
-			exp_res= powf(2,(8-mac_PIB.macBeaconOrder));
+			exp_res= pow(2,(8-mac_PIB.macBeaconOrder));
 		//#else
-		//	exp_res= powf(2,(8-mac_PIB.macBeaconOrder));
+		//	exp_res= pow(2,(8-mac_PIB.macBeaconOrder));
 		//#endif
 	}	
 	////////////printfUART("alculat %i\n",exp_res ) ;
