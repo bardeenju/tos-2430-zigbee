@@ -6,7 +6,7 @@
  @author Joe Polastre
 </long>
       </documentation>
-      <function command="" loc="44:/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc" name="makeInput" provided="0" ref="0x2b7153ca2b50">
+      <function command="" loc="44:/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc" name="makeInput" provided="0" ref="0x2b350766be60">
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
         <type-function alignment="I:1" size="I:1">
           <type-void alignment="I:1" size="I:1"/>
@@ -16,11 +16,11 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="45:/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc" name="isInput" provided="0" ref="0x2b7153ca1258">
+      <function command="" loc="45:/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc" name="isInput" provided="0" ref="0x2b3507669560">
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="bool" ref="0x2b7153ba7910"/></typename>
+            <typename><typedef-ref name="bool" ref="0x2b350756f910"/></typename>
           </type-int>
           <function-parameters>
           </function-parameters>
@@ -28,7 +28,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="42:/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc" name="toggle" provided="0" ref="0x2b7153ca4dd8">
+      <function command="" loc="42:/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc" name="toggle" provided="0" ref="0x2b350766b110">
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
         <type-function alignment="I:1" size="I:1">
           <type-void alignment="I:1" size="I:1"/>
@@ -38,11 +38,11 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="47:/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc" name="isOutput" provided="0" ref="0x2b7153ca0020">
+      <function command="" loc="47:/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc" name="isOutput" provided="0" ref="0x2b3507668328">
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="bool" ref="0x2b7153ba7910"/></typename>
+            <typename><typedef-ref name="bool" ref="0x2b350756f910"/></typename>
           </type-int>
           <function-parameters>
           </function-parameters>
@@ -50,11 +50,11 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="43:/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc" name="get" provided="0" ref="0x2b7153ca24a0">
+      <function command="" loc="43:/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc" name="get" provided="0" ref="0x2b350766b7b0">
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="bool" ref="0x2b7153ba7910"/></typename>
+            <typename><typedef-ref name="bool" ref="0x2b350756f910"/></typename>
           </type-int>
           <function-parameters>
           </function-parameters>
@@ -62,7 +62,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="46:/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc" name="makeOutput" provided="0" ref="0x2b7153ca1910">
+      <function command="" loc="46:/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc" name="makeOutput" provided="0" ref="0x2b3507669c18">
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
         <type-function alignment="I:1" size="I:1">
           <type-void alignment="I:1" size="I:1"/>
@@ -72,7 +72,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="40:/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc" name="set" provided="0" ref="0x2b7153ca40d8">
+      <function command="" loc="40:/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc" name="set" provided="0" ref="0x2b350766c3e0">
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
         <type-function alignment="I:1" size="I:1">
           <type-void alignment="I:1" size="I:1"/>
@@ -82,7 +82,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="41:/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc" name="clr" provided="0" ref="0x2b7153ca4748">
+      <function command="" loc="41:/opt/tinyos-2.1.2/tos/interfaces/GeneralIO.nc" name="clr" provided="0" ref="0x2b350766ca50">
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
         <type-function alignment="I:1" size="I:1">
           <type-void alignment="I:1" size="I:1"/>

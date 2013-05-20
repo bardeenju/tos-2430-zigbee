@@ -14,7 +14,7 @@
  @see    TEP 112: Microcontroller Power Management
 </long>
       </documentation>
-      <function command="" loc="52:/opt/tinyos-2.1.2/tos/interfaces/McuPowerState.nc" name="update" provided="0" ref="0x2b7153c7de60">
+      <function command="" loc="52:/opt/tinyos-2.1.2/tos/interfaces/McuPowerState.nc" name="update" provided="0" ref="0x2b3507645e60">
         <documentation loc="47:/opt/tinyos-2.1.2/tos/interfaces/McuPowerState.nc">
           <short> 
  Called by any component to tell TinyOS that the MCU low

@@ -23,64 +23,64 @@
 </long>
       </documentation>
       <parameters>
-        <typedef loc="55:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc" name="to_precision_tag" ref="0x2b7154074e58">
+        <typedef loc="55:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc" name="to_precision_tag" ref="0x2af4415efe58">
           <component-ref nicename="tos.lib.timer.TransformCounterC" qname="TransformCounterC"/>
-          <type-var alignment="U:" size="U:"><typedef-ref name="to_precision_tag" ref="0x2b7154074e58" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="to_precision_tag" ref="0x2af4415efe58" scoped=""/></type-var>
         </typedef>
-        <typedef loc="56:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc" name="to_size_type" ref="0x2b715406d600">
+        <typedef loc="56:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc" name="to_size_type" ref="0x2af441605600">
           <component-ref nicename="tos.lib.timer.TransformCounterC" qname="TransformCounterC"/>
-          <type-var alignment="U:" size="U:"><typedef-ref name="to_size_type" ref="0x2b715406d600" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="to_size_type" ref="0x2af441605600" scoped=""/></type-var>
         </typedef>
-        <typedef loc="57:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc" name="from_precision_tag" ref="0x2b715406d9c8">
+        <typedef loc="57:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc" name="from_precision_tag" ref="0x2af4416059c8">
           <component-ref nicename="tos.lib.timer.TransformCounterC" qname="TransformCounterC"/>
-          <type-var alignment="U:" size="U:"><typedef-ref name="from_precision_tag" ref="0x2b715406d9c8" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="from_precision_tag" ref="0x2af4416059c8" scoped=""/></type-var>
         </typedef>
-        <typedef loc="58:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc" name="from_size_type" ref="0x2b715406c198">
+        <typedef loc="58:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc" name="from_size_type" ref="0x2af441604198">
           <component-ref nicename="tos.lib.timer.TransformCounterC" qname="TransformCounterC"/>
-          <type-var alignment="U:" size="U:"><typedef-ref name="from_size_type" ref="0x2b715406c198" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="from_size_type" ref="0x2af441604198" scoped=""/></type-var>
         </typedef>
-        <constant loc="59:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc" name="bit_shift_right" ref="0x2b715406c540">
+        <constant loc="59:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc" name="bit_shift_right" ref="0x2af441604540">
           <component-ref nicename="tos.lib.timer.TransformCounterC" qname="TransformCounterC"/>
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            <typename><typedef-ref name="uint8_t" ref="0x2af44085e110"/></typename>
           </type-int>
         </constant>
-        <typedef loc="60:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc" name="upper_count_type" ref="0x2b715406ccd0">
+        <typedef loc="60:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc" name="upper_count_type" ref="0x2af441604cd0">
           <component-ref nicename="tos.lib.timer.TransformCounterC" qname="TransformCounterC"/>
-          <type-var alignment="U:" size="U:"><typedef-ref name="upper_count_type" ref="0x2b715406ccd0" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="upper_count_type" ref="0x2af441604cd0" scoped=""/></type-var>
         </typedef>
       </parameters>
       <module/>
-    <specification><interface loc="63:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc" name="CounterFrom" provided="0" ref="0x2b7154086d78">
+    <specification><interface loc="63:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc" name="CounterFrom" provided="0" ref="0x2af441600d78">
       <component-ref nicename="tos.lib.timer.TransformCounterC" qname="TransformCounterC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="CounterFrom" ref="0x2b7154086d78" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="CounterFrom" ref="0x2af441600d78" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.lib.timer.Counter" qname="Counter"/>
         <arguments>
-          <type-var alignment="U:" size="U:"><typedef-ref name="from_precision_tag" ref="0x2b715406d9c8" scoped=""/></type-var>
-          <type-var alignment="U:" size="U:"><typedef-ref name="from_size_type" ref="0x2b715406c198" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="from_precision_tag" ref="0x2af4416059c8" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="from_size_type" ref="0x2af441604198" scoped=""/></type-var>
         </arguments>
       </instance>
       <interface-functions>
-        <function-ref name="get" ref="0x2b7154085af8" scoped=""/>
-        <function-ref name="clearOverflow" ref="0x2b71540844a8" scoped=""/>
-        <function-ref name="isOverflowPending" ref="0x2b7154084020" scoped=""/>
-        <function-ref name="overflow" ref="0x2b7154084930" scoped=""/>
+        <function-ref name="get" ref="0x2af4415ffaf8" scoped=""/>
+        <function-ref name="clearOverflow" ref="0x2af4415fe4a8" scoped=""/>
+        <function-ref name="isOverflowPending" ref="0x2af4415fe020" scoped=""/>
+        <function-ref name="overflow" ref="0x2af4415fe930" scoped=""/>
       </interface-functions>
-    </interface><interface loc="62:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc" name="Counter" provided="1" ref="0x2b7154088948">
+    </interface><interface loc="62:/opt/tinyos-2.1.2/tos/lib/timer/TransformCounterC.nc" name="Counter" provided="1" ref="0x2af441603948">
       <component-ref nicename="tos.lib.timer.TransformCounterC" qname="TransformCounterC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Counter" ref="0x2b7154088948" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Counter" ref="0x2af441603948" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.lib.timer.Counter" qname="Counter"/>
         <arguments>
-          <type-var alignment="U:" size="U:"><typedef-ref name="to_precision_tag" ref="0x2b7154074e58" scoped=""/></type-var>
-          <type-var alignment="U:" size="U:"><typedef-ref name="to_size_type" ref="0x2b715406d600" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="to_precision_tag" ref="0x2af4415efe58" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="to_size_type" ref="0x2af441605600" scoped=""/></type-var>
         </arguments>
       </instance>
       <interface-functions>
-        <function-ref name="get" ref="0x2b7154087730" scoped=""/>
-        <function-ref name="clearOverflow" ref="0x2b7154086088" scoped=""/>
-        <function-ref name="isOverflowPending" ref="0x2b7154087bb8" scoped=""/>
-        <function-ref name="overflow" ref="0x2b7154086510" scoped=""/>
+        <function-ref name="get" ref="0x2af441601730" scoped=""/>
+        <function-ref name="clearOverflow" ref="0x2af441600088" scoped=""/>
+        <function-ref name="isOverflowPending" ref="0x2af441601bb8" scoped=""/>
+        <function-ref name="overflow" ref="0x2af441600510" scoped=""/>
       </interface-functions>
     </interface></specification><referenced/></component>

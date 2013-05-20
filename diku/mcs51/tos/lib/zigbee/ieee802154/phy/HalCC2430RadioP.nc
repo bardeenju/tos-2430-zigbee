@@ -394,7 +394,7 @@ norace uint8_t volatile RFIF  __attribute((sfrAT0xE9)); /*  RF Interrupt Flags  
     /**********************************************************************
      * getShortAddress
      *********************************************************************/
-    command const mac_addr_t * HALCC2420.getAddress()
+    command /*const*/ mac_addr_t * HALCC2420.getAddress()
     {
         return &shortAddress;
     }
@@ -413,7 +413,7 @@ norace uint8_t volatile RFIF  __attribute((sfrAT0xE9)); /*  RF Interrupt Flags  
     /**********************************************************************
      * getShortAddress
      *********************************************************************/
-    command const mac_addr_t * HALCC2420.getPanAddress()
+    command /*const*/ mac_addr_t * HALCC2420.getPanAddress()
     {
         return &panid;
     }
@@ -421,9 +421,9 @@ norace uint8_t volatile RFIF  __attribute((sfrAT0xE9)); /*  RF Interrupt Flags  
     /**********************************************************************
      * getExtAddress
      *********************************************************************/
-    command const ieee_mac_addr_t * HALCC2420.getExtAddress()
+    command /*const*/ ieee_mac_addr_t * HALCC2420.getExtAddress()
     {
-        return (const ieee_mac_addr_t *) &ieeeAddress;
+        return (/*const*/ ieee_mac_addr_t *) &ieeeAddress;
     }
 
     /**********************************************************************

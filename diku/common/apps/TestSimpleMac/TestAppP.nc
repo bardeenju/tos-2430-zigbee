@@ -67,11 +67,14 @@ implementation {
 
     radioOn = TRUE;
     receiverOn = TRUE;
-    call SimpleMacControl.start();      
+    
+    //by yj : 测试哪里导致自动触发
+    //call SimpleMacControl.start();      
+    
     //call Timer.start(TIMER_REPEAT, 1000);
     //call Timer.start(TIMER_REPEAT, 100000); //by yj: seems that sth's wrong
     call StdOut.print("Timer started\r\n");
-    call Timer.startPeriodic(100000);
+    //call Timer.startPeriodic(100000);
   }
     
 
@@ -92,7 +95,7 @@ implementation {
       call StdOut.print("Radio turned on\r\n");
     }*/
 	uint8_t dsn = transmitPacketPtr->data_seq_no = (transmitPacketPtr->data_seq_no + 1) % 128;
-    	call Leds.led0Toggle();
+    	call Leds.led1Toggle();
 	call StdOut.print(":");
         call StdOut.printHex(transmitPacketPtr->data_seq_no);
 	if (dsn % 16 == 0){
@@ -280,13 +283,13 @@ implementation {
       break;
 
     case 'm':
-      if (timerOn) {
+/*      if (timerOn) {
     timerOn = FALSE;
     call Timer.stop();
       } else {
     timerOn = TRUE;
     call Timer.startPeriodic(100000);
-      }
+      }*/
             
       break;
 

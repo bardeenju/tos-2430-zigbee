@@ -25,16 +25,16 @@
 </long>
       </documentation>
       <parameters>
-        <typedef loc="57:/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc" name="precision_tag" ref="0x2b7153fd24d0">
+        <typedef loc="57:/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc" name="precision_tag" ref="0x2af44156e4d0">
           <interfacedef-ref nicename="tos.lib.timer.Counter" qname="Counter"/>
-          <type-var alignment="U:" size="U:"><typedef-ref name="precision_tag" ref="0x2b7153fd24d0" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="precision_tag" ref="0x2af44156e4d0" scoped=""/></type-var>
         </typedef>
-        <typedef loc="57:/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc" name="size_type" ref="0x2b7153fd2700">
+        <typedef loc="57:/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc" name="size_type" ref="0x2af44156e700">
           <interfacedef-ref nicename="tos.lib.timer.Counter" qname="Counter"/>
-          <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2b7153fd2700" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2af44156e700" scoped=""/></type-var>
         </typedef>
       </parameters>
-      <function command="" loc="64:/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc" name="get" provided="0" ref="0x2b7153fec020">
+      <function command="" loc="64:/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc" name="get" provided="0" ref="0x2af44156d020">
         <documentation loc="59:/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc">
           <short> 
  Return counter value.</short>
@@ -46,14 +46,14 @@
         </documentation>
         <interfacedef-ref nicename="tos.lib.timer.Counter" qname="Counter"/>
         <type-function alignment="I:1" size="I:1">
-          <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2b7153fd2700" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2af44156e700" scoped=""/></type-var>
           <function-parameters>
           </function-parameters>
         </type-function>
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="76:/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc" name="clearOverflow" provided="0" ref="0x2b7153feb070">
+      <function command="" loc="76:/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc" name="clearOverflow" provided="0" ref="0x2af44156c070">
         <documentation loc="73:/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc">
           <short>
  Cancel a pending overflow interrupt.</short>
@@ -67,7 +67,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="71:/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc" name="isOverflowPending" provided="0" ref="0x2b7153fec838">
+      <function command="" loc="71:/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc" name="isOverflowPending" provided="0" ref="0x2af44156d838">
         <documentation loc="66:/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc">
           <short> 
  Return TRUE if an overflow event will occur after the outermost atomic
@@ -81,7 +81,7 @@
         <interfacedef-ref nicename="tos.lib.timer.Counter" qname="Counter"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="bool" ref="0x2b7153ba7910"/></typename>
+            <typename><typedef-ref name="bool" ref="0x2af441146910"/></typename>
           </type-int>
           <function-parameters>
           </function-parameters>
@@ -89,7 +89,7 @@
         <parameters>
         </parameters>
       </function>
-      <function event="" loc="82:/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc" name="overflow" provided="0" ref="0x2b7153feb760">
+      <function event="" loc="82:/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc" name="overflow" provided="0" ref="0x2af44156c760">
         <documentation loc="78:/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc">
           <short>
  Signals that the current time has overflowed.</short>

@@ -9,260 +9,260 @@
 </long>
       </documentation>
       <module/>
-    <specification><interface loc="52:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P01" provided="1" ref="0x2b7153e9d800">
+    <specification><interface loc="52:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P01" provided="1" ref="0x2b35077e2800">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P01" ref="0x2b7153e9d800" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P01" ref="0x2b35077e2800" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153e9db50" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153e9dcd8" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153e9de60" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153e9c020" scoped=""/>
-        <function-ref name="get" ref="0x2b7153e9c1a8" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153e9c330" scoped=""/>
-        <function-ref name="set" ref="0x2b7153e9c4b8" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153e9c640" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077e2b50" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077e2cd8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077e2e60" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077f5020" scoped=""/>
+        <function-ref name="get" ref="0x2b35077f51a8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077f5330" scoped=""/>
+        <function-ref name="set" ref="0x2b35077f54b8" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077f5640" scoped=""/>
       </interface-functions>
-    </interface><interface loc="63:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P13" provided="1" ref="0x2b7153ea7800">
+    </interface><interface loc="63:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P13" provided="1" ref="0x2b35077ff800">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P13" ref="0x2b7153ea7800" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P13" ref="0x2b35077ff800" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153ea7b50" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153ea7cd8" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153ea7e60" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153ea6020" scoped=""/>
-        <function-ref name="get" ref="0x2b7153ea61a8" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153ea6330" scoped=""/>
-        <function-ref name="set" ref="0x2b7153ea64b8" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153ea6640" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077ffb50" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077ffcd8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077ffe60" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077fe020" scoped=""/>
+        <function-ref name="get" ref="0x2b35077fe1a8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077fe330" scoped=""/>
+        <function-ref name="set" ref="0x2b35077fe4b8" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077fe640" scoped=""/>
       </interface-functions>
-    </interface><interface loc="55:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P04" provided="1" ref="0x2b7153e99c98">
+    </interface><interface loc="55:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P04" provided="1" ref="0x2b35077f3c98">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P04" ref="0x2b7153e99c98" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P04" ref="0x2b35077f3c98" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153e98020" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153e981a8" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153e98330" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153e984b8" scoped=""/>
-        <function-ref name="get" ref="0x2b7153e98640" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153e987c8" scoped=""/>
-        <function-ref name="set" ref="0x2b7153e98950" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153e98ad8" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077f2020" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077f21a8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077f2330" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077f24b8" scoped=""/>
+        <function-ref name="get" ref="0x2b35077f2640" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077f27c8" scoped=""/>
+        <function-ref name="set" ref="0x2b35077f2950" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077f2ad8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="58:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P07" provided="1" ref="0x2b7153eab1a0">
+    </interface><interface loc="58:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P07" provided="1" ref="0x2b35077ef1a0">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P07" ref="0x2b7153eab1a0" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P07" ref="0x2b35077ef1a0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153eab4f0" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153eab678" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153eab800" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153eab988" scoped=""/>
-        <function-ref name="get" ref="0x2b7153eabb10" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153eabc98" scoped=""/>
-        <function-ref name="set" ref="0x2b7153eabe20" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153eaa020" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077ef4f0" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077ef678" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077ef800" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077ef988" scoped=""/>
+        <function-ref name="get" ref="0x2b35077efb10" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077efc98" scoped=""/>
+        <function-ref name="set" ref="0x2b35077efe20" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077ee020" scoped=""/>
       </interface-functions>
-    </interface><interface loc="66:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P16" provided="1" ref="0x2b7153ea4e20">
+    </interface><interface loc="66:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P16" provided="1" ref="0x2b35077fce20">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P16" ref="0x2b7153ea4e20" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P16" ref="0x2b35077fce20" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153ea31a8" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153ea3330" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153ea34b8" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153ea3640" scoped=""/>
-        <function-ref name="get" ref="0x2b7153ea37c8" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153ea3950" scoped=""/>
-        <function-ref name="set" ref="0x2b7153ea3ad8" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153ea3c60" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077fb1a8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077fb330" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077fb4b8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077fb640" scoped=""/>
+        <function-ref name="get" ref="0x2b35077fb7c8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077fb950" scoped=""/>
+        <function-ref name="set" ref="0x2b35077fbad8" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077fbc60" scoped=""/>
       </interface-functions>
-    </interface><interface loc="61:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P11" provided="1" ref="0x2b7153ea94f0">
+    </interface><interface loc="61:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P11" provided="1" ref="0x2b35077ed4f0">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P11" ref="0x2b7153ea94f0" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P11" ref="0x2b35077ed4f0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153ea9840" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153ea99c8" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153ea9b50" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153ea9cd8" scoped=""/>
-        <function-ref name="get" ref="0x2b7153ea9e60" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153ea8020" scoped=""/>
-        <function-ref name="set" ref="0x2b7153ea81a8" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153ea8330" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077ed840" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077ed9c8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077edb50" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077edcd8" scoped=""/>
+        <function-ref name="get" ref="0x2b35077ede60" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077ec020" scoped=""/>
+        <function-ref name="set" ref="0x2b35077ec1a8" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077ec330" scoped=""/>
       </interface-functions>
-    </interface><interface loc="53:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P02" provided="1" ref="0x2b7153e9c988">
+    </interface><interface loc="53:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P02" provided="1" ref="0x2b35077f5988">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P02" ref="0x2b7153e9c988" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P02" ref="0x2b35077f5988" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153e9ccd8" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153e9ce60" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153e9b020" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153e9b1a8" scoped=""/>
-        <function-ref name="get" ref="0x2b7153e9b330" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153e9b4b8" scoped=""/>
-        <function-ref name="set" ref="0x2b7153e9b640" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153e9b7c8" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077f5cd8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077f5e60" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077f4020" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077f41a8" scoped=""/>
+        <function-ref name="get" ref="0x2b35077f4330" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077f44b8" scoped=""/>
+        <function-ref name="set" ref="0x2b35077f4640" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077f47c8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="64:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P14" provided="1" ref="0x2b7153ea6988">
+    </interface><interface loc="64:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P14" provided="1" ref="0x2b35077fe988">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P14" ref="0x2b7153ea6988" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P14" ref="0x2b35077fe988" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153ea6dd8" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153ea5020" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153ea51a8" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153ea5330" scoped=""/>
-        <function-ref name="get" ref="0x2b7153ea54b8" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153ea5640" scoped=""/>
-        <function-ref name="set" ref="0x2b7153ea57c8" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153ea5950" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077fedd8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077fd020" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077fd1a8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077fd330" scoped=""/>
+        <function-ref name="get" ref="0x2b35077fd4b8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077fd640" scoped=""/>
+        <function-ref name="set" ref="0x2b35077fd7c8" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077fd950" scoped=""/>
       </interface-functions>
-    </interface><interface loc="56:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P05" provided="1" ref="0x2b7153e98e20">
+    </interface><interface loc="56:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P05" provided="1" ref="0x2b35077f2e20">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P05" ref="0x2b7153e98e20" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P05" ref="0x2b35077f2e20" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153e971a8" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153e97330" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153e974b8" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153e97640" scoped=""/>
-        <function-ref name="get" ref="0x2b7153e977c8" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153e97950" scoped=""/>
-        <function-ref name="set" ref="0x2b7153e97ad8" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153e97c60" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077f11a8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077f1330" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077f14b8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077f1640" scoped=""/>
+        <function-ref name="get" ref="0x2b35077f17c8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077f1950" scoped=""/>
+        <function-ref name="set" ref="0x2b35077f1ad8" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077f1c60" scoped=""/>
       </interface-functions>
-    </interface><interface loc="67:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P17" provided="1" ref="0x2b7153ea2020">
+    </interface><interface loc="67:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P17" provided="1" ref="0x2b35077fa020">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P17" ref="0x2b7153ea2020" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P17" ref="0x2b35077fa020" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153ea2370" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153ea24f8" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153ea2680" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153ea2808" scoped=""/>
-        <function-ref name="get" ref="0x2b7153ea2990" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153ea2b18" scoped=""/>
-        <function-ref name="set" ref="0x2b7153ea2ca0" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153ea2e28" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077fa370" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077fa4f8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077fa680" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077fa808" scoped=""/>
+        <function-ref name="get" ref="0x2b35077fa990" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077fab18" scoped=""/>
+        <function-ref name="set" ref="0x2b35077faca0" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077fae28" scoped=""/>
       </interface-functions>
-    </interface><interface loc="51:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P00" provided="1" ref="0x2b7153ea1558">
+    </interface><interface loc="51:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P00" provided="1" ref="0x2b35077e5558">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P00" ref="0x2b7153ea1558" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P00" ref="0x2b35077e5558" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153ea18a8" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153ea1a30" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153ea1bb8" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153ea1d40" scoped=""/>
-        <function-ref name="get" ref="0x2b7153e9d020" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153e9d1a8" scoped=""/>
-        <function-ref name="set" ref="0x2b7153e9d330" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153e9d4b8" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077e58a8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077e5a30" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077e5bb8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077e5d40" scoped=""/>
+        <function-ref name="get" ref="0x2b35077e2020" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077e21a8" scoped=""/>
+        <function-ref name="set" ref="0x2b35077e2330" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077e24b8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="62:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P12" provided="1" ref="0x2b7153ea8678">
+    </interface><interface loc="62:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P12" provided="1" ref="0x2b35077ec678">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P12" ref="0x2b7153ea8678" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P12" ref="0x2b35077ec678" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153ea89c8" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153ea8b50" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153ea8cd8" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153ea8e60" scoped=""/>
-        <function-ref name="get" ref="0x2b7153ea7020" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153ea71a8" scoped=""/>
-        <function-ref name="set" ref="0x2b7153ea7330" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153ea74b8" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077ec9c8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077ecb50" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077eccd8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077ece60" scoped=""/>
+        <function-ref name="get" ref="0x2b35077ff020" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077ff1a8" scoped=""/>
+        <function-ref name="set" ref="0x2b35077ff330" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077ff4b8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="54:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P03" provided="1" ref="0x2b7153e9bb10">
+    </interface><interface loc="54:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P03" provided="1" ref="0x2b35077f4b10">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P03" ref="0x2b7153e9bb10" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P03" ref="0x2b35077f4b10" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153e9be60" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153e99020" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153e991a8" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153e99330" scoped=""/>
-        <function-ref name="get" ref="0x2b7153e994b8" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153e99640" scoped=""/>
-        <function-ref name="set" ref="0x2b7153e997c8" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153e99950" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077f4e60" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077f3020" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077f31a8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077f3330" scoped=""/>
+        <function-ref name="get" ref="0x2b35077f34b8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077f3640" scoped=""/>
+        <function-ref name="set" ref="0x2b35077f37c8" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077f3950" scoped=""/>
       </interface-functions>
-    </interface><interface loc="57:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P06" provided="1" ref="0x2b7153eac020">
+    </interface><interface loc="57:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P06" provided="1" ref="0x2b35077f0020">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P06" ref="0x2b7153eac020" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P06" ref="0x2b35077f0020" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153eac370" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153eac4f8" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153eac680" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153eac808" scoped=""/>
-        <function-ref name="get" ref="0x2b7153eac990" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153eacb18" scoped=""/>
-        <function-ref name="set" ref="0x2b7153eacca0" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153eace28" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077f0370" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077f04f8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077f0680" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077f0808" scoped=""/>
+        <function-ref name="get" ref="0x2b35077f0990" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077f0b18" scoped=""/>
+        <function-ref name="set" ref="0x2b35077f0ca0" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077f0e28" scoped=""/>
       </interface-functions>
-    </interface><interface loc="65:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P15" provided="1" ref="0x2b7153ea5c98">
+    </interface><interface loc="65:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P15" provided="1" ref="0x2b35077fdc98">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P15" ref="0x2b7153ea5c98" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P15" ref="0x2b35077fdc98" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153ea4020" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153ea41a8" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153ea4330" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153ea44b8" scoped=""/>
-        <function-ref name="get" ref="0x2b7153ea4640" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153ea47c8" scoped=""/>
-        <function-ref name="set" ref="0x2b7153ea4950" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153ea4ad8" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077fc020" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077fc1a8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077fc330" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077fc4b8" scoped=""/>
+        <function-ref name="get" ref="0x2b35077fc640" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077fc7c8" scoped=""/>
+        <function-ref name="set" ref="0x2b35077fc950" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077fcad8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="60:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P10" provided="1" ref="0x2b7153eaa368">
+    </interface><interface loc="60:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P10" provided="1" ref="0x2b35077ee368">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P10" ref="0x2b7153eaa368" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P10" ref="0x2b35077ee368" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153eaa6b8" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153eaa840" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153eaa9c8" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153eaab50" scoped=""/>
-        <function-ref name="get" ref="0x2b7153eaacd8" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153eaae60" scoped=""/>
-        <function-ref name="set" ref="0x2b7153ea9020" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153ea91a8" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077ee6b8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077ee840" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077ee9c8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077eeb50" scoped=""/>
+        <function-ref name="get" ref="0x2b35077eecd8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077eee60" scoped=""/>
+        <function-ref name="set" ref="0x2b35077ed020" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077ed1a8" scoped=""/>
       </interface-functions>
     </interface></specification><referenced/></component>

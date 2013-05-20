@@ -20,12 +20,12 @@
 </long>
       </documentation>
       <parameters>
-        <typedef loc="53:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="precision_tag" ref="0x2b7153de4338">
+        <typedef loc="53:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="precision_tag" ref="0x2af441383338">
           <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
-          <type-var alignment="U:" size="U:"><typedef-ref name="precision_tag" ref="0x2b7153de4338" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="precision_tag" ref="0x2af441383338" scoped=""/></type-var>
         </typedef>
       </parameters>
-      <function command="" loc="136:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="getNow" provided="0" ref="0x2b7153df1020">
+      <function command="" loc="136:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="getNow" provided="0" ref="0x2af441390020">
         <documentation loc="132:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc">
           <short>
  Return the current time.</short>
@@ -37,7 +37,7 @@
         <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-            <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+            <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
           </type-int>
           <function-parameters>
           </function-parameters>
@@ -45,7 +45,7 @@
         <parameters>
         </parameters>
       </function>
-      <function event="" loc="83:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="fired" provided="0" ref="0x2b7153de2710">
+      <function event="" loc="83:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="fired" provided="0" ref="0x2af441381710">
         <documentation loc="80:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc">
           <short>
  Signaled when the timer expires (one-shot) or repeats (periodic).</short>
@@ -62,7 +62,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="114:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="startPeriodicAt" provided="0" ref="0x2b7153ddf5b8">
+      <function command="" loc="114:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="startPeriodicAt" provided="0" ref="0x2af44137e5b8">
         <documentation loc="100:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc">
           <short>
  Set a periodic timer to repeat every dt time units.</short>
@@ -86,27 +86,27 @@
           <type-void alignment="I:1" size="I:1"/>
           <function-parameters>
             <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-              <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+              <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
             </type-int>
             <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-              <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+              <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
             </type-int>
           </function-parameters>
         </type-function>
         <parameters>
-          <variable loc="114:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="t0" ref="0x2b7153ddf020">
+          <variable loc="114:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="t0" ref="0x2af44137e020">
             <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-              <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+              <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
             </type-int>
           </variable>
-          <variable loc="114:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="dt" ref="0x2b7153ddf338">
+          <variable loc="114:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="dt" ref="0x2af44137e338">
             <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-              <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+              <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
             </type-int>
           </variable>
         </parameters>
       </function>
-      <function command="" loc="98:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="isOneShot" provided="0" ref="0x2b7153de07b8">
+      <function command="" loc="98:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="isOneShot" provided="0" ref="0x2af44137f7b8">
         <documentation loc="94:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc">
           <short>
  Check if this is a one-shot timer.</short>
@@ -118,7 +118,7 @@
         <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="bool" ref="0x2b7153ba7910"/></typename>
+            <typename><typedef-ref name="bool" ref="0x2af441146910"/></typename>
           </type-int>
           <function-parameters>
           </function-parameters>
@@ -126,7 +126,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="151:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="getdt" provided="0" ref="0x2b7153def020">
+      <function command="" loc="151:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="getdt" provided="0" ref="0x2af44138e020">
         <documentation loc="146:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc">
           <short>
  Return the delay or period for the previously started timer.</short>
@@ -139,7 +139,7 @@
         <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-            <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+            <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
           </type-int>
           <function-parameters>
           </function-parameters>
@@ -147,7 +147,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="144:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="gett0" provided="0" ref="0x2b7153df1740">
+      <function command="" loc="144:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="gett0" provided="0" ref="0x2af441390740">
         <documentation loc="138:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc">
           <short>
  Return the time anchor for the previously started timer or the time of
@@ -162,7 +162,7 @@
         <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-            <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+            <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
           </type-int>
           <function-parameters>
           </function-parameters>
@@ -170,7 +170,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="92:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="isRunning" provided="0" ref="0x2b7153de0020">
+      <function command="" loc="92:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="isRunning" provided="0" ref="0x2af44137f020">
         <documentation loc="86:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc">
           <short>
  Check if timer is running.</short>
@@ -184,7 +184,7 @@
         <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="bool" ref="0x2b7153ba7910"/></typename>
+            <typename><typedef-ref name="bool" ref="0x2af441146910"/></typename>
           </type-int>
           <function-parameters>
           </function-parameters>
@@ -192,7 +192,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="64:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="startPeriodic" provided="0" ref="0x2b7153de4e08">
+      <function command="" loc="64:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="startPeriodic" provided="0" ref="0x2af441383e08">
         <documentation loc="56:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc">
           <short>
  Set a periodic timer to repeat every dt time units.</short>
@@ -210,19 +210,19 @@
           <type-void alignment="I:1" size="I:1"/>
           <function-parameters>
             <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-              <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+              <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
             </type-int>
           </function-parameters>
         </type-function>
         <parameters>
-          <variable loc="64:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="dt" ref="0x2b7153de4b98">
+          <variable loc="64:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="dt" ref="0x2af441383b98">
             <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-              <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+              <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
             </type-int>
           </variable>
         </parameters>
       </function>
-      <function command="" loc="129:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="startOneShotAt" provided="0" ref="0x2b7153dde5b8">
+      <function command="" loc="129:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="startOneShotAt" provided="0" ref="0x2af44137d5b8">
         <documentation loc="116:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc">
           <short>
  Set a single-short timer to time t0+dt.</short>
@@ -245,27 +245,27 @@
           <type-void alignment="I:1" size="I:1"/>
           <function-parameters>
             <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-              <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+              <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
             </type-int>
             <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-              <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+              <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
             </type-int>
           </function-parameters>
         </type-function>
         <parameters>
-          <variable loc="129:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="t0" ref="0x2b7153dde020">
+          <variable loc="129:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="t0" ref="0x2af44137d020">
             <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-              <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+              <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
             </type-int>
           </variable>
-          <variable loc="129:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="dt" ref="0x2b7153dde338">
+          <variable loc="129:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="dt" ref="0x2af44137d338">
             <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-              <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+              <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
             </type-int>
           </variable>
         </parameters>
       </function>
-      <function command="" loc="73:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="startOneShot" provided="0" ref="0x2b7153de38a0">
+      <function command="" loc="73:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="startOneShot" provided="0" ref="0x2af4413828a0">
         <documentation loc="66:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc">
           <short>
  Set a single-short timer to some time units in the future.</short>
@@ -282,19 +282,19 @@
           <type-void alignment="I:1" size="I:1"/>
           <function-parameters>
             <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-              <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+              <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
             </type-int>
           </function-parameters>
         </type-function>
         <parameters>
-          <variable loc="73:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="dt" ref="0x2b7153de3630">
+          <variable loc="73:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="dt" ref="0x2af441382630">
             <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-              <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
+              <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
             </type-int>
           </variable>
         </parameters>
       </function>
-      <function command="" loc="78:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="stop" provided="0" ref="0x2b7153de2070">
+      <function command="" loc="78:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc" name="stop" provided="0" ref="0x2af441381070">
         <documentation loc="75:/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc">
           <short>
  Cancel a timer.</short>

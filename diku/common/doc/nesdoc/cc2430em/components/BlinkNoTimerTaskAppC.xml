@@ -11,69 +11,69 @@
       <configuration/>
       <wiring>
         <wire loc="44:BlinkNoTimerTaskAppC.nc">
-          <from><interface-ref name="Boot" ref="0x2aebb6a6f020" scoped=""/></from>
-          <to><interface-ref name="Boot" ref="0x2aebb690f020" scoped=""/></to>
+          <from><interface-ref name="Boot" ref="0x2b35077b7020" scoped=""/></from>
+          <to><interface-ref name="Boot" ref="0x2b3507657020" scoped=""/></to>
         </wire>
         <wire loc="45:BlinkNoTimerTaskAppC.nc">
-          <from><interface-ref name="Leds" ref="0x2aebb6a70760" scoped=""/></from>
-          <to><interface-ref name="Leds" ref="0x2aebb6a787d8" scoped=""/></to>
+          <from><interface-ref name="Leds" ref="0x2b35077b8760" scoped=""/></from>
+          <to><interface-ref name="Leds" ref="0x2b35077c07d8" scoped=""/></to>
         </wire>
       </wiring>
-    <specification/><referenced><interface loc="44:BlinkNoTimerTaskC.nc" name="Boot" provided="0" ref="0x2aebb6a6f020">
-      <component-ref nicename="BlinkNoTimerTaskC" qname="BlinkNoTimerTaskC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Boot" ref="0x2aebb6a6f020" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.Boot" qname="Boot"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="booted" ref="0x2aebb6a6f370" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="46:/opt/tinyos-2.1.2/tos/system/LedsC.nc" name="Leds" provided="1" ref="0x2aebb6a787d8">
+    <specification/><referenced><interface loc="46:/opt/tinyos-2.1.2/tos/system/LedsC.nc" name="Leds" provided="1" ref="0x2b35077c07d8">
       <component-ref nicename="tos.system.LedsC" qname="LedsC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Leds" ref="0x2aebb6a787d8" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Leds" ref="0x2b35077c07d8" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
       </instance>
       <interface-functions>
-        <function-ref name="led0Off" ref="0x2aebb6a78b28" scoped=""/>
-        <function-ref name="led0Toggle" ref="0x2aebb6a78cb0" scoped=""/>
-        <function-ref name="led1On" ref="0x2aebb6a78e38" scoped=""/>
-        <function-ref name="led1Toggle" ref="0x2aebb6a75020" scoped=""/>
-        <function-ref name="led2Toggle" ref="0x2aebb6a751a8" scoped=""/>
-        <function-ref name="get" ref="0x2aebb6a75330" scoped=""/>
-        <function-ref name="led1Off" ref="0x2aebb6a754b8" scoped=""/>
-        <function-ref name="led2Off" ref="0x2aebb6a75ad8" scoped=""/>
-        <function-ref name="set" ref="0x2aebb6a75640" scoped=""/>
-        <function-ref name="led0On" ref="0x2aebb6a757c8" scoped=""/>
-        <function-ref name="led2On" ref="0x2aebb6a75950" scoped=""/>
+        <function-ref name="led0Off" ref="0x2b35077c0b28" scoped=""/>
+        <function-ref name="led0Toggle" ref="0x2b35077c0cb0" scoped=""/>
+        <function-ref name="led1On" ref="0x2b35077c0e38" scoped=""/>
+        <function-ref name="led1Toggle" ref="0x2b35077bd020" scoped=""/>
+        <function-ref name="led2Toggle" ref="0x2b35077bd1a8" scoped=""/>
+        <function-ref name="get" ref="0x2b35077bd330" scoped=""/>
+        <function-ref name="led1Off" ref="0x2b35077bd4b8" scoped=""/>
+        <function-ref name="led2Off" ref="0x2b35077bdad8" scoped=""/>
+        <function-ref name="set" ref="0x2b35077bd640" scoped=""/>
+        <function-ref name="led0On" ref="0x2b35077bd7c8" scoped=""/>
+        <function-ref name="led2On" ref="0x2b35077bd950" scoped=""/>
       </interface-functions>
-    </interface><interface loc="42:BlinkNoTimerTaskC.nc" name="Leds" provided="0" ref="0x2aebb6a70760">
+    </interface><interface loc="42:BlinkNoTimerTaskC.nc" name="Leds" provided="0" ref="0x2b35077b8760">
       <component-ref nicename="BlinkNoTimerTaskC" qname="BlinkNoTimerTaskC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Leds" ref="0x2aebb6a70760" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Leds" ref="0x2b35077b8760" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
       </instance>
       <interface-functions>
-        <function-ref name="led0Off" ref="0x2aebb6a70ab0" scoped=""/>
-        <function-ref name="led0Toggle" ref="0x2aebb6a70c38" scoped=""/>
-        <function-ref name="led1On" ref="0x2aebb6a70dc0" scoped=""/>
-        <function-ref name="led1Toggle" ref="0x2aebb6a66020" scoped=""/>
-        <function-ref name="led2Toggle" ref="0x2aebb6a661a8" scoped=""/>
-        <function-ref name="get" ref="0x2aebb6a66330" scoped=""/>
-        <function-ref name="led1Off" ref="0x2aebb6a664b8" scoped=""/>
-        <function-ref name="led2Off" ref="0x2aebb6a66ad8" scoped=""/>
-        <function-ref name="set" ref="0x2aebb6a66640" scoped=""/>
-        <function-ref name="led0On" ref="0x2aebb6a667c8" scoped=""/>
-        <function-ref name="led2On" ref="0x2aebb6a66950" scoped=""/>
+        <function-ref name="led0Off" ref="0x2b35077b8ab0" scoped=""/>
+        <function-ref name="led0Toggle" ref="0x2b35077b8c38" scoped=""/>
+        <function-ref name="led1On" ref="0x2b35077b8dc0" scoped=""/>
+        <function-ref name="led1Toggle" ref="0x2b35077ae020" scoped=""/>
+        <function-ref name="led2Toggle" ref="0x2b35077ae1a8" scoped=""/>
+        <function-ref name="get" ref="0x2b35077ae330" scoped=""/>
+        <function-ref name="led1Off" ref="0x2b35077ae4b8" scoped=""/>
+        <function-ref name="led2Off" ref="0x2b35077aead8" scoped=""/>
+        <function-ref name="set" ref="0x2b35077ae640" scoped=""/>
+        <function-ref name="led0On" ref="0x2b35077ae7c8" scoped=""/>
+        <function-ref name="led2On" ref="0x2b35077ae950" scoped=""/>
       </interface-functions>
-    </interface><interface loc="57:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="Boot" provided="1" ref="0x2aebb690f020">
-      <component-ref nicename="tos.system.MainC" qname="MainC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Boot" ref="0x2aebb690f020" scoped=""/></type-interface>
+    </interface><interface loc="44:BlinkNoTimerTaskC.nc" name="Boot" provided="0" ref="0x2b35077b7020">
+      <component-ref nicename="BlinkNoTimerTaskC" qname="BlinkNoTimerTaskC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Boot" ref="0x2b35077b7020" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Boot" qname="Boot"/>
       </instance>
       <interface-functions>
-        <function-ref name="booted" ref="0x2aebb690f370" scoped=""/>
+        <function-ref name="booted" ref="0x2b35077b7370" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="57:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="Boot" provided="1" ref="0x2b3507657020">
+      <component-ref nicename="tos.system.MainC" qname="MainC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Boot" ref="0x2b3507657020" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Boot" qname="Boot"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="booted" ref="0x2b3507657370" scoped=""/>
       </interface-functions>
     </interface><component loc="56:/opt/tinyos-2.1.2/tos/system/MainC.nc" nicename="tos.system.MainC" qname="MainC">
       <documentation loc="32:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/hardware.h">
@@ -88,20 +88,20 @@
       <configuration/>
       <wiring>
         <wire loc="72:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="Boot" ref="0x2aebb690f020" scoped=""/></from>
-          <to><interface-ref name="Boot" ref="0x2aebb6a4e550" scoped=""/></to>
+          <from><interface-ref name="Boot" ref="0x2b3507657020" scoped=""/></from>
+          <to><interface-ref name="Boot" ref="0x2b3507796550" scoped=""/></to>
         </wire>
         <wire loc="67:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="Scheduler" ref="0x2aebb6a4eb88" scoped=""/></from>
-          <to><interface-ref name="Scheduler" ref="0x2aebb682c080" scoped=""/></to>
+          <from><interface-ref name="Scheduler" ref="0x2b3507796b88" scoped=""/></from>
+          <to><interface-ref name="Scheduler" ref="0x2b3507574080" scoped=""/></to>
         </wire>
         <wire loc="68:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="PlatformInit" ref="0x2aebb6a4d6a8" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2aebb690e2b0" scoped=""/></to>
+          <from><interface-ref name="PlatformInit" ref="0x2b35077956a8" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2b35076562b0" scoped=""/></to>
         </wire>
         <wire loc="71:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="SoftwareInit" ref="0x2aebb6a4dd70" scoped=""/></from>
-          <to><interface-ref name="SoftwareInit" ref="0x2aebb690c4c8" scoped=""/></to>
+          <from><interface-ref name="SoftwareInit" ref="0x2b3507795d70" scoped=""/></from>
+          <to><interface-ref name="SoftwareInit" ref="0x2b35076544c8" scoped=""/></to>
         </wire>
       </wiring>
     </component><component loc="45:/opt/tinyos-2.1.2/tos/system/LedsC.nc" nicename="tos.system.LedsC" qname="LedsC">
@@ -122,24 +122,24 @@
       <configuration/>
       <wiring>
         <wire loc="51:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
-          <from><interface-ref name="Leds" ref="0x2aebb6a787d8" scoped=""/></from>
-          <to><interface-ref name="Leds" ref="0x2aebb6a84020" scoped=""/></to>
+          <from><interface-ref name="Leds" ref="0x2b35077c07d8" scoped=""/></from>
+          <to><interface-ref name="Leds" ref="0x2b35077cc020" scoped=""/></to>
         </wire>
         <wire loc="53:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
-          <from><interface-ref name="Init" ref="0x2aebb6a9f5e8" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2aebb6a739b8" scoped=""/></to>
+          <from><interface-ref name="Init" ref="0x2b35077e75e8" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2b35077bb9b8" scoped=""/></to>
         </wire>
         <wire loc="54:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
-          <from><interface-ref name="Led0" ref="0x2aebb6a836c8" scoped=""/></from>
-          <to><interface-ref name="Led0" ref="0x2aebb6aa2090" scoped=""/></to>
+          <from><interface-ref name="Led0" ref="0x2b35077cb6c8" scoped=""/></from>
+          <to><interface-ref name="Led0" ref="0x2b35077ea090" scoped=""/></to>
         </wire>
         <wire loc="55:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
-          <from><interface-ref name="Led1" ref="0x2aebb6a82958" scoped=""/></from>
-          <to><interface-ref name="Led1" ref="0x2aebb6aa1378" scoped=""/></to>
+          <from><interface-ref name="Led1" ref="0x2b35077ca958" scoped=""/></from>
+          <to><interface-ref name="Led1" ref="0x2b35077e9378" scoped=""/></to>
         </wire>
         <wire loc="56:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
-          <from><interface-ref name="Led2" ref="0x2aebb6a81ae0" scoped=""/></from>
-          <to><interface-ref name="Led2" ref="0x2aebb6aa0500" scoped=""/></to>
+          <from><interface-ref name="Led2" ref="0x2b35077c9ae0" scoped=""/></from>
+          <to><interface-ref name="Led2" ref="0x2b35077e8500" scoped=""/></to>
         </wire>
       </wiring>
     </component><component loc="40:BlinkNoTimerTaskC.nc" nicename="BlinkNoTimerTaskC" qname="BlinkNoTimerTaskC">

@@ -1,120 +1,120 @@
 <?xml version="1.0" ?><component loc="21:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" nicename="SimpleMacM" qname="SimpleMacM">
       <module/>
-    <specification><interface loc="23:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="SimpleMac" provided="1" ref="0x2b7154173020">
+    <specification><interface loc="23:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="SimpleMac" provided="1" ref="0x2af4416e9020">
       <component-ref nicename="SimpleMacM" qname="SimpleMacM"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="SimpleMac" ref="0x2b7154173020" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="SimpleMac" ref="0x2af4416e9020" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
       </instance>
       <interface-functions>
-        <function-ref name="rxDisable" ref="0x2b7154173370" scoped=""/>
-        <function-ref name="getAddress" ref="0x2b71541734f8" scoped=""/>
-        <function-ref name="getExtAddress" ref="0x2b7154173680" scoped=""/>
-        <function-ref name="getPanAddress" ref="0x2b7154173808" scoped=""/>
-        <function-ref name="setChannel" ref="0x2b7154173990" scoped=""/>
-        <function-ref name="sendPacket" ref="0x2b7154173b18" scoped=""/>
-        <function-ref name="addressFilterDisable" ref="0x2b7154173ca0" scoped=""/>
-        <function-ref name="sendPacketDone" ref="0x2b7154173e28" scoped=""/>
-        <function-ref name="receivedPacket" ref="0x2b7154172020" scoped=""/>
-        <function-ref name="setAddress" ref="0x2b71541721a8" scoped=""/>
-        <function-ref name="addressFilterEnable" ref="0x2b7154172330" scoped=""/>
-        <function-ref name="rxEnable" ref="0x2b71541724b8" scoped=""/>
-        <function-ref name="setTransmitPower" ref="0x2b7154172640" scoped=""/>
-        <function-ref name="setPanAddress" ref="0x2b71541728c8" scoped=""/>
+        <function-ref name="rxDisable" ref="0x2af4416e9370" scoped=""/>
+        <function-ref name="getAddress" ref="0x2af4416e94f8" scoped=""/>
+        <function-ref name="getExtAddress" ref="0x2af4416e9680" scoped=""/>
+        <function-ref name="getPanAddress" ref="0x2af4416e9808" scoped=""/>
+        <function-ref name="setChannel" ref="0x2af4416e9990" scoped=""/>
+        <function-ref name="sendPacket" ref="0x2af4416e9b18" scoped=""/>
+        <function-ref name="addressFilterDisable" ref="0x2af4416e9ca0" scoped=""/>
+        <function-ref name="sendPacketDone" ref="0x2af4416e9e28" scoped=""/>
+        <function-ref name="receivedPacket" ref="0x2af4416e8020" scoped=""/>
+        <function-ref name="setAddress" ref="0x2af4416e81a8" scoped=""/>
+        <function-ref name="addressFilterEnable" ref="0x2af4416e8330" scoped=""/>
+        <function-ref name="rxEnable" ref="0x2af4416e84b8" scoped=""/>
+        <function-ref name="setTransmitPower" ref="0x2af4416e8640" scoped=""/>
+        <function-ref name="setPanAddress" ref="0x2af4416e88c8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="29:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="HALCC2420Control" provided="0" ref="0x2b715416fad8">
+    </interface><interface loc="29:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="HALCC2420Control" provided="0" ref="0x2af4416e4ad8">
       <component-ref nicename="SimpleMacM" qname="SimpleMacM"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420Control" ref="0x2b715416fad8" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420Control" ref="0x2af4416e4ad8" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
       </instance>
       <interface-functions>
-        <function-ref name="start" ref="0x2b715416fe28" scoped=""/>
-        <function-ref name="stop" ref="0x2b7154184020" scoped=""/>
+        <function-ref name="start" ref="0x2af4416e4e28" scoped=""/>
+        <function-ref name="stop" ref="0x2af4416f7020" scoped=""/>
       </interface-functions>
-    </interface><interface loc="24:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="Init" provided="1" ref="0x2b7154172b40">
+    </interface><interface loc="24:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="Init" provided="1" ref="0x2af4416e8b40">
       <component-ref nicename="SimpleMacM" qname="SimpleMacM"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b7154172b40" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2af4416e8b40" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b7154171020" scoped=""/>
+        <function-ref name="init" ref="0x2af4416e6020" scoped=""/>
       </interface-functions>
-    </interface><interface loc="45:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="initTask" provided="0" ref="0x2b7154180760">
+    </interface><interface loc="45:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="initTask" provided="0" ref="0x2af4416f3760">
       <component-ref nicename="SimpleMacM" qname="SimpleMacM"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="initTask" ref="0x2b7154180760" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="initTask" ref="0x2af4416f3760" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
       </instance>
       <interface-functions>
-        <function-ref name="postTask" ref="0x2b7154180ab0" scoped=""/>
-        <function-ref name="runTask" ref="0x2b7154180c38" scoped=""/>
+        <function-ref name="postTask" ref="0x2af4416f3ab0" scoped=""/>
+        <function-ref name="runTask" ref="0x2af4416f3c38" scoped=""/>
       </interface-functions>
-    </interface><interface loc="25:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="SimpleMacControl" provided="1" ref="0x2b71541713b8">
+    </interface><interface loc="25:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="SimpleMacControl" provided="1" ref="0x2af4416e63b8">
       <component-ref nicename="SimpleMacM" qname="SimpleMacM"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="SimpleMacControl" ref="0x2b71541713b8" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="SimpleMacControl" ref="0x2af4416e63b8" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
       </instance>
       <interface-functions>
-        <function-ref name="start" ref="0x2b7154171708" scoped=""/>
-        <function-ref name="stop" ref="0x2b7154171890" scoped=""/>
+        <function-ref name="start" ref="0x2af4416e6708" scoped=""/>
+        <function-ref name="stop" ref="0x2af4416e6890" scoped=""/>
       </interface-functions>
-    </interface><interface loc="28:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="HALCC2420" provided="0" ref="0x2b7154185da0">
+    </interface><interface loc="28:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="HALCC2420" provided="0" ref="0x2af4416f8da0">
       <component-ref nicename="SimpleMacM" qname="SimpleMacM"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420" ref="0x2b7154185da0" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420" ref="0x2af4416f8da0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
       </instance>
       <interface-functions>
-        <function-ref name="rxDisable" ref="0x2b7154170170" scoped=""/>
-        <function-ref name="getAddress" ref="0x2b71541702f8" scoped=""/>
-        <function-ref name="getExtAddress" ref="0x2b7154170480" scoped=""/>
-        <function-ref name="getPanAddress" ref="0x2b7154170608" scoped=""/>
-        <function-ref name="setChannel" ref="0x2b7154170790" scoped=""/>
-        <function-ref name="sendPacket" ref="0x2b7154170918" scoped=""/>
-        <function-ref name="addressFilterDisable" ref="0x2b7154170aa0" scoped=""/>
-        <function-ref name="sendPacketDone" ref="0x2b7154170c28" scoped=""/>
-        <function-ref name="receivedPacket" ref="0x2b7154170db0" scoped=""/>
-        <function-ref name="setAddress" ref="0x2b715416f020" scoped=""/>
-        <function-ref name="addressFilterEnable" ref="0x2b715416f1a8" scoped=""/>
-        <function-ref name="rxEnable" ref="0x2b715416f330" scoped=""/>
-        <function-ref name="setTransmitPower" ref="0x2b715416f4b8" scoped=""/>
-        <function-ref name="setPanAddress" ref="0x2b715416f740" scoped=""/>
+        <function-ref name="rxDisable" ref="0x2af4416e5170" scoped=""/>
+        <function-ref name="getAddress" ref="0x2af4416e52f8" scoped=""/>
+        <function-ref name="getExtAddress" ref="0x2af4416e5480" scoped=""/>
+        <function-ref name="getPanAddress" ref="0x2af4416e5608" scoped=""/>
+        <function-ref name="setChannel" ref="0x2af4416e5790" scoped=""/>
+        <function-ref name="sendPacket" ref="0x2af4416e5918" scoped=""/>
+        <function-ref name="addressFilterDisable" ref="0x2af4416e5aa0" scoped=""/>
+        <function-ref name="sendPacketDone" ref="0x2af4416e5c28" scoped=""/>
+        <function-ref name="receivedPacket" ref="0x2af4416e5db0" scoped=""/>
+        <function-ref name="setAddress" ref="0x2af4416e4020" scoped=""/>
+        <function-ref name="addressFilterEnable" ref="0x2af4416e41a8" scoped=""/>
+        <function-ref name="rxEnable" ref="0x2af4416e4330" scoped=""/>
+        <function-ref name="setTransmitPower" ref="0x2af4416e44b8" scoped=""/>
+        <function-ref name="setPanAddress" ref="0x2af4416e4740" scoped=""/>
       </interface-functions>
-    </interface><interface loc="123:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="signalSendPacketDone" provided="0" ref="0x2b715418e598">
+    </interface><interface loc="123:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="signalSendPacketDone" provided="0" ref="0x2af441722598">
       <component-ref nicename="SimpleMacM" qname="SimpleMacM"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="signalSendPacketDone" ref="0x2b715418e598" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="signalSendPacketDone" ref="0x2af441722598" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
       </instance>
       <interface-functions>
-        <function-ref name="postTask" ref="0x2b715418e8e8" scoped=""/>
-        <function-ref name="runTask" ref="0x2b715418ea70" scoped=""/>
+        <function-ref name="postTask" ref="0x2af4417228e8" scoped=""/>
+        <function-ref name="runTask" ref="0x2af441722a70" scoped=""/>
       </interface-functions>
-    </interface><interface loc="30:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="StdOut" provided="0" ref="0x2b71541842a8">
+    </interface><interface loc="30:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="StdOut" provided="0" ref="0x2af4416f72a8">
       <component-ref nicename="SimpleMacM" qname="SimpleMacM"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdOut" ref="0x2b71541842a8" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdOut" ref="0x2af4416f72a8" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="StdOut" qname="StdOut"/>
       </instance>
       <interface-functions>
-        <function-ref name="dumpHex" ref="0x2b71541845f8" scoped=""/>
-        <function-ref name="printBase2" ref="0x2b7154184780" scoped=""/>
-        <function-ref name="printBase10uint16" ref="0x2b7154184908" scoped=""/>
-        <function-ref name="printHexword" ref="0x2b7154184a90" scoped=""/>
-        <function-ref name="printBase10uint32" ref="0x2b7154184c18" scoped=""/>
-        <function-ref name="get" ref="0x2b7154184da0" scoped=""/>
-        <function-ref name="printBase10uint8" ref="0x2b7154183020" scoped=""/>
-        <function-ref name="printBase2long" ref="0x2b71541831a8" scoped=""/>
-        <function-ref name="printHexlong" ref="0x2b7154183330" scoped=""/>
-        <function-ref name="printBase2word" ref="0x2b71541834b8" scoped=""/>
-        <function-ref name="printBase10int8" ref="0x2b7154183640" scoped=""/>
-        <function-ref name="print" ref="0x2b71541837c8" scoped=""/>
-        <function-ref name="done" ref="0x2b7154183950" scoped=""/>
-        <function-ref name="printHex" ref="0x2b7154183bd8" scoped=""/>
-        <function-ref name="printBase10int16" ref="0x2b7154183d60" scoped=""/>
-        <function-ref name="printBase10int32" ref="0x2b7154182020" scoped=""/>
+        <function-ref name="dumpHex" ref="0x2af4416f75f8" scoped=""/>
+        <function-ref name="printBase2" ref="0x2af4416f7780" scoped=""/>
+        <function-ref name="printBase10uint16" ref="0x2af4416f7908" scoped=""/>
+        <function-ref name="printHexword" ref="0x2af4416f7a90" scoped=""/>
+        <function-ref name="printBase10uint32" ref="0x2af4416f7c18" scoped=""/>
+        <function-ref name="get" ref="0x2af4416f7da0" scoped=""/>
+        <function-ref name="printBase10uint8" ref="0x2af4416f6020" scoped=""/>
+        <function-ref name="printBase2long" ref="0x2af4416f61a8" scoped=""/>
+        <function-ref name="printHexlong" ref="0x2af4416f6330" scoped=""/>
+        <function-ref name="printBase2word" ref="0x2af4416f64b8" scoped=""/>
+        <function-ref name="printBase10int8" ref="0x2af4416f6640" scoped=""/>
+        <function-ref name="print" ref="0x2af4416f67c8" scoped=""/>
+        <function-ref name="done" ref="0x2af4416f6950" scoped=""/>
+        <function-ref name="printHex" ref="0x2af4416f6bd8" scoped=""/>
+        <function-ref name="printBase10int16" ref="0x2af4416f6d60" scoped=""/>
+        <function-ref name="printBase10int32" ref="0x2af4416f5020" scoped=""/>
       </interface-functions>
     </interface></specification><referenced/></component>

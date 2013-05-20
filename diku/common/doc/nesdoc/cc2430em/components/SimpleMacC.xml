@@ -12,171 +12,171 @@
       <configuration/>
       <wiring>
         <wire loc="53:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc">
-          <from><interface-ref name="SimpleMac" ref="0x2b7154158840" scoped=""/></from>
-          <to><interface-ref name="SimpleMac" ref="0x2b7154173020" scoped=""/></to>
+          <from><interface-ref name="SimpleMac" ref="0x2af4416ee840" scoped=""/></from>
+          <to><interface-ref name="SimpleMac" ref="0x2af4416e9020" scoped=""/></to>
         </wire>
         <wire loc="52:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc">
-          <from><interface-ref name="StdControl" ref="0x2b71541580c0" scoped=""/></from>
-          <to><interface-ref name="SimpleMacControl" ref="0x2b71541713b8" scoped=""/></to>
+          <from><interface-ref name="StdControl" ref="0x2af4416ee0c0" scoped=""/></from>
+          <to><interface-ref name="SimpleMacControl" ref="0x2af4416e63b8" scoped=""/></to>
         </wire>
         <wire loc="50:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc">
-          <from><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b7154172b40" scoped=""/></to>
+          <from><interface-ref name="SoftwareInit" ref="0x2af44122b210" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2af4416e8b40" scoped=""/></to>
         </wire>
         <wire loc="55:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc">
-          <from><interface-ref name="HALCC2420Control" ref="0x2b715416fad8" scoped=""/></from>
-          <to><interface-ref name="HALCC2420Control" ref="0x2b71541c7020" scoped=""/></to>
+          <from><interface-ref name="HALCC2420Control" ref="0x2af4416e4ad8" scoped=""/></from>
+          <to><interface-ref name="HALCC2420Control" ref="0x2af44173a020" scoped=""/></to>
         </wire>
         <wire loc="56:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc">
-          <from><interface-ref name="HALCC2420" ref="0x2b7154185da0" scoped=""/></from>
-          <to><interface-ref name="HALCC2420" ref="0x2b71541c9270" scoped=""/></to>
+          <from><interface-ref name="HALCC2420" ref="0x2af4416f8da0" scoped=""/></from>
+          <to><interface-ref name="HALCC2420" ref="0x2af44173c270" scoped=""/></to>
         </wire>
       </wiring>
-    <specification><interface loc="43:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc" name="SimpleMac" provided="1" ref="0x2b7154158840">
+    <specification><interface loc="43:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc" name="SimpleMac" provided="1" ref="0x2af4416ee840">
       <component-ref nicename="SimpleMacC" qname="SimpleMacC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="SimpleMac" ref="0x2b7154158840" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="SimpleMac" ref="0x2af4416ee840" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
       </instance>
       <interface-functions>
-        <function-ref name="rxDisable" ref="0x2b7154158b90" scoped=""/>
-        <function-ref name="getAddress" ref="0x2b7154158d18" scoped=""/>
-        <function-ref name="getExtAddress" ref="0x2b7154156020" scoped=""/>
-        <function-ref name="getPanAddress" ref="0x2b71541561a8" scoped=""/>
-        <function-ref name="setChannel" ref="0x2b7154156330" scoped=""/>
-        <function-ref name="sendPacket" ref="0x2b71541564b8" scoped=""/>
-        <function-ref name="addressFilterDisable" ref="0x2b7154156640" scoped=""/>
-        <function-ref name="sendPacketDone" ref="0x2b71541567c8" scoped=""/>
-        <function-ref name="receivedPacket" ref="0x2b7154156950" scoped=""/>
-        <function-ref name="setAddress" ref="0x2b7154156ad8" scoped=""/>
-        <function-ref name="addressFilterEnable" ref="0x2b7154156c60" scoped=""/>
-        <function-ref name="rxEnable" ref="0x2b7154156de8" scoped=""/>
-        <function-ref name="setTransmitPower" ref="0x2b7154155020" scoped=""/>
-        <function-ref name="setPanAddress" ref="0x2b71541552a8" scoped=""/>
+        <function-ref name="rxDisable" ref="0x2af4416eeb90" scoped=""/>
+        <function-ref name="getAddress" ref="0x2af4416eed18" scoped=""/>
+        <function-ref name="getExtAddress" ref="0x2af4416ed020" scoped=""/>
+        <function-ref name="getPanAddress" ref="0x2af4416ed1a8" scoped=""/>
+        <function-ref name="setChannel" ref="0x2af4416ed330" scoped=""/>
+        <function-ref name="sendPacket" ref="0x2af4416ed4b8" scoped=""/>
+        <function-ref name="addressFilterDisable" ref="0x2af4416ed640" scoped=""/>
+        <function-ref name="sendPacketDone" ref="0x2af4416ed7c8" scoped=""/>
+        <function-ref name="receivedPacket" ref="0x2af4416ed950" scoped=""/>
+        <function-ref name="setAddress" ref="0x2af4416edad8" scoped=""/>
+        <function-ref name="addressFilterEnable" ref="0x2af4416edc60" scoped=""/>
+        <function-ref name="rxEnable" ref="0x2af4416edde8" scoped=""/>
+        <function-ref name="setTransmitPower" ref="0x2af4416ec020" scoped=""/>
+        <function-ref name="setPanAddress" ref="0x2af4416ec2a8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="42:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc" name="StdControl" provided="1" ref="0x2b71541580c0">
+    </interface><interface loc="42:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc" name="StdControl" provided="1" ref="0x2af4416ee0c0">
       <component-ref nicename="SimpleMacC" qname="SimpleMacC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdControl" ref="0x2b71541580c0" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdControl" ref="0x2af4416ee0c0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
       </instance>
       <interface-functions>
-        <function-ref name="start" ref="0x2b7154158410" scoped=""/>
-        <function-ref name="stop" ref="0x2b7154158598" scoped=""/>
+        <function-ref name="start" ref="0x2af4416ee410" scoped=""/>
+        <function-ref name="stop" ref="0x2af4416ee598" scoped=""/>
       </interface-functions>
-    </interface></specification><referenced><interface loc="25:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="SimpleMacControl" provided="1" ref="0x2b71541713b8">
+    </interface></specification><referenced><interface loc="28:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="HALCC2420" provided="0" ref="0x2af4416f8da0">
       <component-ref nicename="SimpleMacM" qname="SimpleMacM"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="SimpleMacControl" ref="0x2b71541713b8" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420" ref="0x2af4416f8da0" scoped=""/></type-interface>
       <instance>
-        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
+        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
       </instance>
       <interface-functions>
-        <function-ref name="start" ref="0x2b7154171708" scoped=""/>
-        <function-ref name="stop" ref="0x2b7154171890" scoped=""/>
+        <function-ref name="rxDisable" ref="0x2af4416e5170" scoped=""/>
+        <function-ref name="getAddress" ref="0x2af4416e52f8" scoped=""/>
+        <function-ref name="getExtAddress" ref="0x2af4416e5480" scoped=""/>
+        <function-ref name="getPanAddress" ref="0x2af4416e5608" scoped=""/>
+        <function-ref name="setChannel" ref="0x2af4416e5790" scoped=""/>
+        <function-ref name="sendPacket" ref="0x2af4416e5918" scoped=""/>
+        <function-ref name="addressFilterDisable" ref="0x2af4416e5aa0" scoped=""/>
+        <function-ref name="sendPacketDone" ref="0x2af4416e5c28" scoped=""/>
+        <function-ref name="receivedPacket" ref="0x2af4416e5db0" scoped=""/>
+        <function-ref name="setAddress" ref="0x2af4416e4020" scoped=""/>
+        <function-ref name="addressFilterEnable" ref="0x2af4416e41a8" scoped=""/>
+        <function-ref name="rxEnable" ref="0x2af4416e4330" scoped=""/>
+        <function-ref name="setTransmitPower" ref="0x2af4416e44b8" scoped=""/>
+        <function-ref name="setPanAddress" ref="0x2af4416e4740" scoped=""/>
       </interface-functions>
-    </interface><interface loc="29:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="HALCC2420Control" provided="0" ref="0x2b715416fad8">
-      <component-ref nicename="SimpleMacM" qname="SimpleMacM"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420Control" ref="0x2b715416fad8" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="start" ref="0x2b715416fe28" scoped=""/>
-        <function-ref name="stop" ref="0x2b7154184020" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="23:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="SimpleMac" provided="1" ref="0x2b7154173020">
-      <component-ref nicename="SimpleMacM" qname="SimpleMacM"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="SimpleMac" ref="0x2b7154173020" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="rxDisable" ref="0x2b7154173370" scoped=""/>
-        <function-ref name="getAddress" ref="0x2b71541734f8" scoped=""/>
-        <function-ref name="getExtAddress" ref="0x2b7154173680" scoped=""/>
-        <function-ref name="getPanAddress" ref="0x2b7154173808" scoped=""/>
-        <function-ref name="setChannel" ref="0x2b7154173990" scoped=""/>
-        <function-ref name="sendPacket" ref="0x2b7154173b18" scoped=""/>
-        <function-ref name="addressFilterDisable" ref="0x2b7154173ca0" scoped=""/>
-        <function-ref name="sendPacketDone" ref="0x2b7154173e28" scoped=""/>
-        <function-ref name="receivedPacket" ref="0x2b7154172020" scoped=""/>
-        <function-ref name="setAddress" ref="0x2b71541721a8" scoped=""/>
-        <function-ref name="addressFilterEnable" ref="0x2b7154172330" scoped=""/>
-        <function-ref name="rxEnable" ref="0x2b71541724b8" scoped=""/>
-        <function-ref name="setTransmitPower" ref="0x2b7154172640" scoped=""/>
-        <function-ref name="setPanAddress" ref="0x2b71541728c8" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="41:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc" name="HALCC2420Control" provided="1" ref="0x2b71541c7020">
+    </interface><interface loc="40:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc" name="HALCC2420" provided="1" ref="0x2af44173c270">
       <component-ref nicename="HalCC2430RadioC" qname="HalCC2430RadioC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420Control" ref="0x2b71541c7020" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420" ref="0x2af44173c270" scoped=""/></type-interface>
       <instance>
-        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
+        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
       </instance>
       <interface-functions>
-        <function-ref name="start" ref="0x2b71541c7370" scoped=""/>
-        <function-ref name="stop" ref="0x2b71541c74f8" scoped=""/>
+        <function-ref name="rxDisable" ref="0x2af44173c5c0" scoped=""/>
+        <function-ref name="getAddress" ref="0x2af44173c748" scoped=""/>
+        <function-ref name="getExtAddress" ref="0x2af44173c8d0" scoped=""/>
+        <function-ref name="getPanAddress" ref="0x2af44173ca58" scoped=""/>
+        <function-ref name="setChannel" ref="0x2af44173cbe0" scoped=""/>
+        <function-ref name="sendPacket" ref="0x2af44173cd68" scoped=""/>
+        <function-ref name="addressFilterDisable" ref="0x2af44173b020" scoped=""/>
+        <function-ref name="sendPacketDone" ref="0x2af44173b1a8" scoped=""/>
+        <function-ref name="receivedPacket" ref="0x2af44173b330" scoped=""/>
+        <function-ref name="setAddress" ref="0x2af44173b4b8" scoped=""/>
+        <function-ref name="addressFilterEnable" ref="0x2af44173b640" scoped=""/>
+        <function-ref name="rxEnable" ref="0x2af44173b7c8" scoped=""/>
+        <function-ref name="setTransmitPower" ref="0x2af44173b950" scoped=""/>
+        <function-ref name="setPanAddress" ref="0x2af44173bbd8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="24:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="Init" provided="1" ref="0x2b7154172b40">
+    </interface><interface loc="24:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="Init" provided="1" ref="0x2af4416e8b40">
       <component-ref nicename="SimpleMacM" qname="SimpleMacM"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b7154172b40" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2af4416e8b40" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b7154171020" scoped=""/>
+        <function-ref name="init" ref="0x2af4416e6020" scoped=""/>
       </interface-functions>
-    </interface><interface loc="58:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="SoftwareInit" provided="0" ref="0x2b7153c8c210">
+    </interface><interface loc="29:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="HALCC2420Control" provided="0" ref="0x2af4416e4ad8">
+      <component-ref nicename="SimpleMacM" qname="SimpleMacM"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420Control" ref="0x2af4416e4ad8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="start" ref="0x2af4416e4e28" scoped=""/>
+        <function-ref name="stop" ref="0x2af4416f7020" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="25:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="SimpleMacControl" provided="1" ref="0x2af4416e63b8">
+      <component-ref nicename="SimpleMacM" qname="SimpleMacM"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="SimpleMacControl" ref="0x2af4416e63b8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="start" ref="0x2af4416e6708" scoped=""/>
+        <function-ref name="stop" ref="0x2af4416e6890" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="23:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="SimpleMac" provided="1" ref="0x2af4416e9020">
+      <component-ref nicename="SimpleMacM" qname="SimpleMacM"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="SimpleMac" ref="0x2af4416e9020" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="rxDisable" ref="0x2af4416e9370" scoped=""/>
+        <function-ref name="getAddress" ref="0x2af4416e94f8" scoped=""/>
+        <function-ref name="getExtAddress" ref="0x2af4416e9680" scoped=""/>
+        <function-ref name="getPanAddress" ref="0x2af4416e9808" scoped=""/>
+        <function-ref name="setChannel" ref="0x2af4416e9990" scoped=""/>
+        <function-ref name="sendPacket" ref="0x2af4416e9b18" scoped=""/>
+        <function-ref name="addressFilterDisable" ref="0x2af4416e9ca0" scoped=""/>
+        <function-ref name="sendPacketDone" ref="0x2af4416e9e28" scoped=""/>
+        <function-ref name="receivedPacket" ref="0x2af4416e8020" scoped=""/>
+        <function-ref name="setAddress" ref="0x2af4416e81a8" scoped=""/>
+        <function-ref name="addressFilterEnable" ref="0x2af4416e8330" scoped=""/>
+        <function-ref name="rxEnable" ref="0x2af4416e84b8" scoped=""/>
+        <function-ref name="setTransmitPower" ref="0x2af4416e8640" scoped=""/>
+        <function-ref name="setPanAddress" ref="0x2af4416e88c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="58:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="SoftwareInit" provided="0" ref="0x2af44122b210">
       <component-ref nicename="tos.system.MainC" qname="MainC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="SoftwareInit" ref="0x2af44122b210" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b7153c8c560" scoped=""/>
+        <function-ref name="init" ref="0x2af44122b560" scoped=""/>
       </interface-functions>
-    </interface><interface loc="28:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" name="HALCC2420" provided="0" ref="0x2b7154185da0">
-      <component-ref nicename="SimpleMacM" qname="SimpleMacM"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420" ref="0x2b7154185da0" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="rxDisable" ref="0x2b7154170170" scoped=""/>
-        <function-ref name="getAddress" ref="0x2b71541702f8" scoped=""/>
-        <function-ref name="getExtAddress" ref="0x2b7154170480" scoped=""/>
-        <function-ref name="getPanAddress" ref="0x2b7154170608" scoped=""/>
-        <function-ref name="setChannel" ref="0x2b7154170790" scoped=""/>
-        <function-ref name="sendPacket" ref="0x2b7154170918" scoped=""/>
-        <function-ref name="addressFilterDisable" ref="0x2b7154170aa0" scoped=""/>
-        <function-ref name="sendPacketDone" ref="0x2b7154170c28" scoped=""/>
-        <function-ref name="receivedPacket" ref="0x2b7154170db0" scoped=""/>
-        <function-ref name="setAddress" ref="0x2b715416f020" scoped=""/>
-        <function-ref name="addressFilterEnable" ref="0x2b715416f1a8" scoped=""/>
-        <function-ref name="rxEnable" ref="0x2b715416f330" scoped=""/>
-        <function-ref name="setTransmitPower" ref="0x2b715416f4b8" scoped=""/>
-        <function-ref name="setPanAddress" ref="0x2b715416f740" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="40:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc" name="HALCC2420" provided="1" ref="0x2b71541c9270">
+    </interface><interface loc="41:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc" name="HALCC2420Control" provided="1" ref="0x2af44173a020">
       <component-ref nicename="HalCC2430RadioC" qname="HalCC2430RadioC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420" ref="0x2b71541c9270" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420Control" ref="0x2af44173a020" scoped=""/></type-interface>
       <instance>
-        <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
+        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
       </instance>
       <interface-functions>
-        <function-ref name="rxDisable" ref="0x2b71541c95c0" scoped=""/>
-        <function-ref name="getAddress" ref="0x2b71541c9748" scoped=""/>
-        <function-ref name="getExtAddress" ref="0x2b71541c98d0" scoped=""/>
-        <function-ref name="getPanAddress" ref="0x2b71541c9a58" scoped=""/>
-        <function-ref name="setChannel" ref="0x2b71541c9be0" scoped=""/>
-        <function-ref name="sendPacket" ref="0x2b71541c9d68" scoped=""/>
-        <function-ref name="addressFilterDisable" ref="0x2b71541c8020" scoped=""/>
-        <function-ref name="sendPacketDone" ref="0x2b71541c81a8" scoped=""/>
-        <function-ref name="receivedPacket" ref="0x2b71541c8330" scoped=""/>
-        <function-ref name="setAddress" ref="0x2b71541c84b8" scoped=""/>
-        <function-ref name="addressFilterEnable" ref="0x2b71541c8640" scoped=""/>
-        <function-ref name="rxEnable" ref="0x2b71541c87c8" scoped=""/>
-        <function-ref name="setTransmitPower" ref="0x2b71541c8950" scoped=""/>
-        <function-ref name="setPanAddress" ref="0x2b71541c8bd8" scoped=""/>
+        <function-ref name="start" ref="0x2af44173a370" scoped=""/>
+        <function-ref name="stop" ref="0x2af44173a4f8" scoped=""/>
       </interface-functions>
     </interface><component loc="38:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc" nicename="HalCC2430RadioC" qname="HalCC2430RadioC">
       <documentation loc="33:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc">
@@ -191,32 +191,32 @@
       <configuration/>
       <wiring>
         <wire loc="55:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc">
-          <from><interface-ref name="HALCC2420Control" ref="0x2b71541c7020" scoped=""/></from>
-          <to><interface-ref name="HALCC2420Control" ref="0x2b71541c14b8" scoped=""/></to>
+          <from><interface-ref name="HALCC2420Control" ref="0x2af44173a020" scoped=""/></from>
+          <to><interface-ref name="HALCC2420Control" ref="0x2af441756168" scoped=""/></to>
         </wire>
         <wire loc="54:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc">
-          <from><interface-ref name="HALCC2420" ref="0x2b71541c9270" scoped=""/></from>
-          <to><interface-ref name="HALCC2420" ref="0x2b71541c5800" scoped=""/></to>
+          <from><interface-ref name="HALCC2420" ref="0x2af44173c270" scoped=""/></from>
+          <to><interface-ref name="HALCC2420" ref="0x2af441736390" scoped=""/></to>
         </wire>
         <wire loc="47:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc">
-          <from><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b71541c1c08" scoped=""/></to>
+          <from><interface-ref name="SoftwareInit" ref="0x2af44122b210" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2af4417568b8" scoped=""/></to>
         </wire>
         <wire loc="50:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc">
-          <from><interface-ref name="InterruptTXDone" ref="0x2b71541bc8a8" scoped=""/></from>
-          <to><interface-ref name="InterruptTXDone" ref="0x2b71542869f0" scoped=""/></to>
+          <from><interface-ref name="InterruptTXDone" ref="0x2af4417508a8" scoped=""/></from>
+          <to><interface-ref name="InterruptTXDone" ref="0x2af4418169f0" scoped=""/></to>
         </wire>
         <wire loc="51:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc">
-          <from><interface-ref name="InterruptFIFOP" ref="0x2b71541bf548" scoped=""/></from>
-          <to><interface-ref name="InterruptFIFOP" ref="0x2b7154281400" scoped=""/></to>
+          <from><interface-ref name="InterruptFIFOP" ref="0x2af441753548" scoped=""/></from>
+          <to><interface-ref name="InterruptFIFOP" ref="0x2af441811400" scoped=""/></to>
         </wire>
         <wire loc="52:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc">
-          <from><interface-ref name="InterruptRFErr" ref="0x2b71541be150" scoped=""/></from>
-          <to><interface-ref name="InterruptRFErr" ref="0x2b7154280020" scoped=""/></to>
+          <from><interface-ref name="InterruptRFErr" ref="0x2af441752150" scoped=""/></from>
+          <to><interface-ref name="InterruptRFErr" ref="0x2af441810020" scoped=""/></to>
         </wire>
         <wire loc="58:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc">
-          <from><interface-ref name="StdOut" ref="0x2b71541bebc0" scoped=""/></from>
-          <to><interface-ref name="StdOut" ref="0x2b71542bfca0" scoped=""/></to>
+          <from><interface-ref name="StdOut" ref="0x2af441752bc0" scoped=""/></from>
+          <to><interface-ref name="StdOut" ref="0x2af44184fca0" scoped=""/></to>
         </wire>
       </wiring>
     </component><component loc="21:/opt/tinyos-2.x-contrib/diku/common/lib/simplemac/SimpleMacM.nc" nicename="SimpleMacM" qname="SimpleMacM">
@@ -234,20 +234,20 @@
       <configuration/>
       <wiring>
         <wire loc="72:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="Boot" ref="0x2b7153c90da8" scoped=""/></from>
-          <to><interface-ref name="Boot" ref="0x2b7153dce550" scoped=""/></to>
+          <from><interface-ref name="Boot" ref="0x2af44122fda8" scoped=""/></from>
+          <to><interface-ref name="Boot" ref="0x2af44136d550" scoped=""/></to>
         </wire>
         <wire loc="67:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="Scheduler" ref="0x2b7153dceb88" scoped=""/></from>
-          <to><interface-ref name="Scheduler" ref="0x2b7153bac080" scoped=""/></to>
+          <from><interface-ref name="Scheduler" ref="0x2af44136db88" scoped=""/></from>
+          <to><interface-ref name="Scheduler" ref="0x2af44114b080" scoped=""/></to>
         </wire>
         <wire loc="68:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="PlatformInit" ref="0x2b7153dcd6a8" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b7153c8b020" scoped=""/></to>
+          <from><interface-ref name="PlatformInit" ref="0x2af44136c6a8" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2af44122a020" scoped=""/></to>
         </wire>
         <wire loc="71:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="SoftwareInit" ref="0x2b7153dcdd70" scoped=""/></from>
-          <to><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></to>
+          <from><interface-ref name="SoftwareInit" ref="0x2af44136cd70" scoped=""/></from>
+          <to><interface-ref name="SoftwareInit" ref="0x2af44122b210" scoped=""/></to>
         </wire>
       </wiring>
     </component></referenced></component>

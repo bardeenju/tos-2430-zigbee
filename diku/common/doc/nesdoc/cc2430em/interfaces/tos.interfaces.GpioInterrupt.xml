@@ -10,7 +10,7 @@
  Provides a microcontroller-independent presentation of interrupts
 </long>
       </documentation>
-      <function event="" loc="68:/opt/tinyos-2.1.2/tos/interfaces/GpioInterrupt.nc" name="fired" provided="0" ref="0x2b71541bc488">
+      <function event="" loc="68:/opt/tinyos-2.1.2/tos/interfaces/GpioInterrupt.nc" name="fired" provided="0" ref="0x2af441750488">
         <documentation loc="63:/opt/tinyos-2.1.2/tos/interfaces/GpioInterrupt.nc">
           <short>
  Fired when an edge interrupt occurs.</short>
@@ -29,7 +29,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="61:/opt/tinyos-2.1.2/tos/interfaces/GpioInterrupt.nc" name="disable" provided="0" ref="0x2b71541bdce0">
+      <function command="" loc="61:/opt/tinyos-2.1.2/tos/interfaces/GpioInterrupt.nc" name="disable" provided="0" ref="0x2af441751ce0">
         <documentation loc="56:/opt/tinyos-2.1.2/tos/interfaces/GpioInterrupt.nc">
           <short>  
  Diables an edge interrupt or capture interrupt
@@ -44,7 +44,7 @@
         <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+            <typename><typedef-ref name="error_t" ref="0x2af4411575d8"/></typename>
           </type-int>
           <function-parameters>
           </function-parameters>
@@ -52,11 +52,11 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="54:/opt/tinyos-2.1.2/tos/interfaces/GpioInterrupt.nc" name="enableFallingEdge" provided="0" ref="0x2b71541bd5e0">
+      <function command="" loc="54:/opt/tinyos-2.1.2/tos/interfaces/GpioInterrupt.nc" name="enableFallingEdge" provided="0" ref="0x2af4417515e0">
         <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+            <typename><typedef-ref name="error_t" ref="0x2af4411575d8"/></typename>
           </type-int>
           <function-parameters>
           </function-parameters>
@@ -64,7 +64,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="53:/opt/tinyos-2.1.2/tos/interfaces/GpioInterrupt.nc" name="enableRisingEdge" provided="0" ref="0x2b71541c0d48">
+      <function command="" loc="53:/opt/tinyos-2.1.2/tos/interfaces/GpioInterrupt.nc" name="enableRisingEdge" provided="0" ref="0x2af441754d68">
         <documentation loc="45:/opt/tinyos-2.1.2/tos/interfaces/GpioInterrupt.nc">
           <short> 
  Enable an edge based interrupt.</short>
@@ -80,7 +80,7 @@
         <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+            <typename><typedef-ref name="error_t" ref="0x2af4411575d8"/></typename>
           </type-int>
           <function-parameters>
           </function-parameters>

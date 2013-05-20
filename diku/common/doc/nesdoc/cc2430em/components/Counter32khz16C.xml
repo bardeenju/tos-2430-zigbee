@@ -2,49 +2,49 @@
       <configuration/>
       <wiring>
         <wire loc="10:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/Counter32khz16C.nc">
-          <from><interface-ref name="Counter" ref="0x2b7154073550" scoped=""/></from>
-          <to><interface-ref name="Counter" ref="0x2b7153febdf8" scoped=""/></to>
+          <from><interface-ref name="Counter" ref="0x2af4415ee550" scoped=""/></from>
+          <to><interface-ref name="Counter" ref="0x2af44156cdf8" scoped=""/></to>
         </wire>
       </wiring>
-    <specification><interface loc="5:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/Counter32khz16C.nc" name="Counter" provided="1" ref="0x2b7154073550">
+    <specification><interface loc="5:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/Counter32khz16C.nc" name="Counter" provided="1" ref="0x2af4415ee550">
       <component-ref nicename="Counter32khz16C" qname="Counter32khz16C"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Counter" ref="0x2b7154073550" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Counter" ref="0x2af4415ee550" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.lib.timer.Counter" qname="Counter"/>
         <arguments>
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="T32khz" ref="0x2b7153c96458"/></typename>
+            <typename><typedef-ref name="T32khz" ref="0x2af441235458"/></typename>
           </type-int>
           <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
-            <typename><typedef-ref name="uint16_t" ref="0x2b71532bf4a0"/></typename>
+            <typename><typedef-ref name="uint16_t" ref="0x2af44085e4a0"/></typename>
           </type-int>
         </arguments>
       </instance>
       <interface-functions>
-        <function-ref name="get" ref="0x2b71540723a8" scoped=""/>
-        <function-ref name="clearOverflow" ref="0x2b7154072cb8" scoped=""/>
-        <function-ref name="isOverflowPending" ref="0x2b7154072830" scoped=""/>
-        <function-ref name="overflow" ref="0x2b7154071190" scoped=""/>
+        <function-ref name="get" ref="0x2af44160a3a8" scoped=""/>
+        <function-ref name="clearOverflow" ref="0x2af44160acb8" scoped=""/>
+        <function-ref name="isOverflowPending" ref="0x2af44160a830" scoped=""/>
+        <function-ref name="overflow" ref="0x2af441609190" scoped=""/>
       </interface-functions>
-    </interface></specification><referenced><interface loc="40:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterC.nc" name="Counter" provided="1" ref="0x2b7153febdf8">
+    </interface></specification><referenced><interface loc="40:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterC.nc" name="Counter" provided="1" ref="0x2af44156cdf8">
       <component-ref nicename="HplCC2430Timer1AlarmCounterC" qname="HplCC2430Timer1AlarmCounterC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Counter" ref="0x2b7153febdf8" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Counter" ref="0x2af44156cdf8" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.lib.timer.Counter" qname="Counter"/>
         <arguments>
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="T32khz" ref="0x2b7153c96458"/></typename>
+            <typename><typedef-ref name="T32khz" ref="0x2af441235458"/></typename>
           </type-int>
           <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
-            <typename><typedef-ref name="uint16_t" ref="0x2b71532bf4a0"/></typename>
+            <typename><typedef-ref name="uint16_t" ref="0x2af44085e4a0"/></typename>
           </type-int>
         </arguments>
       </instance>
       <interface-functions>
-        <function-ref name="get" ref="0x2b7153fd3be8" scoped=""/>
-        <function-ref name="clearOverflow" ref="0x2b7153fea548" scoped=""/>
-        <function-ref name="isOverflowPending" ref="0x2b7153fea0c0" scoped=""/>
-        <function-ref name="overflow" ref="0x2b7153fea9d0" scoped=""/>
+        <function-ref name="get" ref="0x2af441570be8" scoped=""/>
+        <function-ref name="clearOverflow" ref="0x2af44156b548" scoped=""/>
+        <function-ref name="isOverflowPending" ref="0x2af44156b0c0" scoped=""/>
+        <function-ref name="overflow" ref="0x2af44156b9d0" scoped=""/>
       </interface-functions>
     </interface><component loc="38:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterC.nc" nicename="HplCC2430Timer1AlarmCounterC" qname="HplCC2430Timer1AlarmCounterC">
       <documentation loc="33:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterC.nc">
@@ -59,46 +59,46 @@
       <configuration/>
       <wiring>
         <wire loc="49:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterC.nc">
-          <from><interface-ref name="Init" ref="0x2b7153fd7648" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b71540688c0" scoped=""/></to>
+          <from><interface-ref name="Init" ref="0x2af441559648" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2af4415e58c0" scoped=""/></to>
         </wire>
         <wire loc="54:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterC.nc">
-          <from><interface-ref name="Counter" ref="0x2b7153febdf8" scoped=""/></from>
-          <to><interface-ref name="Counter" ref="0x2b7153fe3270" scoped=""/></to>
+          <from><interface-ref name="Counter" ref="0x2af44156cdf8" scoped=""/></from>
+          <to><interface-ref name="Counter" ref="0x2af441564270" scoped=""/></to>
         </wire>
         <wire loc="47:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterC.nc">
-          <from><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b71540688c0" scoped=""/></to>
+          <from><interface-ref name="SoftwareInit" ref="0x2af44122b210" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2af4415e58c0" scoped=""/></to>
         </wire>
         <wire loc="51:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterC.nc">
-          <from><interface-ref name="Alarm" ref="0x2b7153fe9670" scoped=""/>
+          <from><interface-ref name="Alarm" ref="0x2af44156a670" scoped=""/>
           <arguments>
             <value cst="I:0">
               <type-int alignment="I:4" cname="int" size="I:4"/>
             </value>
           </arguments>
           </from>
-          <to><interface-ref name="Alarm0" ref="0x2b7154056450" scoped=""/></to>
+          <to><interface-ref name="Alarm0" ref="0x2af4415d4450" scoped=""/></to>
         </wire>
         <wire loc="52:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterC.nc">
-          <from><interface-ref name="Alarm" ref="0x2b7153fe9670" scoped=""/>
+          <from><interface-ref name="Alarm" ref="0x2af44156a670" scoped=""/>
           <arguments>
             <value cst="I:1">
               <type-int alignment="I:4" cname="int" size="I:4"/>
             </value>
           </arguments>
           </from>
-          <to><interface-ref name="Alarm1" ref="0x2b7154053688" scoped=""/></to>
+          <to><interface-ref name="Alarm1" ref="0x2af4415ed688" scoped=""/></to>
         </wire>
         <wire loc="53:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterC.nc">
-          <from><interface-ref name="Alarm" ref="0x2b7153fe9670" scoped=""/>
+          <from><interface-ref name="Alarm" ref="0x2af44156a670" scoped=""/>
           <arguments>
             <value cst="I:2">
               <type-int alignment="I:4" cname="int" size="I:4"/>
             </value>
           </arguments>
           </from>
-          <to><interface-ref name="Alarm2" ref="0x2b715404f7f8" scoped=""/></to>
+          <to><interface-ref name="Alarm2" ref="0x2af4415e97f8" scoped=""/></to>
         </wire>
       </wiring>
     </component></referenced></component>

@@ -9,64 +9,64 @@
 </long>
       </documentation>
       <module/>
-    <specification><interface loc="41:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" name="CaptureSFD" provided="1" ref="0x2b7154282da8">
+    <specification><interface loc="41:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" name="CaptureSFD" provided="1" ref="0x2af441813da8">
       <component-ref nicename="HplCC2430InterruptsC" qname="HplCC2430InterruptsC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="CaptureSFD" ref="0x2b7154282da8" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="CaptureSFD" ref="0x2af441813da8" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GpioCapture" qname="GpioCapture"/>
       </instance>
       <interface-functions>
-        <function-ref name="captureFallingEdge" ref="0x2b7154286170" scoped=""/>
-        <function-ref name="disable" ref="0x2b71542862f8" scoped=""/>
-        <function-ref name="captured" ref="0x2b7154286480" scoped=""/>
-        <function-ref name="captureRisingEdge" ref="0x2b7154286608" scoped=""/>
+        <function-ref name="captureFallingEdge" ref="0x2af441816170" scoped=""/>
+        <function-ref name="disable" ref="0x2af4418162f8" scoped=""/>
+        <function-ref name="captured" ref="0x2af441816480" scoped=""/>
+        <function-ref name="captureRisingEdge" ref="0x2af441816608" scoped=""/>
       </interface-functions>
-    </interface><interface loc="45:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" name="InterruptRFErr" provided="1" ref="0x2b7154280020">
+    </interface><interface loc="45:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" name="InterruptRFErr" provided="1" ref="0x2af441810020">
       <component-ref nicename="HplCC2430InterruptsC" qname="HplCC2430InterruptsC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptRFErr" ref="0x2b7154280020" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptRFErr" ref="0x2af441810020" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
       </instance>
       <interface-functions>
-        <function-ref name="fired" ref="0x2b7154280370" scoped=""/>
-        <function-ref name="disable" ref="0x2b71542804f8" scoped=""/>
-        <function-ref name="enableFallingEdge" ref="0x2b7154280680" scoped=""/>
-        <function-ref name="enableRisingEdge" ref="0x2b7154280808" scoped=""/>
+        <function-ref name="fired" ref="0x2af441810370" scoped=""/>
+        <function-ref name="disable" ref="0x2af4418104f8" scoped=""/>
+        <function-ref name="enableFallingEdge" ref="0x2af441810680" scoped=""/>
+        <function-ref name="enableRisingEdge" ref="0x2af441810808" scoped=""/>
       </interface-functions>
-    </interface><interface loc="42:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" name="InterruptTXDone" provided="1" ref="0x2b71542869f0">
+    </interface><interface loc="42:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" name="InterruptTXDone" provided="1" ref="0x2af4418169f0">
       <component-ref nicename="HplCC2430InterruptsC" qname="HplCC2430InterruptsC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptTXDone" ref="0x2b71542869f0" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptTXDone" ref="0x2af4418169f0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
       </instance>
       <interface-functions>
-        <function-ref name="fired" ref="0x2b7154286d40" scoped=""/>
-        <function-ref name="disable" ref="0x2b7154285020" scoped=""/>
-        <function-ref name="enableFallingEdge" ref="0x2b71542851a8" scoped=""/>
-        <function-ref name="enableRisingEdge" ref="0x2b7154285330" scoped=""/>
+        <function-ref name="fired" ref="0x2af441816d40" scoped=""/>
+        <function-ref name="disable" ref="0x2af441815020" scoped=""/>
+        <function-ref name="enableFallingEdge" ref="0x2af4418151a8" scoped=""/>
+        <function-ref name="enableRisingEdge" ref="0x2af441815330" scoped=""/>
       </interface-functions>
-    </interface><interface loc="43:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" name="InterruptCCA" provided="1" ref="0x2b7154285700">
+    </interface><interface loc="43:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" name="InterruptCCA" provided="1" ref="0x2af441815700">
       <component-ref nicename="HplCC2430InterruptsC" qname="HplCC2430InterruptsC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptCCA" ref="0x2b7154285700" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptCCA" ref="0x2af441815700" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
       </instance>
       <interface-functions>
-        <function-ref name="fired" ref="0x2b7154285a50" scoped=""/>
-        <function-ref name="disable" ref="0x2b7154285bd8" scoped=""/>
-        <function-ref name="enableFallingEdge" ref="0x2b7154285d60" scoped=""/>
-        <function-ref name="enableRisingEdge" ref="0x2b7154281020" scoped=""/>
+        <function-ref name="fired" ref="0x2af441815a50" scoped=""/>
+        <function-ref name="disable" ref="0x2af441815bd8" scoped=""/>
+        <function-ref name="enableFallingEdge" ref="0x2af441815d60" scoped=""/>
+        <function-ref name="enableRisingEdge" ref="0x2af441811020" scoped=""/>
       </interface-functions>
-    </interface><interface loc="44:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" name="InterruptFIFOP" provided="1" ref="0x2b7154281400">
+    </interface><interface loc="44:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" name="InterruptFIFOP" provided="1" ref="0x2af441811400">
       <component-ref nicename="HplCC2430InterruptsC" qname="HplCC2430InterruptsC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptFIFOP" ref="0x2b7154281400" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptFIFOP" ref="0x2af441811400" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
       </instance>
       <interface-functions>
-        <function-ref name="fired" ref="0x2b7154281750" scoped=""/>
-        <function-ref name="disable" ref="0x2b71542818d8" scoped=""/>
-        <function-ref name="enableFallingEdge" ref="0x2b7154281a60" scoped=""/>
-        <function-ref name="enableRisingEdge" ref="0x2b7154281be8" scoped=""/>
+        <function-ref name="fired" ref="0x2af441811750" scoped=""/>
+        <function-ref name="disable" ref="0x2af4418118d8" scoped=""/>
+        <function-ref name="enableFallingEdge" ref="0x2af441811a60" scoped=""/>
+        <function-ref name="enableRisingEdge" ref="0x2af441811be8" scoped=""/>
       </interface-functions>
     </interface></specification><referenced/></component>

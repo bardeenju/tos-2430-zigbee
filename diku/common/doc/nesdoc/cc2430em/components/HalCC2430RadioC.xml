@@ -11,235 +11,235 @@
       <configuration/>
       <wiring>
         <wire loc="55:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc">
-          <from><interface-ref name="HALCC2420Control" ref="0x2b71541c7020" scoped=""/></from>
-          <to><interface-ref name="HALCC2420Control" ref="0x2b71541c14b8" scoped=""/></to>
+          <from><interface-ref name="HALCC2420Control" ref="0x2af44173a020" scoped=""/></from>
+          <to><interface-ref name="HALCC2420Control" ref="0x2af441756168" scoped=""/></to>
         </wire>
         <wire loc="54:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc">
-          <from><interface-ref name="HALCC2420" ref="0x2b71541c9270" scoped=""/></from>
-          <to><interface-ref name="HALCC2420" ref="0x2b71541c5800" scoped=""/></to>
+          <from><interface-ref name="HALCC2420" ref="0x2af44173c270" scoped=""/></from>
+          <to><interface-ref name="HALCC2420" ref="0x2af441736390" scoped=""/></to>
         </wire>
         <wire loc="47:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc">
-          <from><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b71541c1c08" scoped=""/></to>
+          <from><interface-ref name="SoftwareInit" ref="0x2af44122b210" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2af4417568b8" scoped=""/></to>
         </wire>
         <wire loc="50:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc">
-          <from><interface-ref name="InterruptTXDone" ref="0x2b71541bc8a8" scoped=""/></from>
-          <to><interface-ref name="InterruptTXDone" ref="0x2b71542869f0" scoped=""/></to>
+          <from><interface-ref name="InterruptTXDone" ref="0x2af4417508a8" scoped=""/></from>
+          <to><interface-ref name="InterruptTXDone" ref="0x2af4418169f0" scoped=""/></to>
         </wire>
         <wire loc="51:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc">
-          <from><interface-ref name="InterruptFIFOP" ref="0x2b71541bf548" scoped=""/></from>
-          <to><interface-ref name="InterruptFIFOP" ref="0x2b7154281400" scoped=""/></to>
+          <from><interface-ref name="InterruptFIFOP" ref="0x2af441753548" scoped=""/></from>
+          <to><interface-ref name="InterruptFIFOP" ref="0x2af441811400" scoped=""/></to>
         </wire>
         <wire loc="52:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc">
-          <from><interface-ref name="InterruptRFErr" ref="0x2b71541be150" scoped=""/></from>
-          <to><interface-ref name="InterruptRFErr" ref="0x2b7154280020" scoped=""/></to>
+          <from><interface-ref name="InterruptRFErr" ref="0x2af441752150" scoped=""/></from>
+          <to><interface-ref name="InterruptRFErr" ref="0x2af441810020" scoped=""/></to>
         </wire>
         <wire loc="58:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc">
-          <from><interface-ref name="StdOut" ref="0x2b71541bebc0" scoped=""/></from>
-          <to><interface-ref name="StdOut" ref="0x2b71542bfca0" scoped=""/></to>
+          <from><interface-ref name="StdOut" ref="0x2af441752bc0" scoped=""/></from>
+          <to><interface-ref name="StdOut" ref="0x2af44184fca0" scoped=""/></to>
         </wire>
       </wiring>
-    <specification><interface loc="41:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc" name="HALCC2420Control" provided="1" ref="0x2b71541c7020">
+    <specification><interface loc="41:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc" name="HALCC2420Control" provided="1" ref="0x2af44173a020">
       <component-ref nicename="HalCC2430RadioC" qname="HalCC2430RadioC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420Control" ref="0x2b71541c7020" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420Control" ref="0x2af44173a020" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
       </instance>
       <interface-functions>
-        <function-ref name="start" ref="0x2b71541c7370" scoped=""/>
-        <function-ref name="stop" ref="0x2b71541c74f8" scoped=""/>
+        <function-ref name="start" ref="0x2af44173a370" scoped=""/>
+        <function-ref name="stop" ref="0x2af44173a4f8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="40:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc" name="HALCC2420" provided="1" ref="0x2b71541c9270">
+    </interface><interface loc="40:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioC.nc" name="HALCC2420" provided="1" ref="0x2af44173c270">
       <component-ref nicename="HalCC2430RadioC" qname="HalCC2430RadioC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420" ref="0x2b71541c9270" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420" ref="0x2af44173c270" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
       </instance>
       <interface-functions>
-        <function-ref name="rxDisable" ref="0x2b71541c95c0" scoped=""/>
-        <function-ref name="getAddress" ref="0x2b71541c9748" scoped=""/>
-        <function-ref name="getExtAddress" ref="0x2b71541c98d0" scoped=""/>
-        <function-ref name="getPanAddress" ref="0x2b71541c9a58" scoped=""/>
-        <function-ref name="setChannel" ref="0x2b71541c9be0" scoped=""/>
-        <function-ref name="sendPacket" ref="0x2b71541c9d68" scoped=""/>
-        <function-ref name="addressFilterDisable" ref="0x2b71541c8020" scoped=""/>
-        <function-ref name="sendPacketDone" ref="0x2b71541c81a8" scoped=""/>
-        <function-ref name="receivedPacket" ref="0x2b71541c8330" scoped=""/>
-        <function-ref name="setAddress" ref="0x2b71541c84b8" scoped=""/>
-        <function-ref name="addressFilterEnable" ref="0x2b71541c8640" scoped=""/>
-        <function-ref name="rxEnable" ref="0x2b71541c87c8" scoped=""/>
-        <function-ref name="setTransmitPower" ref="0x2b71541c8950" scoped=""/>
-        <function-ref name="setPanAddress" ref="0x2b71541c8bd8" scoped=""/>
+        <function-ref name="rxDisable" ref="0x2af44173c5c0" scoped=""/>
+        <function-ref name="getAddress" ref="0x2af44173c748" scoped=""/>
+        <function-ref name="getExtAddress" ref="0x2af44173c8d0" scoped=""/>
+        <function-ref name="getPanAddress" ref="0x2af44173ca58" scoped=""/>
+        <function-ref name="setChannel" ref="0x2af44173cbe0" scoped=""/>
+        <function-ref name="sendPacket" ref="0x2af44173cd68" scoped=""/>
+        <function-ref name="addressFilterDisable" ref="0x2af44173b020" scoped=""/>
+        <function-ref name="sendPacketDone" ref="0x2af44173b1a8" scoped=""/>
+        <function-ref name="receivedPacket" ref="0x2af44173b330" scoped=""/>
+        <function-ref name="setAddress" ref="0x2af44173b4b8" scoped=""/>
+        <function-ref name="addressFilterEnable" ref="0x2af44173b640" scoped=""/>
+        <function-ref name="rxEnable" ref="0x2af44173b7c8" scoped=""/>
+        <function-ref name="setTransmitPower" ref="0x2af44173b950" scoped=""/>
+        <function-ref name="setPanAddress" ref="0x2af44173bbd8" scoped=""/>
       </interface-functions>
-    </interface></specification><referenced><interface loc="51:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc" name="InterruptRFErr" provided="0" ref="0x2b71541be150">
+    </interface></specification><referenced><interface loc="44:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc" name="HALCC2420" provided="1" ref="0x2af441736390">
       <component-ref nicename="HalCC2430RadioP" qname="HalCC2430RadioP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptRFErr" ref="0x2b71541be150" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="fired" ref="0x2b71541be4a0" scoped=""/>
-        <function-ref name="disable" ref="0x2b71541be628" scoped=""/>
-        <function-ref name="enableFallingEdge" ref="0x2b71541be7b0" scoped=""/>
-        <function-ref name="enableRisingEdge" ref="0x2b71541be938" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="44:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc" name="HALCC2420" provided="1" ref="0x2b71541c5800">
-      <component-ref nicename="HalCC2430RadioP" qname="HalCC2430RadioP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420" ref="0x2b71541c5800" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420" ref="0x2af441736390" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="HALCC2420" qname="HALCC2420"/>
       </instance>
       <interface-functions>
-        <function-ref name="rxDisable" ref="0x2b71541c5b50" scoped=""/>
-        <function-ref name="getAddress" ref="0x2b71541c5cd8" scoped=""/>
-        <function-ref name="getExtAddress" ref="0x2b71541c5e60" scoped=""/>
-        <function-ref name="getPanAddress" ref="0x2b71541c2020" scoped=""/>
-        <function-ref name="setChannel" ref="0x2b71541c21a8" scoped=""/>
-        <function-ref name="sendPacket" ref="0x2b71541c2330" scoped=""/>
-        <function-ref name="addressFilterDisable" ref="0x2b71541c24b8" scoped=""/>
-        <function-ref name="sendPacketDone" ref="0x2b71541c2640" scoped=""/>
-        <function-ref name="receivedPacket" ref="0x2b71541c27c8" scoped=""/>
-        <function-ref name="setAddress" ref="0x2b71541c2950" scoped=""/>
-        <function-ref name="addressFilterEnable" ref="0x2b71541c2ad8" scoped=""/>
-        <function-ref name="rxEnable" ref="0x2b71541c2c60" scoped=""/>
-        <function-ref name="setTransmitPower" ref="0x2b71541c2de8" scoped=""/>
-        <function-ref name="setPanAddress" ref="0x2b71541c1120" scoped=""/>
+        <function-ref name="rxDisable" ref="0x2af4417366e0" scoped=""/>
+        <function-ref name="getAddress" ref="0x2af441736868" scoped=""/>
+        <function-ref name="getExtAddress" ref="0x2af4417369f0" scoped=""/>
+        <function-ref name="getPanAddress" ref="0x2af441736b78" scoped=""/>
+        <function-ref name="setChannel" ref="0x2af441736d00" scoped=""/>
+        <function-ref name="sendPacket" ref="0x2af441757020" scoped=""/>
+        <function-ref name="addressFilterDisable" ref="0x2af4417571a8" scoped=""/>
+        <function-ref name="sendPacketDone" ref="0x2af441757330" scoped=""/>
+        <function-ref name="receivedPacket" ref="0x2af4417574b8" scoped=""/>
+        <function-ref name="setAddress" ref="0x2af441757640" scoped=""/>
+        <function-ref name="addressFilterEnable" ref="0x2af4417577c8" scoped=""/>
+        <function-ref name="rxEnable" ref="0x2af441757950" scoped=""/>
+        <function-ref name="setTransmitPower" ref="0x2af441757ad8" scoped=""/>
+        <function-ref name="setPanAddress" ref="0x2af441757d60" scoped=""/>
       </interface-functions>
-    </interface><interface loc="46:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc" name="Init" provided="1" ref="0x2b71541c1c08">
-      <component-ref nicename="HalCC2430RadioP" qname="HalCC2430RadioP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b71541c1c08" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="init" ref="0x2b71541c0020" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="45:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" name="InterruptRFErr" provided="1" ref="0x2b7154280020">
+    </interface><interface loc="44:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" name="InterruptFIFOP" provided="1" ref="0x2af441811400">
       <component-ref nicename="HplCC2430InterruptsC" qname="HplCC2430InterruptsC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptRFErr" ref="0x2b7154280020" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptFIFOP" ref="0x2af441811400" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
       </instance>
       <interface-functions>
-        <function-ref name="fired" ref="0x2b7154280370" scoped=""/>
-        <function-ref name="disable" ref="0x2b71542804f8" scoped=""/>
-        <function-ref name="enableFallingEdge" ref="0x2b7154280680" scoped=""/>
-        <function-ref name="enableRisingEdge" ref="0x2b7154280808" scoped=""/>
+        <function-ref name="fired" ref="0x2af441811750" scoped=""/>
+        <function-ref name="disable" ref="0x2af4418118d8" scoped=""/>
+        <function-ref name="enableFallingEdge" ref="0x2af441811a60" scoped=""/>
+        <function-ref name="enableRisingEdge" ref="0x2af441811be8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="52:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc" name="StdOut" provided="0" ref="0x2b71541bebc0">
+    </interface><interface loc="45:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc" name="HALCC2420Control" provided="1" ref="0x2af441756168">
       <component-ref nicename="HalCC2430RadioP" qname="HalCC2430RadioP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdOut" ref="0x2b71541bebc0" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420Control" ref="0x2af441756168" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="start" ref="0x2af4417564b8" scoped=""/>
+        <function-ref name="stop" ref="0x2af441756640" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="49:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc" name="InterruptTXDone" provided="0" ref="0x2af4417508a8">
+      <component-ref nicename="HalCC2430RadioP" qname="HalCC2430RadioP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptTXDone" ref="0x2af4417508a8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="fired" ref="0x2af441750bf8" scoped=""/>
+        <function-ref name="disable" ref="0x2af441750d80" scoped=""/>
+        <function-ref name="enableFallingEdge" ref="0x2af441753020" scoped=""/>
+        <function-ref name="enableRisingEdge" ref="0x2af4417531a8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="51:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc" name="InterruptRFErr" provided="0" ref="0x2af441752150">
+      <component-ref nicename="HalCC2430RadioP" qname="HalCC2430RadioP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptRFErr" ref="0x2af441752150" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="fired" ref="0x2af4417524a0" scoped=""/>
+        <function-ref name="disable" ref="0x2af441752628" scoped=""/>
+        <function-ref name="enableFallingEdge" ref="0x2af4417527b0" scoped=""/>
+        <function-ref name="enableRisingEdge" ref="0x2af441752938" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="45:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" name="InterruptRFErr" provided="1" ref="0x2af441810020">
+      <component-ref nicename="HplCC2430InterruptsC" qname="HplCC2430InterruptsC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptRFErr" ref="0x2af441810020" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="fired" ref="0x2af441810370" scoped=""/>
+        <function-ref name="disable" ref="0x2af4418104f8" scoped=""/>
+        <function-ref name="enableFallingEdge" ref="0x2af441810680" scoped=""/>
+        <function-ref name="enableRisingEdge" ref="0x2af441810808" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="52:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc" name="StdOut" provided="0" ref="0x2af441752bc0">
+      <component-ref nicename="HalCC2430RadioP" qname="HalCC2430RadioP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdOut" ref="0x2af441752bc0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="StdOut" qname="StdOut"/>
       </instance>
       <interface-functions>
-        <function-ref name="dumpHex" ref="0x2b71541bb020" scoped=""/>
-        <function-ref name="printBase2" ref="0x2b71541bb1a8" scoped=""/>
-        <function-ref name="printBase10uint16" ref="0x2b71541bb330" scoped=""/>
-        <function-ref name="printHexword" ref="0x2b71541bb4b8" scoped=""/>
-        <function-ref name="printBase10uint32" ref="0x2b71541bb640" scoped=""/>
-        <function-ref name="get" ref="0x2b71541bb7c8" scoped=""/>
-        <function-ref name="printBase10uint8" ref="0x2b71541bb950" scoped=""/>
-        <function-ref name="printBase2long" ref="0x2b71541bbad8" scoped=""/>
-        <function-ref name="printHexlong" ref="0x2b71541bbc60" scoped=""/>
-        <function-ref name="printBase2word" ref="0x2b71541bbde8" scoped=""/>
-        <function-ref name="printBase10int8" ref="0x2b71541ba020" scoped=""/>
-        <function-ref name="print" ref="0x2b71541ba1a8" scoped=""/>
-        <function-ref name="done" ref="0x2b71541ba330" scoped=""/>
-        <function-ref name="printHex" ref="0x2b71541ba5b8" scoped=""/>
-        <function-ref name="printBase10int16" ref="0x2b71541ba740" scoped=""/>
-        <function-ref name="printBase10int32" ref="0x2b71541ba8c8" scoped=""/>
+        <function-ref name="dumpHex" ref="0x2af44174f020" scoped=""/>
+        <function-ref name="printBase2" ref="0x2af44174f1a8" scoped=""/>
+        <function-ref name="printBase10uint16" ref="0x2af44174f330" scoped=""/>
+        <function-ref name="printHexword" ref="0x2af44174f4b8" scoped=""/>
+        <function-ref name="printBase10uint32" ref="0x2af44174f640" scoped=""/>
+        <function-ref name="get" ref="0x2af44174f7c8" scoped=""/>
+        <function-ref name="printBase10uint8" ref="0x2af44174f950" scoped=""/>
+        <function-ref name="printBase2long" ref="0x2af44174fad8" scoped=""/>
+        <function-ref name="printHexlong" ref="0x2af44174fc60" scoped=""/>
+        <function-ref name="printBase2word" ref="0x2af44174fde8" scoped=""/>
+        <function-ref name="printBase10int8" ref="0x2af44174e020" scoped=""/>
+        <function-ref name="print" ref="0x2af44174e1a8" scoped=""/>
+        <function-ref name="done" ref="0x2af44174e330" scoped=""/>
+        <function-ref name="printHex" ref="0x2af44174e5b8" scoped=""/>
+        <function-ref name="printBase10int16" ref="0x2af44174e740" scoped=""/>
+        <function-ref name="printBase10int32" ref="0x2af44174e8c8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="49:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc" name="InterruptTXDone" provided="0" ref="0x2b71541bc8a8">
-      <component-ref nicename="HalCC2430RadioP" qname="HalCC2430RadioP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptTXDone" ref="0x2b71541bc8a8" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="fired" ref="0x2b71541bcbf8" scoped=""/>
-        <function-ref name="disable" ref="0x2b71541bcd80" scoped=""/>
-        <function-ref name="enableFallingEdge" ref="0x2b71541bf020" scoped=""/>
-        <function-ref name="enableRisingEdge" ref="0x2b71541bf1a8" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="44:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" name="InterruptFIFOP" provided="1" ref="0x2b7154281400">
-      <component-ref nicename="HplCC2430InterruptsC" qname="HplCC2430InterruptsC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptFIFOP" ref="0x2b7154281400" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="fired" ref="0x2b7154281750" scoped=""/>
-        <function-ref name="disable" ref="0x2b71542818d8" scoped=""/>
-        <function-ref name="enableFallingEdge" ref="0x2b7154281a60" scoped=""/>
-        <function-ref name="enableRisingEdge" ref="0x2b7154281be8" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="58:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="SoftwareInit" provided="0" ref="0x2b7153c8c210">
+    </interface><interface loc="58:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="SoftwareInit" provided="0" ref="0x2af44122b210">
       <component-ref nicename="tos.system.MainC" qname="MainC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="SoftwareInit" ref="0x2af44122b210" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b7153c8c560" scoped=""/>
+        <function-ref name="init" ref="0x2af44122b560" scoped=""/>
       </interface-functions>
-    </interface><interface loc="27:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutC.nc" name="StdOut" provided="1" ref="0x2b71542bfca0">
+    </interface><interface loc="50:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc" name="InterruptFIFOP" provided="0" ref="0x2af441753548">
+      <component-ref nicename="HalCC2430RadioP" qname="HalCC2430RadioP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptFIFOP" ref="0x2af441753548" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="fired" ref="0x2af441753898" scoped=""/>
+        <function-ref name="disable" ref="0x2af441753a20" scoped=""/>
+        <function-ref name="enableFallingEdge" ref="0x2af441753ba8" scoped=""/>
+        <function-ref name="enableRisingEdge" ref="0x2af441753d30" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="27:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutC.nc" name="StdOut" provided="1" ref="0x2af44184fca0">
       <component-ref nicename="StdOutC" qname="StdOutC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdOut" ref="0x2b71542bfca0" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdOut" ref="0x2af44184fca0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="StdOut" qname="StdOut"/>
       </instance>
       <interface-functions>
-        <function-ref name="dumpHex" ref="0x2b71542bc020" scoped=""/>
-        <function-ref name="printBase2" ref="0x2b71542bc1a8" scoped=""/>
-        <function-ref name="printBase10uint16" ref="0x2b71542bc330" scoped=""/>
-        <function-ref name="printHexword" ref="0x2b71542bc4b8" scoped=""/>
-        <function-ref name="printBase10uint32" ref="0x2b71542bc640" scoped=""/>
-        <function-ref name="get" ref="0x2b71542bc7c8" scoped=""/>
-        <function-ref name="printBase10uint8" ref="0x2b71542bc950" scoped=""/>
-        <function-ref name="printBase2long" ref="0x2b71542bcad8" scoped=""/>
-        <function-ref name="printHexlong" ref="0x2b71542bcc60" scoped=""/>
-        <function-ref name="printBase2word" ref="0x2b71542bcde8" scoped=""/>
-        <function-ref name="printBase10int8" ref="0x2b71542bb020" scoped=""/>
-        <function-ref name="print" ref="0x2b71542bb1a8" scoped=""/>
-        <function-ref name="done" ref="0x2b71542bb330" scoped=""/>
-        <function-ref name="printHex" ref="0x2b71542bb5b8" scoped=""/>
-        <function-ref name="printBase10int16" ref="0x2b71542bb740" scoped=""/>
-        <function-ref name="printBase10int32" ref="0x2b71542bb8c8" scoped=""/>
+        <function-ref name="dumpHex" ref="0x2af44184c020" scoped=""/>
+        <function-ref name="printBase2" ref="0x2af44184c1a8" scoped=""/>
+        <function-ref name="printBase10uint16" ref="0x2af44184c330" scoped=""/>
+        <function-ref name="printHexword" ref="0x2af44184c4b8" scoped=""/>
+        <function-ref name="printBase10uint32" ref="0x2af44184c640" scoped=""/>
+        <function-ref name="get" ref="0x2af44184c7c8" scoped=""/>
+        <function-ref name="printBase10uint8" ref="0x2af44184c950" scoped=""/>
+        <function-ref name="printBase2long" ref="0x2af44184cad8" scoped=""/>
+        <function-ref name="printHexlong" ref="0x2af44184cc60" scoped=""/>
+        <function-ref name="printBase2word" ref="0x2af44184cde8" scoped=""/>
+        <function-ref name="printBase10int8" ref="0x2af44184b020" scoped=""/>
+        <function-ref name="print" ref="0x2af44184b1a8" scoped=""/>
+        <function-ref name="done" ref="0x2af44184b330" scoped=""/>
+        <function-ref name="printHex" ref="0x2af44184b5b8" scoped=""/>
+        <function-ref name="printBase10int16" ref="0x2af44184b740" scoped=""/>
+        <function-ref name="printBase10int32" ref="0x2af44184b8c8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="45:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc" name="HALCC2420Control" provided="1" ref="0x2b71541c14b8">
-      <component-ref nicename="HalCC2430RadioP" qname="HalCC2430RadioP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="HALCC2420Control" ref="0x2b71541c14b8" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="start" ref="0x2b71541c1808" scoped=""/>
-        <function-ref name="stop" ref="0x2b71541c1990" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="42:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" name="InterruptTXDone" provided="1" ref="0x2b71542869f0">
+    </interface><interface loc="42:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" name="InterruptTXDone" provided="1" ref="0x2af4418169f0">
       <component-ref nicename="HplCC2430InterruptsC" qname="HplCC2430InterruptsC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptTXDone" ref="0x2b71542869f0" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptTXDone" ref="0x2af4418169f0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
       </instance>
       <interface-functions>
-        <function-ref name="fired" ref="0x2b7154286d40" scoped=""/>
-        <function-ref name="disable" ref="0x2b7154285020" scoped=""/>
-        <function-ref name="enableFallingEdge" ref="0x2b71542851a8" scoped=""/>
-        <function-ref name="enableRisingEdge" ref="0x2b7154285330" scoped=""/>
+        <function-ref name="fired" ref="0x2af441816d40" scoped=""/>
+        <function-ref name="disable" ref="0x2af441815020" scoped=""/>
+        <function-ref name="enableFallingEdge" ref="0x2af4418151a8" scoped=""/>
+        <function-ref name="enableRisingEdge" ref="0x2af441815330" scoped=""/>
       </interface-functions>
-    </interface><interface loc="50:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc" name="InterruptFIFOP" provided="0" ref="0x2b71541bf548">
+    </interface><interface loc="46:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc" name="Init" provided="1" ref="0x2af4417568b8">
       <component-ref nicename="HalCC2430RadioP" qname="HalCC2430RadioP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="InterruptFIFOP" ref="0x2b71541bf548" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2af4417568b8" scoped=""/></type-interface>
       <instance>
-        <interfacedef-ref nicename="tos.interfaces.GpioInterrupt" qname="GpioInterrupt"/>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="fired" ref="0x2b71541bf898" scoped=""/>
-        <function-ref name="disable" ref="0x2b71541bfa20" scoped=""/>
-        <function-ref name="enableFallingEdge" ref="0x2b71541bfba8" scoped=""/>
-        <function-ref name="enableRisingEdge" ref="0x2b71541bfd30" scoped=""/>
+        <function-ref name="init" ref="0x2af441756c08" scoped=""/>
       </interface-functions>
     </interface><component loc="42:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HalCC2430RadioP.nc" nicename="HalCC2430RadioP" qname="HalCC2430RadioP">
       <documentation loc="31:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/CC2430_CSP.h">
@@ -267,20 +267,20 @@
       <configuration/>
       <wiring>
         <wire loc="72:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="Boot" ref="0x2b7153c90da8" scoped=""/></from>
-          <to><interface-ref name="Boot" ref="0x2b7153dce550" scoped=""/></to>
+          <from><interface-ref name="Boot" ref="0x2af44122fda8" scoped=""/></from>
+          <to><interface-ref name="Boot" ref="0x2af44136d550" scoped=""/></to>
         </wire>
         <wire loc="67:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="Scheduler" ref="0x2b7153dceb88" scoped=""/></from>
-          <to><interface-ref name="Scheduler" ref="0x2b7153bac080" scoped=""/></to>
+          <from><interface-ref name="Scheduler" ref="0x2af44136db88" scoped=""/></from>
+          <to><interface-ref name="Scheduler" ref="0x2af44114b080" scoped=""/></to>
         </wire>
         <wire loc="68:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="PlatformInit" ref="0x2b7153dcd6a8" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b7153c8b020" scoped=""/></to>
+          <from><interface-ref name="PlatformInit" ref="0x2af44136c6a8" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2af44122a020" scoped=""/></to>
         </wire>
         <wire loc="71:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="SoftwareInit" ref="0x2b7153dcdd70" scoped=""/></from>
-          <to><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></to>
+          <from><interface-ref name="SoftwareInit" ref="0x2af44136cd70" scoped=""/></from>
+          <to><interface-ref name="SoftwareInit" ref="0x2af44122b210" scoped=""/></to>
         </wire>
       </wiring>
     </component><component loc="39:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/HplCC2430InterruptsC.nc" nicename="HplCC2430InterruptsC" qname="HplCC2430InterruptsC">
@@ -307,16 +307,16 @@
       <configuration/>
       <wiring>
         <wire loc="36:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutC.nc">
-          <from><interface-ref name="StdOut" ref="0x2b71542bfca0" scoped=""/></from>
-          <to><interface-ref name="StdOut" ref="0x2b71542bab08" scoped=""/></to>
+          <from><interface-ref name="StdOut" ref="0x2af44184fca0" scoped=""/></from>
+          <to><interface-ref name="StdOut" ref="0x2af44184ab08" scoped=""/></to>
         </wire>
         <wire loc="33:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutC.nc">
-          <from><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b71542dc9f8" scoped=""/></to>
+          <from><interface-ref name="SoftwareInit" ref="0x2af44122b210" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2af4418469f8" scoped=""/></to>
         </wire>
         <wire loc="37:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutC.nc">
-          <from><interface-ref name="UART" ref="0x2b71542d7210" scoped=""/></from>
-          <to><interface-ref name="SerialByteComm" ref="0x2b71542b9958" scoped=""/></to>
+          <from><interface-ref name="UART" ref="0x2af441867210" scoped=""/></from>
+          <to><interface-ref name="SerialByteComm" ref="0x2af441849958" scoped=""/></to>
         </wire>
       </wiring>
     </component></referenced></component>

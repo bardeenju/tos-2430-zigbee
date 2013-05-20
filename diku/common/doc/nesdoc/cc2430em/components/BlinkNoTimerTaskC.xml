@@ -10,68 +10,68 @@
 </long>
       </documentation>
       <module/>
-    <specification><interface loc="49:BlinkNoTimerTaskC.nc" name="delay" provided="0" ref="0x2aebb6a6dc70">
+    <specification><interface loc="49:BlinkNoTimerTaskC.nc" name="delay" provided="0" ref="0x2b35077b5c70">
       <component-ref nicename="BlinkNoTimerTaskC" qname="BlinkNoTimerTaskC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="delay" ref="0x2aebb6a6dc70" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="delay" ref="0x2b35077b5c70" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
       </instance>
       <interface-functions>
-        <function-ref name="postTask" ref="0x2aebb6a6c020" scoped=""/>
-        <function-ref name="runTask" ref="0x2aebb6a6c1a8" scoped=""/>
+        <function-ref name="postTask" ref="0x2b35077b4020" scoped=""/>
+        <function-ref name="runTask" ref="0x2b35077b41a8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="43:BlinkNoTimerTaskC.nc" name="Led0" provided="0" ref="0x2aebb6a66e30">
+    </interface><interface loc="43:BlinkNoTimerTaskC.nc" name="Led0" provided="0" ref="0x2b35077aee30">
       <component-ref nicename="BlinkNoTimerTaskC" qname="BlinkNoTimerTaskC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Led0" ref="0x2aebb6a66e30" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Led0" ref="0x2b35077aee30" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2aebb6a651a8" scoped=""/>
-        <function-ref name="isInput" ref="0x2aebb6a65330" scoped=""/>
-        <function-ref name="toggle" ref="0x2aebb6a654b8" scoped=""/>
-        <function-ref name="isOutput" ref="0x2aebb6a65640" scoped=""/>
-        <function-ref name="get" ref="0x2aebb6a657c8" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2aebb6a65950" scoped=""/>
-        <function-ref name="set" ref="0x2aebb6a65ad8" scoped=""/>
-        <function-ref name="clr" ref="0x2aebb6a65c60" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077ad1a8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077ad330" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077ad4b8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077ad640" scoped=""/>
+        <function-ref name="get" ref="0x2b35077ad7c8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077ad950" scoped=""/>
+        <function-ref name="set" ref="0x2b35077adad8" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077adc60" scoped=""/>
       </interface-functions>
-    </interface><interface loc="44:BlinkNoTimerTaskC.nc" name="Boot" provided="0" ref="0x2aebb6a6f020">
+    </interface><interface loc="44:BlinkNoTimerTaskC.nc" name="Boot" provided="0" ref="0x2b35077b7020">
       <component-ref nicename="BlinkNoTimerTaskC" qname="BlinkNoTimerTaskC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Boot" ref="0x2aebb6a6f020" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Boot" ref="0x2b35077b7020" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Boot" qname="Boot"/>
       </instance>
       <interface-functions>
-        <function-ref name="booted" ref="0x2aebb6a6f370" scoped=""/>
+        <function-ref name="booted" ref="0x2b35077b7370" scoped=""/>
       </interface-functions>
-    </interface><interface loc="48:BlinkNoTimerTaskC.nc" name="toggle" provided="0" ref="0x2aebb6a6fe60">
+    </interface><interface loc="48:BlinkNoTimerTaskC.nc" name="toggle" provided="0" ref="0x2b35077b7e60">
       <component-ref nicename="BlinkNoTimerTaskC" qname="BlinkNoTimerTaskC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="toggle" ref="0x2aebb6a6fe60" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="toggle" ref="0x2b35077b7e60" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.TaskBasic" qname="TaskBasic"/>
       </instance>
       <interface-functions>
-        <function-ref name="postTask" ref="0x2aebb6a6d1e8" scoped=""/>
-        <function-ref name="runTask" ref="0x2aebb6a6d370" scoped=""/>
+        <function-ref name="postTask" ref="0x2b35077b51e8" scoped=""/>
+        <function-ref name="runTask" ref="0x2b35077b5370" scoped=""/>
       </interface-functions>
-    </interface><interface loc="42:BlinkNoTimerTaskC.nc" name="Leds" provided="0" ref="0x2aebb6a70760">
+    </interface><interface loc="42:BlinkNoTimerTaskC.nc" name="Leds" provided="0" ref="0x2b35077b8760">
       <component-ref nicename="BlinkNoTimerTaskC" qname="BlinkNoTimerTaskC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Leds" ref="0x2aebb6a70760" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Leds" ref="0x2b35077b8760" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
       </instance>
       <interface-functions>
-        <function-ref name="led0Off" ref="0x2aebb6a70ab0" scoped=""/>
-        <function-ref name="led0Toggle" ref="0x2aebb6a70c38" scoped=""/>
-        <function-ref name="led1On" ref="0x2aebb6a70dc0" scoped=""/>
-        <function-ref name="led1Toggle" ref="0x2aebb6a66020" scoped=""/>
-        <function-ref name="led2Toggle" ref="0x2aebb6a661a8" scoped=""/>
-        <function-ref name="get" ref="0x2aebb6a66330" scoped=""/>
-        <function-ref name="led1Off" ref="0x2aebb6a664b8" scoped=""/>
-        <function-ref name="led2Off" ref="0x2aebb6a66ad8" scoped=""/>
-        <function-ref name="set" ref="0x2aebb6a66640" scoped=""/>
-        <function-ref name="led0On" ref="0x2aebb6a667c8" scoped=""/>
-        <function-ref name="led2On" ref="0x2aebb6a66950" scoped=""/>
+        <function-ref name="led0Off" ref="0x2b35077b8ab0" scoped=""/>
+        <function-ref name="led0Toggle" ref="0x2b35077b8c38" scoped=""/>
+        <function-ref name="led1On" ref="0x2b35077b8dc0" scoped=""/>
+        <function-ref name="led1Toggle" ref="0x2b35077ae020" scoped=""/>
+        <function-ref name="led2Toggle" ref="0x2b35077ae1a8" scoped=""/>
+        <function-ref name="get" ref="0x2b35077ae330" scoped=""/>
+        <function-ref name="led1Off" ref="0x2b35077ae4b8" scoped=""/>
+        <function-ref name="led2Off" ref="0x2b35077aead8" scoped=""/>
+        <function-ref name="set" ref="0x2b35077ae640" scoped=""/>
+        <function-ref name="led0On" ref="0x2b35077ae7c8" scoped=""/>
+        <function-ref name="led2On" ref="0x2b35077ae950" scoped=""/>
       </interface-functions>
     </interface></specification><referenced/></component>

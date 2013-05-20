@@ -10,100 +10,100 @@
 </short>
       </documentation>
       <parameters>
-        <typedef loc="47:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterP.nc" name="frequency" ref="0x2b7153fe22d0">
+        <typedef loc="47:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterP.nc" name="frequency" ref="0x2af44157d2d0">
           <component-ref nicename="HplCC2430Timer1AlarmCounterP" qname="HplCC2430Timer1AlarmCounterP"/>
-          <type-var alignment="U:" size="U:"><typedef-ref name="frequency" ref="0x2b7153fe22d0" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="frequency" ref="0x2af44157d2d0" scoped=""/></type-var>
         </typedef>
       </parameters>
       <module/>
-    <specification><interface loc="51:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterP.nc" name="Alarm2" provided="1" ref="0x2b7153ff23c8">
+    <specification><interface loc="51:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterP.nc" name="Alarm2" provided="1" ref="0x2af4415713c8">
       <component-ref nicename="HplCC2430Timer1AlarmCounterP" qname="HplCC2430Timer1AlarmCounterP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Alarm2" ref="0x2b7153ff23c8" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Alarm2" ref="0x2af4415713c8" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
         <arguments>
-          <type-var alignment="U:" size="U:"><typedef-ref name="frequency" ref="0x2b7153fe22d0" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="frequency" ref="0x2af44157d2d0" scoped=""/></type-var>
           <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
-            <typename><typedef-ref name="uint16_t" ref="0x2b71532bf4a0"/></typename>
+            <typename><typedef-ref name="uint16_t" ref="0x2af44085e4a0"/></typename>
           </type-int>
         </arguments>
       </instance>
       <interface-functions>
-        <function-ref name="getNow" ref="0x2b7153fefab0" scoped=""/>
-        <function-ref name="fired" ref="0x2b7153ff1ab0" scoped=""/>
-        <function-ref name="startAt" ref="0x2b7153fef4a8" scoped=""/>
-        <function-ref name="isRunning" ref="0x2b7153fef020" scoped=""/>
-        <function-ref name="getAlarm" ref="0x2b7153fee020" scoped=""/>
-        <function-ref name="start" ref="0x2b7153ff1150" scoped=""/>
-        <function-ref name="stop" ref="0x2b7153ff1628" scoped=""/>
+        <function-ref name="getNow" ref="0x2af441589ab0" scoped=""/>
+        <function-ref name="fired" ref="0x2af44158bab0" scoped=""/>
+        <function-ref name="startAt" ref="0x2af4415894a8" scoped=""/>
+        <function-ref name="isRunning" ref="0x2af441589020" scoped=""/>
+        <function-ref name="getAlarm" ref="0x2af441588020" scoped=""/>
+        <function-ref name="start" ref="0x2af44158b150" scoped=""/>
+        <function-ref name="stop" ref="0x2af44158b628" scoped=""/>
       </interface-functions>
-    </interface><interface loc="49:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterP.nc" name="Alarm0" provided="1" ref="0x2b7153fdfdb0">
+    </interface><interface loc="49:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterP.nc" name="Alarm0" provided="1" ref="0x2af44157adb0">
       <component-ref nicename="HplCC2430Timer1AlarmCounterP" qname="HplCC2430Timer1AlarmCounterP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Alarm0" ref="0x2b7153fdfdb0" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Alarm0" ref="0x2af44157adb0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
         <arguments>
-          <type-var alignment="U:" size="U:"><typedef-ref name="frequency" ref="0x2b7153fe22d0" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="frequency" ref="0x2af44157d2d0" scoped=""/></type-var>
           <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
-            <typename><typedef-ref name="uint16_t" ref="0x2b71532bf4a0"/></typename>
+            <typename><typedef-ref name="uint16_t" ref="0x2af44085e4a0"/></typename>
           </type-int>
         </arguments>
       </instance>
       <interface-functions>
-        <function-ref name="getNow" ref="0x2b7153ff7470" scoped=""/>
-        <function-ref name="fired" ref="0x2b7153ff9510" scoped=""/>
-        <function-ref name="startAt" ref="0x2b7153ff9e20" scoped=""/>
-        <function-ref name="isRunning" ref="0x2b7153ff9998" scoped=""/>
-        <function-ref name="getAlarm" ref="0x2b7153ff78f8" scoped=""/>
-        <function-ref name="start" ref="0x2b7153ffab38" scoped=""/>
-        <function-ref name="stop" ref="0x2b7153ff9088" scoped=""/>
+        <function-ref name="getNow" ref="0x2af441576470" scoped=""/>
+        <function-ref name="fired" ref="0x2af441578510" scoped=""/>
+        <function-ref name="startAt" ref="0x2af441578e20" scoped=""/>
+        <function-ref name="isRunning" ref="0x2af441578998" scoped=""/>
+        <function-ref name="getAlarm" ref="0x2af4415768f8" scoped=""/>
+        <function-ref name="start" ref="0x2af441579b38" scoped=""/>
+        <function-ref name="stop" ref="0x2af441578088" scoped=""/>
       </interface-functions>
-    </interface><interface loc="52:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterP.nc" name="Init" provided="1" ref="0x2b7153fee468">
+    </interface><interface loc="52:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterP.nc" name="Init" provided="1" ref="0x2af441588468">
       <component-ref nicename="HplCC2430Timer1AlarmCounterP" qname="HplCC2430Timer1AlarmCounterP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b7153fee468" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2af441588468" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b7153fee7b8" scoped=""/>
+        <function-ref name="init" ref="0x2af4415887b8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="48:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterP.nc" name="Counter" provided="1" ref="0x2b7153fe2a78">
+    </interface><interface loc="48:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterP.nc" name="Counter" provided="1" ref="0x2af44157da78">
       <component-ref nicename="HplCC2430Timer1AlarmCounterP" qname="HplCC2430Timer1AlarmCounterP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Counter" ref="0x2b7153fe2a78" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Counter" ref="0x2af44157da78" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.lib.timer.Counter" qname="Counter"/>
         <arguments>
-          <type-var alignment="U:" size="U:"><typedef-ref name="frequency" ref="0x2b7153fe22d0" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="frequency" ref="0x2af44157d2d0" scoped=""/></type-var>
           <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
-            <typename><typedef-ref name="uint16_t" ref="0x2b71532bf4a0"/></typename>
+            <typename><typedef-ref name="uint16_t" ref="0x2af44085e4a0"/></typename>
           </type-int>
         </arguments>
       </instance>
       <interface-functions>
-        <function-ref name="get" ref="0x2b7153fe0828" scoped=""/>
-        <function-ref name="clearOverflow" ref="0x2b7153fdf190" scoped=""/>
-        <function-ref name="isOverflowPending" ref="0x2b7153fe0cb0" scoped=""/>
-        <function-ref name="overflow" ref="0x2b7153fdf618" scoped=""/>
+        <function-ref name="get" ref="0x2af44157b828" scoped=""/>
+        <function-ref name="clearOverflow" ref="0x2af44157a190" scoped=""/>
+        <function-ref name="isOverflowPending" ref="0x2af44157bcb0" scoped=""/>
+        <function-ref name="overflow" ref="0x2af44157a618" scoped=""/>
       </interface-functions>
-    </interface><interface loc="50:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterP.nc" name="Alarm1" provided="1" ref="0x2b7153ff6100">
+    </interface><interface loc="50:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer_hpl/HplCC2430Timer1AlarmCounterP.nc" name="Alarm1" provided="1" ref="0x2af441575100">
       <component-ref nicename="HplCC2430Timer1AlarmCounterP" qname="HplCC2430Timer1AlarmCounterP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Alarm1" ref="0x2b7153ff6100" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Alarm1" ref="0x2af441575100" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
         <arguments>
-          <type-var alignment="U:" size="U:"><typedef-ref name="frequency" ref="0x2b7153fe22d0" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="frequency" ref="0x2af44157d2d0" scoped=""/></type-var>
           <type-int alignment="I:2" cname="unsigned short" size="I:2" unsigned="">
-            <typename><typedef-ref name="uint16_t" ref="0x2b71532bf4a0"/></typename>
+            <typename><typedef-ref name="uint16_t" ref="0x2af44085e4a0"/></typename>
           </type-int>
         </arguments>
       </instance>
       <interface-functions>
-        <function-ref name="getNow" ref="0x2b7153ff3738" scoped=""/>
-        <function-ref name="fired" ref="0x2b7153ff47d8" scoped=""/>
-        <function-ref name="startAt" ref="0x2b7153ff3130" scoped=""/>
-        <function-ref name="isRunning" ref="0x2b7153ff4c60" scoped=""/>
-        <function-ref name="getAlarm" ref="0x2b7153ff3bc0" scoped=""/>
-        <function-ref name="start" ref="0x2b7153ff6e50" scoped=""/>
-        <function-ref name="stop" ref="0x2b7153ff4350" scoped=""/>
+        <function-ref name="getNow" ref="0x2af441572738" scoped=""/>
+        <function-ref name="fired" ref="0x2af4415747d8" scoped=""/>
+        <function-ref name="startAt" ref="0x2af441572130" scoped=""/>
+        <function-ref name="isRunning" ref="0x2af441574c60" scoped=""/>
+        <function-ref name="getAlarm" ref="0x2af441572bc0" scoped=""/>
+        <function-ref name="start" ref="0x2af441575e50" scoped=""/>
+        <function-ref name="stop" ref="0x2af441574350" scoped=""/>
       </interface-functions>
     </interface></specification><referenced/></component>

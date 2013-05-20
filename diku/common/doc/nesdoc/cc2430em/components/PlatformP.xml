@@ -9,31 +9,31 @@
 </long>
       </documentation>
       <module/>
-    <specification><interface loc="43:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc" name="Init" provided="1" ref="0x2b7153c96bf0">
+    <specification><interface loc="43:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc" name="Init" provided="1" ref="0x2b350765edd0">
       <component-ref nicename="PlatformP" qname="PlatformP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b7153c96bf0" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b350765edd0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b7153c94020" scoped=""/>
+        <function-ref name="init" ref="0x2b350765c170" scoped=""/>
       </interface-functions>
-    </interface><interface loc="45:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc" name="GIOInit" provided="0" ref="0x2b7153c94a00">
+    </interface><interface loc="45:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc" name="GIOInit" provided="0" ref="0x2b350765cb50">
       <component-ref nicename="PlatformP" qname="PlatformP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="GIOInit" ref="0x2b7153c94a00" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="GIOInit" ref="0x2b350765cb50" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b7153c94d50" scoped=""/>
+        <function-ref name="init" ref="0x2b350765b020" scoped=""/>
       </interface-functions>
-    </interface><interface loc="44:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc" name="LedsInit" provided="0" ref="0x2b7153c94370">
+    </interface><interface loc="44:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc" name="LedsInit" provided="0" ref="0x2b350765c4c0">
       <component-ref nicename="PlatformP" qname="PlatformP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="LedsInit" ref="0x2b7153c94370" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="LedsInit" ref="0x2b350765c4c0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b7153c946c0" scoped=""/>
+        <function-ref name="init" ref="0x2b350765c810" scoped=""/>
       </interface-functions>
     </interface></specification><referenced/></component>

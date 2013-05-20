@@ -2,299 +2,299 @@
       <configuration/>
       <wiring>
         <wire loc="7:TestAppC.nc">
-          <from><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b7153c84dc0" scoped=""/></to>
+          <from><interface-ref name="SoftwareInit" ref="0x2af44122b210" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2af441223dc0" scoped=""/></to>
         </wire>
         <wire loc="8:TestAppC.nc">
-          <from><interface-ref name="Boot" ref="0x2b7153de7428" scoped=""/></from>
-          <to><interface-ref name="Boot" ref="0x2b7153c90da8" scoped=""/></to>
+          <from><interface-ref name="Boot" ref="0x2af441386428" scoped=""/></from>
+          <to><interface-ref name="Boot" ref="0x2af44122fda8" scoped=""/></to>
         </wire>
         <wire loc="11:TestAppC.nc">
-          <from><interface-ref name="Leds" ref="0x2b7153df5c38" scoped=""/></from>
-          <to><interface-ref name="Leds" ref="0x2b7153e733a0" scoped=""/></to>
+          <from><interface-ref name="Leds" ref="0x2af441394c38" scoped=""/></from>
+          <to><interface-ref name="Leds" ref="0x2af4414103a0" scoped=""/></to>
         </wire>
         <wire loc="14:TestAppC.nc">
-          <from><interface-ref name="Timer" ref="0x2b7153def4f8" scoped=""/></from>
-          <to><interface-ref name="Timer" ref="0x2b7153fb6e28" scoped=""/></to>
+          <from><interface-ref name="Timer" ref="0x2af44138e4f8" scoped=""/></from>
+          <to><interface-ref name="Timer" ref="0x2af441538e28" scoped=""/></to>
         </wire>
         <wire loc="17:TestAppC.nc">
-          <from><interface-ref name="SimpleMacControl" ref="0x2b7153e1cce0" scoped=""/></from>
-          <to><interface-ref name="StdControl" ref="0x2b71541580c0" scoped=""/></to>
+          <from><interface-ref name="SimpleMacControl" ref="0x2af4413bbce0" scoped=""/></from>
+          <to><interface-ref name="StdControl" ref="0x2af4416ee0c0" scoped=""/></to>
         </wire>
         <wire loc="18:TestAppC.nc">
-          <from><interface-ref name="SimpleMac" ref="0x2b7153e1f6b0" scoped=""/></from>
-          <to><interface-ref name="SimpleMac" ref="0x2b7154158840" scoped=""/></to>
+          <from><interface-ref name="SimpleMac" ref="0x2af4413be6b0" scoped=""/></from>
+          <to><interface-ref name="SimpleMac" ref="0x2af4416ee840" scoped=""/></to>
         </wire>
         <wire loc="21:TestAppC.nc">
-          <from><interface-ref name="LocalTime" ref="0x2b7153e1a9d8" scoped=""/></from>
-          <to><interface-ref name="LocalTime" ref="0x2b715437d7f8" scoped=""/></to>
+          <from><interface-ref name="LocalTime" ref="0x2af4413b99d8" scoped=""/></from>
+          <to><interface-ref name="LocalTime" ref="0x2af4418e27f8" scoped=""/></to>
         </wire>
         <wire loc="24:TestAppC.nc">
-          <from><interface-ref name="StdOut" ref="0x2b7153e0d3a8" scoped=""/></from>
-          <to><interface-ref name="StdOut" ref="0x2b71542bfca0" scoped=""/></to>
+          <from><interface-ref name="StdOut" ref="0x2af4413ac3a8" scoped=""/></from>
+          <to><interface-ref name="StdOut" ref="0x2af44184fca0" scoped=""/></to>
         </wire>
       </wiring>
-    <specification/><referenced><interface loc="42:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc" name="StdControl" provided="1" ref="0x2b71541580c0">
-      <component-ref nicename="SimpleMacC" qname="SimpleMacC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdControl" ref="0x2b71541580c0" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="start" ref="0x2b7154158410" scoped=""/>
-        <function-ref name="stop" ref="0x2b7154158598" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="45:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" name="Timer" provided="1" ref="0x2b7153fb6e28">
-      <component-ref nicename="tos.system.TimerMilliC" qname="TestAppC.TimerC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Timer" ref="0x2b7153fb6e28" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
-        <arguments>
-          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="TMilli" ref="0x2b7153c96020"/></typename>
-          </type-int>
-        </arguments>
-      </instance>
-      <interface-functions>
-        <function-ref name="getNow" ref="0x2b715415c0c0" scoped=""/>
-        <function-ref name="fired" ref="0x2b715415e798" scoped=""/>
-        <function-ref name="startPeriodicAt" ref="0x2b715415d4d8" scoped=""/>
-        <function-ref name="isOneShot" ref="0x2b715415d088" scoped=""/>
-        <function-ref name="getdt" ref="0x2b715415c960" scoped=""/>
-        <function-ref name="gett0" ref="0x2b715415c510" scoped=""/>
-        <function-ref name="isRunning" ref="0x2b715415ebe8" scoped=""/>
-        <function-ref name="startPeriodic" ref="0x2b71541609e0" scoped=""/>
-        <function-ref name="startOneShotAt" ref="0x2b715415daa8" scoped=""/>
-        <function-ref name="startOneShot" ref="0x2b7154160e80" scoped=""/>
-        <function-ref name="stop" ref="0x2b715415e348" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="6:TestAppP.nc" name="StdOut" provided="0" ref="0x2b7153e0d3a8">
+    <specification/><referenced><interface loc="9:TestAppP.nc" name="LocalTime" provided="0" ref="0x2af4413b99d8">
       <component-ref nicename="TestAppP" qname="TestAppP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdOut" ref="0x2b7153e0d3a8" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="dumpHex" ref="0x2b7153e0d6f8" scoped=""/>
-        <function-ref name="printBase2" ref="0x2b7153e0d880" scoped=""/>
-        <function-ref name="printBase10uint16" ref="0x2b7153e0da08" scoped=""/>
-        <function-ref name="printHexword" ref="0x2b7153e0db90" scoped=""/>
-        <function-ref name="printBase10uint32" ref="0x2b7153e0dd18" scoped=""/>
-        <function-ref name="get" ref="0x2b7153df4020" scoped=""/>
-        <function-ref name="printBase10uint8" ref="0x2b7153df41a8" scoped=""/>
-        <function-ref name="printBase2long" ref="0x2b7153df4330" scoped=""/>
-        <function-ref name="printHexlong" ref="0x2b7153df44b8" scoped=""/>
-        <function-ref name="printBase2word" ref="0x2b7153df4640" scoped=""/>
-        <function-ref name="printBase10int8" ref="0x2b7153df47c8" scoped=""/>
-        <function-ref name="print" ref="0x2b7153df4950" scoped=""/>
-        <function-ref name="done" ref="0x2b7153df4ad8" scoped=""/>
-        <function-ref name="printHex" ref="0x2b7153df4d60" scoped=""/>
-        <function-ref name="printBase10int16" ref="0x2b7153df3020" scoped=""/>
-        <function-ref name="printBase10int32" ref="0x2b7153df31a8" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="46:/opt/tinyos-2.1.2/tos/system/LedsC.nc" name="Leds" provided="1" ref="0x2b7153e733a0">
-      <component-ref nicename="tos.system.LedsC" qname="LedsC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Leds" ref="0x2b7153e733a0" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="led0Off" ref="0x2b7153e736f0" scoped=""/>
-        <function-ref name="led0Toggle" ref="0x2b7153e73878" scoped=""/>
-        <function-ref name="led1On" ref="0x2b7153e73a00" scoped=""/>
-        <function-ref name="led1Toggle" ref="0x2b7153e73b88" scoped=""/>
-        <function-ref name="led2Toggle" ref="0x2b7153e73d10" scoped=""/>
-        <function-ref name="get" ref="0x2b7153e70020" scoped=""/>
-        <function-ref name="led1Off" ref="0x2b7153e701a8" scoped=""/>
-        <function-ref name="led2Off" ref="0x2b7153e707c8" scoped=""/>
-        <function-ref name="set" ref="0x2b7153e70330" scoped=""/>
-        <function-ref name="led0On" ref="0x2b7153e704b8" scoped=""/>
-        <function-ref name="led2On" ref="0x2b7153e70640" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="9:TestAppP.nc" name="LocalTime" provided="0" ref="0x2b7153e1a9d8">
-      <component-ref nicename="TestAppP" qname="TestAppP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="LocalTime" ref="0x2b7153e1a9d8" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="LocalTime" ref="0x2af4413b99d8" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.lib.timer.LocalTime" qname="LocalTime"/>
         <arguments>
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="TMicro" ref="0x2b7153c967e0"/></typename>
+            <typename><typedef-ref name="TMicro" ref="0x2af4412357e0"/></typename>
           </type-int>
         </arguments>
       </instance>
       <interface-functions>
-        <function-ref name="get" ref="0x2b7153e1b598" scoped=""/>
+        <function-ref name="get" ref="0x2af4413ba598" scoped=""/>
       </interface-functions>
-    </interface><interface loc="4:TestAppP.nc" name="Timer" provided="0" ref="0x2b7153def4f8">
-      <component-ref nicename="TestAppP" qname="TestAppP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Timer" ref="0x2b7153def4f8" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
-        <arguments>
-          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="TMilli" ref="0x2b7153c96020"/></typename>
-          </type-int>
-        </arguments>
-      </instance>
-      <interface-functions>
-        <function-ref name="getNow" ref="0x2b7153dee768" scoped=""/>
-        <function-ref name="fired" ref="0x2b7153de6e18" scoped=""/>
-        <function-ref name="startPeriodicAt" ref="0x2b7153de5b78" scoped=""/>
-        <function-ref name="isOneShot" ref="0x2b7153de5728" scoped=""/>
-        <function-ref name="getdt" ref="0x2b7153dec088" scoped=""/>
-        <function-ref name="gett0" ref="0x2b7153deebb8" scoped=""/>
-        <function-ref name="isRunning" ref="0x2b7153de52d8" scoped=""/>
-        <function-ref name="startPeriodic" ref="0x2b7153de6088" scoped=""/>
-        <function-ref name="startOneShotAt" ref="0x2b7153dee198" scoped=""/>
-        <function-ref name="startOneShot" ref="0x2b7153de6528" scoped=""/>
-        <function-ref name="stop" ref="0x2b7153de69c8" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="48:/opt/tinyos-2.1.2/tos/lib/timer/CounterToLocalTimeC.nc" name="LocalTime" provided="1" ref="0x2b715437d7f8">
-      <component-ref nicename="tos.lib.timer.CounterToLocalTimeC" qname="TestAppC.LocalTimeC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="LocalTime" ref="0x2b715437d7f8" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.lib.timer.LocalTime" qname="LocalTime"/>
-        <arguments>
-          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="TMicro" ref="0x2b7153c967e0"/></typename>
-          </type-int>
-        </arguments>
-      </instance>
-      <interface-functions>
-        <function-ref name="get" ref="0x2b715437c3a8" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="8:TestAppP.nc" name="SimpleMacControl" provided="0" ref="0x2b7153e1cce0">
-      <component-ref nicename="TestAppP" qname="TestAppP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="SimpleMacControl" ref="0x2b7153e1cce0" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="start" ref="0x2b7153e1e0a0" scoped=""/>
-        <function-ref name="stop" ref="0x2b7153e1e228" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="7:TestAppP.nc" name="SimpleMac" provided="0" ref="0x2b7153e1f6b0">
-      <component-ref nicename="TestAppP" qname="TestAppP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="SimpleMac" ref="0x2b7153e1f6b0" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="rxDisable" ref="0x2b7153e1fa00" scoped=""/>
-        <function-ref name="getAddress" ref="0x2b7153e1fb88" scoped=""/>
-        <function-ref name="getExtAddress" ref="0x2b7153e1fd10" scoped=""/>
-        <function-ref name="getPanAddress" ref="0x2b7153e0c020" scoped=""/>
-        <function-ref name="setChannel" ref="0x2b7153e0c1a8" scoped=""/>
-        <function-ref name="sendPacket" ref="0x2b7153e0c330" scoped=""/>
-        <function-ref name="addressFilterDisable" ref="0x2b7153e0c4b8" scoped=""/>
-        <function-ref name="sendPacketDone" ref="0x2b7153e0c640" scoped=""/>
-        <function-ref name="receivedPacket" ref="0x2b7153e0c7c8" scoped=""/>
-        <function-ref name="setAddress" ref="0x2b7153e0c950" scoped=""/>
-        <function-ref name="addressFilterEnable" ref="0x2b7153e0cad8" scoped=""/>
-        <function-ref name="rxEnable" ref="0x2b7153e0cc60" scoped=""/>
-        <function-ref name="setTransmitPower" ref="0x2b7153e0cde8" scoped=""/>
-        <function-ref name="setPanAddress" ref="0x2b7153e0b120" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="58:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="SoftwareInit" provided="0" ref="0x2b7153c8c210">
-      <component-ref nicename="tos.system.MainC" qname="MainC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="init" ref="0x2b7153c8c560" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="27:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutC.nc" name="StdOut" provided="1" ref="0x2b71542bfca0">
+    </interface><interface loc="27:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutC.nc" name="StdOut" provided="1" ref="0x2af44184fca0">
       <component-ref nicename="StdOutC" qname="StdOutC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdOut" ref="0x2b71542bfca0" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdOut" ref="0x2af44184fca0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="StdOut" qname="StdOut"/>
       </instance>
       <interface-functions>
-        <function-ref name="dumpHex" ref="0x2b71542bc020" scoped=""/>
-        <function-ref name="printBase2" ref="0x2b71542bc1a8" scoped=""/>
-        <function-ref name="printBase10uint16" ref="0x2b71542bc330" scoped=""/>
-        <function-ref name="printHexword" ref="0x2b71542bc4b8" scoped=""/>
-        <function-ref name="printBase10uint32" ref="0x2b71542bc640" scoped=""/>
-        <function-ref name="get" ref="0x2b71542bc7c8" scoped=""/>
-        <function-ref name="printBase10uint8" ref="0x2b71542bc950" scoped=""/>
-        <function-ref name="printBase2long" ref="0x2b71542bcad8" scoped=""/>
-        <function-ref name="printHexlong" ref="0x2b71542bcc60" scoped=""/>
-        <function-ref name="printBase2word" ref="0x2b71542bcde8" scoped=""/>
-        <function-ref name="printBase10int8" ref="0x2b71542bb020" scoped=""/>
-        <function-ref name="print" ref="0x2b71542bb1a8" scoped=""/>
-        <function-ref name="done" ref="0x2b71542bb330" scoped=""/>
-        <function-ref name="printHex" ref="0x2b71542bb5b8" scoped=""/>
-        <function-ref name="printBase10int16" ref="0x2b71542bb740" scoped=""/>
-        <function-ref name="printBase10int32" ref="0x2b71542bb8c8" scoped=""/>
+        <function-ref name="dumpHex" ref="0x2af44184c020" scoped=""/>
+        <function-ref name="printBase2" ref="0x2af44184c1a8" scoped=""/>
+        <function-ref name="printBase10uint16" ref="0x2af44184c330" scoped=""/>
+        <function-ref name="printHexword" ref="0x2af44184c4b8" scoped=""/>
+        <function-ref name="printBase10uint32" ref="0x2af44184c640" scoped=""/>
+        <function-ref name="get" ref="0x2af44184c7c8" scoped=""/>
+        <function-ref name="printBase10uint8" ref="0x2af44184c950" scoped=""/>
+        <function-ref name="printBase2long" ref="0x2af44184cad8" scoped=""/>
+        <function-ref name="printHexlong" ref="0x2af44184cc60" scoped=""/>
+        <function-ref name="printBase2word" ref="0x2af44184cde8" scoped=""/>
+        <function-ref name="printBase10int8" ref="0x2af44184b020" scoped=""/>
+        <function-ref name="print" ref="0x2af44184b1a8" scoped=""/>
+        <function-ref name="done" ref="0x2af44184b330" scoped=""/>
+        <function-ref name="printHex" ref="0x2af44184b5b8" scoped=""/>
+        <function-ref name="printBase10int16" ref="0x2af44184b740" scoped=""/>
+        <function-ref name="printBase10int32" ref="0x2af44184b8c8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="2:TestAppP.nc" name="Init" provided="1" ref="0x2b7153c84dc0">
+    </interface><interface loc="2:TestAppP.nc" name="Init" provided="1" ref="0x2af441223dc0">
       <component-ref nicename="TestAppP" qname="TestAppP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b7153c84dc0" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2af441223dc0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b7153de7170" scoped=""/>
+        <function-ref name="init" ref="0x2af441386170" scoped=""/>
       </interface-functions>
-    </interface><interface loc="43:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc" name="SimpleMac" provided="1" ref="0x2b7154158840">
-      <component-ref nicename="SimpleMacC" qname="SimpleMacC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="SimpleMac" ref="0x2b7154158840" scoped=""/></type-interface>
+    </interface><interface loc="45:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" name="Timer" provided="1" ref="0x2af441538e28">
+      <component-ref nicename="tos.system.TimerMilliC" qname="TestAppC.TimerC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Timer" ref="0x2af441538e28" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="TMilli" ref="0x2af441235020"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x2af4416f20c0" scoped=""/>
+        <function-ref name="fired" ref="0x2af4416d5798" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x2af4416d34d8" scoped=""/>
+        <function-ref name="isOneShot" ref="0x2af4416d3088" scoped=""/>
+        <function-ref name="getdt" ref="0x2af4416f2960" scoped=""/>
+        <function-ref name="gett0" ref="0x2af4416f2510" scoped=""/>
+        <function-ref name="isRunning" ref="0x2af4416d5be8" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x2af4416d69e0" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x2af4416d3aa8" scoped=""/>
+        <function-ref name="startOneShot" ref="0x2af4416d6e80" scoped=""/>
+        <function-ref name="stop" ref="0x2af4416d5348" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="7:TestAppP.nc" name="SimpleMac" provided="0" ref="0x2af4413be6b0">
+      <component-ref nicename="TestAppP" qname="TestAppP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="SimpleMac" ref="0x2af4413be6b0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
       </instance>
       <interface-functions>
-        <function-ref name="rxDisable" ref="0x2b7154158b90" scoped=""/>
-        <function-ref name="getAddress" ref="0x2b7154158d18" scoped=""/>
-        <function-ref name="getExtAddress" ref="0x2b7154156020" scoped=""/>
-        <function-ref name="getPanAddress" ref="0x2b71541561a8" scoped=""/>
-        <function-ref name="setChannel" ref="0x2b7154156330" scoped=""/>
-        <function-ref name="sendPacket" ref="0x2b71541564b8" scoped=""/>
-        <function-ref name="addressFilterDisable" ref="0x2b7154156640" scoped=""/>
-        <function-ref name="sendPacketDone" ref="0x2b71541567c8" scoped=""/>
-        <function-ref name="receivedPacket" ref="0x2b7154156950" scoped=""/>
-        <function-ref name="setAddress" ref="0x2b7154156ad8" scoped=""/>
-        <function-ref name="addressFilterEnable" ref="0x2b7154156c60" scoped=""/>
-        <function-ref name="rxEnable" ref="0x2b7154156de8" scoped=""/>
-        <function-ref name="setTransmitPower" ref="0x2b7154155020" scoped=""/>
-        <function-ref name="setPanAddress" ref="0x2b71541552a8" scoped=""/>
+        <function-ref name="rxDisable" ref="0x2af4413bea00" scoped=""/>
+        <function-ref name="getAddress" ref="0x2af4413beb88" scoped=""/>
+        <function-ref name="getExtAddress" ref="0x2af4413bed10" scoped=""/>
+        <function-ref name="getPanAddress" ref="0x2af4413ab020" scoped=""/>
+        <function-ref name="setChannel" ref="0x2af4413ab1a8" scoped=""/>
+        <function-ref name="sendPacket" ref="0x2af4413ab330" scoped=""/>
+        <function-ref name="addressFilterDisable" ref="0x2af4413ab4b8" scoped=""/>
+        <function-ref name="sendPacketDone" ref="0x2af4413ab640" scoped=""/>
+        <function-ref name="receivedPacket" ref="0x2af4413ab7c8" scoped=""/>
+        <function-ref name="setAddress" ref="0x2af4413ab950" scoped=""/>
+        <function-ref name="addressFilterEnable" ref="0x2af4413abad8" scoped=""/>
+        <function-ref name="rxEnable" ref="0x2af4413abc60" scoped=""/>
+        <function-ref name="setTransmitPower" ref="0x2af4413abde8" scoped=""/>
+        <function-ref name="setPanAddress" ref="0x2af4413aa120" scoped=""/>
       </interface-functions>
-    </interface><interface loc="3:TestAppP.nc" name="Boot" provided="0" ref="0x2b7153de7428">
+    </interface><interface loc="42:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc" name="StdControl" provided="1" ref="0x2af4416ee0c0">
+      <component-ref nicename="SimpleMacC" qname="SimpleMacC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdControl" ref="0x2af4416ee0c0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="start" ref="0x2af4416ee410" scoped=""/>
+        <function-ref name="stop" ref="0x2af4416ee598" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="48:/opt/tinyos-2.1.2/tos/lib/timer/CounterToLocalTimeC.nc" name="LocalTime" provided="1" ref="0x2af4418e27f8">
+      <component-ref nicename="tos.lib.timer.CounterToLocalTimeC" qname="TestAppC.LocalTimeC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="LocalTime" ref="0x2af4418e27f8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.LocalTime" qname="LocalTime"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="TMicro" ref="0x2af4412357e0"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="get" ref="0x2af4418e13a8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="3:TestAppP.nc" name="Boot" provided="0" ref="0x2af441386428">
       <component-ref nicename="TestAppP" qname="TestAppP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Boot" ref="0x2b7153de7428" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Boot" ref="0x2af441386428" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Boot" qname="Boot"/>
       </instance>
       <interface-functions>
-        <function-ref name="booted" ref="0x2b7153de7778" scoped=""/>
+        <function-ref name="booted" ref="0x2af441386778" scoped=""/>
       </interface-functions>
-    </interface><interface loc="5:TestAppP.nc" name="Leds" provided="0" ref="0x2b7153df5c38">
+    </interface><interface loc="6:TestAppP.nc" name="StdOut" provided="0" ref="0x2af4413ac3a8">
       <component-ref nicename="TestAppP" qname="TestAppP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Leds" ref="0x2b7153df5c38" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdOut" ref="0x2af4413ac3a8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="StdOut" qname="StdOut"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="dumpHex" ref="0x2af4413ac6f8" scoped=""/>
+        <function-ref name="printBase2" ref="0x2af4413ac880" scoped=""/>
+        <function-ref name="printBase10uint16" ref="0x2af4413aca08" scoped=""/>
+        <function-ref name="printHexword" ref="0x2af4413acb90" scoped=""/>
+        <function-ref name="printBase10uint32" ref="0x2af4413acd18" scoped=""/>
+        <function-ref name="get" ref="0x2af441393020" scoped=""/>
+        <function-ref name="printBase10uint8" ref="0x2af4413931a8" scoped=""/>
+        <function-ref name="printBase2long" ref="0x2af441393330" scoped=""/>
+        <function-ref name="printHexlong" ref="0x2af4413934b8" scoped=""/>
+        <function-ref name="printBase2word" ref="0x2af441393640" scoped=""/>
+        <function-ref name="printBase10int8" ref="0x2af4413937c8" scoped=""/>
+        <function-ref name="print" ref="0x2af441393950" scoped=""/>
+        <function-ref name="done" ref="0x2af441393ad8" scoped=""/>
+        <function-ref name="printHex" ref="0x2af441393d60" scoped=""/>
+        <function-ref name="printBase10int16" ref="0x2af441392020" scoped=""/>
+        <function-ref name="printBase10int32" ref="0x2af4413921a8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="58:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="SoftwareInit" provided="0" ref="0x2af44122b210">
+      <component-ref nicename="tos.system.MainC" qname="MainC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="SoftwareInit" ref="0x2af44122b210" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x2af44122b560" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="46:/opt/tinyos-2.1.2/tos/system/LedsC.nc" name="Leds" provided="1" ref="0x2af4414103a0">
+      <component-ref nicename="tos.system.LedsC" qname="LedsC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Leds" ref="0x2af4414103a0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
       </instance>
       <interface-functions>
-        <function-ref name="led0Off" ref="0x2b7153deb020" scoped=""/>
-        <function-ref name="led0Toggle" ref="0x2b7153deb1a8" scoped=""/>
-        <function-ref name="led1On" ref="0x2b7153deb330" scoped=""/>
-        <function-ref name="led1Toggle" ref="0x2b7153deb4b8" scoped=""/>
-        <function-ref name="led2Toggle" ref="0x2b7153deb640" scoped=""/>
-        <function-ref name="get" ref="0x2b7153deb7c8" scoped=""/>
-        <function-ref name="led1Off" ref="0x2b7153deb950" scoped=""/>
-        <function-ref name="led2Off" ref="0x2b7153dea020" scoped=""/>
-        <function-ref name="set" ref="0x2b7153debad8" scoped=""/>
-        <function-ref name="led0On" ref="0x2b7153debc60" scoped=""/>
-        <function-ref name="led2On" ref="0x2b7153debde8" scoped=""/>
+        <function-ref name="led0Off" ref="0x2af4414106f0" scoped=""/>
+        <function-ref name="led0Toggle" ref="0x2af441410878" scoped=""/>
+        <function-ref name="led1On" ref="0x2af441410a00" scoped=""/>
+        <function-ref name="led1Toggle" ref="0x2af441410b88" scoped=""/>
+        <function-ref name="led2Toggle" ref="0x2af441410d10" scoped=""/>
+        <function-ref name="get" ref="0x2af44140d020" scoped=""/>
+        <function-ref name="led1Off" ref="0x2af44140d1a8" scoped=""/>
+        <function-ref name="led2Off" ref="0x2af44140d7c8" scoped=""/>
+        <function-ref name="set" ref="0x2af44140d330" scoped=""/>
+        <function-ref name="led0On" ref="0x2af44140d4b8" scoped=""/>
+        <function-ref name="led2On" ref="0x2af44140d640" scoped=""/>
       </interface-functions>
-    </interface><interface loc="57:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="Boot" provided="1" ref="0x2b7153c90da8">
+    </interface><interface loc="43:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc" name="SimpleMac" provided="1" ref="0x2af4416ee840">
+      <component-ref nicename="SimpleMacC" qname="SimpleMacC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="SimpleMac" ref="0x2af4416ee840" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="SimpleMac" qname="SimpleMac"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="rxDisable" ref="0x2af4416eeb90" scoped=""/>
+        <function-ref name="getAddress" ref="0x2af4416eed18" scoped=""/>
+        <function-ref name="getExtAddress" ref="0x2af4416ed020" scoped=""/>
+        <function-ref name="getPanAddress" ref="0x2af4416ed1a8" scoped=""/>
+        <function-ref name="setChannel" ref="0x2af4416ed330" scoped=""/>
+        <function-ref name="sendPacket" ref="0x2af4416ed4b8" scoped=""/>
+        <function-ref name="addressFilterDisable" ref="0x2af4416ed640" scoped=""/>
+        <function-ref name="sendPacketDone" ref="0x2af4416ed7c8" scoped=""/>
+        <function-ref name="receivedPacket" ref="0x2af4416ed950" scoped=""/>
+        <function-ref name="setAddress" ref="0x2af4416edad8" scoped=""/>
+        <function-ref name="addressFilterEnable" ref="0x2af4416edc60" scoped=""/>
+        <function-ref name="rxEnable" ref="0x2af4416edde8" scoped=""/>
+        <function-ref name="setTransmitPower" ref="0x2af4416ec020" scoped=""/>
+        <function-ref name="setPanAddress" ref="0x2af4416ec2a8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="57:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="Boot" provided="1" ref="0x2af44122fda8">
       <component-ref nicename="tos.system.MainC" qname="MainC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Boot" ref="0x2b7153c90da8" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Boot" ref="0x2af44122fda8" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Boot" qname="Boot"/>
       </instance>
       <interface-functions>
-        <function-ref name="booted" ref="0x2b7153c8f170" scoped=""/>
+        <function-ref name="booted" ref="0x2af44122e170" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="5:TestAppP.nc" name="Leds" provided="0" ref="0x2af441394c38">
+      <component-ref nicename="TestAppP" qname="TestAppP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Leds" ref="0x2af441394c38" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="led0Off" ref="0x2af44138a020" scoped=""/>
+        <function-ref name="led0Toggle" ref="0x2af44138a1a8" scoped=""/>
+        <function-ref name="led1On" ref="0x2af44138a330" scoped=""/>
+        <function-ref name="led1Toggle" ref="0x2af44138a4b8" scoped=""/>
+        <function-ref name="led2Toggle" ref="0x2af44138a640" scoped=""/>
+        <function-ref name="get" ref="0x2af44138a7c8" scoped=""/>
+        <function-ref name="led1Off" ref="0x2af44138a950" scoped=""/>
+        <function-ref name="led2Off" ref="0x2af441389020" scoped=""/>
+        <function-ref name="set" ref="0x2af44138aad8" scoped=""/>
+        <function-ref name="led0On" ref="0x2af44138ac60" scoped=""/>
+        <function-ref name="led2On" ref="0x2af44138ade8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="4:TestAppP.nc" name="Timer" provided="0" ref="0x2af44138e4f8">
+      <component-ref nicename="TestAppP" qname="TestAppP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Timer" ref="0x2af44138e4f8" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="TMilli" ref="0x2af441235020"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x2af44138d768" scoped=""/>
+        <function-ref name="fired" ref="0x2af441385e18" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x2af441384b78" scoped=""/>
+        <function-ref name="isOneShot" ref="0x2af441384728" scoped=""/>
+        <function-ref name="getdt" ref="0x2af44138b088" scoped=""/>
+        <function-ref name="gett0" ref="0x2af44138dbb8" scoped=""/>
+        <function-ref name="isRunning" ref="0x2af4413842d8" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x2af441385088" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x2af44138d198" scoped=""/>
+        <function-ref name="startOneShot" ref="0x2af441385528" scoped=""/>
+        <function-ref name="stop" ref="0x2af4413859c8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="8:TestAppP.nc" name="SimpleMacControl" provided="0" ref="0x2af4413bbce0">
+      <component-ref nicename="TestAppP" qname="TestAppP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="SimpleMacControl" ref="0x2af4413bbce0" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="start" ref="0x2af4413bd0a0" scoped=""/>
+        <function-ref name="stop" ref="0x2af4413bd228" scoped=""/>
       </interface-functions>
     </interface><component loc="56:/opt/tinyos-2.1.2/tos/system/MainC.nc" nicename="tos.system.MainC" qname="MainC">
       <documentation loc="32:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/hardware.h">
@@ -309,20 +309,20 @@
       <configuration/>
       <wiring>
         <wire loc="72:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="Boot" ref="0x2b7153c90da8" scoped=""/></from>
-          <to><interface-ref name="Boot" ref="0x2b7153dce550" scoped=""/></to>
+          <from><interface-ref name="Boot" ref="0x2af44122fda8" scoped=""/></from>
+          <to><interface-ref name="Boot" ref="0x2af44136d550" scoped=""/></to>
         </wire>
         <wire loc="67:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="Scheduler" ref="0x2b7153dceb88" scoped=""/></from>
-          <to><interface-ref name="Scheduler" ref="0x2b7153bac080" scoped=""/></to>
+          <from><interface-ref name="Scheduler" ref="0x2af44136db88" scoped=""/></from>
+          <to><interface-ref name="Scheduler" ref="0x2af44114b080" scoped=""/></to>
         </wire>
         <wire loc="68:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="PlatformInit" ref="0x2b7153dcd6a8" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b7153c8b020" scoped=""/></to>
+          <from><interface-ref name="PlatformInit" ref="0x2af44136c6a8" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2af44122a020" scoped=""/></to>
         </wire>
         <wire loc="71:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="SoftwareInit" ref="0x2b7153dcdd70" scoped=""/></from>
-          <to><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></to>
+          <from><interface-ref name="SoftwareInit" ref="0x2af44136cd70" scoped=""/></from>
+          <to><interface-ref name="SoftwareInit" ref="0x2af44122b210" scoped=""/></to>
         </wire>
       </wiring>
     </component><component loc="25:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutC.nc" nicename="StdOutC" qname="StdOutC">
@@ -338,16 +338,16 @@
       <configuration/>
       <wiring>
         <wire loc="36:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutC.nc">
-          <from><interface-ref name="StdOut" ref="0x2b71542bfca0" scoped=""/></from>
-          <to><interface-ref name="StdOut" ref="0x2b71542bab08" scoped=""/></to>
+          <from><interface-ref name="StdOut" ref="0x2af44184fca0" scoped=""/></from>
+          <to><interface-ref name="StdOut" ref="0x2af44184ab08" scoped=""/></to>
         </wire>
         <wire loc="33:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutC.nc">
-          <from><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b71542dc9f8" scoped=""/></to>
+          <from><interface-ref name="SoftwareInit" ref="0x2af44122b210" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2af4418469f8" scoped=""/></to>
         </wire>
         <wire loc="37:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutC.nc">
-          <from><interface-ref name="UART" ref="0x2b71542d7210" scoped=""/></from>
-          <to><interface-ref name="SerialByteComm" ref="0x2b71542b9958" scoped=""/></to>
+          <from><interface-ref name="UART" ref="0x2af441867210" scoped=""/></from>
+          <to><interface-ref name="SerialByteComm" ref="0x2af441849958" scoped=""/></to>
         </wire>
       </wiring>
     </component><component loc="1:TestAppP.nc" nicename="TestAppP" qname="TestAppP">
@@ -366,24 +366,24 @@
       <configuration/>
       <wiring>
         <wire loc="53:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc">
-          <from><interface-ref name="SimpleMac" ref="0x2b7154158840" scoped=""/></from>
-          <to><interface-ref name="SimpleMac" ref="0x2b7154173020" scoped=""/></to>
+          <from><interface-ref name="SimpleMac" ref="0x2af4416ee840" scoped=""/></from>
+          <to><interface-ref name="SimpleMac" ref="0x2af4416e9020" scoped=""/></to>
         </wire>
         <wire loc="52:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc">
-          <from><interface-ref name="StdControl" ref="0x2b71541580c0" scoped=""/></from>
-          <to><interface-ref name="SimpleMacControl" ref="0x2b71541713b8" scoped=""/></to>
+          <from><interface-ref name="StdControl" ref="0x2af4416ee0c0" scoped=""/></from>
+          <to><interface-ref name="SimpleMacControl" ref="0x2af4416e63b8" scoped=""/></to>
         </wire>
         <wire loc="50:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc">
-          <from><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b7154172b40" scoped=""/></to>
+          <from><interface-ref name="SoftwareInit" ref="0x2af44122b210" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2af4416e8b40" scoped=""/></to>
         </wire>
         <wire loc="55:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc">
-          <from><interface-ref name="HALCC2420Control" ref="0x2b715416fad8" scoped=""/></from>
-          <to><interface-ref name="HALCC2420Control" ref="0x2b71541c7020" scoped=""/></to>
+          <from><interface-ref name="HALCC2420Control" ref="0x2af4416e4ad8" scoped=""/></from>
+          <to><interface-ref name="HALCC2420Control" ref="0x2af44173a020" scoped=""/></to>
         </wire>
         <wire loc="56:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/radio/SimpleMacC.nc">
-          <from><interface-ref name="HALCC2420" ref="0x2b7154185da0" scoped=""/></from>
-          <to><interface-ref name="HALCC2420" ref="0x2b71541c9270" scoped=""/></to>
+          <from><interface-ref name="HALCC2420" ref="0x2af4416f8da0" scoped=""/></from>
+          <to><interface-ref name="HALCC2420" ref="0x2af44173c270" scoped=""/></to>
         </wire>
       </wiring>
     </component><component loc="45:/opt/tinyos-2.1.2/tos/system/LedsC.nc" nicename="tos.system.LedsC" qname="LedsC">
@@ -404,24 +404,24 @@
       <configuration/>
       <wiring>
         <wire loc="51:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
-          <from><interface-ref name="Leds" ref="0x2b7153e733a0" scoped=""/></from>
-          <to><interface-ref name="Leds" ref="0x2b7153e6c020" scoped=""/></to>
+          <from><interface-ref name="Leds" ref="0x2af4414103a0" scoped=""/></from>
+          <to><interface-ref name="Leds" ref="0x2af44141f020" scoped=""/></to>
         </wire>
         <wire loc="53:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
-          <from><interface-ref name="Init" ref="0x2b7153e8c5e8" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b7153e6f8d8" scoped=""/></to>
+          <from><interface-ref name="Init" ref="0x2af44143f5e8" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2af44140c8d8" scoped=""/></to>
         </wire>
         <wire loc="54:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
-          <from><interface-ref name="Led0" ref="0x2b7153e6b6c8" scoped=""/></from>
-          <to><interface-ref name="Led0" ref="0x2b7153e8f090" scoped=""/></to>
+          <from><interface-ref name="Led0" ref="0x2af44141e6c8" scoped=""/></from>
+          <to><interface-ref name="Led0" ref="0x2af44142c090" scoped=""/></to>
         </wire>
         <wire loc="55:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
-          <from><interface-ref name="Led1" ref="0x2b7153e7f958" scoped=""/></from>
-          <to><interface-ref name="Led1" ref="0x2b7153e8e378" scoped=""/></to>
+          <from><interface-ref name="Led1" ref="0x2af44141d958" scoped=""/></from>
+          <to><interface-ref name="Led1" ref="0x2af44142b378" scoped=""/></to>
         </wire>
         <wire loc="56:/opt/tinyos-2.1.2/tos/system/LedsC.nc">
-          <from><interface-ref name="Led2" ref="0x2b7153e7eae0" scoped=""/></from>
-          <to><interface-ref name="Led2" ref="0x2b7153e8d500" scoped=""/></to>
+          <from><interface-ref name="Led2" ref="0x2af44141cae0" scoped=""/></from>
+          <to><interface-ref name="Led2" ref="0x2af441440500" scoped=""/></to>
         </wire>
       </wiring>
     </component><component loc="44(TestAppC.TimerC):/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc" nicename="tos.system.TimerMilliC" qname="TestAppC.TimerC">
@@ -441,8 +441,8 @@
       <configuration/>
       <wiring>
         <wire loc="52:/opt/tinyos-2.1.2/tos/system/TimerMilliC.nc">
-          <from><interface-ref name="Timer" ref="0x2b7153fb6e28" scoped=""/></from>
-          <to><interface-ref name="TimerMilli" ref="0x2b7153fad020" scoped=""/>
+          <from><interface-ref name="Timer" ref="0x2af441538e28" scoped=""/></from>
+          <to><interface-ref name="TimerMilli" ref="0x2af441549020" scoped=""/>
           <arguments>
             <value cst="I:0">
               <type-int alignment="I:4" cname="unsigned int" size="I:4" unsigned=""/>
@@ -469,7 +469,7 @@
         <component-ref nicename="tos.lib.timer.CounterToLocalTimeC" qname="CounterToLocalTimeC"/>
         <arguments>
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="TMicro" ref="0x2b7153c967e0"/></typename>
+            <typename><typedef-ref name="TMicro" ref="0x2af4412357e0"/></typename>
           </type-int>
         </arguments>
       </instance>

@@ -14,223 +14,137 @@
       <configuration/>
       <wiring>
         <wire loc="68:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformLedsC.nc">
-          <from><interface-ref name="Led0" ref="0x2b7153e8f090" scoped=""/></from>
-          <to><interface-ref name="Out" ref="0x2b7153f7a998" scoped=""/></to>
+          <from><interface-ref name="Led0" ref="0x2b35077ea090" scoped=""/></from>
+          <to><interface-ref name="P10" ref="0x2b35077ee368" scoped=""/></to>
         </wire>
         <wire loc="69:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformLedsC.nc">
-          <from><interface-ref name="Led1" ref="0x2b7153e8e378" scoped=""/></from>
-          <to><interface-ref name="GeneralIO" ref="0x2b7153f975d8" scoped=""/></to>
+          <from><interface-ref name="Led1" ref="0x2b35077e9378" scoped=""/></from>
+          <to><interface-ref name="P11" ref="0x2b35077ed4f0" scoped=""/></to>
         </wire>
         <wire loc="70:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformLedsC.nc">
-          <from><interface-ref name="Led2" ref="0x2b7153e8d500" scoped=""/></from>
-          <to><interface-ref name="Out" ref="0x2b7153f9b288" scoped=""/></to>
+          <from><interface-ref name="Led2" ref="0x2b35077e8500" scoped=""/></from>
+          <to><interface-ref name="GeneralIO" ref="0x2b35078c6c58" scoped=""/></to>
         </wire>
         <wire loc="58:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformLedsC.nc">
-          <from><interface-ref name="LedsInit" ref="0x2b7153c94370" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b7153e8c5e8" scoped=""/></to>
-        </wire>
-        <wire loc="65:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformLedsC.nc">
-          <from><interface-ref name="In" ref="0x2b7153f79a90" scoped=""/></from>
-          <to><interface-ref name="P10" ref="0x2b7153eaa368" scoped=""/></to>
-        </wire>
-        <wire loc="66:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformLedsC.nc">
-          <from><interface-ref name="In" ref="0x2b7153f9a470" scoped=""/></from>
-          <to><interface-ref name="P13" ref="0x2b7153ea7800" scoped=""/></to>
+          <from><interface-ref name="LedsInit" ref="0x2b350765c4c0" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2b35077e75e8" scoped=""/></to>
         </wire>
       </wiring>
-    <specification><interface loc="44:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformLedsC.nc" name="Led0" provided="1" ref="0x2b7153e8f090">
+    <specification><interface loc="44:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformLedsC.nc" name="Led0" provided="1" ref="0x2b35077ea090">
       <component-ref nicename="PlatformLedsC" qname="PlatformLedsC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Led0" ref="0x2b7153e8f090" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Led0" ref="0x2b35077ea090" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153e8f3e0" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153e8f568" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153e8f6f0" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153e8f878" scoped=""/>
-        <function-ref name="get" ref="0x2b7153e8fa00" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153e8fb88" scoped=""/>
-        <function-ref name="set" ref="0x2b7153e8fd10" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153e8e020" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077ea3e0" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077ea568" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077ea6f0" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077ea878" scoped=""/>
+        <function-ref name="get" ref="0x2b35077eaa00" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077eab88" scoped=""/>
+        <function-ref name="set" ref="0x2b35077ead10" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077e9020" scoped=""/>
       </interface-functions>
-    </interface><interface loc="45:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformLedsC.nc" name="Led1" provided="1" ref="0x2b7153e8e378">
+    </interface><interface loc="45:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformLedsC.nc" name="Led1" provided="1" ref="0x2b35077e9378">
       <component-ref nicename="PlatformLedsC" qname="PlatformLedsC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Led1" ref="0x2b7153e8e378" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Led1" ref="0x2b35077e9378" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153e8e6c8" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153e8e850" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153e8e9d8" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153e8eb60" scoped=""/>
-        <function-ref name="get" ref="0x2b7153e8ece8" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153e8ee70" scoped=""/>
-        <function-ref name="set" ref="0x2b7153e8d020" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153e8d1a8" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077e96c8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077e9850" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077e99d8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077e9b60" scoped=""/>
+        <function-ref name="get" ref="0x2b35077e9ce8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077e9e70" scoped=""/>
+        <function-ref name="set" ref="0x2b35077e8020" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077e81a8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="47:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformLedsC.nc" name="Init" provided="0" ref="0x2b7153e8c5e8">
+    </interface><interface loc="47:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformLedsC.nc" name="Init" provided="0" ref="0x2b35077e75e8">
       <component-ref nicename="PlatformLedsC" qname="PlatformLedsC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b7153e8c5e8" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b35077e75e8" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b7153e8c938" scoped=""/>
+        <function-ref name="init" ref="0x2b35077e7938" scoped=""/>
       </interface-functions>
-    </interface><interface loc="46:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformLedsC.nc" name="Led2" provided="1" ref="0x2b7153e8d500">
+    </interface><interface loc="46:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformLedsC.nc" name="Led2" provided="1" ref="0x2b35077e8500">
       <component-ref nicename="PlatformLedsC" qname="PlatformLedsC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Led2" ref="0x2b7153e8d500" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Led2" ref="0x2b35077e8500" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153e8d850" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153e8d9d8" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153e8db60" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153e8dce8" scoped=""/>
-        <function-ref name="get" ref="0x2b7153e8de70" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153e8c020" scoped=""/>
-        <function-ref name="set" ref="0x2b7153e8c1a8" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153e8c330" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077e8850" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077e89d8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077e8b60" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077e8ce8" scoped=""/>
+        <function-ref name="get" ref="0x2b35077e8e70" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077e7020" scoped=""/>
+        <function-ref name="set" ref="0x2b35077e71a8" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077e7330" scoped=""/>
       </interface-functions>
-    </interface></specification><referenced><interface loc="18:/opt/tinyos-2.1.2/tos/system/NoPinC.nc" name="GeneralIO" provided="1" ref="0x2b7153f975d8">
+    </interface></specification><referenced><interface loc="18:/opt/tinyos-2.1.2/tos/system/NoPinC.nc" name="GeneralIO" provided="1" ref="0x2b35078c6c58">
       <component-ref nicename="tos.system.NoPinC" qname="PlatformLedsC.NoPinC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="GeneralIO" ref="0x2b7153f975d8" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="GeneralIO" ref="0x2b35078c6c58" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153f97928" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153f97ab0" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153f97c38" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153f97dc0" scoped=""/>
-        <function-ref name="get" ref="0x2b7153f96020" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153f961a8" scoped=""/>
-        <function-ref name="set" ref="0x2b7153f96330" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153f964b8" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35078c5020" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35078c51a8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35078c5330" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35078c54b8" scoped=""/>
+        <function-ref name="get" ref="0x2b35078c5640" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35078c57c8" scoped=""/>
+        <function-ref name="set" ref="0x2b35078c5950" scoped=""/>
+        <function-ref name="clr" ref="0x2b35078c5ad8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="43:/opt/tinyos-2.x-contrib/diku/common/lib/ReverseGPIOP.nc" name="Out" provided="1" ref="0x2b7153f7a998">
-      <component-ref nicename="PlatformLedsC.Led0_rev" qname="PlatformLedsC.Led0_rev"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Out" ref="0x2b7153f7a998" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153f7ace8" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153f7ae70" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153f79020" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153f791a8" scoped=""/>
-        <function-ref name="get" ref="0x2b7153f79330" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153f794b8" scoped=""/>
-        <function-ref name="set" ref="0x2b7153f79640" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153f797c8" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="63:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P13" provided="1" ref="0x2b7153ea7800">
+    </interface><interface loc="61:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P11" provided="1" ref="0x2b35077ed4f0">
       <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P13" ref="0x2b7153ea7800" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P11" ref="0x2b35077ed4f0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
       <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153ea7b50" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153ea7cd8" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153ea7e60" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153ea6020" scoped=""/>
-        <function-ref name="get" ref="0x2b7153ea61a8" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153ea6330" scoped=""/>
-        <function-ref name="set" ref="0x2b7153ea64b8" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153ea6640" scoped=""/>
+        <function-ref name="makeInput" ref="0x2b35077ed840" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077ed9c8" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077edb50" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077edcd8" scoped=""/>
+        <function-ref name="get" ref="0x2b35077ede60" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077ec020" scoped=""/>
+        <function-ref name="set" ref="0x2b35077ec1a8" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077ec330" scoped=""/>
       </interface-functions>
-    </interface><interface loc="43:/opt/tinyos-2.x-contrib/diku/common/lib/ReverseGPIOP.nc" name="Out" provided="1" ref="0x2b7153f9b288">
-      <component-ref nicename="PlatformLedsC.Led2_rev" qname="PlatformLedsC.Led2_rev"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Out" ref="0x2b7153f9b288" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153f9b5d8" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153f9b760" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153f9b8e8" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153f9ba70" scoped=""/>
-        <function-ref name="get" ref="0x2b7153f9bbf8" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153f9bd80" scoped=""/>
-        <function-ref name="set" ref="0x2b7153f9a020" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153f9a1a8" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="60:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P10" provided="1" ref="0x2b7153eaa368">
-      <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="P10" ref="0x2b7153eaa368" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153eaa6b8" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153eaa840" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153eaa9c8" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153eaab50" scoped=""/>
-        <function-ref name="get" ref="0x2b7153eaacd8" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153eaae60" scoped=""/>
-        <function-ref name="set" ref="0x2b7153ea9020" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153ea91a8" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="44:/opt/tinyos-2.x-contrib/diku/common/lib/ReverseGPIOP.nc" name="In" provided="0" ref="0x2b7153f9a470">
-      <component-ref nicename="PlatformLedsC.Led2_rev" qname="PlatformLedsC.Led2_rev"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="In" ref="0x2b7153f9a470" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153f9a7c0" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153f9a948" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153f9aad0" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153f9ac58" scoped=""/>
-        <function-ref name="get" ref="0x2b7153f9ade0" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153f99020" scoped=""/>
-        <function-ref name="set" ref="0x2b7153f991a8" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153f99330" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="44:/opt/tinyos-2.x-contrib/diku/common/lib/ReverseGPIOP.nc" name="In" provided="0" ref="0x2b7153f79a90">
-      <component-ref nicename="PlatformLedsC.Led0_rev" qname="PlatformLedsC.Led0_rev"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="In" ref="0x2b7153f79a90" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="makeInput" ref="0x2b7153f79de0" scoped=""/>
-        <function-ref name="isInput" ref="0x2b7153f9d020" scoped=""/>
-        <function-ref name="toggle" ref="0x2b7153f9d1a8" scoped=""/>
-        <function-ref name="isOutput" ref="0x2b7153f9d330" scoped=""/>
-        <function-ref name="get" ref="0x2b7153f9d4b8" scoped=""/>
-        <function-ref name="makeOutput" ref="0x2b7153f9d640" scoped=""/>
-        <function-ref name="set" ref="0x2b7153f9d7c8" scoped=""/>
-        <function-ref name="clr" ref="0x2b7153f9d950" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="44:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc" name="LedsInit" provided="0" ref="0x2b7153c94370">
+    </interface><interface loc="44:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformP.nc" name="LedsInit" provided="0" ref="0x2b350765c4c0">
       <component-ref nicename="PlatformP" qname="PlatformP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="LedsInit" ref="0x2b7153c94370" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="LedsInit" ref="0x2b350765c4c0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b7153c946c0" scoped=""/>
+        <function-ref name="init" ref="0x2b350765c810" scoped=""/>
       </interface-functions>
-    </interface><component loc="16(PlatformLedsC.NoPinC):/opt/tinyos-2.1.2/tos/system/NoPinC.nc" nicename="tos.system.NoPinC" qname="PlatformLedsC.NoPinC">
-      <documentation loc="10:/opt/tinyos-2.1.2/tos/system/NoPinC.nc">
-        <short>
- Dummy pin component.</short>
-        <long>
- Dummy pin component.
-
- @author David Gay
-</long>
-      </documentation>
-      <instance number="0">
-        <component-ref nicename="tos.system.NoPinC" qname="NoPinC"/>
+    </interface><interface loc="60:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" name="P10" provided="1" ref="0x2b35077ee368">
+      <component-ref nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="P10" ref="0x2b35077ee368" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.GeneralIO" qname="GeneralIO"/>
       </instance>
-      <module/>
-    </component><component loc="50:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC">
+      <interface-functions>
+        <function-ref name="makeInput" ref="0x2b35077ee6b8" scoped=""/>
+        <function-ref name="isInput" ref="0x2b35077ee840" scoped=""/>
+        <function-ref name="toggle" ref="0x2b35077ee9c8" scoped=""/>
+        <function-ref name="isOutput" ref="0x2b35077eeb50" scoped=""/>
+        <function-ref name="get" ref="0x2b35077eecd8" scoped=""/>
+        <function-ref name="makeOutput" ref="0x2b35077eee60" scoped=""/>
+        <function-ref name="set" ref="0x2b35077ed020" scoped=""/>
+        <function-ref name="clr" ref="0x2b35077ed1a8" scoped=""/>
+      </interface-functions>
+    </interface><component loc="50:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/mcs51/pins/HplMcs51GeneralIOC.nc" nicename="HplMcs51GeneralIOC" qname="HplMcs51GeneralIOC">
       <documentation loc="32:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/hardware.h">
         <short>
 
@@ -252,44 +166,18 @@
 </long>
       </documentation>
       <module/>
-    </component><component loc="41(PlatformLedsC.Led0_rev):/opt/tinyos-2.x-contrib/diku/common/lib/ReverseGPIOP.nc" nicename="PlatformLedsC.Led0_rev" qname="PlatformLedsC.Led0_rev">
-      <documentation loc="33:/opt/tinyos-2.x-contrib/diku/common/lib/ReverseGPIOP.nc">
+    </component><component loc="16(PlatformLedsC.NoPinC):/opt/tinyos-2.1.2/tos/system/NoPinC.nc" nicename="tos.system.NoPinC" qname="PlatformLedsC.NoPinC">
+      <documentation loc="10:/opt/tinyos-2.1.2/tos/system/NoPinC.nc">
         <short>
- ReverseGPIOP reverses the semantics of clr/set in GeneralIO
-
- Usefull when implementing Leds (LedsC assumes active low)
-
- </short>
+ Dummy pin component.</short>
         <long>
- ReverseGPIOP reverses the semantics of clr/set in GeneralIO
+ Dummy pin component.
 
- Usefull when implementing Leds (LedsC assumes active low)
-
- @author Martin Leopold &lt;ml@polaric.dk&gt;
+ @author David Gay
 </long>
       </documentation>
       <instance number="0">
-        <component-ref nicename="ReverseGPIOP" qname="ReverseGPIOP"/>
-      </instance>
-      <module/>
-    </component><component loc="41(PlatformLedsC.Led2_rev):/opt/tinyos-2.x-contrib/diku/common/lib/ReverseGPIOP.nc" nicename="PlatformLedsC.Led2_rev" qname="PlatformLedsC.Led2_rev">
-      <documentation loc="33:/opt/tinyos-2.x-contrib/diku/common/lib/ReverseGPIOP.nc">
-        <short>
- ReverseGPIOP reverses the semantics of clr/set in GeneralIO
-
- Usefull when implementing Leds (LedsC assumes active low)
-
- </short>
-        <long>
- ReverseGPIOP reverses the semantics of clr/set in GeneralIO
-
- Usefull when implementing Leds (LedsC assumes active low)
-
- @author Martin Leopold &lt;ml@polaric.dk&gt;
-</long>
-      </documentation>
-      <instance number="1">
-        <component-ref nicename="ReverseGPIOP" qname="ReverseGPIOP"/>
+        <component-ref nicename="tos.system.NoPinC" qname="NoPinC"/>
       </instance>
       <module/>
     </component></referenced></component>

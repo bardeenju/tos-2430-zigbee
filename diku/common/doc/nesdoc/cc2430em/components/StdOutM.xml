@@ -12,48 +12,48 @@
 </long>
       </documentation>
       <module/>
-    <specification><interface loc="35:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutM.nc" name="Init" provided="1" ref="0x2b71542dc9f8">
+    <specification><interface loc="35:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutM.nc" name="Init" provided="1" ref="0x2af4418469f8">
       <component-ref nicename="StdOutM" qname="StdOutM"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b71542dc9f8" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2af4418469f8" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b71542dcd48" scoped=""/>
+        <function-ref name="init" ref="0x2af441846d48" scoped=""/>
       </interface-functions>
-    </interface><interface loc="36:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutM.nc" name="UART" provided="0" ref="0x2b71542d7210">
+    </interface><interface loc="36:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutM.nc" name="UART" provided="0" ref="0x2af441867210">
       <component-ref nicename="StdOutM" qname="StdOutM"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="UART" ref="0x2b71542d7210" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="UART" ref="0x2af441867210" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.lib.serial.SerialByteComm" qname="SerialByteComm"/>
       </instance>
       <interface-functions>
-        <function-ref name="get" ref="0x2b71542d7560" scoped=""/>
-        <function-ref name="putDone" ref="0x2b71542d76e8" scoped=""/>
-        <function-ref name="put" ref="0x2b71542d7870" scoped=""/>
+        <function-ref name="get" ref="0x2af441867560" scoped=""/>
+        <function-ref name="putDone" ref="0x2af4418676e8" scoped=""/>
+        <function-ref name="put" ref="0x2af441867870" scoped=""/>
       </interface-functions>
-    </interface><interface loc="34:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutM.nc" name="StdOut" provided="1" ref="0x2b71542bab08">
+    </interface><interface loc="34:/opt/tinyos-2.x-contrib/diku/common/lib/stdout/StdOutM.nc" name="StdOut" provided="1" ref="0x2af44184ab08">
       <component-ref nicename="StdOutM" qname="StdOutM"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdOut" ref="0x2b71542bab08" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="StdOut" ref="0x2af44184ab08" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="StdOut" qname="StdOut"/>
       </instance>
       <interface-functions>
-        <function-ref name="dumpHex" ref="0x2b71542bae58" scoped=""/>
-        <function-ref name="printBase2" ref="0x2b71542dd020" scoped=""/>
-        <function-ref name="printBase10uint16" ref="0x2b71542dd1a8" scoped=""/>
-        <function-ref name="printHexword" ref="0x2b71542dd330" scoped=""/>
-        <function-ref name="printBase10uint32" ref="0x2b71542dd4b8" scoped=""/>
-        <function-ref name="get" ref="0x2b71542dd640" scoped=""/>
-        <function-ref name="printBase10uint8" ref="0x2b71542dd7c8" scoped=""/>
-        <function-ref name="printBase2long" ref="0x2b71542dd950" scoped=""/>
-        <function-ref name="printHexlong" ref="0x2b71542ddad8" scoped=""/>
-        <function-ref name="printBase2word" ref="0x2b71542ddc60" scoped=""/>
-        <function-ref name="printBase10int8" ref="0x2b71542ddde8" scoped=""/>
-        <function-ref name="print" ref="0x2b71542dc020" scoped=""/>
-        <function-ref name="done" ref="0x2b71542dc1a8" scoped=""/>
-        <function-ref name="printHex" ref="0x2b71542dc430" scoped=""/>
-        <function-ref name="printBase10int16" ref="0x2b71542dc5b8" scoped=""/>
-        <function-ref name="printBase10int32" ref="0x2b71542dc740" scoped=""/>
+        <function-ref name="dumpHex" ref="0x2af44184ae58" scoped=""/>
+        <function-ref name="printBase2" ref="0x2af441847020" scoped=""/>
+        <function-ref name="printBase10uint16" ref="0x2af4418471a8" scoped=""/>
+        <function-ref name="printHexword" ref="0x2af441847330" scoped=""/>
+        <function-ref name="printBase10uint32" ref="0x2af4418474b8" scoped=""/>
+        <function-ref name="get" ref="0x2af441847640" scoped=""/>
+        <function-ref name="printBase10uint8" ref="0x2af4418477c8" scoped=""/>
+        <function-ref name="printBase2long" ref="0x2af441847950" scoped=""/>
+        <function-ref name="printHexlong" ref="0x2af441847ad8" scoped=""/>
+        <function-ref name="printBase2word" ref="0x2af441847c60" scoped=""/>
+        <function-ref name="printBase10int8" ref="0x2af441847de8" scoped=""/>
+        <function-ref name="print" ref="0x2af441846020" scoped=""/>
+        <function-ref name="done" ref="0x2af4418461a8" scoped=""/>
+        <function-ref name="printHex" ref="0x2af441846430" scoped=""/>
+        <function-ref name="printBase10int16" ref="0x2af4418465b8" scoped=""/>
+        <function-ref name="printBase10int32" ref="0x2af441846740" scoped=""/>
       </interface-functions>
     </interface></specification><referenced/></component>

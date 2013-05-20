@@ -16,191 +16,191 @@
       <configuration/>
       <wiring>
         <wire loc="44:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HilTimerMilliC.nc">
-          <from><interface-ref name="TimerMilli" ref="0x2b7153fbe6a8" scoped=""/></from>
-          <to><interface-ref name="Timer" ref="0x2b715414f020" scoped=""/></to>
+          <from><interface-ref name="TimerMilli" ref="0x2af4415406a8" scoped=""/></from>
+          <to><interface-ref name="Timer" ref="0x2af4416c6020" scoped=""/></to>
         </wire>
         <wire loc="43:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HilTimerMilliC.nc">
-          <from><interface-ref name="Init" ref="0x2b7153fc1970" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b71540ca418" scoped=""/></to>
+          <from><interface-ref name="Init" ref="0x2af441543970" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2af441662418" scoped=""/></to>
         </wire>
         <wire loc="46:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HilTimerMilliC.nc">
-          <from><interface-ref name="TimerFrom" ref="0x2b7154149208" scoped=""/></from>
-          <to><interface-ref name="Timer" ref="0x2b71540e1d88" scoped=""/></to>
+          <from><interface-ref name="TimerFrom" ref="0x2af4416e0208" scoped=""/></from>
+          <to><interface-ref name="Timer" ref="0x2af44165bd88" scoped=""/></to>
         </wire>
         <wire loc="47:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HilTimerMilliC.nc">
-          <from><interface-ref name="Alarm" ref="0x2b71540f6020" scoped=""/></from>
-          <to><interface-ref name="Alarm" ref="0x2b71540cac00" scoped=""/></to>
+          <from><interface-ref name="Alarm" ref="0x2af44168d020" scoped=""/></from>
+          <to><interface-ref name="Alarm" ref="0x2af441662c00" scoped=""/></to>
         </wire>
       </wiring>
-    <specification><interface loc="35:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HilTimerMilliC.nc" name="TimerMilli" provided="1" ref="0x2b7153fbe6a8">
+    <specification><interface loc="35:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HilTimerMilliC.nc" name="TimerMilli" provided="1" ref="0x2af4415406a8">
       <component-ref nicename="HilTimerMilliC" qname="HilTimerMilliC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="TimerMilli" ref="0x2b7153fbe6a8" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="TimerMilli" ref="0x2af4415406a8" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
         <arguments>
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="TMilli" ref="0x2b7153c96020"/></typename>
+            <typename><typedef-ref name="TMilli" ref="0x2af441235020"/></typename>
           </type-int>
         </arguments>
       </instance>
       <interface-parameters>
         <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-          <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+          <typename><typedef-ref name="uint8_t" ref="0x2af44085e110"/></typename>
         </type-int>
       </interface-parameters>
       <interface-functions>
-        <function-ref name="getNow" ref="0x2b7153fbaa18" scoped=""/>
-        <function-ref name="fired" ref="0x2b7153fbc158" scoped=""/>
-        <function-ref name="startPeriodicAt" ref="0x2b7153fbce48" scoped=""/>
-        <function-ref name="isOneShot" ref="0x2b7153fbc9f8" scoped=""/>
-        <function-ref name="getdt" ref="0x2b7153fb92e8" scoped=""/>
-        <function-ref name="gett0" ref="0x2b7153fbae68" scoped=""/>
-        <function-ref name="isRunning" ref="0x2b7153fbc5a8" scoped=""/>
-        <function-ref name="startPeriodic" ref="0x2b7153fbd370" scoped=""/>
-        <function-ref name="startOneShotAt" ref="0x2b7153fba448" scoped=""/>
-        <function-ref name="startOneShot" ref="0x2b7153fbd810" scoped=""/>
-        <function-ref name="stop" ref="0x2b7153fbdcb0" scoped=""/>
+        <function-ref name="getNow" ref="0x2af44153da18" scoped=""/>
+        <function-ref name="fired" ref="0x2af44153e158" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x2af44153ee48" scoped=""/>
+        <function-ref name="isOneShot" ref="0x2af44153e9f8" scoped=""/>
+        <function-ref name="getdt" ref="0x2af4415552e8" scoped=""/>
+        <function-ref name="gett0" ref="0x2af44153de68" scoped=""/>
+        <function-ref name="isRunning" ref="0x2af44153e5a8" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x2af44153f370" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x2af44153d448" scoped=""/>
+        <function-ref name="startOneShot" ref="0x2af44153f810" scoped=""/>
+        <function-ref name="stop" ref="0x2af44153fcb0" scoped=""/>
       </interface-functions>
-    </interface><interface loc="34:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HilTimerMilliC.nc" name="Init" provided="1" ref="0x2b7153fc1970">
+    </interface><interface loc="34:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/HilTimerMilliC.nc" name="Init" provided="1" ref="0x2af441543970">
       <component-ref nicename="HilTimerMilliC" qname="HilTimerMilliC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b7153fc1970" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2af441543970" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b7153fc1cc0" scoped=""/>
+        <function-ref name="init" ref="0x2af441543cc0" scoped=""/>
       </interface-functions>
-    </interface></specification><referenced><interface loc="48:/opt/tinyos-2.1.2/tos/lib/timer/AlarmToTimerC.nc" name="Timer" provided="1" ref="0x2b71540e1d88">
-      <component-ref nicename="tos.lib.timer.AlarmToTimerC" qname="HilTimerMilliC.AlarmToTimerC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Timer" ref="0x2b71540e1d88" scoped=""/></type-interface>
+    </interface></specification><referenced><interface loc="49:/opt/tinyos-2.1.2/tos/lib/timer/VirtualizeTimerC.nc" name="TimerFrom" provided="0" ref="0x2af4416e0208">
+      <component-ref nicename="tos.lib.timer.VirtualizeTimerC" qname="HilTimerMilliC.VirtualizeTimerC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="TimerFrom" ref="0x2af4416e0208" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
         <arguments>
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="TMilli" ref="0x2b7153c96020"/></typename>
+            <typename><typedef-ref name="TMilli" ref="0x2af441235020"/></typename>
           </type-int>
         </arguments>
       </instance>
       <interface-functions>
-        <function-ref name="getNow" ref="0x2b71540f8088" scoped=""/>
-        <function-ref name="fired" ref="0x2b71540fa6c8" scoped=""/>
-        <function-ref name="startPeriodicAt" ref="0x2b71540f9470" scoped=""/>
-        <function-ref name="isOneShot" ref="0x2b71540f9020" scoped=""/>
-        <function-ref name="getdt" ref="0x2b71540f8928" scoped=""/>
-        <function-ref name="gett0" ref="0x2b71540f84d8" scoped=""/>
-        <function-ref name="isRunning" ref="0x2b71540fab18" scoped=""/>
-        <function-ref name="startPeriodic" ref="0x2b71540fc908" scoped=""/>
-        <function-ref name="startOneShotAt" ref="0x2b71540f9a40" scoped=""/>
-        <function-ref name="startOneShot" ref="0x2b71540fcda8" scoped=""/>
-        <function-ref name="stop" ref="0x2b71540fa278" scoped=""/>
+        <function-ref name="getNow" ref="0x2af4416dc5f0" scoped=""/>
+        <function-ref name="fired" ref="0x2af4416deb28" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x2af4416dd8c0" scoped=""/>
+        <function-ref name="isOneShot" ref="0x2af4416dd470" scoped=""/>
+        <function-ref name="getdt" ref="0x2af4416da020" scoped=""/>
+        <function-ref name="gett0" ref="0x2af4416dca40" scoped=""/>
+        <function-ref name="isRunning" ref="0x2af4416dd020" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x2af4416e0d50" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x2af4416dc020" scoped=""/>
+        <function-ref name="startOneShot" ref="0x2af4416de238" scoped=""/>
+        <function-ref name="stop" ref="0x2af4416de6d8" scoped=""/>
       </interface-functions>
-    </interface><interface loc="33:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/AlarmMilli32C.nc" name="Alarm" provided="1" ref="0x2b71540cac00">
+    </interface><interface loc="32:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/AlarmMilli32C.nc" name="Init" provided="1" ref="0x2af441662418">
       <component-ref nicename="HilTimerMilliC.AlarmMilli32C" qname="HilTimerMilliC.AlarmMilli32C"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Alarm" ref="0x2b71540cac00" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
-        <arguments>
-          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="TMilli" ref="0x2b7153c96020"/></typename>
-          </type-int>
-          <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-            <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
-          </type-int>
-        </arguments>
-      </instance>
-      <interface-functions>
-        <function-ref name="getNow" ref="0x2b71540c7410" scoped=""/>
-        <function-ref name="fired" ref="0x2b71540c84a8" scoped=""/>
-        <function-ref name="startAt" ref="0x2b71540c8db8" scoped=""/>
-        <function-ref name="isRunning" ref="0x2b71540c8930" scoped=""/>
-        <function-ref name="getAlarm" ref="0x2b71540c7898" scoped=""/>
-        <function-ref name="start" ref="0x2b71540c99f0" scoped=""/>
-        <function-ref name="stop" ref="0x2b71540c8020" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="49:/opt/tinyos-2.1.2/tos/lib/timer/AlarmToTimerC.nc" name="Alarm" provided="0" ref="0x2b71540f6020">
-      <component-ref nicename="tos.lib.timer.AlarmToTimerC" qname="HilTimerMilliC.AlarmToTimerC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Alarm" ref="0x2b71540f6020" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
-        <arguments>
-          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="TMilli" ref="0x2b7153c96020"/></typename>
-          </type-int>
-          <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
-            <typename><typedef-ref name="uint32_t" ref="0x2b71532bf870"/></typename>
-          </type-int>
-        </arguments>
-      </instance>
-      <interface-functions>
-        <function-ref name="getNow" ref="0x2b71540f4690" scoped=""/>
-        <function-ref name="fired" ref="0x2b71540f56f8" scoped=""/>
-        <function-ref name="startAt" ref="0x2b71540f4088" scoped=""/>
-        <function-ref name="isRunning" ref="0x2b71540f5b80" scoped=""/>
-        <function-ref name="getAlarm" ref="0x2b71540f4b18" scoped=""/>
-        <function-ref name="start" ref="0x2b71540f6d70" scoped=""/>
-        <function-ref name="stop" ref="0x2b71540f5270" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="32:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/AlarmMilli32C.nc" name="Init" provided="1" ref="0x2b71540ca418">
-      <component-ref nicename="HilTimerMilliC.AlarmMilli32C" qname="HilTimerMilliC.AlarmMilli32C"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b71540ca418" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2af441662418" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b71540ca768" scoped=""/>
+        <function-ref name="init" ref="0x2af441662768" scoped=""/>
       </interface-functions>
-    </interface><interface loc="49:/opt/tinyos-2.1.2/tos/lib/timer/VirtualizeTimerC.nc" name="TimerFrom" provided="0" ref="0x2b7154149208">
+    </interface><interface loc="48:/opt/tinyos-2.1.2/tos/lib/timer/VirtualizeTimerC.nc" name="Timer" provided="1" ref="0x2af4416c6020">
       <component-ref nicename="tos.lib.timer.VirtualizeTimerC" qname="HilTimerMilliC.VirtualizeTimerC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="TimerFrom" ref="0x2b7154149208" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Timer" ref="0x2af4416c6020" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
         <arguments>
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="TMilli" ref="0x2b7153c96020"/></typename>
-          </type-int>
-        </arguments>
-      </instance>
-      <interface-functions>
-        <function-ref name="getNow" ref="0x2b71541465f0" scoped=""/>
-        <function-ref name="fired" ref="0x2b7154148b28" scoped=""/>
-        <function-ref name="startPeriodicAt" ref="0x2b71541478c0" scoped=""/>
-        <function-ref name="isOneShot" ref="0x2b7154147470" scoped=""/>
-        <function-ref name="getdt" ref="0x2b7154144020" scoped=""/>
-        <function-ref name="gett0" ref="0x2b7154146a40" scoped=""/>
-        <function-ref name="isRunning" ref="0x2b7154147020" scoped=""/>
-        <function-ref name="startPeriodic" ref="0x2b7154149d50" scoped=""/>
-        <function-ref name="startOneShotAt" ref="0x2b7154146020" scoped=""/>
-        <function-ref name="startOneShot" ref="0x2b7154148238" scoped=""/>
-        <function-ref name="stop" ref="0x2b71541486d8" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="48:/opt/tinyos-2.1.2/tos/lib/timer/VirtualizeTimerC.nc" name="Timer" provided="1" ref="0x2b715414f020">
-      <component-ref nicename="tos.lib.timer.VirtualizeTimerC" qname="HilTimerMilliC.VirtualizeTimerC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Timer" ref="0x2b715414f020" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
-        <arguments>
-          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="TMilli" ref="0x2b7153c96020"/></typename>
+            <typename><typedef-ref name="TMilli" ref="0x2af441235020"/></typename>
           </type-int>
         </arguments>
       </instance>
       <interface-parameters>
         <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-          <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+          <typename><typedef-ref name="uint8_t" ref="0x2af44085e110"/></typename>
         </type-int>
       </interface-parameters>
       <interface-functions>
-        <function-ref name="getNow" ref="0x2b715414b358" scoped=""/>
-        <function-ref name="fired" ref="0x2b715414e9b8" scoped=""/>
-        <function-ref name="startPeriodicAt" ref="0x2b715414c748" scoped=""/>
-        <function-ref name="isOneShot" ref="0x2b715414c2d8" scoped=""/>
-        <function-ref name="getdt" ref="0x2b715414bc38" scoped=""/>
-        <function-ref name="gett0" ref="0x2b715414b7c8" scoped=""/>
-        <function-ref name="isRunning" ref="0x2b715414ee28" scoped=""/>
-        <function-ref name="startPeriodic" ref="0x2b715414fb88" scoped=""/>
-        <function-ref name="startOneShotAt" ref="0x2b715414cd38" scoped=""/>
-        <function-ref name="startOneShot" ref="0x2b715414e088" scoped=""/>
-        <function-ref name="stop" ref="0x2b715414e548" scoped=""/>
+        <function-ref name="getNow" ref="0x2af4416e1358" scoped=""/>
+        <function-ref name="fired" ref="0x2af4416c49b8" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x2af4416c3748" scoped=""/>
+        <function-ref name="isOneShot" ref="0x2af4416c32d8" scoped=""/>
+        <function-ref name="getdt" ref="0x2af4416e1c38" scoped=""/>
+        <function-ref name="gett0" ref="0x2af4416e17c8" scoped=""/>
+        <function-ref name="isRunning" ref="0x2af4416c4e28" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x2af4416c6b88" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x2af4416c3d38" scoped=""/>
+        <function-ref name="startOneShot" ref="0x2af4416c4088" scoped=""/>
+        <function-ref name="stop" ref="0x2af4416c4548" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="49:/opt/tinyos-2.1.2/tos/lib/timer/AlarmToTimerC.nc" name="Alarm" provided="0" ref="0x2af44168d020">
+      <component-ref nicename="tos.lib.timer.AlarmToTimerC" qname="HilTimerMilliC.AlarmToTimerC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Alarm" ref="0x2af44168d020" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="TMilli" ref="0x2af441235020"/></typename>
+          </type-int>
+          <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x2af44168a690" scoped=""/>
+        <function-ref name="fired" ref="0x2af44168b6f8" scoped=""/>
+        <function-ref name="startAt" ref="0x2af44168a088" scoped=""/>
+        <function-ref name="isRunning" ref="0x2af44168bb80" scoped=""/>
+        <function-ref name="getAlarm" ref="0x2af44168ab18" scoped=""/>
+        <function-ref name="start" ref="0x2af44168dd70" scoped=""/>
+        <function-ref name="stop" ref="0x2af44168b270" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="48:/opt/tinyos-2.1.2/tos/lib/timer/AlarmToTimerC.nc" name="Timer" provided="1" ref="0x2af44165bd88">
+      <component-ref nicename="tos.lib.timer.AlarmToTimerC" qname="HilTimerMilliC.AlarmToTimerC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Timer" ref="0x2af44165bd88" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Timer" qname="Timer"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="TMilli" ref="0x2af441235020"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x2af44168e088" scoped=""/>
+        <function-ref name="fired" ref="0x2af4416906c8" scoped=""/>
+        <function-ref name="startPeriodicAt" ref="0x2af44168f470" scoped=""/>
+        <function-ref name="isOneShot" ref="0x2af44168f020" scoped=""/>
+        <function-ref name="getdt" ref="0x2af44168e928" scoped=""/>
+        <function-ref name="gett0" ref="0x2af44168e4d8" scoped=""/>
+        <function-ref name="isRunning" ref="0x2af441690b18" scoped=""/>
+        <function-ref name="startPeriodic" ref="0x2af441692908" scoped=""/>
+        <function-ref name="startOneShotAt" ref="0x2af44168fa40" scoped=""/>
+        <function-ref name="startOneShot" ref="0x2af441692da8" scoped=""/>
+        <function-ref name="stop" ref="0x2af441690278" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="33:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/AlarmMilli32C.nc" name="Alarm" provided="1" ref="0x2af441662c00">
+      <component-ref nicename="HilTimerMilliC.AlarmMilli32C" qname="HilTimerMilliC.AlarmMilli32C"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Alarm" ref="0x2af441662c00" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
+        <arguments>
+          <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
+            <typename><typedef-ref name="TMilli" ref="0x2af441235020"/></typename>
+          </type-int>
+          <type-int alignment="I:8" cname="unsigned long" size="I:8" unsigned="">
+            <typename><typedef-ref name="uint32_t" ref="0x2af44085e870"/></typename>
+          </type-int>
+        </arguments>
+      </instance>
+      <interface-functions>
+        <function-ref name="getNow" ref="0x2af44165f410" scoped=""/>
+        <function-ref name="fired" ref="0x2af4416604a8" scoped=""/>
+        <function-ref name="startAt" ref="0x2af441660db8" scoped=""/>
+        <function-ref name="isRunning" ref="0x2af441660930" scoped=""/>
+        <function-ref name="getAlarm" ref="0x2af44165f898" scoped=""/>
+        <function-ref name="start" ref="0x2af4416619f0" scoped=""/>
+        <function-ref name="stop" ref="0x2af441660020" scoped=""/>
       </interface-functions>
     </interface><component loc="46(HilTimerMilliC.AlarmToTimerC):/opt/tinyos-2.1.2/tos/lib/timer/AlarmToTimerC.nc" nicename="tos.lib.timer.AlarmToTimerC" qname="HilTimerMilliC.AlarmToTimerC">
       <documentation loc="36:/opt/tinyos-2.1.2/tos/lib/timer/AlarmToTimerC.nc">
@@ -220,7 +220,7 @@
         <component-ref nicename="tos.lib.timer.AlarmToTimerC" qname="AlarmToTimerC"/>
         <arguments>
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="TMilli" ref="0x2b7153c96020"/></typename>
+            <typename><typedef-ref name="TMilli" ref="0x2af441235020"/></typename>
           </type-int>
         </arguments>
       </instance>
@@ -245,20 +245,20 @@
       <configuration/>
       <wiring>
         <wire loc="42:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/AlarmMilli32C.nc">
-          <from><interface-ref name="Alarm" ref="0x2b71540cac00" scoped=""/></from>
-          <to><interface-ref name="Alarm" ref="0x2b71543bec78" scoped=""/></to>
+          <from><interface-ref name="Alarm" ref="0x2af441662c00" scoped=""/></from>
+          <to><interface-ref name="Alarm" ref="0x2af44192e020" scoped=""/></to>
         </wire>
         <wire loc="41:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/AlarmMilli32C.nc">
-          <from><interface-ref name="Init" ref="0x2b71540ca418" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b715439a418" scoped=""/></to>
+          <from><interface-ref name="Init" ref="0x2af441662418" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2af4419357d8" scoped=""/></to>
         </wire>
         <wire loc="44:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/AlarmMilli32C.nc">
-          <from><interface-ref name="AlarmFrom" ref="0x2b71543b71e8" scoped=""/></from>
-          <to><interface-ref name="Alarm" ref="0x2b715439ac40" scoped=""/></to>
+          <from><interface-ref name="AlarmFrom" ref="0x2af441928450" scoped=""/></from>
+          <to><interface-ref name="Alarm" ref="0x2af441934060" scoped=""/></to>
         </wire>
         <wire loc="45:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/timer/AlarmMilli32C.nc">
-          <from><interface-ref name="Counter" ref="0x2b71543b9020" scoped=""/></from>
-          <to><interface-ref name="Counter" ref="0x2b715405d880" scoped=""/></to>
+          <from><interface-ref name="Counter" ref="0x2af44192a1a8" scoped=""/></from>
+          <to><interface-ref name="Counter" ref="0x2af4415f6880" scoped=""/></to>
         </wire>
       </wiring>
     </component><component loc="46(HilTimerMilliC.VirtualizeTimerC):/opt/tinyos-2.1.2/tos/lib/timer/VirtualizeTimerC.nc" nicename="tos.lib.timer.VirtualizeTimerC" qname="HilTimerMilliC.VirtualizeTimerC">
@@ -281,7 +281,7 @@
         <component-ref nicename="tos.lib.timer.VirtualizeTimerC" qname="VirtualizeTimerC"/>
         <arguments>
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="TMilli" ref="0x2b7153c96020"/></typename>
+            <typename><typedef-ref name="TMilli" ref="0x2af441235020"/></typename>
           </type-int>
           <value cst="I:1">
             <type-int alignment="I:4" cname="unsigned int" size="I:4" unsigned=""/>

@@ -12,7 +12,7 @@
 
 </long>
       </documentation>
-      <function event="" loc="58:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc" name="get" provided="0" ref="0x2b71542d86c0">
+      <function event="" loc="58:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc" name="get" provided="0" ref="0x2af4418686c0">
         <documentation loc="54:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc">
           <short> 
  Receive a single byte from the serial port.</short>
@@ -26,19 +26,19 @@
           <type-void alignment="I:1" size="I:1"/>
           <function-parameters>
             <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+              <typename><typedef-ref name="uint8_t" ref="0x2af44085e110"/></typename>
             </type-int>
           </function-parameters>
         </type-function>
         <parameters>
-          <variable loc="58:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc" name="data" ref="0x2b71542d8450">
+          <variable loc="58:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc" name="data" ref="0x2af441868450">
             <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+              <typename><typedef-ref name="uint8_t" ref="0x2af44085e110"/></typename>
             </type-int>
           </variable>
         </parameters>
       </function>
-      <function event="" loc="64:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc" name="putDone" provided="0" ref="0x2b71542d8e20">
+      <function event="" loc="64:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc" name="putDone" provided="0" ref="0x2af441868e20">
         <documentation loc="60:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc">
           <short> 
  Split phase event to indicate that the last put request
@@ -57,7 +57,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="52:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc" name="put" provided="0" ref="0x2b71542dbc98">
+      <function command="" loc="52:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc" name="put" provided="0" ref="0x2af441845c98">
         <documentation loc="46:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc">
           <short> 
  Put a single byte to the serial port.</short>
@@ -71,18 +71,18 @@
         <interfacedef-ref nicename="tos.lib.serial.SerialByteComm" qname="SerialByteComm"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+            <typename><typedef-ref name="error_t" ref="0x2af4411575d8"/></typename>
           </type-int>
           <function-parameters>
             <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+              <typename><typedef-ref name="uint8_t" ref="0x2af44085e110"/></typename>
             </type-int>
           </function-parameters>
         </type-function>
         <parameters>
-          <variable loc="52:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc" name="data" ref="0x2b71542dba28">
+          <variable loc="52:/opt/tinyos-2.1.2/tos/lib/serial/SerialByteComm.nc" name="data" ref="0x2af441845a28">
             <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+              <typename><typedef-ref name="uint8_t" ref="0x2af44085e110"/></typename>
             </type-int>
           </variable>
         </parameters>

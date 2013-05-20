@@ -20,7 +20,7 @@
  @author Kevin Klues (klueska@cs.wustl.edu)
 </long>
       </documentation>
-      <function command="" loc="95:/opt/tinyos-2.1.2/tos/interfaces/StdControl.nc" name="start" provided="0" ref="0x2b7153e1c020">
+      <function command="" loc="95:/opt/tinyos-2.1.2/tos/interfaces/StdControl.nc" name="start" provided="0" ref="0x2af4413bb020">
         <documentation loc="88:/opt/tinyos-2.1.2/tos/interfaces/StdControl.nc">
           <short>
  Start this component and all of its subcomponents.</short>
@@ -35,7 +35,7 @@
         <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+            <typename><typedef-ref name="error_t" ref="0x2af4411575d8"/></typename>
           </type-int>
           <function-parameters>
           </function-parameters>
@@ -43,7 +43,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="105:/opt/tinyos-2.1.2/tos/interfaces/StdControl.nc" name="stop" provided="0" ref="0x2b7153e1c7c0">
+      <function command="" loc="105:/opt/tinyos-2.1.2/tos/interfaces/StdControl.nc" name="stop" provided="0" ref="0x2af4413bb7c0">
         <documentation loc="97:/opt/tinyos-2.1.2/tos/interfaces/StdControl.nc">
           <short>
  Stop the component and any pertinent subcomponents (not all
@@ -60,7 +60,7 @@
         <interfacedef-ref nicename="tos.interfaces.StdControl" qname="StdControl"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="error_t" ref="0x2b7153bb85d8"/></typename>
+            <typename><typedef-ref name="error_t" ref="0x2af4411575d8"/></typename>
           </type-int>
           <function-parameters>
           </function-parameters>

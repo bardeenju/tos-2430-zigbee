@@ -51,24 +51,24 @@
 </long>
       </documentation>
       <module/>
-    <specification><interface loc="41:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/usart/HalCC2430SimpleUartP.nc" name="Init" provided="1" ref="0x2b715434fc90">
+    <specification><interface loc="41:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/usart/HalCC2430SimpleUartP.nc" name="Init" provided="1" ref="0x2af4418dec90">
       <component-ref nicename="HalCC2430SimpleUartP" qname="HalCC2430SimpleUartP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b715434fc90" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2af4418dec90" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b715434c020" scoped=""/>
+        <function-ref name="init" ref="0x2af4418db020" scoped=""/>
       </interface-functions>
-    </interface><interface loc="42:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/usart/HalCC2430SimpleUartP.nc" name="uart0" provided="1" ref="0x2b715434c370">
+    </interface><interface loc="42:/opt/tinyos-2.x-contrib/diku/mcs51/tos/chips/cc2430/usart/HalCC2430SimpleUartP.nc" name="uart0" provided="1" ref="0x2af4418db370">
       <component-ref nicename="HalCC2430SimpleUartP" qname="HalCC2430SimpleUartP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="uart0" ref="0x2b715434c370" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="uart0" ref="0x2af4418db370" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.lib.serial.SerialByteComm" qname="SerialByteComm"/>
       </instance>
       <interface-functions>
-        <function-ref name="get" ref="0x2b715434c6c0" scoped=""/>
-        <function-ref name="putDone" ref="0x2b715434c848" scoped=""/>
-        <function-ref name="put" ref="0x2b715434c9d0" scoped=""/>
+        <function-ref name="get" ref="0x2af4418db6c0" scoped=""/>
+        <function-ref name="putDone" ref="0x2af4418db848" scoped=""/>
+        <function-ref name="put" ref="0x2af4418db9d0" scoped=""/>
       </interface-functions>
     </interface></specification><referenced/></component>

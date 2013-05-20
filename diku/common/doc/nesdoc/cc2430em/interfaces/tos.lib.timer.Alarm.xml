@@ -23,16 +23,16 @@
 </long>
       </documentation>
       <parameters>
-        <typedef loc="56:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="precision_tag" ref="0x2b7153fcc0f0">
+        <typedef loc="56:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="precision_tag" ref="0x2af44154f0f0">
           <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
-          <type-var alignment="U:" size="U:"><typedef-ref name="precision_tag" ref="0x2b7153fcc0f0" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="precision_tag" ref="0x2af44154f0f0" scoped=""/></type-var>
         </typedef>
-        <typedef loc="56:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="size_type" ref="0x2b7153fcc320">
+        <typedef loc="56:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="size_type" ref="0x2af44154f320">
           <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
-          <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2b7153fcc320" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2af44154f320" scoped=""/></type-var>
         </typedef>
       </parameters>
-      <function command="" loc="109:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="getNow" provided="0" ref="0x2b7153fc9bd8">
+      <function command="" loc="109:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="getNow" provided="0" ref="0x2af44154bbd8">
         <documentation loc="105:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc">
           <short>
  Return the current time.</short>
@@ -43,14 +43,14 @@
         </documentation>
         <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
         <type-function alignment="I:1" size="I:1">
-          <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2b7153fcc320" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2af44154f320" scoped=""/></type-var>
           <function-parameters>
           </function-parameters>
         </type-function>
         <parameters>
         </parameters>
       </function>
-      <function event="" loc="78:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="fired" provided="0" ref="0x2b7153fcbd78">
+      <function event="" loc="78:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="fired" provided="0" ref="0x2af44154dd78">
         <documentation loc="75:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc">
           <short>
  Signaled when the alarm expires.</short>
@@ -67,7 +67,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="103:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="startAt" provided="0" ref="0x2b7153fc92a0">
+      <function command="" loc="103:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="startAt" provided="0" ref="0x2af44154b2a0">
         <documentation loc="90:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc">
           <short>
  Set a single-short alarm to time t0+dt.</short>
@@ -89,20 +89,20 @@
         <type-function alignment="I:1" size="I:1">
           <type-void alignment="I:1" size="I:1"/>
           <function-parameters>
-            <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2b7153fcc320" scoped=""/></type-var>
-            <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2b7153fcc320" scoped=""/></type-var>
+            <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2af44154f320" scoped=""/></type-var>
+            <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2af44154f320" scoped=""/></type-var>
           </function-parameters>
         </type-function>
         <parameters>
-          <variable loc="103:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="t0" ref="0x2b7153fcacc8">
-            <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2b7153fcc320" scoped=""/></type-var>
+          <variable loc="103:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="t0" ref="0x2af44154ccc8">
+            <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2af44154f320" scoped=""/></type-var>
           </variable>
-          <variable loc="103:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="dt" ref="0x2b7153fc9020">
-            <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2b7153fcc320" scoped=""/></type-var>
+          <variable loc="103:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="dt" ref="0x2af44154b020">
+            <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2af44154f320" scoped=""/></type-var>
           </variable>
         </parameters>
       </function>
-      <function command="" loc="88:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="isRunning" provided="0" ref="0x2b7153fca518">
+      <function command="" loc="88:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="isRunning" provided="0" ref="0x2af44154c518">
         <documentation loc="81:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc">
           <short>
  Check if alarm is running.</short>
@@ -117,7 +117,7 @@
         <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="bool" ref="0x2b7153ba7910"/></typename>
+            <typename><typedef-ref name="bool" ref="0x2af441146910"/></typename>
           </type-int>
           <function-parameters>
           </function-parameters>
@@ -125,7 +125,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="116:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="getAlarm" provided="0" ref="0x2b7153fc73a0">
+      <function command="" loc="116:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="getAlarm" provided="0" ref="0x2af44154a3a0">
         <documentation loc="111:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc">
           <short>
  Return the time the currently running alarm will fire or the time that
@@ -138,14 +138,14 @@
         </documentation>
         <interfacedef-ref nicename="tos.lib.timer.Alarm" qname="Alarm"/>
         <type-function alignment="I:1" size="I:1">
-          <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2b7153fcc320" scoped=""/></type-var>
+          <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2af44154f320" scoped=""/></type-var>
           <function-parameters>
           </function-parameters>
         </type-function>
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="66:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="start" provided="0" ref="0x2b7153fccde0">
+      <function command="" loc="66:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="start" provided="0" ref="0x2af44154fde0">
         <documentation loc="59:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc">
           <short>
  Set a single-short alarm to some time units in the future.</short>
@@ -161,16 +161,16 @@
         <type-function alignment="I:1" size="I:1">
           <type-void alignment="I:1" size="I:1"/>
           <function-parameters>
-            <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2b7153fcc320" scoped=""/></type-var>
+            <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2af44154f320" scoped=""/></type-var>
           </function-parameters>
         </type-function>
         <parameters>
-          <variable loc="66:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="dt" ref="0x2b7153fccb70">
-            <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2b7153fcc320" scoped=""/></type-var>
+          <variable loc="66:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="dt" ref="0x2af44154fb70">
+            <type-var alignment="U:" size="U:"><typedef-ref name="size_type" ref="0x2af44154f320" scoped=""/></type-var>
           </variable>
         </parameters>
       </function>
-      <function command="" loc="73:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="stop" provided="0" ref="0x2b7153fcb628">
+      <function command="" loc="73:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc" name="stop" provided="0" ref="0x2af44154d628">
         <documentation loc="68:/opt/tinyos-2.1.2/tos/lib/timer/Alarm.nc">
           <short>
  Cancel an alarm.</short>

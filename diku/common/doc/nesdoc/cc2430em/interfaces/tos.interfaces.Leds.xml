@@ -9,7 +9,7 @@
  @date   March 21, 2005
 </long>
       </documentation>
-      <function command="" loc="61:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led0Off" provided="0" ref="0x2b7153dfa020">
+      <function command="" loc="61:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led0Off" provided="0" ref="0x2b35077aaaf8">
         <documentation loc="58:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc">
           <short>
  Turn off LED 0.</short>
@@ -26,7 +26,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="67:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led0Toggle" provided="0" ref="0x2b7153dfa758">
+      <function command="" loc="67:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led0Toggle" provided="0" ref="0x2b35077a9258">
         <documentation loc="63:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc">
           <short>
  Toggle LED 0; if it was off, turn it on, if was on, turn it off.</short>
@@ -44,7 +44,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="72:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led1On" provided="0" ref="0x2b7153df9020">
+      <function command="" loc="72:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led1On" provided="0" ref="0x2b35077a99c8">
         <documentation loc="69:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc">
           <short>
  Turn on LED 1.</short>
@@ -61,7 +61,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="83:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led1Toggle" provided="0" ref="0x2b7153df9e70">
+      <function command="" loc="83:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led1Toggle" provided="0" ref="0x2b35077a8848">
         <documentation loc="79:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc">
           <short>
  Toggle LED 1; if it was off, turn it on, if was on, turn it off.</short>
@@ -79,7 +79,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="100:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led2Toggle" provided="0" ref="0x2b7153df6480">
+      <function command="" loc="100:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led2Toggle" provided="0" ref="0x2b35077a6e70">
         <documentation loc="96:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc">
           <short>
  Toggle LED 2; if it was off, turn it on, if was on, turn it off.</short>
@@ -97,7 +97,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="117:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="get" provided="0" ref="0x2b7153df6c18">
+      <function command="" loc="117:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="get" provided="0" ref="0x2b35077b9630">
         <documentation loc="103:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc">
           <short>
  Get the current LED settings as a bitmask.</short>
@@ -119,7 +119,7 @@
         <interfacedef-ref nicename="tos.interfaces.Leds" qname="Leds"/>
         <type-function alignment="I:1" size="I:1">
           <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-            <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+            <typename><typedef-ref name="uint8_t" ref="0x2b3506c87110"/></typename>
           </type-int>
           <function-parameters>
           </function-parameters>
@@ -127,7 +127,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="77:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led1Off" provided="0" ref="0x2b7153df9738">
+      <function command="" loc="77:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led1Off" provided="0" ref="0x2b35077a8110">
         <documentation loc="74:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc">
           <short>
  Turn off LED 1.</short>
@@ -144,7 +144,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="134:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="set" provided="0" ref="0x2b7153df5768">
+      <function command="" loc="134:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="set" provided="0" ref="0x2b35077b8290">
         <documentation loc="120:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc">
           <short>
  Set the current LED configuration using a bitmask.</short>
@@ -168,19 +168,19 @@
           <type-void alignment="I:1" size="I:1"/>
           <function-parameters>
             <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+              <typename><typedef-ref name="uint8_t" ref="0x2b3506c87110"/></typename>
             </type-int>
           </function-parameters>
         </type-function>
         <parameters>
-          <variable loc="134:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="val" ref="0x2b7153df54f8">
+          <variable loc="134:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="val" ref="0x2b35077b8020">
             <type-int alignment="I:1" cname="unsigned char" size="I:1" unsigned="">
-              <typename><typedef-ref name="uint8_t" ref="0x2b71532bf110"/></typename>
+              <typename><typedef-ref name="uint8_t" ref="0x2b3506c87110"/></typename>
             </type-int>
           </variable>
         </parameters>
       </function>
-      <function command="" loc="56:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led0On" provided="0" ref="0x2b7153dfb7e0">
+      <function command="" loc="56:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led0On" provided="0" ref="0x2b35077aa3e0">
         <documentation loc="53:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc">
           <short>
  Turn on LED 0.</short>
@@ -197,7 +197,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="89:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led2On" provided="0" ref="0x2b7153df8608">
+      <function command="" loc="89:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led2On" provided="0" ref="0x2b35077a6020">
         <documentation loc="86:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc">
           <short>
  Turn on LED 2.</short>
@@ -214,7 +214,7 @@
         <parameters>
         </parameters>
       </function>
-      <function command="" loc="94:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led2Off" provided="0" ref="0x2b7153df8d20">
+      <function command="" loc="94:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc" name="led2Off" provided="0" ref="0x2b35077a6738">
         <documentation loc="91:/opt/tinyos-2.1.2/tos/interfaces/Leds.nc">
           <short>
  Turn off LED 2.</short>

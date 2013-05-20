@@ -58,8 +58,8 @@ interface HALCC2420
 	command error_t setTransmitPower(uint8_t power);
 
 	command error_t setAddress(mac_addr_t *addr);
-	command const mac_addr_t * getAddress();
-	command const ieee_mac_addr_t * getExtAddress();
+	command /*const*/ mac_addr_t * getAddress();
+	command /*const*/ ieee_mac_addr_t * getExtAddress();
 
 	command error_t rxEnable();
 	command error_t rxDisable();
@@ -68,6 +68,6 @@ interface HALCC2420
 	command error_t addressFilterDisable();
 
 	command error_t setPanAddress(mac_addr_t *addr);
-	command const mac_addr_t * getPanAddress();
+	command /*const*/ mac_addr_t * getPanAddress();
 
 }

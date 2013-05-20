@@ -11,97 +11,97 @@
       <configuration/>
       <wiring>
         <wire loc="72:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="Boot" ref="0x2b7153c90da8" scoped=""/></from>
-          <to><interface-ref name="Boot" ref="0x2b7153dce550" scoped=""/></to>
+          <from><interface-ref name="Boot" ref="0x2b3507657020" scoped=""/></from>
+          <to><interface-ref name="Boot" ref="0x2b3507796550" scoped=""/></to>
         </wire>
         <wire loc="67:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="Scheduler" ref="0x2b7153dceb88" scoped=""/></from>
-          <to><interface-ref name="Scheduler" ref="0x2b7153bac080" scoped=""/></to>
+          <from><interface-ref name="Scheduler" ref="0x2b3507796b88" scoped=""/></from>
+          <to><interface-ref name="Scheduler" ref="0x2b3507574080" scoped=""/></to>
         </wire>
         <wire loc="68:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="PlatformInit" ref="0x2b7153dcd6a8" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b7153c8b020" scoped=""/></to>
+          <from><interface-ref name="PlatformInit" ref="0x2b35077956a8" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2b35076562b0" scoped=""/></to>
         </wire>
         <wire loc="71:/opt/tinyos-2.1.2/tos/system/MainC.nc">
-          <from><interface-ref name="SoftwareInit" ref="0x2b7153dcdd70" scoped=""/></from>
-          <to><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></to>
+          <from><interface-ref name="SoftwareInit" ref="0x2b3507795d70" scoped=""/></from>
+          <to><interface-ref name="SoftwareInit" ref="0x2b35076544c8" scoped=""/></to>
         </wire>
       </wiring>
-    <specification><interface loc="58:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="SoftwareInit" provided="0" ref="0x2b7153c8c210">
+    <specification><interface loc="58:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="SoftwareInit" provided="0" ref="0x2b35076544c8">
       <component-ref nicename="tos.system.MainC" qname="MainC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="SoftwareInit" ref="0x2b7153c8c210" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="SoftwareInit" ref="0x2b35076544c8" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b7153c8c560" scoped=""/>
+        <function-ref name="init" ref="0x2b3507654818" scoped=""/>
       </interface-functions>
-    </interface><interface loc="57:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="Boot" provided="1" ref="0x2b7153c90da8">
+    </interface><interface loc="57:/opt/tinyos-2.1.2/tos/system/MainC.nc" name="Boot" provided="1" ref="0x2b3507657020">
       <component-ref nicename="tos.system.MainC" qname="MainC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Boot" ref="0x2b7153c90da8" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Boot" ref="0x2b3507657020" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Boot" qname="Boot"/>
       </instance>
       <interface-functions>
-        <function-ref name="booted" ref="0x2b7153c8f170" scoped=""/>
+        <function-ref name="booted" ref="0x2b3507657370" scoped=""/>
       </interface-functions>
-    </interface></specification><referenced><interface loc="47:/opt/tinyos-2.1.2/tos/system/TinySchedulerC.nc" name="Scheduler" provided="1" ref="0x2b7153bac080">
-      <component-ref nicename="tos.system.TinySchedulerC" qname="TinySchedulerC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Scheduler" ref="0x2b7153bac080" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.Scheduler" qname="Scheduler"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="init" ref="0x2b7153bac3d0" scoped=""/>
-        <function-ref name="taskLoop" ref="0x2b7153bac558" scoped=""/>
-        <function-ref name="runNextTask" ref="0x2b7153bac6e0" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="40:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformC.nc" name="Init" provided="1" ref="0x2b7153c8b020">
+    </interface></specification><referenced><interface loc="40:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformC.nc" name="Init" provided="1" ref="0x2b35076562b0">
       <component-ref nicename="PlatformC" qname="PlatformC"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b7153c8b020" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Init" ref="0x2b35076562b0" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b7153c8b370" scoped=""/>
+        <function-ref name="init" ref="0x2b3507656600" scoped=""/>
       </interface-functions>
-    </interface><interface loc="60:/opt/tinyos-2.1.2/tos/system/RealMainP.nc" name="SoftwareInit" provided="0" ref="0x2b7153dcdd70">
+    </interface><interface loc="57:/opt/tinyos-2.1.2/tos/system/RealMainP.nc" name="Boot" provided="1" ref="0x2b3507796550">
       <component-ref nicename="tos.system.RealMainP" qname="RealMainP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="SoftwareInit" ref="0x2b7153dcdd70" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="init" ref="0x2b7153dcc0f0" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="58:/opt/tinyos-2.1.2/tos/system/RealMainP.nc" name="Scheduler" provided="0" ref="0x2b7153dceb88">
-      <component-ref nicename="tos.system.RealMainP" qname="RealMainP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Scheduler" ref="0x2b7153dceb88" scoped=""/></type-interface>
-      <instance>
-        <interfacedef-ref nicename="tos.interfaces.Scheduler" qname="Scheduler"/>
-      </instance>
-      <interface-functions>
-        <function-ref name="init" ref="0x2b7153dcd020" scoped=""/>
-        <function-ref name="taskLoop" ref="0x2b7153dcd1a8" scoped=""/>
-        <function-ref name="runNextTask" ref="0x2b7153dcd330" scoped=""/>
-      </interface-functions>
-    </interface><interface loc="57:/opt/tinyos-2.1.2/tos/system/RealMainP.nc" name="Boot" provided="1" ref="0x2b7153dce550">
-      <component-ref nicename="tos.system.RealMainP" qname="RealMainP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="Boot" ref="0x2b7153dce550" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Boot" ref="0x2b3507796550" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Boot" qname="Boot"/>
       </instance>
       <interface-functions>
-        <function-ref name="booted" ref="0x2b7153dce8a0" scoped=""/>
+        <function-ref name="booted" ref="0x2b35077968a0" scoped=""/>
       </interface-functions>
-    </interface><interface loc="59:/opt/tinyos-2.1.2/tos/system/RealMainP.nc" name="PlatformInit" provided="0" ref="0x2b7153dcd6a8">
+    </interface><interface loc="59:/opt/tinyos-2.1.2/tos/system/RealMainP.nc" name="PlatformInit" provided="0" ref="0x2b35077956a8">
       <component-ref nicename="tos.system.RealMainP" qname="RealMainP"/>
-      <type-interface alignment="I:8" size="I:8"><interface-ref name="PlatformInit" ref="0x2b7153dcd6a8" scoped=""/></type-interface>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="PlatformInit" ref="0x2b35077956a8" scoped=""/></type-interface>
       <instance>
         <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
       </instance>
       <interface-functions>
-        <function-ref name="init" ref="0x2b7153dcd9f8" scoped=""/>
+        <function-ref name="init" ref="0x2b35077959f8" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="47:/opt/tinyos-2.1.2/tos/system/TinySchedulerC.nc" name="Scheduler" provided="1" ref="0x2b3507574080">
+      <component-ref nicename="tos.system.TinySchedulerC" qname="TinySchedulerC"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Scheduler" ref="0x2b3507574080" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Scheduler" qname="Scheduler"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x2b35075743d0" scoped=""/>
+        <function-ref name="taskLoop" ref="0x2b3507574558" scoped=""/>
+        <function-ref name="runNextTask" ref="0x2b35075746e0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="60:/opt/tinyos-2.1.2/tos/system/RealMainP.nc" name="SoftwareInit" provided="0" ref="0x2b3507795d70">
+      <component-ref nicename="tos.system.RealMainP" qname="RealMainP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="SoftwareInit" ref="0x2b3507795d70" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Init" qname="Init"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x2b35077940f0" scoped=""/>
+      </interface-functions>
+    </interface><interface loc="58:/opt/tinyos-2.1.2/tos/system/RealMainP.nc" name="Scheduler" provided="0" ref="0x2b3507796b88">
+      <component-ref nicename="tos.system.RealMainP" qname="RealMainP"/>
+      <type-interface alignment="I:8" size="I:8"><interface-ref name="Scheduler" ref="0x2b3507796b88" scoped=""/></type-interface>
+      <instance>
+        <interfacedef-ref nicename="tos.interfaces.Scheduler" qname="Scheduler"/>
+      </instance>
+      <interface-functions>
+        <function-ref name="init" ref="0x2b3507795020" scoped=""/>
+        <function-ref name="taskLoop" ref="0x2b35077951a8" scoped=""/>
+        <function-ref name="runNextTask" ref="0x2b3507795330" scoped=""/>
       </interface-functions>
     </interface><component loc="56:/opt/tinyos-2.1.2/tos/system/RealMainP.nc" nicename="tos.system.RealMainP" qname="RealMainP" safe="">
       <documentation loc="49:/opt/tinyos-2.1.2/tos/system/RealMainP.nc">
@@ -128,12 +128,12 @@
       <configuration/>
       <wiring>
         <wire loc="46:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformC.nc">
-          <from><interface-ref name="Init" ref="0x2b7153c8b020" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b7153c96bf0" scoped=""/></to>
+          <from><interface-ref name="Init" ref="0x2b35076562b0" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2b350765edd0" scoped=""/></to>
         </wire>
         <wire loc="47:/opt/tinyos-2.x-contrib/diku/mcs51/tos/platforms/cc2430em/PlatformC.nc">
-          <from><interface-ref name="GIOInit" ref="0x2b7153c94a00" scoped=""/></from>
-          <to><interface-ref name="Init" ref="0x2b7153cb45e8" scoped=""/></to>
+          <from><interface-ref name="GIOInit" ref="0x2b350765cb50" scoped=""/></from>
+          <to><interface-ref name="Init" ref="0x2b350767c8f8" scoped=""/></to>
         </wire>
       </wiring>
     </component><component loc="46:/opt/tinyos-2.1.2/tos/system/TinySchedulerC.nc" nicename="tos.system.TinySchedulerC" qname="TinySchedulerC">
@@ -155,16 +155,16 @@
       <configuration/>
       <wiring>
         <wire loc="54:/opt/tinyos-2.1.2/tos/system/TinySchedulerC.nc">
-          <from><interface-ref name="TaskBasic" ref="0x2b7153bb4b18" scoped=""/></from>
-          <to><interface-ref name="TaskBasic" ref="0x2b7153c44570" scoped=""/></to>
+          <from><interface-ref name="TaskBasic" ref="0x2b350757cb18" scoped=""/></from>
+          <to><interface-ref name="TaskBasic" ref="0x2b350760c570" scoped=""/></to>
         </wire>
         <wire loc="53:/opt/tinyos-2.1.2/tos/system/TinySchedulerC.nc">
-          <from><interface-ref name="Scheduler" ref="0x2b7153bac080" scoped=""/></from>
-          <to><interface-ref name="Scheduler" ref="0x2b7153c396d0" scoped=""/></to>
+          <from><interface-ref name="Scheduler" ref="0x2b3507574080" scoped=""/></from>
+          <to><interface-ref name="Scheduler" ref="0x2b35076016d0" scoped=""/></to>
         </wire>
         <wire loc="55:/opt/tinyos-2.1.2/tos/system/TinySchedulerC.nc">
-          <from><interface-ref name="McuSleep" ref="0x2b7153c41a10" scoped=""/></from>
-          <to><interface-ref name="McuSleep" ref="0x2b7153c7fdb0" scoped=""/></to>
+          <from><interface-ref name="McuSleep" ref="0x2b3507609a10" scoped=""/></from>
+          <to><interface-ref name="McuSleep" ref="0x2b3507647db0" scoped=""/></to>
         </wire>
       </wiring>
     </component></referenced></component>

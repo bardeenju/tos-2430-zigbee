@@ -1,13 +1,20 @@
-configuration TestSendAppC{
+configuration TestReceiveAppC{
 
 }
 implementation{
-	components MainC,TestSendP;
-	MainC.Boot <- TestSendP;
+	components MainC,TestReceiveP;
+	MainC.Boot <- TestReceiveP;
 
 	components PhyC;
-	TestSendP.SplitControl -> PhyC.SplitControl;
+	TestReceiveP.SplitControl -> PhyC.SplitControl;
 
-	TestSendP.PD_DATA -> PhyC.PD_DATA;
+	TestReceiveP.PD_DATA -> PhyC.PD_DATA;
+
+	components LedsC;
+	TestReceiveP.Leds -> LedsC;
+
+	components StdOutC;
+	TestReceiveP.StdOut -> StdOutC;
+	
 }
 
